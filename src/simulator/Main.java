@@ -1,4 +1,4 @@
-package sample;
+package simulator;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        Parent root = FXMLLoader.load(getClass().getResource("simulationEditor.fxml"));
+        Scene main = new Scene(root);
+        primaryStage.setTitle("Simulation Editor");
+        primaryStage.setScene(main);
+        primaryStage.setMinWidth(800.0);
+        primaryStage.setMinHeight(400.0);
         primaryStage.show();
     }
 
