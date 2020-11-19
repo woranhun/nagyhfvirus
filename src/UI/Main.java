@@ -1,5 +1,6 @@
-package simulator;
+package UI;
 
+import UI.SimEditorController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,10 +11,14 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("simulationEditor.fxml"));
-        Scene main = new Scene(root);
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../UI/simulationEditor.fxml"));
+
+        loader.setControllerFactory(c -> new SimEditorController(primaryStage));
+
+        Parent main = loader.load();
+        Scene mainScene = new Scene(main);
         primaryStage.setTitle("Simulation Editor");
-        primaryStage.setScene(main);
+        primaryStage.setScene(mainScene);
         primaryStage.setMinWidth(800.0);
         primaryStage.setMinHeight(400.0);
         primaryStage.show();
