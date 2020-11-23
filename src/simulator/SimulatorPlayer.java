@@ -1,8 +1,6 @@
 package simulator;
 
 import javafx.scene.canvas.Canvas;
-import simulatorComponents.Dot;
-import simulatorComponents.InfectiousDot;
 import simulatorComponents.SimulationMap;
 
 import java.util.ArrayList;

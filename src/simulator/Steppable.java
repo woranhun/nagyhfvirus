@@ -2,9 +2,7 @@ package simulator;
 
 
 import javafx.scene.canvas.Canvas;
-import simulatorComponents.Dot;
-import simulatorComponents.InfectiousDot;
-import simulatorComponents.Point;
+import simulatorComponents.*;
 
 public interface Steppable{
     void step(Canvas c);
@@ -12,4 +10,6 @@ public interface Steppable{
     void isCollidedWith(Steppable st);
 
     void hitBy(Dot dot);
+    void hitBy(DeadDot dd);
+    void hitBy(HealthyDot hd);
 }

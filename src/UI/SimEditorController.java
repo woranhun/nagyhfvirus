@@ -1,7 +1,5 @@
 package UI;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -52,7 +50,7 @@ public class SimEditorController implements Initializable {
 
     private SimulationTemplate simulationTemplate;
 
-    private Stage stage;
+    private final Stage stage;
 
     private simulatorComponents.dotTypes selectedType = simulatorComponents.dotTypes.None;
 

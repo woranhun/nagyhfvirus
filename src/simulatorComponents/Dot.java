@@ -93,11 +93,22 @@ public class Dot implements Drawable, Serializable, Steppable {
     }
 
     @Override
+    public void hitBy(DeadDot dd) {
+    }
+    @Override
+    public void hitBy(HealthyDot hd){
+
+    }
+
+    @Override
     public void init(Canvas c) {
         draw(c);
     }
 
     protected void remove() {
         SimulatorPlayer.removeSteppable(this);
+    }
+
+    protected void bounceBack() {
     }
 }

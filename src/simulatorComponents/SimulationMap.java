@@ -27,4 +27,13 @@ public class SimulationMap implements Steppable {
     public void hitBy(Dot d) {
     }
 
+    @Override
+    public void hitBy(DeadDot dd) {
+    }
+
+    @Override
+    public void hitBy(HealthyDot hd) {
+
+    }
+
 }

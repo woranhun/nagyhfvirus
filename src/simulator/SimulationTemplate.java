@@ -7,10 +7,10 @@ import java.util.ArrayList;
 
 public class SimulationTemplate implements java.io.Serializable {
     ArrayList<Dot> dots = new ArrayList<>();
-    double infChance=1.0;
-    double mortChance=1.0;
-    double healChance=1.0;
-    double speedOfDot=1.0;
+    double infChance;
+    double mortChance;
+    double healChance;
+    double speedOfDot;
 
     public SimulationTemplate() {
 
@@ -63,7 +63,7 @@ public class SimulationTemplate implements java.io.Serializable {
                 addDot(new Dot(x, y, r, speedOfDot));
             }
             case Infectious -> {
-                addDot(new InfectiousDot(x, y, r, speedOfDot));
+                addDot(new InfectiousDot(x, y, r, speedOfDot,infChance,mortChance,healChance));
             }
             case None -> {
 
