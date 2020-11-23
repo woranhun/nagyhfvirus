@@ -1,8 +1,6 @@
 package simulatorComponents;
 
-import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
-import javafx.scene.paint.Color;
 import simulator.Drawable;
 import simulator.SimulatorPlayer;
 import simulator.Steppable;
@@ -11,10 +9,11 @@ import java.io.Serializable;
 import java.util.Random;
 
 
-public class Dot implements Drawable, Serializable, Steppable {
+public abstract class Dot implements Drawable, Serializable, Steppable,Cloneable {
     Point location = null;
     double radius;
     double speed;
+    Point direction;
     public Dot(double x, double y, double r){
         location = new Point(x,y);
         radius= r;
@@ -34,8 +33,22 @@ public class Dot implements Drawable, Serializable, Steppable {
         radius=r;
         this.speed = s;
     }
+
     public Point getLocation() {
         return location;
+    }
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Dot cloned = (Dot) super.clone();
+        cloned.location = new Point(this.location);
+        cloned.radius=radius;
+        cloned.speed=speed;
+        if(this.direction==null){
+            cloned.direction=null;
+        }else{
+            cloned.direction=new Point(this.direction);
+        }
+        return cloned;
     }
     public void setLocation(Point location) {
         this.location = location;
@@ -45,59 +58,22 @@ public class Dot implements Drawable, Serializable, Steppable {
         return location.calcDistance(d.location)<radius+d.radius;
     }
 
-    @Override
-    public void draw(Canvas c) {
-        Platform.runLater(() -> {
-            c.getGraphicsContext2D().setFill(Color.GRAY);
-            c.getGraphicsContext2D().fillOval(location.x, location.y, radius,radius);
-        });
-    }
 
-    public Point calcDirection(){
+    public void calcDirection(){
         Random r = new Random();
-        return new Point(r.nextInt(3)-1,((double)r.nextInt(3)-1));
+        direction = new Point(r.nextInt(3)-1,((double)r.nextInt(3)-1));
     }
 
     @Override
-    public void step(Canvas c) {
-        Point dir = calcDirection();
-        for(int i=0;i<speed;++i){
-            Point p = new Point(0,0);
-            p.add(this.location);
-            p.add(dir);
-         if(p.isOutOfCanvasTop(c,radius)||p.isOutOfCanvasBottom(c,radius)){
-             if(p.isOutOfCanvasLeft(c,radius)){
-                 dir=new Point(-1*dir.x, dir.y*-1);
-
-             }else if(p.isOutOfCanvasRight(c,radius)){
-                 dir=new Point(-1*dir.x, dir.y*-1);
-             }else{
-                 dir=new Point(dir.x, dir.y*-1);
-             }
-
-         }else if(p.isOutOfCanvasLeft(c,radius)||p.isOutOfCanvasRight(c,radius)){
-             dir=new Point(dir.x*-1, dir.y);
-         }
-            this.location=p;
-        }
-        draw(c);
+    public boolean isCollidedWith(Steppable st) {
+        if(this==st)return false;
+        return st.isCollidedWith(this);
     }
 
     @Override
-    public void isCollidedWith(Steppable st) {
-        st.hitBy(this);
-    }
-
-    @Override
-    public void hitBy(Dot dot) {
-    }
-
-    @Override
-    public void hitBy(DeadDot dd) {
-    }
-    @Override
-    public void hitBy(HealthyDot hd){
-
+    public boolean isCollidedWith(Dot dot) {
+        if(this==dot)return false;
+        return this.location.calcDistance(dot.location) < dot.radius + this.radius;
     }
 
     @Override
@@ -110,5 +86,8 @@ public class Dot implements Drawable, Serializable, Steppable {
     }
 
     protected void bounceBack() {
+        if(this.direction==null)calcDirection();
+        direction=new Point(-1*direction.x, direction.y*-1);
+        location.add(direction);
     }
 }

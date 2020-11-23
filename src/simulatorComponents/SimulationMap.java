@@ -20,19 +20,31 @@ public class SimulationMap implements Steppable {
     }
 
     @Override
-    public void isCollidedWith(Steppable st) {
+    public boolean isCollidedWith(Steppable st) {
+        return false;
     }
 
     @Override
-    public void hitBy(Dot d) {
+    public boolean isCollidedWith(Dot dot) {
+        return false;
     }
 
     @Override
-    public void hitBy(DeadDot dd) {
+    public void hitBy(NeutralDot dot) {
+
     }
 
     @Override
-    public void hitBy(HealthyDot hd) {
+    public void hitBy(DeadDot dot) {
+    }
+
+    @Override
+    public void hitBy(HealthyDot dot) {
+
+    }
+
+    @Override
+    public void hitBy(InfectiousDot dot) {
 
     }
 

@@ -12,6 +12,11 @@ public class Point implements Serializable {
         this.y = y;
     }
 
+    public Point(Point location) {
+        this.x=location.x;
+        this.y=location.y;
+    }
+
     double calcDistance(Point p) {
         return Math.sqrt(Math.pow(this.x - p.x, 2) + Math.pow(this.y - p.y, 2));
     }
@@ -36,8 +41,13 @@ public class Point implements Serializable {
     boolean isOutOfCanvasRight(Canvas c, double r) {
         return this.x + r > c.getWidth() - 1;
     }
-    public boolean isOutOfCanvas(Canvas c){
-        return  this.y>c.getHeight()-1 || this.x > c.getWidth()-1;
+
+    public boolean isOutOfCanvas(Canvas c) {
+        return this.y > c.getHeight() - 1 || this.x > c.getWidth() - 1 || this.y < 0 || this.x < 0;
+    }
+
+    public boolean isOutOfCanvas(Canvas c, double radius) {
+        return this.isOutOfCanvasRight(c, radius) || this.isOutOfCanvasBottom(c, radius) || this.isOutOfCanvasLeft(c, radius) || this.isOutOfCanvasTop(c, radius);
     }
 
 }

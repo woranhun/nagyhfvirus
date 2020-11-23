@@ -131,7 +131,7 @@ public class SimEditorController implements Initializable {
     }
 
     @FXML
-    private void clearCanvas(Event event) {
+    private void clearCanvas() {
         simulationTemplate = new SimulationTemplate();
         simulationTemplate.refresh(img);
     }
@@ -207,9 +207,14 @@ public class SimEditorController implements Initializable {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("simulationPlayer.fxml"));
         Stage window= new Stage();
         //TODO ez még itt nem jó
-        SimulationTemplate simulationTemplateCopy = new SimulationTemplate(simulationTemplate);
-        loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
+        try{
+            SimulationTemplate simulationTemplateCopy = new SimulationTemplate((SimulationTemplate) simulationTemplate.clone());
+            loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
 
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+            return;
+        }
         Parent main = loader.load();
         Scene mainScene = new Scene(main);
         window.setTitle("Simulation Player");
@@ -219,6 +224,7 @@ public class SimEditorController implements Initializable {
         window.setX(stage.getX()+20);
         window.setY(stage.getY()+20);
         window.show();
+
     }
 
 

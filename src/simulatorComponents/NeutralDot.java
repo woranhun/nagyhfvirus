@@ -5,29 +5,43 @@ import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
 import simulator.SimulatorPlayer;
 
-public class HealthyDot extends Dot {
-    HealthyDot(Point p, double r) {
-        super(p, r);
+public class NeutralDot extends Dot{
+    NeutralDot(Point p, double r){
+        super(p,r);
     }
-
-    public HealthyDot(double x, double y, double r) {
+    public NeutralDot(double x, double y, double r) {
         super(x, y, r);
     }
-
-    public HealthyDot(double x, double y, double r, double speedOfDot) {
+    public NeutralDot(double x, double y, double r, double speedOfDot) {
         super(x, y, r, speedOfDot);
     }
 
-    public HealthyDot(Point location, double radius, double speed) {
+    public NeutralDot(Point location, double radius, double speed) {
         super(location,radius,speed);
     }
 
     @Override
     public void draw(Canvas c) {
         Platform.runLater(() -> {
-            c.getGraphicsContext2D().setFill(Color.GREEN);
+            c.getGraphicsContext2D().setFill(Color.GRAY);
             c.getGraphicsContext2D().fillOval(location.x, location.y, radius, radius);
         });
+    }
+
+    @Override
+    public void hitBy(NeutralDot dot) {
+    }
+
+    @Override
+    public void hitBy(DeadDot dot) {
+    }
+
+    @Override
+    public void hitBy(HealthyDot dot) {
+    }
+
+    @Override
+    public void hitBy(InfectiousDot dot) {
     }
     public void step(Canvas c) {
         calcDirection();
@@ -49,21 +63,5 @@ public class HealthyDot extends Dot {
             }
         }
         draw(c);
-    }
-
-    @Override
-    public void hitBy(NeutralDot dot) {
-    }
-
-    @Override
-    public void hitBy(DeadDot dd) {
-    }
-
-    @Override
-    public void hitBy(HealthyDot hd) {
-    }
-
-    @Override
-    public void hitBy(InfectiousDot id) {
     }
 }

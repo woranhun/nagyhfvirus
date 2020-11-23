@@ -5,7 +5,7 @@ import simulatorComponents.*;
 
 import java.util.ArrayList;
 
-public class SimulationTemplate implements java.io.Serializable {
+public class SimulationTemplate implements java.io.Serializable,Cloneable {
     ArrayList<Dot> dots = new ArrayList<>();
     double infChance;
     double mortChance;
@@ -15,8 +15,24 @@ public class SimulationTemplate implements java.io.Serializable {
     public SimulationTemplate() {
 
     }
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        SimulationTemplate cloned = (SimulationTemplate) super.clone();
+        cloned.dots=new ArrayList<>();
+        for(Dot d : this.dots){
+            cloned.dots.add((Dot) d.clone());
+        }
+        return cloned;
+    }
     public SimulationTemplate(SimulationTemplate st){
-        this.dots=st.dots;
+        this.dots = new ArrayList<Dot>();
+        for(Dot d : st.dots){
+            try{
+                dots.add((Dot) d.clone());
+            } catch (CloneNotSupportedException e) {
+                e.printStackTrace();
+            }
+        }
         this.infChance=st.infChance;
         this.mortChance=st.mortChance;
         this.healChance=st.healChance;
@@ -60,7 +76,7 @@ public class SimulationTemplate implements java.io.Serializable {
                 addDot(new HealthyDot(x, y, r, speedOfDot));
             }
             case Neutral -> {
-                addDot(new Dot(x, y, r, speedOfDot));
+                addDot(new NeutralDot(x, y, r, speedOfDot));
             }
             case Infectious -> {
                 addDot(new InfectiousDot(x, y, r, speedOfDot,infChance,mortChance,healChance));
@@ -99,4 +115,5 @@ public class SimulationTemplate implements java.io.Serializable {
         }
         dots.removeAll(removeList);
     }
+
 }

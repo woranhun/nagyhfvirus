@@ -4,7 +4,6 @@ import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
 import simulator.SimulatorPlayer;
-import simulator.Steppable;
 
 import java.util.Random;
 
@@ -37,7 +36,13 @@ public class InfectiousDot extends Dot {
     }
 
     @Override
-    public void hitBy(Dot dot) {
+    public void init(Canvas c) {
+        draw(c);
+        sinceInfectedTickCount=0;
+    }
+
+    @Override
+    public void hitBy(NeutralDot dot) {
         Random random = new Random();
         double randomVal = random.nextDouble();
         if (this.isCollided(dot)) {
@@ -47,21 +52,19 @@ public class InfectiousDot extends Dot {
             }
         }
     }
+
+    @Override
+    public void hitBy(InfectiousDot id) {
+    }
+
     @Override
     public void hitBy(DeadDot dd){
-
     }
     @Override
     public void hitBy(HealthyDot hd){
-
     }
 
-    @Override
-    public void isCollidedWith(Steppable st) {
-        //No need to call here twice
-    }
 
-    @Override
     public void step(Canvas c) {
         Random random = new Random();
         double randomVal = random.nextDouble();
@@ -78,10 +81,28 @@ public class InfectiousDot extends Dot {
                 }
             }
         }
-        super.step(c);
         sinceInfectedTickCount++;
-
+        calcDirection();
+        if(direction.y!=0&&direction.x!=0){
+            for(int i=0;i<speed;++i){
+                this.location.add(direction);
+                if(this.location.isOutOfCanvas(c,radius)){
+                    this.bounceBack();
+                }
+                for(Dot d : SimulatorPlayer.getCollideWith(this)){
+                    if(this.location.calcDistance(d.location)<=this.radius+d.radius){
+                        d.hitBy(this);
+                        this.bounceBack();
+                    }
+                }
+                if(SimulatorPlayer.getRemove().contains(this)){
+                    return;
+                }
+            }
+        }
+        draw(c);
     }
+
 
     @Override
     public void draw(Canvas c) {
