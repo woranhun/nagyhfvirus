@@ -36,5 +36,8 @@ public class Point implements Serializable {
     boolean isOutOfCanvasRight(Canvas c, double r) {
         return this.x + r > c.getWidth() - 1;
     }
+    public boolean isOutOfCanvas(Canvas c){
+        return  this.y>c.getHeight()-1 || this.x > c.getWidth()-1;
+    }
 
 }

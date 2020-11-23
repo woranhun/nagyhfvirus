@@ -1,6 +1,5 @@
 package UI;
 
-import UI.SimEditorController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -19,7 +18,7 @@ public class Main extends Application {
         Scene mainScene = new Scene(main);
         primaryStage.setTitle("Simulation Editor");
         primaryStage.setScene(mainScene);
-        primaryStage.setMinWidth(800.0);
+        primaryStage.setMinWidth(952.0);
         primaryStage.setMinHeight(400.0);
         primaryStage.show();
     }

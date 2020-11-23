@@ -1,5 +1,6 @@
 package simulatorComponents;
 
+import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
 
@@ -18,7 +19,9 @@ public class HealthyDot extends Dot {
 
     @Override
     public void draw(Canvas c) {
-        c.getGraphicsContext2D().setFill(Color.GREEN);
-        c.getGraphicsContext2D().fillOval(location.x, location.y, radius, radius);
+        Platform.runLater(() -> {
+            c.getGraphicsContext2D().setFill(Color.GREEN);
+            c.getGraphicsContext2D().fillOval(location.x, location.y, radius, radius);
+        });
     }
 }

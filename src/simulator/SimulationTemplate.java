@@ -7,13 +7,20 @@ import java.util.ArrayList;
 
 public class SimulationTemplate implements java.io.Serializable {
     ArrayList<Dot> dots = new ArrayList<>();
-    double infChance;
-    double mortChance;
-    double healChance;
-    double speedOfDot;
+    double infChance=1.0;
+    double mortChance=1.0;
+    double healChance=1.0;
+    double speedOfDot=1.0;
 
     public SimulationTemplate() {
 
+    }
+    public SimulationTemplate(SimulationTemplate st){
+        this.dots=st.dots;
+        this.infChance=st.infChance;
+        this.mortChance=st.mortChance;
+        this.healChance=st.healChance;
+        this.speedOfDot=st.speedOfDot;
     }
 
     public double getInfChance() {
@@ -83,4 +90,13 @@ public class SimulationTemplate implements java.io.Serializable {
         speedOfDot = speed;
     }
 
+    public void deleteDotsFromOutOfWindow(Canvas img) {
+        ArrayList<Dot> removeList= new ArrayList<Dot>();
+        for(Dot d : dots){
+            if(d.getLocation().isOutOfCanvas(img)){
+                removeList.add(d);
+            }
+        }
+        dots.removeAll(removeList);
+    }
 }

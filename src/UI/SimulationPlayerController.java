@@ -1,10 +1,13 @@
 package UI;
 
+import javafx.application.Platform;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import simulator.SimulatorPlayer;
 import simulator.SimulationTemplate;
 
@@ -26,6 +29,13 @@ public class SimulationPlayerController implements Initializable {
     SimulationPlayerController(Stage st, SimulationTemplate sim) {
         stage = st;
         simulationTemplate =sim;
+        stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent windowEvent) {
+                simulatorPlayer.exit();
+                stage.close();
+            }
+        });
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -39,4 +49,5 @@ public class SimulationPlayerController implements Initializable {
     public void stepPressed(){
         simulatorPlayer.forwardOneStep();
     }
+
 }

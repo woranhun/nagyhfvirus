@@ -1,5 +1,7 @@
 package UI;
 
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,6 +12,7 @@ import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import simulator.SimulationTemplate;
@@ -42,6 +45,9 @@ public class SimEditorController implements Initializable {
     private Slider speedSlider;
     @FXML
     private TextField speedField;
+
+    @FXML
+    private Pane pane;
 
 
     private SimulationTemplate simulationTemplate;
@@ -82,6 +88,18 @@ public class SimEditorController implements Initializable {
         speedSlider.setShowTickLabels(true);
         speedSlider.setValue(0);
         speedField.setEditable(false);
+
+        img.widthProperty().bind(
+                pane.widthProperty());
+        img.heightProperty().bind(
+                pane.heightProperty());
+        img.widthProperty().addListener(observable -> redraw());
+        img.heightProperty().addListener(observable -> redraw());
+    }
+
+    private void redraw() {
+        simulationTemplate.deleteDotsFromOutOfWindow(img);
+        simulationTemplate.refresh(img);
     }
 
     @FXML
@@ -190,7 +208,9 @@ public class SimEditorController implements Initializable {
     private void startSimulationPlayer() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("simulationPlayer.fxml"));
         Stage window= new Stage();
-        loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplate));
+        //TODO ez még itt nem jó
+        SimulationTemplate simulationTemplateCopy = new SimulationTemplate(simulationTemplate);
+        loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
 
         Parent main = loader.load();
         Scene mainScene = new Scene(main);

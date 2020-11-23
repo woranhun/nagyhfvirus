@@ -1,8 +1,10 @@
 package simulatorComponents;
 
+import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
 import simulator.Drawable;
+import simulator.SimulatorPlayer;
 import simulator.Steppable;
 
 import java.io.Serializable;
@@ -10,14 +12,13 @@ import java.util.Random;
 
 
 public class Dot implements Drawable, Serializable, Steppable {
-
     Point location = null;
     double radius;
     double speed;
     public Dot(double x, double y, double r){
         location = new Point(x,y);
         radius= r;
-        this.speed=0.0;
+        this.speed=1.0;
     }
     public Dot(double x, double y, double r,double speed){
         location = new Point(x,y);
@@ -27,6 +28,14 @@ public class Dot implements Drawable, Serializable, Steppable {
     Dot(Point p, double r){
         location=p;
         radius=r;
+    }
+    Dot(Point p, double r, double s){
+        location=p;
+        radius=r;
+        this.speed = s;
+    }
+    public Point getLocation() {
+        return location;
     }
     public void setLocation(Point location) {
         this.location = location;
@@ -38,13 +47,15 @@ public class Dot implements Drawable, Serializable, Steppable {
 
     @Override
     public void draw(Canvas c) {
-        c.getGraphicsContext2D().setFill(Color.GRAY);
-        c.getGraphicsContext2D().fillOval(location.x, location.y, radius,radius);
+        Platform.runLater(() -> {
+            c.getGraphicsContext2D().setFill(Color.GRAY);
+            c.getGraphicsContext2D().fillOval(location.x, location.y, radius,radius);
+        });
     }
 
     public Point calcDirection(){
         Random r = new Random();
-        return new Point((double)(r.nextInt(3)-1),((double)r.nextInt(3)-1));
+        return new Point(r.nextInt(3)-1,((double)r.nextInt(3)-1));
     }
 
     @Override
@@ -72,12 +83,21 @@ public class Dot implements Drawable, Serializable, Steppable {
         draw(c);
     }
 
-    private void bounce(Point p) {
+    @Override
+    public void isCollidedWith(Steppable st) {
+        st.hitBy(this);
+    }
 
+    @Override
+    public void hitBy(Dot dot) {
     }
 
     @Override
     public void init(Canvas c) {
         draw(c);
+    }
+
+    protected void remove() {
+        SimulatorPlayer.removeSteppable(this);
     }
 }

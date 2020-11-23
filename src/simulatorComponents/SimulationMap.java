@@ -1,5 +1,6 @@
 package simulatorComponents;
 
+import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
 import simulator.Steppable;
 
@@ -10,11 +11,20 @@ public class SimulationMap implements Steppable {
 
     @Override
     public void step(Canvas c) {
-        c.getGraphicsContext2D().clearRect(0, 0, c.getWidth(), c.getHeight());
+        Platform.runLater(() -> c.getGraphicsContext2D().clearRect(0, 0, c.getWidth(), c.getHeight()));
     }
 
     @Override
     public void init(Canvas c) {
-        c.getGraphicsContext2D().clearRect(0, 0, c.getWidth(), c.getHeight());
+        Platform.runLater(() ->  c.getGraphicsContext2D().clearRect(0, 0, c.getWidth(), c.getHeight()));
     }
+
+    @Override
+    public void isCollidedWith(Steppable st) {
+    }
+
+    @Override
+    public void hitBy(Dot d) {
+    }
+
 }
