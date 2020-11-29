@@ -30,22 +30,22 @@ public class SimulationMap implements Steppable {
     }
 
     @Override
-    public void hitBy(Dot dot) {
+    public void hitBy(NeutralDot dot) {
 
     }
 
     @Override
-    public boolean isOutOfWindow(Canvas c) {
-        return false;
+    public void hitBy(DeadDot dot) {
     }
 
     @Override
-    public void moveBack(Canvas c) {
+    public void hitBy(HealthyDot dot) {
 
     }
 
     @Override
-    public void refresh(Canvas c) {
-        Platform.runLater(() -> c.getGraphicsContext2D().clearRect(0, 0, c.getWidth(), c.getHeight()));
+    public void hitBy(InfectiousDot dot) {
+
     }
+
 }

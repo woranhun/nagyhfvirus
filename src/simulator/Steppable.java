@@ -10,8 +10,11 @@ public interface Steppable{
     boolean isCollidedWith(Steppable st);
     boolean isCollidedWith(Dot dot);
 
-    void hitBy(NeutralDot dot);
-    void hitBy(DeadDot dot);
-    void hitBy(HealthyDot dot);
-    void hitBy(InfectiousDot dot);
+    void hitBy(Dot dot);
+
+    boolean isOutOfWindow(Canvas c);
+
+    void moveBack(Canvas c);
+
+    void refresh(Canvas c);
 }

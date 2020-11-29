@@ -87,10 +87,8 @@ public class SimEditorController implements Initializable {
         speedSlider.setValue(0);
         speedField.setEditable(false);
 
-        img.widthProperty().bind(
-                pane.widthProperty());
-        img.heightProperty().bind(
-                pane.heightProperty());
+        img.widthProperty().bind(pane.widthProperty());
+        img.heightProperty().bind(pane.heightProperty());
         img.widthProperty().addListener(observable -> redraw());
         img.heightProperty().addListener(observable -> redraw());
     }
@@ -206,7 +204,6 @@ public class SimEditorController implements Initializable {
     private void startSimulationPlayer() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("simulationPlayer.fxml"));
         Stage window= new Stage();
-        //TODO ez még itt nem jó
         try{
             SimulationTemplate simulationTemplateCopy = new SimulationTemplate((SimulationTemplate) simulationTemplate.clone());
             loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
@@ -219,8 +216,8 @@ public class SimEditorController implements Initializable {
         Scene mainScene = new Scene(main);
         window.setTitle("Simulation Player");
         window.setScene(mainScene);
-        window.setMinWidth(800.0);
-        window.setMinHeight(400.0);
+        window.setMinWidth(430.0);
+        window.setMinHeight(104.0);
         window.setX(stage.getX()+20);
         window.setY(stage.getY()+20);
         window.show();

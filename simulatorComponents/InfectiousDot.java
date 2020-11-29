@@ -68,7 +68,7 @@ public class InfectiousDot extends Dot {
     public void step(Canvas c) {
         Random random = new Random();
         double randomVal = random.nextDouble();
-        if(sinceInfectedTickCount>100){
+        if(sinceInfectedTickCount>150){
             if (randomVal < mortChance) {
                 SimulatorPlayer.addSteppable(new DeadDot(this.location, this.radius));
                 SimulatorPlayer.removeSteppable(this);

@@ -22,6 +22,7 @@ public class NeutralDot extends Dot{
 
     @Override
     public void draw(Canvas c) {
+        //ToDo buffered image
         Platform.runLater(() -> {
             c.getGraphicsContext2D().setFill(Color.GRAY);
             c.getGraphicsContext2D().fillOval(location.x, location.y, radius, radius);

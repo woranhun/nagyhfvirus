@@ -1,6 +1,7 @@
 package simulator;
 
 import javafx.scene.canvas.Canvas;
+import javafx.util.Pair;
 import simulatorComponents.Dot;
 import simulatorComponents.Point;
 import simulatorComponents.SimulationMap;
@@ -15,6 +16,7 @@ public class SimulatorPlayer extends TimerTask{
     static ArrayList<Steppable> steppables = new ArrayList<Steppable>();
     static ArrayList<Steppable> removeInTheEnd;
     static ArrayList<Steppable> addInTheEnd;
+    static ArrayList<Pair<Dot,Dot>> collidePair = new ArrayList<>();
     Canvas canvas;
 
     public SimulatorPlayer(SimulationTemplate sim,Canvas canvas) {
@@ -31,6 +33,23 @@ public class SimulatorPlayer extends TimerTask{
         addInTheEnd = new ArrayList<>();
     }
 
+    public static void addCollidePair(Dot d1, Dot d2) {
+        collidePair.add(new Pair<>(d1,d2));
+    }
+
+    public void moveDotsFromOutOfWindow(Canvas img) {
+        for(Steppable s : steppables){
+            if(s.isOutOfWindow(canvas))
+                s.moveBack(img);
+        }
+    }
+    public void refresh(Canvas c) {
+        c.getGraphicsContext2D().clearRect(0, 0, c.getWidth(), c.getHeight());
+        for (Steppable s : steppables) {
+            s.refresh(c);
+        }
+    }
+
     static public void removeSteppable(Steppable st) {
         removeInTheEnd.add(st);
     }
@@ -41,7 +60,10 @@ public class SimulatorPlayer extends TimerTask{
     static public ArrayList<Dot> getCollideWith(Dot d){
         ArrayList<Dot> collidedWith = new ArrayList<>();
         for (Steppable s: steppables){
-            if(d.isCollidedWith(s)) collidedWith.add((Dot) s);
+            if(s!=d){
+                if(d.isCollidedWith(s))
+                    collidedWith.add((Dot) s);
+            }
         }
         return collidedWith;
     }
@@ -64,6 +86,19 @@ public class SimulatorPlayer extends TimerTask{
         for(Steppable s : steppables){
             s.step(canvas);
         }
+        for(int i =0; i< steppables.size();++i){
+            Steppable s1 = steppables.get(i);
+            for(int j =i+1; j < steppables.size();++j){
+                Steppable s2 = steppables.get(j);
+                if(s2.isCollidedWith(s1)){
+                    s2.hitBy((Dot) s1);
+                }
+            }
+        }
+        for(Pair<Dot,Dot> p:collidePair){
+            p.getKey().hitBy(p.getValue());
+        }
+        collidePair.clear();
         if(!removeInTheEnd.isEmpty()){
             for(Steppable s : removeInTheEnd){
                 steppables.remove(s);
@@ -74,9 +109,13 @@ public class SimulatorPlayer extends TimerTask{
             steppables.addAll(addInTheEnd);
             addInTheEnd.clear();
         }
+        for(Steppable s :steppables){
+            s.refresh(canvas);
+        }
     }
 
     public void exit() {
         timer.cancel();
+        steppables.clear();
     }
 }

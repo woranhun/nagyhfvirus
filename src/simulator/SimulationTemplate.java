@@ -25,7 +25,7 @@ public class SimulationTemplate implements java.io.Serializable,Cloneable {
         return cloned;
     }
     public SimulationTemplate(SimulationTemplate st){
-        this.dots = new ArrayList<Dot>();
+        this.dots = new ArrayList<>();
         for(Dot d : st.dots){
             try{
                 dots.add((Dot) d.clone());
@@ -68,23 +68,7 @@ public class SimulationTemplate implements java.io.Serializable,Cloneable {
     }
 
     public void createDot(dotTypes type, double x, double y, double r) {
-        switch (type) {
-            case Dead -> {
-                addDot(new DeadDot(x, y, r, speedOfDot));
-            }
-            case Healthy -> {
-                addDot(new HealthyDot(x, y, r, speedOfDot));
-            }
-            case Neutral -> {
-                addDot(new NeutralDot(x, y, r, speedOfDot));
-            }
-            case Infectious -> {
-                addDot(new InfectiousDot(x, y, r, speedOfDot,infChance,mortChance,healChance));
-            }
-            case None -> {
-
-            }
-        }
+        addDot(new Dot(x, y, r, speedOfDot, type,infChance,mortChance,healChance));
     }
 
     public void refresh(Canvas c) {
