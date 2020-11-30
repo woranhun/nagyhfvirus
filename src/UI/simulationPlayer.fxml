@@ -15,14 +15,14 @@
               <items>
                   <Button fx:id="playPause" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#playAndPausePressed" text="Play/Pause" />
                   <Button fx:id="step" mnemonicParsing="false" onAction="#stepPressed" text="Step" />
-                  <Button mnemonicParsing="false" text="SpeedUp" />
-                  <Button mnemonicParsing="false" text="SpeedDown" />
-                  <Button mnemonicParsing="false" text="Statistics" />
+                  <Button mnemonicParsing="false" onAction="#speedUpPressed" text="SpeedUp" />
+                  <Button mnemonicParsing="false" onAction="#speedDownPressed" text="SpeedDown" />
+                  <Button mnemonicParsing="false" onAction="#statisticsPressed" text="Statistics" />
               </items>
             </ToolBar>
-            <Pane fx:id="pane" prefHeight="346.0" prefWidth="785.0" style="-fx-background-color: antiquewhite, white; -fx-background-insets: 0, 5; -fx-padding: 5;" VBox.vgrow="ALWAYS">
+            <Pane fx:id="pane" prefHeight="346.0" prefWidth="785.0" VBox.vgrow="ALWAYS">
                <children>
-                  <Canvas fx:id="img" height="331.0" layoutX="7.0" layoutY="8.0" width="771.0" />
+                  <Canvas fx:id="img" height="506.0" width="921.0" />
                </children>
             </Pane>
          </children>

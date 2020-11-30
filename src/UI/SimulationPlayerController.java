@@ -1,21 +1,27 @@
 package UI;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import simulator.SimulationStatisticsStore;
 import simulator.SimulationTemplate;
-import simulator.SimulatorPlayer;
+import simulator.SimulationPlayer;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class SimulationPlayerController implements Initializable {
     Stage stage;
-    SimulatorPlayer simulatorPlayer;
+    SimulationPlayer simulationPlayer;
     SimulationTemplate simulationTemplate;
+    SimulationStatisticsStore sss;
 
     @FXML
     private Canvas img;
@@ -33,33 +39,56 @@ public class SimulationPlayerController implements Initializable {
         stage = st;
         simulationTemplate =sim;
         stage.setOnCloseRequest(windowEvent -> {
-            simulatorPlayer.exit();
+            simulationPlayer.exit();
             stage.close();
+            sss.clearAll();
         });
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        simulatorPlayer=new SimulatorPlayer(simulationTemplate,img);
+        sss = new SimulationStatisticsStore();
+        simulationPlayer =new SimulationPlayer(simulationTemplate,img,sss);
         img.widthProperty().bind(pane.widthProperty());
         img.heightProperty().bind(pane.heightProperty());
         img.widthProperty().addListener(observable -> redraw());
         img.heightProperty().addListener(observable -> redraw());
-        img.setOnMouseMoved(mouseEvent -> System.out.println("MouseX:"+ mouseEvent.getX()+" MouseY: "+mouseEvent.getY() + "\n"));
     }
     private void redraw() {
         if(cnt>=2){
-            simulatorPlayer.moveDotsFromOutOfWindow(img);
-            simulatorPlayer.refresh(img);
+            simulationPlayer.moveDotsFromOutOfWindow(img);
+            simulationPlayer.refresh(img);
         }
         cnt++;
     }
     @FXML
     public void playAndPausePressed(){
-        simulatorPlayer.playAndPause();
+        simulationPlayer.playAndPause();
     }
     @FXML
     public void stepPressed(){
-        simulatorPlayer.forwardOneStep();
+        simulationPlayer.forwardOneStep();
     }
-
+    @FXML
+    public void statisticsPressed() throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("simulationStatistics.fxml"));
+        Stage window= new Stage();
+        loader.setControllerFactory(c -> new SimStatisticsController(window, sss));
+        Parent main = loader.load();
+        Scene mainScene = new Scene(main);
+        window.setTitle("Simulation Player");
+        window.setScene(mainScene);
+        window.setMinWidth(430.0);
+        window.setMinHeight(104.0);
+        window.setX(stage.getX()+20);
+        window.setY(stage.getY()+20);
+        window.show();
+    }
+    @FXML
+    public void speedUpPressed(){
+        simulationPlayer.speedUp();
+    }
+    @FXML
+    public void speedDownPressed(){
+        simulationPlayer.speedDown();
+    }
 }

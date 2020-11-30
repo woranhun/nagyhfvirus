@@ -1,10 +1,11 @@
 package simulatorComponents;
 
+import UI.SimStatisticsController;
 import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
 import simulator.Drawable;
-import simulator.SimulatorPlayer;
+import simulator.SimulationPlayer;
 import simulator.Steppable;
 
 import java.io.Serializable;
@@ -20,6 +21,8 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
     double mortChance;
     double healChance;
     double mass;
+    int sinceInfection = 0;
+    int sinceDead = 0;
 
 
     public Dot(double x, double y, double r) {
@@ -77,6 +80,8 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
         cloned.healChance = healChance;
         cloned.velocity = new Point(this.velocity);
         cloned.mass = mass;
+        cloned.sinceInfection = sinceInfection;
+        cloned.sinceDead = sinceDead;
         return cloned;
     }
 
@@ -109,6 +114,10 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
 
         //Static collison, e.g. Overlap
         double dstBetweenCenters = this.location.calcDistance(d.location);
+        if(dstBetweenCenters==0){
+            this.remove();
+            return;
+        }
         double correctionOverlap = 0.5 * (this.radius + d.radius - dstBetweenCenters);
 
         Point dif = new Point(this.location);
@@ -123,8 +132,6 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
 
         //Dynamic collision
 
-        //Calculate Direction Vector
-
         Point k = new Point(this.velocity);
         k.subtract(d.velocity);
 
@@ -137,18 +144,76 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
         Point temp2 = new Point(dir);
         temp2.multiply(p * this.mass);
         d.velocity.add(temp2);
-        //TODO infection comes here
+
+        if (this.type == dotTypes.Infectious) {
+            if (d.type == dotTypes.Neutral) {
+                Random random = new Random();
+                double randomVal = random.nextDouble();
+                if (randomVal < infChance) {
+                    d.infectedBy(this);
+                }
+
+            }
+
+        } else if (d.type == dotTypes.Infectious) {
+            if (this.type == dotTypes.Neutral) {
+                Random random = new Random();
+                double randomVal = random.nextDouble();
+                if (randomVal < infChance) {
+                    this.infectedBy(d);
+                }
+            }
+
+        }
+    }
+
+    private void infectedBy(Dot d) {
+        this.type = dotTypes.Infectious;
+        this.infChance = d.infChance;
+        this.healChance = d.healChance;
+        this.mortChance = d.mortChance;
+        SimulationPlayer.addInfectedDot();
     }
 
     @Override
     public void step(Canvas c) {
-        this.location.add(velocity);
+        if (this.type == dotTypes.Infectious) {
+            sinceInfection++;
+            if (sinceInfection >= SimulationPlayer.getIncubationPeriod()) {
+                Random random = new Random();
+                if (random.nextDouble() < mortChance) {
+                    this.die();
+                } else {
+                    if (random.nextDouble() < healChance) {
+                        this.heal();
+                    }
+                }
+            }
+        } else if (this.type == dotTypes.Dead) {
+            sinceDead++;
+            if (sinceDead >= SimulationPlayer.getRemoveTime()) {
+                this.remove();
+                return;
+            }
+        }
+        //Bounce with map border
         if (this.location.isOutOfCanvas(c, radius)) {
             this.bounceBack(c);
+            this.location.add(velocity);
         }
-        if (SimulatorPlayer.getRemove().contains(this)) {
-            return;
-        }
+        this.location.add(velocity);
+    }
+
+    private void heal() {
+        this.type = dotTypes.Healthy;
+        SimulationPlayer.addHealedDot();
+    }
+
+    private void die() {
+        this.type = dotTypes.Dead;
+        //TODO cannot move
+        this.velocity = new Point(0, 0);
+        SimulationPlayer.addDeadDot();
     }
 
 
@@ -159,16 +224,27 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
 
     @Override
     public void moveBack(Canvas c) {
-        double dx = this.location.calcDistance(new Point(c.getWidth(), this.location.y)) + radius * 2;
-        double dy = this.location.calcDistance(new Point(this.location.x, c.getHeight())) + radius * 2;
-        if (this.location.isOutOfCanvasBottom(c, radius))
-            this.location.add(new Point(0, dy * (-1)));
-        if (this.location.isOutOfCanvasRight(c, radius))
-            this.location.add(new Point(dx * (-1), 0));
+        if (this.location.isOutOfCanvasBottom(c, radius)){
+            double dyFromBottom = this.location.calcDistance(new Point(this.location.x, c.getHeight()))+2*radius;
+            this.location.subtract(new Point(0, dyFromBottom));
+        }
+        if (this.location.isOutOfCanvasTop(c, radius)){
+            double dyFromTop = this.location.calcDistance(new Point(this.location.x, 0))+2*radius;
+            this.location.add(new Point(0, dyFromTop));
+        }
+        if (this.location.isOutOfCanvasRight(c, radius)){
+            double dxFromRight = this.location.calcDistance(new Point(c.getWidth(), this.location.y))+2*radius;
+            this.location.subtract(new Point(dxFromRight * (-1), 0));
+        }
+        if (this.location.isOutOfCanvasLeft(c, radius)){
+            double dxFromLeft = this.location.calcDistance(new Point(0, this.location.y))+2*radius;
+            this.location.add(new Point(dxFromLeft , 0));
+        }
     }
 
     @Override
     public void init(Canvas c) {
+        if(this.isOutOfWindow(c))this.moveBack(c);
         draw(c);
     }
 
@@ -178,15 +254,14 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
     }
 
     protected void remove() {
-        SimulatorPlayer.removeSteppable(this);
+        SimulationPlayer.removeSteppable(this);
     }
 
     protected void bounceBack(Canvas c) {
-        //ToDo rugalmas ütközés
-        if(location.isOutOfCanvasLeft(c, radius)|| location.isOutOfCanvasRight(c,radius)){
+        if (location.isOutOfCanvasLeft(c, radius) || location.isOutOfCanvasRight(c, radius)) {
             velocity = new Point(-velocity.x, velocity.y);
         }
-        if(location.isOutOfCanvasTop(c,radius)|| location.isOutOfCanvasBottom(c,radius)){
+        if (location.isOutOfCanvasTop(c, radius) || location.isOutOfCanvasBottom(c, radius)) {
             velocity = new Point(velocity.x, -velocity.y);
         }
     }
@@ -218,5 +293,25 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
             c.getGraphicsContext2D().setStroke(Color.BLUE);
             c.getGraphicsContext2D().strokeLine(this.location.x, this.location.y, dot.location.x, dot.location.y);
         });
+    }
+
+    public void setHealChance(double heal) {
+        this.healChance=heal;
+    }
+
+    public void setInfChance(double inf) {
+        this.infChance=inf;
+    }
+
+    public void setMortChance(double mort) {
+        this.mortChance=mort;
+    }
+
+    public dotTypes getType() {
+        return this.type;
+    }
+
+    public double getRadius() {
+        return radius;
     }
 }

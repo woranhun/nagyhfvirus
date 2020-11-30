@@ -7,8 +7,8 @@ import java.io.Serializable;
 
 //ToDo Separate Point & Vector
 public class Point implements Serializable {
+    static final long serialVersionUID = 666;
     double x, y;
-    static final long serialVersionUID=666;
 
     Point(double x, double y) {
         this.x = x;
@@ -50,28 +50,27 @@ public class Point implements Serializable {
 
 
     boolean isOutOfCanvasTop(Canvas c, double r) {
-        return this.y - r < 0;
-
+        return this.y-2*r < 0;
     }
 
     boolean isOutOfCanvasBottom(Canvas c, double r) {
-        return this.y + r > c.getHeight() - 1;
+        return this.y+2*r > c.getHeight();
     }
 
     boolean isOutOfCanvasLeft(Canvas c, double r) {
-        return this.x - r < 0;
+        return this.x-2*r < 0;
     }
 
     boolean isOutOfCanvasRight(Canvas c, double r) {
-        return this.x + r > c.getWidth() - 1;
+        return this.x+2*r > c.getWidth();
     }
 
-    public boolean isOutOfCanvas(Canvas c) {
-        return this.y > c.getHeight() - 1 || this.x > c.getWidth() - 1 || this.y < 0 || this.x < 0;
-    }
 
     public boolean isOutOfCanvas(Canvas c, double radius) {
-        return this.isOutOfCanvasRight(c, radius) || this.isOutOfCanvasBottom(c, radius) || this.isOutOfCanvasLeft(c, radius) || this.isOutOfCanvasTop(c, radius);
+        return this.isOutOfCanvasRight(c, radius) ||
+                this.isOutOfCanvasBottom(c, radius) ||
+                this.isOutOfCanvasLeft(c, radius) ||
+                this.isOutOfCanvasTop(c, radius);
     }
 
     public void divide(double v) {
@@ -86,7 +85,7 @@ public class Point implements Serializable {
     }
 
     public void multiply(double v) {
-        this.x*=v;
-        this.y*=v;
+        this.x *= v;
+        this.y *= v;
     }
 }

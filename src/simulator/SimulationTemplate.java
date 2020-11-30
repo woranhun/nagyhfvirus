@@ -53,6 +53,22 @@ public class SimulationTemplate implements java.io.Serializable,Cloneable {
 
     public void setHealChance(double heal) {
         healChance = heal;
+        for(Dot d : dots){
+            d.setHealChance(heal);
+        }
+    }
+    public void setInfection(double inf) {
+        infChance = inf;
+        for(Dot d : dots){
+            d.setInfChance(inf);
+        }
+    }
+
+    public void setMortality(double mort) {
+        mortChance = mort;
+        for(Dot d : dots){
+            d.setMortChance(mort);
+        }
     }
 
     public double getSpeedOfDot() {
@@ -74,17 +90,10 @@ public class SimulationTemplate implements java.io.Serializable,Cloneable {
     public void refresh(Canvas c) {
         c.getGraphicsContext2D().clearRect(0, 0, c.getWidth(), c.getHeight());
         for (Dot d : dots) {
-            d.draw(c);
+            d.init(c);
         }
     }
 
-    public void setInfection(double inf) {
-        infChance = inf;
-    }
-
-    public void setMortality(double mort) {
-        mortChance = mort;
-    }
 
     public void setSpeed(double speed) {
         speedOfDot = speed;
@@ -93,7 +102,7 @@ public class SimulationTemplate implements java.io.Serializable,Cloneable {
     public void deleteDotsFromOutOfWindow(Canvas img) {
         ArrayList<Dot> removeList= new ArrayList<Dot>();
         for(Dot d : dots){
-            if(d.getLocation().isOutOfCanvas(img)){
+            if(d.getLocation().isOutOfCanvas(img,d.getRadius())){
                 removeList.add(d);
             }
         }

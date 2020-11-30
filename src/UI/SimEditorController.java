@@ -7,6 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
@@ -14,44 +15,42 @@ import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import simulator.SimulationTemplate;
-import simulatorComponents.*;
+import simulatorComponents.dotTypes;
 
+import java.awt.*;
 import java.io.*;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Random;
 import java.util.ResourceBundle;
 
 public class SimEditorController implements Initializable {
+    private final Stage stage;
     @FXML
     private Canvas img;
-
     @FXML
     private Slider infSlider;
     @FXML
     private TextField infField;
-
     @FXML
     private Slider mortSlider;
     @FXML
     private TextField mortField;
-
     @FXML
     private Slider healSlider;
     @FXML
     private TextField healField;
-
     @FXML
     private Slider speedSlider;
     @FXML
     private TextField speedField;
-
     @FXML
     private Pane pane;
-
-
+    @FXML
+    private TextField manyDotsField;
+    @FXML
+    private ComboBox<dotTypes> manyDotsComboBox;
     private SimulationTemplate simulationTemplate;
-
-    private final Stage stage;
-
     private simulatorComponents.dotTypes selectedType = simulatorComponents.dotTypes.None;
 
 
@@ -91,11 +90,40 @@ public class SimEditorController implements Initializable {
         img.heightProperty().bind(pane.heightProperty());
         img.widthProperty().addListener(observable -> redraw());
         img.heightProperty().addListener(observable -> redraw());
+
+        ArrayList<dotTypes> vals = new ArrayList<>();
+        for (dotTypes dt : dotTypes.values()) {
+            if (dt != dotTypes.None) vals.add(dt);
+        }
+        manyDotsComboBox.getItems().setAll(vals);
+        manyDotsComboBox.setValue(dotTypes.Neutral);
     }
 
     private void redraw() {
         simulationTemplate.deleteDotsFromOutOfWindow(img);
         simulationTemplate.refresh(img);
+    }
+
+    @FXML
+    private void addManyDotsPressed() {
+        double radius=5;
+        if (!manyDotsField.getText().isEmpty()) {
+            try {
+                int n = Integer.parseInt(manyDotsField.getText());
+                Random random = new Random();
+                for (int i = 0; i < n; ++i) {
+                    simulationTemplate.createDot(
+                            manyDotsComboBox.getValue(),
+                            random.nextInt((int) Math.floor(img.getWidth())),
+                            random.nextInt((int) Math.floor(img.getHeight())),
+                            radius);
+                }
+                simulationTemplate.refresh(img);
+            } catch (NumberFormatException e) {
+                System.out.println("ComboBox input is not an integer!");
+            }
+        }
+
     }
 
     @FXML
@@ -203,8 +231,8 @@ public class SimEditorController implements Initializable {
     @FXML
     private void startSimulationPlayer() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("simulationPlayer.fxml"));
-        Stage window= new Stage();
-        try{
+        Stage window = new Stage();
+        try {
             SimulationTemplate simulationTemplateCopy = new SimulationTemplate((SimulationTemplate) simulationTemplate.clone());
             loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
 
@@ -218,8 +246,8 @@ public class SimEditorController implements Initializable {
         window.setScene(mainScene);
         window.setMinWidth(430.0);
         window.setMinHeight(104.0);
-        window.setX(stage.getX()+20);
-        window.setY(stage.getY()+20);
+        window.setX(stage.getX() + 20);
+        window.setY(stage.getY() + 20);
         window.show();
 
     }

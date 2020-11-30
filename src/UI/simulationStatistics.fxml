@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.StackedAreaChart?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="UI.SimulationStatisticsController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane minHeight="104.0" minWidth="430.0" prefHeight="546.0" prefWidth="921.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.SimStatisticsController">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="102.0" minWidth="418.0" prefHeight="537.0" prefWidth="950.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <StackedAreaChart fx:id="chart" prefHeight="546.0" prefWidth="921.0" title="Virus simulation">
+              <xAxis>
+                <NumberAxis fx:id="timeAxis" label="Time(Tick)" minorTickCount="10" side="BOTTOM" tickUnit="100.0" upperBound="2000.0" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="populationAxis" label="Population(Number of dots)" minorTickCount="10" side="LEFT" tickUnit="10.0" />
+              </yAxis>
+            </StackedAreaChart>
+         </children>
+      </VBox>
+   </children>
 </AnchorPane>
