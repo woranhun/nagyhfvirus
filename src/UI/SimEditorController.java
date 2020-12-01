@@ -35,6 +35,10 @@ public class SimEditorController implements Initializable {
      */
     private final Stage stage;
     /**
+     * Potty alapertelmezett sugara.
+     */
+    private final double radius = 5.0;
+    /**
      * Canvas, a Dot-ok jelennek meg.
      */
     @FXML
@@ -106,11 +110,6 @@ public class SimEditorController implements Initializable {
     private simulatorComponents.dotTypes selectedType = simulatorComponents.dotTypes.None;
 
     /**
-     * Potty alapertelmezett sugara.
-     */
-    private final double radius = 5.0;
-
-    /**
      * A kontroller konstruktora.
      * Letrehozza a kontrollert, beallitja a stage-et es a simulationTemplate-et
      *
@@ -171,9 +170,7 @@ public class SimEditorController implements Initializable {
     /**
      * Feladata az ablak ujrarajzolasa.
      */
-    //ToDO tesztelni
     private void redraw() {
-        //simulationTemplate.deleteDotsFromOutOfWindow(img);
         simulationTemplate.refresh(img);
     }
 
@@ -240,8 +237,6 @@ public class SimEditorController implements Initializable {
         healField.setText(String.valueOf(val));
     }
 
-    //ToDo specifikaciotol valo elteres
-    //ToDo make val=0 ?
 
     /**
      * Sebesseg beallito csuszka valtozasakor hivodik.
@@ -252,11 +247,8 @@ public class SimEditorController implements Initializable {
         double val = Math.pow(2, Math.floor(speedSlider.getValue()));
         simulationTemplate.setSpeed(val);
         speedField.setText(String.valueOf(val));
-        //System.out.println(Math.pow(2, Math.floor(speedSlider.getValue())));
     }
 
-
-    //ToDo tesztelni
 
     /**
      * Canvas letorleset vegzi.
@@ -269,10 +261,6 @@ public class SimEditorController implements Initializable {
         infSliderChanged();
         mortalitySliderChanged();
         speedSliderChanged();
-//        simulationTemplate.setHealChance(healSlider.getValue());
-//        simulationTemplate.setInfection(infSlider.getValue());
-//        simulationTemplate.setMortality(mortSlider.getValue());
-//        simulationTemplate.setSpeed(speedSlider.getValue());
         simulationTemplate.refresh(img);
     }
 
@@ -361,8 +349,8 @@ public class SimEditorController implements Initializable {
     @FXML
     private void openSerializedSimulationTemplate() {
         SimulationTemplate tmp = openSimulationTemplate();
-        if (tmp != null){
-            simulationTemplate=tmp;
+        if (tmp != null) {
+            simulationTemplate = tmp;
         }
         simulationTemplate.refresh(img);
 
@@ -419,7 +407,7 @@ public class SimEditorController implements Initializable {
             loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
 
         } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
+            System.out.println("File error!");
             return;
         }
         Parent main = loader.load();
@@ -447,7 +435,8 @@ public class SimEditorController implements Initializable {
         SimulationTemplate simulationTemplateCopy = openSimulationTemplate();
         loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
 
-        Parent main = loader.load();        Scene mainScene = new Scene(main);
+        Parent main = loader.load();
+        Scene mainScene = new Scene(main);
         window.setTitle("Simulation Player");
         window.setScene(mainScene);
         window.setMinWidth(430.0);
