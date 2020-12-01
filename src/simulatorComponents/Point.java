@@ -26,7 +26,7 @@ public class Point implements Serializable {
      * @param x A kapott x kordináta
      * @param y A kapott y kordináta
      */
-    Point(double x, double y) {
+    public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
@@ -42,12 +42,27 @@ public class Point implements Serializable {
     }
 
     /**
+     * X getter
+     * @return x értéke
+     */
+    public double getX() {
+        return x;
+    }
+    /**
+     * y getter
+     * @return y értéke
+     */
+    public double getY(){
+        return y;
+    }
+
+    /**
      * Két pont között számol távolságot, távolság = ((x1-x2)^2+(y1-y2)^2)^(1/2) képlet segítségével
      *
      * @param p A kapott Pont
      * @return A távolság, csak pozitív vagy 0 lehet
      */
-    double calcDistance(Point p) {
+    public double calcDistance(Point p) {
         return Math.sqrt(Math.pow(this.x - p.x, 2) + Math.pow(this.y - p.y, 2));
     }
 
@@ -57,7 +72,7 @@ public class Point implements Serializable {
      * @param p A kapott Pont
      * @return Az elmozdulás vector
      */
-    double calcDisplacement(Point p) {
+    public double calcDisplacement(Point p) {
         return this.x - p.x + this.y - p.y;
     }
 
@@ -66,7 +81,7 @@ public class Point implements Serializable {
      *
      * @param p A kapott Pont
      */
-    void add(Point p) {
+    public void add(Point p) {
         this.x += p.x;
         this.y += p.y;
     }
@@ -87,7 +102,7 @@ public class Point implements Serializable {
      *
      * @param p A kapott Pont
      */
-    void subtract(Point p) {
+    public void subtract(Point p) {
         this.x -= p.x;
         this.y -= p.y;
     }

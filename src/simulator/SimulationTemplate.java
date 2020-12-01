@@ -203,23 +203,6 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
         addDot(new Dot(x, y, r, speedOfDot, type, infChance, mortChance, healChance));
     }
 
-    //TODO ez kell?
-
-//    /**
-//     * Kitörli a Canvason kívűlre eső Dotokat
-//     * @param img A kapott canvas
-//     */
-
-//    public void deleteDotsFromOutOfCanvas(Canvas img) {
-//        ArrayList<Dot> removeList = new ArrayList<>();
-//        for (Dot d : dots) {
-//            if (d.getLocation().isOutOfCanvas(img, d.getRadius())) {
-//                removeList.add(d);
-//            }
-//        }
-//        dots.removeAll(removeList);
-//    }
-
     /**
      * Frissíti a Canvas tartalmát
      *
