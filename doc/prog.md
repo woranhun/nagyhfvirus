@@ -88,7 +88,7 @@ Ez az interfész valósítja meg az összes léptethető dolgot a játékban.
 
 ## Fordítási tudnivalók
 
-A program futtatásához szükség van a megfelelő javafx SDK-ra (javafx-sdk-11.0.2) [link](https://gluonhq.com/products/javafx/ ). Illetve a teszteléshez Junit 4-re.  A programhoz mellékeltem az eclipse projektfájlokat.
+A program futtatásához szükség van a megfelelő javafx SDK-ra (javafx-sdk-11.0.2) [link](https://gluonhq.com/products/javafx/ ). Illetve a teszteléshez Junit 4-re és a hozzá tartozó függőségegkre (hamcrest-core-1.3.jar)  A programhoz mellékeltem az eclipse projektfájlokat.
 
 ## Egyéb tudnivalók
 
