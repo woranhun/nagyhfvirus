@@ -430,9 +430,12 @@ public class SimEditorController implements Initializable {
 
     @FXML
     private void startSimulationPlayerFromFile() throws IOException {
+        SimulationTemplate simulationTemplateCopy = openSimulationTemplate();
+        if(simulationTemplateCopy==null){
+            return;
+        }
         FXMLLoader loader = new FXMLLoader(getClass().getResource("simulationPlayer.fxml"));
         Stage window = new Stage();
-        SimulationTemplate simulationTemplateCopy = openSimulationTemplate();
         loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
 
         Parent main = loader.load();
