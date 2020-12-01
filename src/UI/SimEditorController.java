@@ -1,6 +1,5 @@
 package UI;
 
-import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -17,7 +16,6 @@ import javafx.stage.Stage;
 import simulator.SimulationTemplate;
 import simulatorComponents.dotTypes;
 
-import java.awt.*;
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
@@ -106,7 +104,7 @@ public class SimEditorController implements Initializable {
 
     @FXML
     private void addManyDotsPressed() {
-        double radius=5;
+        double radius = 5;
         if (!manyDotsField.getText().isEmpty()) {
             try {
                 int n = Integer.parseInt(manyDotsField.getText());
@@ -159,6 +157,10 @@ public class SimEditorController implements Initializable {
     @FXML
     private void clearCanvas() {
         simulationTemplate = new SimulationTemplate();
+        simulationTemplate.setHealChance(healSlider.getValue());
+        simulationTemplate.setInfection(infSlider.getValue());
+        simulationTemplate.setMortality(mortSlider.getValue());
+        simulationTemplate.setSpeed(speedSlider.getValue());
         simulationTemplate.refresh(img);
     }
 
@@ -189,30 +191,29 @@ public class SimEditorController implements Initializable {
     }
 
     @FXML
-    private void saveFile() throws IOException {
-        FileChooser fc = new FileChooser();
+    private void saveFile() {
+        try {
+            FileChooser fc = new FileChooser();
 
-        File file = fc.showSaveDialog(new Stage());
-        if (file != null) {
-            FileOutputStream fos = new FileOutputStream(file);
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
-            oos.writeObject(simulationTemplate);
-            fos.flush();
-            fos.close();
-            System.out.println("Simulation is saved to " + file.toString() + " .");
+            File file = fc.showSaveDialog(new Stage());
+            if (file != null) {
+                FileOutputStream fos = new FileOutputStream(file);
+                ObjectOutputStream oos = new ObjectOutputStream(fos);
+                oos.writeObject(simulationTemplate);
+                fos.flush();
+                fos.close();
+                System.out.println("Simulation is saved to " + file.toString() + " .");
+            } else {
+                System.out.println("File is null!");
+            }
+        } catch (IOException e) {
+            System.out.println("File not exists!");
         }
     }
 
     @FXML
-    private void openFile(Event event) throws IOException, ClassNotFoundException {
-        FileChooser fc = new FileChooser();
-        File file = fc.showOpenDialog(new Stage());
-        if (file != null) {
-            FileInputStream fis = new FileInputStream(file);
-            ObjectInputStream ois = new ObjectInputStream(fis);
-            simulationTemplate = (SimulationTemplate) ois.readObject();
-            fis.close();
-        }
+    private void openFile() {
+        simulationTemplate = openSimulationTemplate();
         simulationTemplate.refresh(img);
 
         infSlider.setValue(simulationTemplate.getInfChance());
@@ -226,6 +227,25 @@ public class SimEditorController implements Initializable {
 
         speedSlider.setValue(simulationTemplate.getSpeedOfDot());
         speedField.setText(String.valueOf(simulationTemplate.getSpeedOfDot()));
+    }
+
+    private SimulationTemplate openSimulationTemplate() {
+        SimulationTemplate st = null;
+        try {
+            FileChooser fc = new FileChooser();
+            File file = fc.showOpenDialog(new Stage());
+            if (file != null) {
+                FileInputStream fis = new FileInputStream(file);
+                ObjectInputStream ois = new ObjectInputStream(fis);
+                st = (SimulationTemplate) ois.readObject();
+                fis.close();
+            }
+        } catch (IOException e) {
+            System.out.println("File not exists!");
+        } catch (ClassNotFoundException e) {
+            System.out.println("Wrong File!");
+        }
+        return st;
     }
 
     @FXML
@@ -250,6 +270,24 @@ public class SimEditorController implements Initializable {
         window.setY(stage.getY() + 20);
         window.show();
 
+    }
+
+    @FXML
+    private void startSimulationPlayerFromFile() throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("simulationPlayer.fxml"));
+        Stage window = new Stage();
+        SimulationTemplate simulationTemplateCopy = openSimulationTemplate();
+        loader.setControllerFactory(c -> new SimulationPlayerController(window, simulationTemplateCopy));
+
+        Parent main = loader.load();
+        Scene mainScene = new Scene(main);
+        window.setTitle("Simulation Player");
+        window.setScene(mainScene);
+        window.setMinWidth(430.0);
+        window.setMinHeight(104.0);
+        window.setX(stage.getX() + 20);
+        window.setY(stage.getY() + 20);
+        window.show();
     }
 
 

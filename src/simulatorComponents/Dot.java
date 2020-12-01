@@ -1,6 +1,5 @@
 package simulatorComponents;
 
-import UI.SimStatisticsController;
 import javafx.application.Platform;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
@@ -114,7 +113,7 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
 
         //Static collison, e.g. Overlap
         double dstBetweenCenters = this.location.calcDistance(d.location);
-        if(dstBetweenCenters==0){
+        if (dstBetweenCenters == 0) {
             this.remove();
             return;
         }
@@ -165,6 +164,12 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
             }
 
         }
+        if(this.type==dotTypes.Dead&&(this.velocity.x!=0||this.velocity.y!=0)) {
+            this.velocity = new Point(0, 0);
+        }
+        if(d.type==dotTypes.Dead&&(d.velocity.x!=0||d.velocity.y!=0)) {
+            d.velocity = new Point(0, 0);
+        }
     }
 
     private void infectedBy(Dot d) {
@@ -201,6 +206,7 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
             this.bounceBack(c);
             this.location.add(velocity);
         }
+        if(this.type==dotTypes.Dead&&(this.velocity.x!=0||this.velocity.y!=0))velocity= new Point(0,0);
         this.location.add(velocity);
     }
 
@@ -224,27 +230,27 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
 
     @Override
     public void moveBack(Canvas c) {
-        if (this.location.isOutOfCanvasBottom(c, radius)){
-            double dyFromBottom = this.location.calcDistance(new Point(this.location.x, c.getHeight()))+2*radius;
+        if (this.location.isOutOfCanvasBottom(c, radius)) {
+            double dyFromBottom = this.location.calcDistance(new Point(this.location.x, c.getHeight())) + 2 * radius;
             this.location.subtract(new Point(0, dyFromBottom));
         }
-        if (this.location.isOutOfCanvasTop(c, radius)){
-            double dyFromTop = this.location.calcDistance(new Point(this.location.x, 0))+2*radius;
+        if (this.location.isOutOfCanvasTop(c, radius)) {
+            double dyFromTop = this.location.calcDistance(new Point(this.location.x, 0)) + 2 * radius;
             this.location.add(new Point(0, dyFromTop));
         }
-        if (this.location.isOutOfCanvasRight(c, radius)){
-            double dxFromRight = this.location.calcDistance(new Point(c.getWidth(), this.location.y))+2*radius;
+        if (this.location.isOutOfCanvasRight(c, radius)) {
+            double dxFromRight = this.location.calcDistance(new Point(c.getWidth(), this.location.y)) + 2 * radius;
             this.location.subtract(new Point(dxFromRight * (-1), 0));
         }
-        if (this.location.isOutOfCanvasLeft(c, radius)){
-            double dxFromLeft = this.location.calcDistance(new Point(0, this.location.y))+2*radius;
-            this.location.add(new Point(dxFromLeft , 0));
+        if (this.location.isOutOfCanvasLeft(c, radius)) {
+            double dxFromLeft = this.location.calcDistance(new Point(0, this.location.y)) + 2 * radius;
+            this.location.add(new Point(dxFromLeft, 0));
         }
     }
 
     @Override
     public void init(Canvas c) {
-        if(this.isOutOfWindow(c))this.moveBack(c);
+        if (this.isOutOfWindow(c)) this.moveBack(c);
         draw(c);
     }
 
@@ -296,15 +302,15 @@ public class Dot implements Drawable, Serializable, Steppable, Cloneable {
     }
 
     public void setHealChance(double heal) {
-        this.healChance=heal;
+        this.healChance = heal;
     }
 
     public void setInfChance(double inf) {
-        this.infChance=inf;
+        this.infChance = inf;
     }
 
     public void setMortChance(double mort) {
-        this.mortChance=mort;
+        this.mortChance = mort;
     }
 
     public dotTypes getType() {

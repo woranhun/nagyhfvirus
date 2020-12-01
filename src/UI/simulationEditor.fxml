@@ -35,7 +35,7 @@
                       <Menu mnemonicParsing="false" text="Start">
                         <items>
                           <MenuItem mnemonicParsing="false" onAction="#startSimulationPlayer" text="Start current" />
-                          <MenuItem mnemonicParsing="false" text="Start from file..." />
+                          <MenuItem mnemonicParsing="false" onAction="#startSimulationPlayerFromFile" text="Start from file..." />
                         </items>
                       </Menu>
                         <Menu mnemonicParsing="false" text="Clear">

@@ -34,7 +34,7 @@ public class SimulationPlayer extends TimerTask {
         infectedCnt = 0;
         currTick = 0;
         millisecondsElapsed = 0;
-        minPeriod = 30;
+        minPeriod = 10;
         oneTickInMs=32;
 
         this.sss = sss;
@@ -119,6 +119,8 @@ public class SimulationPlayer extends TimerTask {
         if (!paused) {
             if(millisecondsElapsed%oneTickInMs==0) {
                 forwardOneStep();
+            }else{
+                System.gc();
             }
             millisecondsElapsed+=minPeriod;
         }
