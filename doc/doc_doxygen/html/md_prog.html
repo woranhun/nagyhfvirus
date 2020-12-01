@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Vírus szimuláció: Programozói dokumentáció</title>
+<title>Vírus szimuláció: Programozói dokumentáció kiegészítés</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,15 +63,111 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Programozói dokumentáció </div>  </div>
+<div class="title">Programozói dokumentáció kiegészítés </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Tartalomjegyzék</h3>
-<ul><li class="level1"><a href="#autotoc_md3">Fordítási tudnivalók</a></li>
+<ul><li class="level1"><a href="#autotoc_md3">A programban található osztályok</a><ul><li class="level2"><a href="#autotoc_md4">simulator package</a><ul><li class="level3"><a href="#autotoc_md5">Simulation Player</a></li>
+<li class="level3"><a href="#autotoc_md6">Simulation Statistics Store</a></li>
+<li class="level3"><a href="#autotoc_md7">Simulation Template</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#autotoc_md8">simulator components</a><ul><li class="level3"><a href="#autotoc_md9">Dot</a></li>
+<li class="level3"><a href="#autotoc_md10">dotTypes</a></li>
+<li class="level3"><a href="#autotoc_md11">Point</a></li>
+<li class="level3"><a href="#autotoc_md12">SimulationMap</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#autotoc_md13">Tests</a><ul><li class="level3"><a href="#autotoc_md14">Dot Test</a></li>
+<li class="level3"><a href="#autotoc_md15">Point Test</a></li>
+<li class="level3"><a href="#autotoc_md16">Simulation Template Test</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#autotoc_md17">UI</a><ul><li class="level3"><a href="#autotoc_md18">Main</a></li>
+<li class="level3"><a href="#autotoc_md19">Sim Editor Controller</a></li>
+<li class="level3"><a href="#autotoc_md20">Sim Statistics Controller</a></li>
+<li class="level3"><a href="#autotoc_md21">Simulation Player Controller</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md22">A programban található interfész</a><ul><li class="level2"><a href="#autotoc_md23">Steppable</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md24">Fordítási tudnivalók</a></li>
+<li class="level1"><a href="#autotoc_md25">Egyéb tudnivalók</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="autotoc_md3"></a>
+A programban található osztályok</h1>
+<p>Az osztályok részletesebb leírása a forráskódban található javadoc commentben, illetve a mellékelt pdf-ben található.</p>
+<p></p>
+<h2><a class="anchor" id="autotoc_md4"></a>
+simulator package</h2>
+<p>A szimulátor belső működéséhez szükséges osztályokat tartalmazza.</p>
+<h3><a class="anchor" id="autotoc_md5"></a>
+Simulation Player</h3>
+<p>Egy szimuláció lejátszásához szükseges adatokat és függvényeket tárolja.</p>
+<h3><a class="anchor" id="autotoc_md6"></a>
+Simulation Statistics Store</h3>
+<p>Puffer tároló a statisztikai adatok tárolására.</p>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Simulation Template</h3>
+<p>Egy szimuláció előkészítéséhez szükséges adatokat tárolja.</p>
+<h2><a class="anchor" id="autotoc_md8"></a>
+simulator components</h2>
+<p>A szimulátorban felhasználható alkotóelemeket tartalmazza.</p>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Dot</h3>
+<p>Pötty, ami egy embert reprezentál a pályán.</p>
+<h3><a class="anchor" id="autotoc_md10"></a>
+dotTypes</h3>
+<p>Enum, ami a pöttyök típusait tárolja</p>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Point</h3>
+<p>A pályán lévő dolgok helyzetét, illetve bizonyos esetekben az origó és a pont közé rajzolható vectort valósítja meg. Az osztály tartalmaz a pontokon és vectorokon végezhető műveleteket is.</p>
+<h3><a class="anchor" id="autotoc_md12"></a>
+SimulationMap</h3>
+<p>A pálya hátterét reprezentálja. Legfontosabb feladata a Canvas letörlése.</p>
+<h2><a class="anchor" id="autotoc_md13"></a>
+Tests</h2>
+<p>A programhoz tartozó Junit teszteket tartalmazza a package.</p>
+<h3><a class="anchor" id="autotoc_md14"></a>
+Dot Test</h3>
+<p>A Dotokra megírt teszteket tartalmazza.</p>
+<h3><a class="anchor" id="autotoc_md15"></a>
+Point Test</h3>
+<p>A pontokra megírt tesztet tartalmazza.</p>
+<h3><a class="anchor" id="autotoc_md16"></a>
+Simulation Template Test</h3>
+<p>A Simulation Template-re megírt tesztet tartalmazza.</p>
+<h2><a class="anchor" id="autotoc_md17"></a>
+UI</h2>
+<p>A grafikus megjelenítéssel kapcsolatos osztályokat tartalmazza. Az itt található osztályok mind javaFX-et használnak.</p>
+<h3><a class="anchor" id="autotoc_md18"></a>
+Main</h3>
+<p>A program belépési pontja.</p>
+<h3><a class="anchor" id="autotoc_md19"></a>
+Sim Editor Controller</h3>
+<p>Szimuláció sablonjának szerkesztéséhez szükséges függvényeket tartalmazza, amelyek a felhasználóval kommunikálnak.</p>
+<h3><a class="anchor" id="autotoc_md20"></a>
+Sim Statistics Controller</h3>
+<p>A szimuláció megjelenítéséért felel. Közvetlen kapcsolatban áll a felhasználóval.</p>
+<h3><a class="anchor" id="autotoc_md21"></a>
+Simulation Player Controller</h3>
+<p>A szimuláció lejátszásához szükséges függvényeket tárolja. Közvetlen kapcsolatban áll a felhasználóval.</p>
+<h1><a class="anchor" id="autotoc_md22"></a>
+A programban található interfész</h1>
+<h2><a class="anchor" id="autotoc_md23"></a>
+Steppable</h2>
+<p>Ez az interfész valósítja meg az összes léptethető dolgot a játékban.</p>
+<h1><a class="anchor" id="autotoc_md24"></a>
 Fordítási tudnivalók</h1>
+<p>A program futtatásához szükség van a megfelelő javafx SDK-ra (javafx-sdk-11.0.2) <a href="https://gluonhq.com/products/javafx/">link</a>. Illetve a teszteléshez Junit 4-re. A programhoz mellékeltem az eclipse projektfájlokat.</p>
+<h1><a class="anchor" id="autotoc_md25"></a>
+Egyéb tudnivalók</h1>
+<p>A program forrásainak készítése közben javadoc kommentet alkalmaztam. Az ebből Doxygen segítségével készített pdf fájlt mellékeltem a projekthez.</p>
+<p>A programot az inteliJ IDEA IDE-vel készítettem. Az ablakok létrehozásához SceneBuildert használtam. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

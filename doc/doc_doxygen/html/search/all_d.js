@@ -1,7 +1,7 @@
 var searchData=
 [
   ['prog3_3a_20vírus_20szimuláció_20nagyházifeladat_20terv_113',['Prog3: Vírus szimuláció nagyházifeladat terv',['../md_idea.html',1,'']]],
-  ['programozói_20dokumentáció_114',['Programozói dokumentáció',['../md_prog.html',1,'']]],
+  ['programozói_20dokumentáció_20kiegészítés_114',['Programozói dokumentáció kiegészítés',['../md_prog.html',1,'']]],
   ['prog3_3a_20vírus_20szimuláció_20nagyházifeladat_20specifikáció_115',['Prog3: Vírus szimuláció nagyházifeladat specifikáció',['../md_spec.html',1,'']]],
   ['p0_116',['p0',['../classTests_1_1PointTest.html#aaa5fde9b11bb41c122034a98ac2b6e19',1,'Tests::PointTest']]],
   ['pane_117',['pane',['../classUI_1_1SimEditorController.html#a05d6c49333124353e36bbd11404ec95a',1,'UI.SimEditorController.pane()'],['../classUI_1_1SimulationPlayerController.html#aec2f78b04807658592fd430d2efbc8b1',1,'UI.SimulationPlayerController.pane()']]],

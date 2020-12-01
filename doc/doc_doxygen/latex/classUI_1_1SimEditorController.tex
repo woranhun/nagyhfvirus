@@ -100,7 +100,7 @@ final double \mbox{\hyperlink{classUI_1_1SimEditorController_a4417f17940793905d8
 
 
 \doxysubsection{Részletes leírás}
-Simulation Editor ablak kontroller osztája. Feladata, hogy kezelje az ablakkal történő User interakciókat 
+Simulation Editor ablak kontroller osztaja. Feladata, hogy kezelje az ablakkal torteno User interakciokat 
 
 \doxysubsection{Konstruktorok és destruktorok dokumentációja}
 \mbox{\Hypertarget{classUI_1_1SimEditorController_a5772680326d0daaa7f96d146cbb29f8b}\label{classUI_1_1SimEditorController_a5772680326d0daaa7f96d146cbb29f8b}} 
@@ -109,11 +109,11 @@ Simulation Editor ablak kontroller osztája. Feladata, hogy kezelje az ablakkal 
 \doxysubsubsection{\texorpdfstring{SimEditorController()}{SimEditorController()}}
 {\footnotesize\ttfamily UI.\+Sim\+Editor\+Controller.\+Sim\+Editor\+Controller (\begin{DoxyParamCaption}\item[{Stage}]{st }\end{DoxyParamCaption})}
 
-A kontroller konstruktora. Létrehozza a kontrollert, beállítja a stage-\/et és a simulation\+Template-\/et
+A kontroller konstruktora. Letrehozza a kontrollert, beallitja a stage-\/et es a simulation\+Template-\/et
 
 
 \begin{DoxyParams}{Paraméterek}
-{\em st} & Stage, amit a Main-\/ben hozunk létre. \\
+{\em st} & Stage, amit a Main-\/ben hozunk letre. \\
 \hline
 \end{DoxyParams}
 
@@ -125,19 +125,19 @@ A kontroller konstruktora. Létrehozza a kontrollert, beállítja a stage-\/et �
 \doxysubsubsection{\texorpdfstring{addManyDotsPressed()}{addManyDotsPressed()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+add\+Many\+Dots\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Több pötty véletlenszerű elhelyezését kezelő gomb megnyomása esetén hívódik. Feladata a Text\+Field Integerré alakítása, ha ez nem megoldható hibaüzenetet küld. Ha a kapott szám Integerré alakítható, a megadott típus alapján meghívja n db alkalommal a Dot létrehozó függvényt. \mbox{\Hypertarget{classUI_1_1SimEditorController_a178d1cc8ab6094164d8506007d2a5540}\label{classUI_1_1SimEditorController_a178d1cc8ab6094164d8506007d2a5540}} 
+Tobb potty veletlenszeru elhelyezeset kezelo gomb megnyomasa eseten hivodik. Feladata a Text\+Field Integerre alakitasa, ha ez nem megoldhato hibauzenetet kuld. Ha a kapott szam Integerre alakithato, a megadott tipus alapjan meghivja n db alkalommal a Dot letrehozo fuggvenyt. \mbox{\Hypertarget{classUI_1_1SimEditorController_a178d1cc8ab6094164d8506007d2a5540}\label{classUI_1_1SimEditorController_a178d1cc8ab6094164d8506007d2a5540}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!clearCanvas@{clearCanvas}}
 \index{clearCanvas@{clearCanvas}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{clearCanvas()}{clearCanvas()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+clear\+Canvas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Canvas letörlését végzi. Új Simulation\+Template-\/et hoz létre. \mbox{\Hypertarget{classUI_1_1SimEditorController_a90e5e09e8034260323156f356e159a51}\label{classUI_1_1SimEditorController_a90e5e09e8034260323156f356e159a51}} 
+Canvas letorleset vegzi. uj Simulation\+Template-\/et hoz letre. \mbox{\Hypertarget{classUI_1_1SimEditorController_a90e5e09e8034260323156f356e159a51}\label{classUI_1_1SimEditorController_a90e5e09e8034260323156f356e159a51}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!createDotOnMousePosition@{createDotOnMousePosition}}
 \index{createDotOnMousePosition@{createDotOnMousePosition}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{createDotOnMousePosition()}{createDotOnMousePosition()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+create\+Dot\+On\+Mouse\+Position (\begin{DoxyParamCaption}\item[{Mouse\+Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Egér kattintáskor meghívja a Dot létehoz függvényt, és frissíti a Canvast.
+Eger kattintaskor meghivja a Dot letehoz fuggvenyt, es frissiti a Canvast.
 
 
 \begin{DoxyParams}{Paraméterek}
@@ -150,25 +150,25 @@ Egér kattintáskor meghívja a Dot létehoz függvényt, és frissíti a Canvas
 \doxysubsubsection{\texorpdfstring{healSliderChanged()}{healSliderChanged()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+heal\+Slider\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Gyógyulási esély beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulation\+Template-\/nek, és kiírja ezt a megfelelő Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_aeb09c3390d118b3eff6edbe0d6fc03d0}\label{classUI_1_1SimEditorController_aeb09c3390d118b3eff6edbe0d6fc03d0}} 
+Gyogyulasi esely beallito csuszka valtozasakor hivodik. Feladata, hogy ezt az erteket tovabbitsa a simulation\+Template-\/nek, es kiirja ezt a megfelelo Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_aeb09c3390d118b3eff6edbe0d6fc03d0}\label{classUI_1_1SimEditorController_aeb09c3390d118b3eff6edbe0d6fc03d0}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!infSliderChanged@{infSliderChanged}}
 \index{infSliderChanged@{infSliderChanged}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{infSliderChanged()}{infSliderChanged()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+inf\+Slider\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Fertőzési esély beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulation\+Template-\/nek, és kiírja ezt a megfelelő Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_a346accec0010372eb18a837a4638584c}\label{classUI_1_1SimEditorController_a346accec0010372eb18a837a4638584c}} 
+Fertozesi esely beallito csuszka valtozasakor hivodik. Feladata, hogy ezt az erteket tovabbitsa a simulation\+Template-\/nek, es kiirja ezt a megfelelo Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_a346accec0010372eb18a837a4638584c}\label{classUI_1_1SimEditorController_a346accec0010372eb18a837a4638584c}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!initialize@{initialize}}
 \index{initialize@{initialize}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+initialize (\begin{DoxyParamCaption}\item[{URL}]{url,  }\item[{Resource\+Bundle}]{resource\+Bundle }\end{DoxyParamCaption})}
 
-Az ablak inicializálója. Feladata az ablakon található elemek értékeinek beállítása.
+Az ablak inicializaloja. Feladata az ablakon talalhato elemek ertekeinek beallitasa.
 
 
 \begin{DoxyParams}{Paraméterek}
-{\em url} & Java\+FX használja relatív útvonal meghatározása a root objectnek \\
+{\em url} & Java\+FX hasznalja relativ utvonal meghatarozasa a root objectnek \\
 \hline
-{\em resource\+Bundle} & Azok a források, amik a root object helyének meghatározásához szükségesek \\
+{\em resource\+Bundle} & Azok a forrasok, amik a root object helyenek meghatarozasahoz szuksegesek \\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{classUI_1_1SimEditorController_af026467d388dc30a3a94db145ab74f9f}\label{classUI_1_1SimEditorController_af026467d388dc30a3a94db145ab74f9f}} 
@@ -177,22 +177,22 @@ Az ablak inicializálója. Feladata az ablakon található elemek értékeinek b
 \doxysubsubsection{\texorpdfstring{mortalitySliderChanged()}{mortalitySliderChanged()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+mortality\+Slider\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Halálozási esély beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulation\+Template-\/nek, és kiírja ezt a megfelelő Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_a875fbc8f143a67eb53007d24c0afa7d7}\label{classUI_1_1SimEditorController_a875fbc8f143a67eb53007d24c0afa7d7}} 
+Halalozasi esely beallito csuszka valtozasakor hivodik. Feladata, hogy ezt az erteket tovabbitsa a simulation\+Template-\/nek, es kiirja ezt a megfelelo Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_a875fbc8f143a67eb53007d24c0afa7d7}\label{classUI_1_1SimEditorController_a875fbc8f143a67eb53007d24c0afa7d7}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!openSerializedSimulationTemplate@{openSerializedSimulationTemplate}}
 \index{openSerializedSimulationTemplate@{openSerializedSimulationTemplate}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{openSerializedSimulationTemplate()}{openSerializedSimulationTemplate()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+open\+Serialized\+Simulation\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Meghívja a simulation\+Template-\/et deszerializáló függvényt. Simulation\+Template-\/et beállítja a kapott értékre. A csúszkákat és a hozzájuk tartozó Text\+Field-\/et beállítja a megfelelő értékre. Ha null a kapott template a függvény visszatér. A hibajelzés már az \mbox{\hyperlink{classUI_1_1SimEditorController_a3f018c38e7db090a2b9a01ee0b531387}{open\+Simulation\+Template()}}-\/ben megtörtént. \mbox{\Hypertarget{classUI_1_1SimEditorController_a3f018c38e7db090a2b9a01ee0b531387}\label{classUI_1_1SimEditorController_a3f018c38e7db090a2b9a01ee0b531387}} 
+Meghivja a simulation\+Template-\/et deszerializalo fuggvenyt. Simulation\+Template-\/et beallitja a kapott ertekre. A csuszkakat es a hozzajuk tartozo Text\+Field-\/et beallitja a megfelelo ertekre. Ha null a kapott template a fuggveny visszater. A hibajelzes mar az \mbox{\hyperlink{classUI_1_1SimEditorController_a3f018c38e7db090a2b9a01ee0b531387}{open\+Simulation\+Template()}}-\/ben megtortent. \mbox{\Hypertarget{classUI_1_1SimEditorController_a3f018c38e7db090a2b9a01ee0b531387}\label{classUI_1_1SimEditorController_a3f018c38e7db090a2b9a01ee0b531387}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!openSimulationTemplate@{openSimulationTemplate}}
 \index{openSimulationTemplate@{openSimulationTemplate}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{openSimulationTemplate()}{openSimulationTemplate()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} UI.\+Sim\+Editor\+Controller.\+open\+Simulation\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Deszerializálja a megadott simulation\+Template-\/et.
+Deszerializalja a megadott simulation\+Template-\/et.
 
 \begin{DoxyReturn}{Visszatérési érték}
-Simulation\+Template visszadja egy deszerializált Template-\/et, vagy nullt-\/t ha nem sikerült a folyamat. 
+Simulation\+Template visszadja egy deszerializalt Template-\/et, vagy nullt-\/t ha nem sikerult a folyamat. 
 \end{DoxyReturn}
 \mbox{\Hypertarget{classUI_1_1SimEditorController_a6d0e8103f482e2c128c02910406255e6}\label{classUI_1_1SimEditorController_a6d0e8103f482e2c128c02910406255e6}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!redraw@{redraw}}
@@ -200,53 +200,53 @@ Simulation\+Template visszadja egy deszerializált Template-\/et, vagy nullt-\/t
 \doxysubsubsection{\texorpdfstring{redraw()}{redraw()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+redraw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Feladata az ablak újrarajzolása. \mbox{\Hypertarget{classUI_1_1SimEditorController_a5a8e0e6556d8c611ab1a043945b6a87a}\label{classUI_1_1SimEditorController_a5a8e0e6556d8c611ab1a043945b6a87a}} 
+Feladata az ablak ujrarajzolasa. \mbox{\Hypertarget{classUI_1_1SimEditorController_a5a8e0e6556d8c611ab1a043945b6a87a}\label{classUI_1_1SimEditorController_a5a8e0e6556d8c611ab1a043945b6a87a}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!serializeSimulationTemplate@{serializeSimulationTemplate}}
 \index{serializeSimulationTemplate@{serializeSimulationTemplate}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{serializeSimulationTemplate()}{serializeSimulationTemplate()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+serialize\+Simulation\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Elmenti a simulation\+Template-\/et szerializálás segítségével fájlba. Értesíti a User-\/t, ha sikeres. Értesíti a felhasználót, ha a fájl null vagy nem létezik. \mbox{\Hypertarget{classUI_1_1SimEditorController_a1de7f7250b7ab58fd825d1ab8620c3d0}\label{classUI_1_1SimEditorController_a1de7f7250b7ab58fd825d1ab8620c3d0}} 
+Elmenti a simulation\+Template-\/et szerializalas segitsegevel fajlba. ertesiti a User-\/t, ha sikeres. ertesiti a felhasznalot, ha a fajl null vagy nem letezik. \mbox{\Hypertarget{classUI_1_1SimEditorController_a1de7f7250b7ab58fd825d1ab8620c3d0}\label{classUI_1_1SimEditorController_a1de7f7250b7ab58fd825d1ab8620c3d0}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!setTypeOfDotOnMousePositionToDead@{setTypeOfDotOnMousePositionToDead}}
 \index{setTypeOfDotOnMousePositionToDead@{setTypeOfDotOnMousePositionToDead}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{setTypeOfDotOnMousePositionToDead()}{setTypeOfDotOnMousePositionToDead()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+set\+Type\+Of\+Dot\+On\+Mouse\+Position\+To\+Dead (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Beállítja az egér által lehelyezendő Dot típusát halottra. \mbox{\Hypertarget{classUI_1_1SimEditorController_abd234f0c253d39c4f1c96ddb1dc17224}\label{classUI_1_1SimEditorController_abd234f0c253d39c4f1c96ddb1dc17224}} 
+Beallitja az eger altal lehelyezendo Dot tipusat halottra. \mbox{\Hypertarget{classUI_1_1SimEditorController_abd234f0c253d39c4f1c96ddb1dc17224}\label{classUI_1_1SimEditorController_abd234f0c253d39c4f1c96ddb1dc17224}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!setTypeOfDotOnMousePositionToHealthy@{setTypeOfDotOnMousePositionToHealthy}}
 \index{setTypeOfDotOnMousePositionToHealthy@{setTypeOfDotOnMousePositionToHealthy}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{setTypeOfDotOnMousePositionToHealthy()}{setTypeOfDotOnMousePositionToHealthy()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+set\+Type\+Of\+Dot\+On\+Mouse\+Position\+To\+Healthy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Beállítja az egér által lehelyezendő Dot típusát egészségesre. \mbox{\Hypertarget{classUI_1_1SimEditorController_a071f361b4eeb055a6d577377ddd276f5}\label{classUI_1_1SimEditorController_a071f361b4eeb055a6d577377ddd276f5}} 
+Beallitja az eger altal lehelyezendo Dot tipusat egeszsegesre. \mbox{\Hypertarget{classUI_1_1SimEditorController_a071f361b4eeb055a6d577377ddd276f5}\label{classUI_1_1SimEditorController_a071f361b4eeb055a6d577377ddd276f5}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!setTypeOfDotOnMousePositionToInfectious@{setTypeOfDotOnMousePositionToInfectious}}
 \index{setTypeOfDotOnMousePositionToInfectious@{setTypeOfDotOnMousePositionToInfectious}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{setTypeOfDotOnMousePositionToInfectious()}{setTypeOfDotOnMousePositionToInfectious()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+set\+Type\+Of\+Dot\+On\+Mouse\+Position\+To\+Infectious (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Beállítja az egér által lehelyezendő Dot típusát fertőzőre. \mbox{\Hypertarget{classUI_1_1SimEditorController_a00736ea2c480ed225c42097caa280a3f}\label{classUI_1_1SimEditorController_a00736ea2c480ed225c42097caa280a3f}} 
+Beallitja az eger altal lehelyezendo Dot tipusat fertozore. \mbox{\Hypertarget{classUI_1_1SimEditorController_a00736ea2c480ed225c42097caa280a3f}\label{classUI_1_1SimEditorController_a00736ea2c480ed225c42097caa280a3f}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!setTypeOfDotOnMousePositionToNeutral@{setTypeOfDotOnMousePositionToNeutral}}
 \index{setTypeOfDotOnMousePositionToNeutral@{setTypeOfDotOnMousePositionToNeutral}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{setTypeOfDotOnMousePositionToNeutral()}{setTypeOfDotOnMousePositionToNeutral()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+set\+Type\+Of\+Dot\+On\+Mouse\+Position\+To\+Neutral (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Beállítja az egér által lehelyezendő Dot típusát közömbösre. \mbox{\Hypertarget{classUI_1_1SimEditorController_af05a56196bba83368f7034b53b0a03b4}\label{classUI_1_1SimEditorController_af05a56196bba83368f7034b53b0a03b4}} 
+Beallitja az eger altal lehelyezendo Dot tipusat kozombosre. \mbox{\Hypertarget{classUI_1_1SimEditorController_af05a56196bba83368f7034b53b0a03b4}\label{classUI_1_1SimEditorController_af05a56196bba83368f7034b53b0a03b4}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!speedSliderChanged@{speedSliderChanged}}
 \index{speedSliderChanged@{speedSliderChanged}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{speedSliderChanged()}{speedSliderChanged()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+speed\+Slider\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Sebesség beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulation\+Template-\/nek, és kiírja ezt a megfelelő Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_ac7f47e92f06ab362b5f6ccf4f3abfeeb}\label{classUI_1_1SimEditorController_ac7f47e92f06ab362b5f6ccf4f3abfeeb}} 
+Sebesseg beallito csuszka valtozasakor hivodik. Feladata, hogy ezt az erteket tovabbitsa a simulation\+Template-\/nek, es kiirja ezt a megfelelo Text\+Fieldbe. \mbox{\Hypertarget{classUI_1_1SimEditorController_ac7f47e92f06ab362b5f6ccf4f3abfeeb}\label{classUI_1_1SimEditorController_ac7f47e92f06ab362b5f6ccf4f3abfeeb}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!startSimulationPlayer@{startSimulationPlayer}}
 \index{startSimulationPlayer@{startSimulationPlayer}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{startSimulationPlayer()}{startSimulationPlayer()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+start\+Simulation\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [private]}}
 
-Létrehozza és elindítja a Simulation\+Player ablakot.
+Letrehozza es elinditja a Simulation\+Player ablakot.
 
 
 \begin{DoxyExceptions}{Kivételek}
-{\em IOException} & Kivételt dob, ha az fxml nem létezik. \\
+{\em IOException} & Kivetelt dob, ha az fxml nem letezik. \\
 \hline
 \end{DoxyExceptions}
 \mbox{\Hypertarget{classUI_1_1SimEditorController_ac75c2ccdfb5c245e248116957f2a06f0}\label{classUI_1_1SimEditorController_ac75c2ccdfb5c245e248116957f2a06f0}} 
@@ -255,11 +255,11 @@ Létrehozza és elindítja a Simulation\+Player ablakot.
 \doxysubsubsection{\texorpdfstring{startSimulationPlayerFromFile()}{startSimulationPlayerFromFile()}}
 {\footnotesize\ttfamily void UI.\+Sim\+Editor\+Controller.\+start\+Simulation\+Player\+From\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [private]}}
 
-Elindítja a Simulation\+Player-\/t közvetlenül fájlból.
+Elinditja a Simulation\+Player-\/t kozvetlenul fajlbol.
 
 
 \begin{DoxyExceptions}{Kivételek}
-{\em IOException} & Kivételt dob, ha az fxml nem létezik. \\
+{\em IOException} & Kivetelt dob, ha az fxml nem letezik. \\
 \hline
 \end{DoxyExceptions}
 
@@ -271,13 +271,13 @@ Elindítja a Simulation\+Player-\/t közvetlenül fájlból.
 \doxysubsubsection{\texorpdfstring{healField}{healField}}
 {\footnotesize\ttfamily Text\+Field UI.\+Sim\+Editor\+Controller.\+heal\+Field\hspace{0.3cm}{\ttfamily [private]}}
 
-Text\+Field, itt jelezzük vissza az Usernek a beállított gyógyulás értékét. \mbox{\Hypertarget{classUI_1_1SimEditorController_ab2c988831b5c30fbcd09eab44a5ead16}\label{classUI_1_1SimEditorController_ab2c988831b5c30fbcd09eab44a5ead16}} 
+Text\+Field, itt jelezzuk vissza az Usernek a beallitott gyogyulas erteket. \mbox{\Hypertarget{classUI_1_1SimEditorController_ab2c988831b5c30fbcd09eab44a5ead16}\label{classUI_1_1SimEditorController_ab2c988831b5c30fbcd09eab44a5ead16}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!healSlider@{healSlider}}
 \index{healSlider@{healSlider}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{healSlider}{healSlider}}
 {\footnotesize\ttfamily Slider UI.\+Sim\+Editor\+Controller.\+heal\+Slider\hspace{0.3cm}{\ttfamily [private]}}
 
-Slider, a gyúgyulási esély beállítására. \mbox{\Hypertarget{classUI_1_1SimEditorController_ad3074f4b14031bfe00bf5b6694e3240d}\label{classUI_1_1SimEditorController_ad3074f4b14031bfe00bf5b6694e3240d}} 
+Slider, a gyugyulasi esely beallitasara. \mbox{\Hypertarget{classUI_1_1SimEditorController_ad3074f4b14031bfe00bf5b6694e3240d}\label{classUI_1_1SimEditorController_ad3074f4b14031bfe00bf5b6694e3240d}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!img@{img}}
 \index{img@{img}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{img}{img}}
@@ -289,79 +289,79 @@ Canvas, a Dot-\/ok jelennek meg. \mbox{\Hypertarget{classUI_1_1SimEditorControll
 \doxysubsubsection{\texorpdfstring{infField}{infField}}
 {\footnotesize\ttfamily Text\+Field UI.\+Sim\+Editor\+Controller.\+inf\+Field\hspace{0.3cm}{\ttfamily [private]}}
 
-Text\+Field, itt jelezzük vissza az Usernek a beállított infection értékét. \mbox{\Hypertarget{classUI_1_1SimEditorController_a1b2a9c7a34dbe85d53e857ce6e8a307a}\label{classUI_1_1SimEditorController_a1b2a9c7a34dbe85d53e857ce6e8a307a}} 
+Text\+Field, itt jelezzuk vissza az Usernek a beallitott infection erteket. \mbox{\Hypertarget{classUI_1_1SimEditorController_a1b2a9c7a34dbe85d53e857ce6e8a307a}\label{classUI_1_1SimEditorController_a1b2a9c7a34dbe85d53e857ce6e8a307a}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!infSlider@{infSlider}}
 \index{infSlider@{infSlider}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{infSlider}{infSlider}}
 {\footnotesize\ttfamily Slider UI.\+Sim\+Editor\+Controller.\+inf\+Slider\hspace{0.3cm}{\ttfamily [private]}}
 
-Slider, az átfertőzés esélyének beállítására. \mbox{\Hypertarget{classUI_1_1SimEditorController_a9cb896edd951bdcf1a9dc12171834d17}\label{classUI_1_1SimEditorController_a9cb896edd951bdcf1a9dc12171834d17}} 
+Slider, az atfertozes eselyenek beallitasara. \mbox{\Hypertarget{classUI_1_1SimEditorController_a9cb896edd951bdcf1a9dc12171834d17}\label{classUI_1_1SimEditorController_a9cb896edd951bdcf1a9dc12171834d17}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!manyDotsComboBox@{manyDotsComboBox}}
 \index{manyDotsComboBox@{manyDotsComboBox}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{manyDotsComboBox}{manyDotsComboBox}}
 {\footnotesize\ttfamily Combo\+Box$<$\mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}}$>$ UI.\+Sim\+Editor\+Controller.\+many\+Dots\+Combo\+Box\hspace{0.3cm}{\ttfamily [private]}}
 
-Combo\+Box, a User itt választja ki a Dot típusát \mbox{\Hypertarget{classUI_1_1SimEditorController_abf5fe96122a06826edec90af570d37e3}\label{classUI_1_1SimEditorController_abf5fe96122a06826edec90af570d37e3}} 
+Combo\+Box, a User itt valasztja ki a Dot tipusat \mbox{\Hypertarget{classUI_1_1SimEditorController_abf5fe96122a06826edec90af570d37e3}\label{classUI_1_1SimEditorController_abf5fe96122a06826edec90af570d37e3}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!manyDotsField@{manyDotsField}}
 \index{manyDotsField@{manyDotsField}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{manyDotsField}{manyDotsField}}
 {\footnotesize\ttfamily Text\+Field UI.\+Sim\+Editor\+Controller.\+many\+Dots\+Field\hspace{0.3cm}{\ttfamily [private]}}
 
-Text\+Field, a User itt adja meg a lerakni kívánt Dotok, számát. Csak Integer lehet, különben hibaüzenet keletkezik \mbox{\Hypertarget{classUI_1_1SimEditorController_a90e7ce8f57355841a13d81a23cfde823}\label{classUI_1_1SimEditorController_a90e7ce8f57355841a13d81a23cfde823}} 
+Text\+Field, a User itt adja meg a lerakni kivant Dotok, szamat. Csak Integer lehet, kulonben hibauzenet keletkezik \mbox{\Hypertarget{classUI_1_1SimEditorController_a90e7ce8f57355841a13d81a23cfde823}\label{classUI_1_1SimEditorController_a90e7ce8f57355841a13d81a23cfde823}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!mortField@{mortField}}
 \index{mortField@{mortField}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{mortField}{mortField}}
 {\footnotesize\ttfamily Text\+Field UI.\+Sim\+Editor\+Controller.\+mort\+Field\hspace{0.3cm}{\ttfamily [private]}}
 
-Text\+Field, itt jelezzük vissza az Usernek a beállított halálozás értékét. \mbox{\Hypertarget{classUI_1_1SimEditorController_aa641c4db49214aedf50d1b77d3104823}\label{classUI_1_1SimEditorController_aa641c4db49214aedf50d1b77d3104823}} 
+Text\+Field, itt jelezzuk vissza az Usernek a beallitott halalozas erteket. \mbox{\Hypertarget{classUI_1_1SimEditorController_aa641c4db49214aedf50d1b77d3104823}\label{classUI_1_1SimEditorController_aa641c4db49214aedf50d1b77d3104823}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!mortSlider@{mortSlider}}
 \index{mortSlider@{mortSlider}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{mortSlider}{mortSlider}}
 {\footnotesize\ttfamily Slider UI.\+Sim\+Editor\+Controller.\+mort\+Slider\hspace{0.3cm}{\ttfamily [private]}}
 
-Slider, a halálozási esély beállítására. \mbox{\Hypertarget{classUI_1_1SimEditorController_a05d6c49333124353e36bbd11404ec95a}\label{classUI_1_1SimEditorController_a05d6c49333124353e36bbd11404ec95a}} 
+Slider, a halalozasi esely beallitasara. \mbox{\Hypertarget{classUI_1_1SimEditorController_a05d6c49333124353e36bbd11404ec95a}\label{classUI_1_1SimEditorController_a05d6c49333124353e36bbd11404ec95a}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!pane@{pane}}
 \index{pane@{pane}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{pane}{pane}}
 {\footnotesize\ttfamily Pane UI.\+Sim\+Editor\+Controller.\+pane\hspace{0.3cm}{\ttfamily [private]}}
 
-Pane, ebben található a canvas, amire rajzolunk. \mbox{\Hypertarget{classUI_1_1SimEditorController_a4417f17940793905d83a8ed6eee2f5d4}\label{classUI_1_1SimEditorController_a4417f17940793905d83a8ed6eee2f5d4}} 
+Pane, ebben talalhato a canvas, amire rajzolunk. \mbox{\Hypertarget{classUI_1_1SimEditorController_a4417f17940793905d83a8ed6eee2f5d4}\label{classUI_1_1SimEditorController_a4417f17940793905d83a8ed6eee2f5d4}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!radius@{radius}}
 \index{radius@{radius}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{radius}{radius}}
 {\footnotesize\ttfamily final double UI.\+Sim\+Editor\+Controller.\+radius = 5.\+0\hspace{0.3cm}{\ttfamily [private]}}
 
-Pötty alapértelmezett sugara. \mbox{\Hypertarget{classUI_1_1SimEditorController_a40fd2a6d018b7fdd11671c46d9110c96}\label{classUI_1_1SimEditorController_a40fd2a6d018b7fdd11671c46d9110c96}} 
+Potty alapertelmezett sugara. \mbox{\Hypertarget{classUI_1_1SimEditorController_a40fd2a6d018b7fdd11671c46d9110c96}\label{classUI_1_1SimEditorController_a40fd2a6d018b7fdd11671c46d9110c96}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!selectedType@{selectedType}}
 \index{selectedType@{selectedType}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{selectedType}{selectedType}}
 {\footnotesize\ttfamily \mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{simulator\+Components.\+dot\+Types}} UI.\+Sim\+Editor\+Controller.\+selected\+Type = \mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes_a35b0a0984d3586abbd89ab8bf9151272}{simulator\+Components.\+dot\+Types.\+None}}\hspace{0.3cm}{\ttfamily [private]}}
 
-Gomb által kiválasztott Dot típusának tárolója. \mbox{\Hypertarget{classUI_1_1SimEditorController_ad0c1e2dda054c136da6020fd8d2ac5ad}\label{classUI_1_1SimEditorController_ad0c1e2dda054c136da6020fd8d2ac5ad}} 
+Gomb altal kivalasztott Dot tipusanak taroloja. \mbox{\Hypertarget{classUI_1_1SimEditorController_ad0c1e2dda054c136da6020fd8d2ac5ad}\label{classUI_1_1SimEditorController_ad0c1e2dda054c136da6020fd8d2ac5ad}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!simulationTemplate@{simulationTemplate}}
 \index{simulationTemplate@{simulationTemplate}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{simulationTemplate}{simulationTemplate}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} UI.\+Sim\+Editor\+Controller.\+simulation\+Template\hspace{0.3cm}{\ttfamily [private]}}
 
-Simulation\+Template-\/et tárolunk, az Editor ezt módosítja. Ez tárolja a szimulációhoz elindításához szükséges adatokat. \mbox{\Hypertarget{classUI_1_1SimEditorController_a13ac5088a613f6dc75ef215774972816}\label{classUI_1_1SimEditorController_a13ac5088a613f6dc75ef215774972816}} 
+Simulation\+Template-\/et tarolunk, az Editor ezt modositja. Ez tarolja a szimulaciohoz elinditasahoz szukseges adatokat. \mbox{\Hypertarget{classUI_1_1SimEditorController_a13ac5088a613f6dc75ef215774972816}\label{classUI_1_1SimEditorController_a13ac5088a613f6dc75ef215774972816}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!speedField@{speedField}}
 \index{speedField@{speedField}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{speedField}{speedField}}
 {\footnotesize\ttfamily Text\+Field UI.\+Sim\+Editor\+Controller.\+speed\+Field\hspace{0.3cm}{\ttfamily [private]}}
 
-Text\+Field, itt jelezzük vissza az Usernek a beállított sebesség értékét. \mbox{\Hypertarget{classUI_1_1SimEditorController_aa40817de912757f42fda70b9d2df6ac1}\label{classUI_1_1SimEditorController_aa40817de912757f42fda70b9d2df6ac1}} 
+Text\+Field, itt jelezzuk vissza az Usernek a beallitott sebesseg erteket. \mbox{\Hypertarget{classUI_1_1SimEditorController_aa40817de912757f42fda70b9d2df6ac1}\label{classUI_1_1SimEditorController_aa40817de912757f42fda70b9d2df6ac1}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!speedSlider@{speedSlider}}
 \index{speedSlider@{speedSlider}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{speedSlider}{speedSlider}}
 {\footnotesize\ttfamily Slider UI.\+Sim\+Editor\+Controller.\+speed\+Slider\hspace{0.3cm}{\ttfamily [private]}}
 
-Slider, a Dot sebességénék beállítására. \mbox{\Hypertarget{classUI_1_1SimEditorController_a04c98a3ec696b95537c8a5e0610a8ac3}\label{classUI_1_1SimEditorController_a04c98a3ec696b95537c8a5e0610a8ac3}} 
+Slider, a Dot sebessegenek beallitasara. \mbox{\Hypertarget{classUI_1_1SimEditorController_a04c98a3ec696b95537c8a5e0610a8ac3}\label{classUI_1_1SimEditorController_a04c98a3ec696b95537c8a5e0610a8ac3}} 
 \index{UI.SimEditorController@{UI.SimEditorController}!stage@{stage}}
 \index{stage@{stage}!UI.SimEditorController@{UI.SimEditorController}}
 \doxysubsubsection{\texorpdfstring{stage}{stage}}
 {\footnotesize\ttfamily final Stage UI.\+Sim\+Editor\+Controller.\+stage\hspace{0.3cm}{\ttfamily [private]}}
 
-Stage eltárolása. Konstruktorban kapjuk az ablak létrehozása során. Ez alapján pozícionáljuk a többi ablakot. 
+Stage eltarolasa. Konstruktorban kapjuk az ablak letrehozasa soran. Ez alapjan pozicionaljuk a tobbi ablakot. 
 
 Ez a dokumentáció az osztályról a következő fájl alapján készült\+:\begin{DoxyCompactItemize}
 \item 

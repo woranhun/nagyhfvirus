@@ -67,22 +67,22 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Tartalomjegyzék</h3>
-<ul><li class="level1"><a href="#autotoc_md5">Az ötlet leírása</a></li>
-<li class="level1"><a href="#autotoc_md6">A program funkcionalitása a felhasználó szemszögéből</a></li>
-<li class="level1"><a href="#autotoc_md7">Megoldási ötlet (vázlat)</a></li>
+<ul><li class="level1"><a href="#autotoc_md27">Az ötlet leírása</a></li>
+<li class="level1"><a href="#autotoc_md28">A program funkcionalitása a felhasználó szemszögéből</a></li>
+<li class="level1"><a href="#autotoc_md29">Megoldási ötlet (vázlat)</a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md5"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md27"></a>
 Az ötlet leírása</h1>
-<p>A program vírus terjedését szimulálja. A pálya egy téglalap lenne, ahhol színes pöttyök tudnának ütközni(kontakt). 4 féle pötty található a pályán:</p>
+<p>A program vírus terjedését szimulálja. A pálya egy téglalap lenne, ahhol színes pöttyök tudnának ütközni (kontakt). 4 féle pötty található a pályán:</p>
 <ul>
-<li>Fekete: halott(nem mozog, idővel eltűnik)</li>
+<li>Fekete: halott (nem mozog, idővel eltűnik)</li>
 <li>Piros: fertőző.</li>
 <li>Zöld: gyógyult.</li>
-<li>Fehér(szürke) semleges.</li>
+<li>Fehér (szürke) semleges.</li>
 </ul>
 <p>A különböző faktorokat csúszkákkal lehetne állítani: pl: pötty sebessége, milyen eséllyel fertőz, halálozási esély, gyógyulási idő stb. Ha a pötty falnak ütközik, vagy másik pöttyel, akkor visszapattan. A programhoz tartozik egy diagram is, ami a pöttyökről mutat statisztikát.</p>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md28"></a>
 A program funkcionalitása a felhasználó szemszögéből</h1>
 <p>A program indítása után megnyílik a Simulation Editor (1. ábra)-hoz hasonló ablak. Itt lehetőségünk van egy szimuláció előkészítésére. A programrész funciói:</p>
 <ul>
@@ -96,14 +96,14 @@ A program funkcionalitása a felhasználó szemszögéből</h1>
 <li>Fertőzési esély (Infection Chance slider)</li>
 <li>Halálozási esély (Mortality Chance slider)</li>
 <li>Gyógyulási esély (Heal Chance slider)</li>
-<li>Pötty sebessége(Speed slidWer)</li>
+<li>Pötty sebessége(Speed slider)</li>
 <li>n db pötty felhelyezése véletlenszerűen a pályára (Add button)</li>
-<li>pöttyök egyessével történő felhelyezése a pályára, egér kattintás alapján (4db button)</li>
+<li>pöttyök egyesével történő felhelyezése a pályára, egér kattintás alapján (4 db button)</li>
 <li>A pálya kezdeti értékeinek törlése (Clear)</li>
 </ul>
 </li>
 <li>Szimuláció elindítása<ul>
-<li>Kezdeti értékek alapján(Start &gt;Start )</li>
+<li>Kezdeti értékek alapján(Start &gt;Start)</li>
 </ul>
 </li>
 </ul>
@@ -121,13 +121,13 @@ A program funkcionalitása a felhasználó szemszögéből</h1>
 <p>A Statistics gomb megnyomása utána megjelenik egy új ablakban a szimulációhoz tartozó statisztika. Ez szintén hasonlóan fog kinézni, mint az Editor.</p>
 <ul>
 <li>Szimuláció statisztikája<ul>
-<li>Olyan diagram(idő szerint), ahol ábrázolva vannak a fontos adatok. (Ferőzöttek, halottak, gyógyultak, stb)</li>
+<li>Olyan diagram (idő szerint), ahol ábrázolva vannak a fontos adatok. (Fertőzöttek, halottak, gyógyultak, stb)</li>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 Megoldási ötlet (vázlat)</h1>
-<p>A megoldáshoz JavaFX alapú GUI-t fogok használni. A mintaképen látható módon fogom ezt elkészíteni. A kezdeti értékek mentése és betöltése szerializálás segítségével fog történni. A program ( legalább matematikai szempontból) lényeges részeihez JUnit tesztet fogok készíteni.</p>
+<p>A megoldáshoz JavaFX alapú GUI-t fogok használni. A mintaképen látható módon fogom ezt elkészíteni. A kezdeti értékek mentése és betöltése szerializálás segítségével fog történni. A program (legalább matematikai szempontból) lényeges részeihez JUnit tesztet fogok készíteni.</p>
 <p>A csúszkákat $x=0..1$ -ig lehet állítani (kivéve sebesség csúszka), valós számra. A csúszkákhoz tartozó esemény bekövetkezésénél (pl.: ütközés) generálok egy véletlen számot $ 0..1 =r$ között(valós). Ha $ r&lt;x$ , akkor bekövetkezik az esemény (pl.: a kontakt megfertőződik).</p>
 <p>A sebesség csúszkát -8 és +8 között lehet állítani. A keletkező sebesség szorzót( $v$ ) az alábbi képtlet fogja számolni: $ v = 2^{\left \lfloor{x}\right \rfloor } $, ahol $ x$ a csúszka által kapott valós szám.</p>
 <p>Pötty mozgásának irányát egy 0 és 7 közt generált véletlen egész szám fogja meghatározni Kontaktálás esetén a pötty1 és pötty2 közepe között kevesebb mint 2r távolság van. </p>

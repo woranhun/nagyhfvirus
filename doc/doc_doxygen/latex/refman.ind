@@ -1,691 +1,691 @@
 \begin{theindex}
 
   \item {add}
-    \subitem {simulatorComponents.Point}, \hyperpage{34, 35}
-    \subitem {Tests.PointTest}, \hyperpage{41}
+    \subitem {simulatorComponents.Point}, \hyperpage{36, 37}
+    \subitem {Tests.PointTest}, \hyperpage{43}
   \item {addDeadDot}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{60}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{62}
   \item {addDeathsChange}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{71}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
   \item {addDot}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{77}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{79}
   \item {addHealChange}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{72}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{74}
   \item {addHealedDot}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{61}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
   \item {addInfectedDot}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{61}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
   \item {addInfectionChange}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{72}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{74}
   \item {addInTheEnd}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
   \item {addManyDotsPressed}
-    \subitem {UI.SimEditorController}, \hyperpage{45}
+    \subitem {UI.SimEditorController}, \hyperpage{47}
   \item {addPopulationChange}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{72}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{74}
   \item {addSteppable}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{61}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
 
   \indexspace
 
   \item {bounceBack}
-    \subitem {simulatorComponents.Dot}, \hyperpage{20}
+    \subitem {simulatorComponents.Dot}, \hyperpage{22}
 
   \indexspace
 
   \item {calcDisplacement}
-    \subitem {simulatorComponents.Point}, \hyperpage{35}
-    \subitem {Tests.PointTest}, \hyperpage{41}
+    \subitem {simulatorComponents.Point}, \hyperpage{37}
+    \subitem {Tests.PointTest}, \hyperpage{43}
   \item {calcDistance}
-    \subitem {simulatorComponents.Point}, \hyperpage{35}
-    \subitem {Tests.PointTest}, \hyperpage{41}
+    \subitem {simulatorComponents.Point}, \hyperpage{37}
+    \subitem {Tests.PointTest}, \hyperpage{43}
   \item {canvas}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
   \item {changePlayAndPause}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{61}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
   \item {chart}
-    \subitem {UI.SimStatisticsController}, \hyperpage{52}
+    \subitem {UI.SimStatisticsController}, \hyperpage{54}
   \item {clearAll}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
   \item {clearCanvas}
-    \subitem {UI.SimEditorController}, \hyperpage{45}
+    \subitem {UI.SimEditorController}, \hyperpage{47}
   \item {clearDeathsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
   \item {clearHealsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
   \item {clearInfectionsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
   \item {clearPopulationQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
   \item {clone}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{77}
-    \subitem {simulatorComponents.Dot}, \hyperpage{20}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{79}
+    \subitem {simulatorComponents.Dot}, \hyperpage{22}
   \item {createDot}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{78}
-    \subitem {Tests.SimulationTemplateTest}, \hyperpage{82}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{80}
+    \subitem {Tests.SimulationTemplateTest}, \hyperpage{84}
   \item {createDotOnMousePosition}
-    \subitem {UI.SimEditorController}, \hyperpage{45}
+    \subitem {UI.SimEditorController}, \hyperpage{47}
   \item {currTick}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
   \item {currTickIncrease}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{61}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
 
   \indexspace
 
   \item {Dead}
-    \subitem {simulatorComponents.dotTypes}, \hyperpage{30}
+    \subitem {simulatorComponents.dotTypes}, \hyperpage{32}
   \item {deadCnt}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
   \item {deaths}
-    \subitem {UI.SimStatisticsController}, \hyperpage{53}
+    \subitem {UI.SimStatisticsController}, \hyperpage{55}
   \item {deathsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{74}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{76}
   \item {die}
-    \subitem {simulatorComponents.Dot}, \hyperpage{21}
+    \subitem {simulatorComponents.Dot}, \hyperpage{23}
   \item {divide}
-    \subitem {simulatorComponents.Point}, \hyperpage{35}
-    \subitem {Tests.PointTest}, \hyperpage{41}
+    \subitem {simulatorComponents.Point}, \hyperpage{37}
+    \subitem {Tests.PointTest}, \hyperpage{43}
   \item {divideByZero}
-    \subitem {Tests.PointTest}, \hyperpage{41}
+    \subitem {Tests.PointTest}, \hyperpage{43}
   \item {Dot}
-    \subitem {simulatorComponents.Dot}, \hyperpage{19}
+    \subitem {simulatorComponents.Dot}, \hyperpage{21}
   \item {dotProduct}
-    \subitem {simulatorComponents.Point}, \hyperpage{36}
-    \subitem {Tests.PointTest}, \hyperpage{41}
+    \subitem {simulatorComponents.Point}, \hyperpage{38}
+    \subitem {Tests.PointTest}, \hyperpage{43}
   \item {dots}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{83}
   \item {draw}
-    \subitem {simulator.Steppable}, \hyperpage{83}
-    \subitem {simulatorComponents.Dot}, \hyperpage{21}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{55}
+    \subitem {simulator.Steppable}, \hyperpage{85}
+    \subitem {simulatorComponents.Dot}, \hyperpage{23}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{57}
   \item {drawCenters}
-    \subitem {simulatorComponents.Dot}, \hyperpage{21}
+    \subitem {simulatorComponents.Dot}, \hyperpage{23}
 
   \indexspace
 
   \item {exit}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{61}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
 
   \indexspace
 
   \item {forwardOneStep}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{61}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
 
   \indexspace
 
   \item {getDeathsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
   \item {getDots}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{78}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{80}
   \item {getHealChance}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{78}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{80}
   \item {getHealsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
   \item {getIncubationPeriod}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{62}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
   \item {getInfChance}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{78}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{80}
   \item {getInfectionsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{74}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{76}
   \item {getLocation}
-    \subitem {simulatorComponents.Dot}, \hyperpage{21}
+    \subitem {simulatorComponents.Dot}, \hyperpage{23}
   \item {getMortChance}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{79}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
   \item {getPopulationQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{74}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{76}
   \item {getRadius}
-    \subitem {simulatorComponents.Dot}, \hyperpage{22}
+    \subitem {simulatorComponents.Dot}, \hyperpage{24}
   \item {getRemove}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{62}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
   \item {getRemoveTime}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{62}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
   \item {getSpeedOfDot}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{79}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
   \item {getType}
-    \subitem {simulatorComponents.Dot}, \hyperpage{22}
+    \subitem {simulatorComponents.Dot}, \hyperpage{24}
   \item {getX}
-    \subitem {simulatorComponents.Point}, \hyperpage{36}
+    \subitem {simulatorComponents.Point}, \hyperpage{38}
   \item {getY}
-    \subitem {simulatorComponents.Point}, \hyperpage{36}
+    \subitem {simulatorComponents.Point}, \hyperpage{38}
 
   \indexspace
 
   \item {heal}
-    \subitem {simulatorComponents.Dot}, \hyperpage{22}
+    \subitem {simulatorComponents.Dot}, \hyperpage{24}
   \item {healChance}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
-    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{83}
+    \subitem {simulatorComponents.Dot}, \hyperpage{29}
   \item {healedCnt}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
   \item {healField}
-    \subitem {UI.SimEditorController}, \hyperpage{48}
+    \subitem {UI.SimEditorController}, \hyperpage{50}
   \item {heals}
-    \subitem {UI.SimStatisticsController}, \hyperpage{53}
+    \subitem {UI.SimStatisticsController}, \hyperpage{55}
   \item {healSlider}
-    \subitem {UI.SimEditorController}, \hyperpage{48}
+    \subitem {UI.SimEditorController}, \hyperpage{50}
   \item {healSliderChanged}
-    \subitem {UI.SimEditorController}, \hyperpage{45}
+    \subitem {UI.SimEditorController}, \hyperpage{47}
   \item {healsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{74}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{76}
   \item {Healthy}
-    \subitem {simulatorComponents.dotTypes}, \hyperpage{30}
+    \subitem {simulatorComponents.dotTypes}, \hyperpage{32}
   \item {hitBy}
-    \subitem {simulator.Steppable}, \hyperpage{83}
-    \subitem {simulatorComponents.Dot}, \hyperpage{22}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{55}
-
-  \indexspace
-
-  \item {img}
-    \subitem {UI.SimEditorController}, \hyperpage{48}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{69}
-  \item {infChance}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
-    \subitem {simulatorComponents.Dot}, \hyperpage{27}
-  \item {infectedBy}
-    \subitem {simulatorComponents.Dot}, \hyperpage{23}
-  \item {infectedCnt}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
-  \item {infections}
-    \subitem {UI.SimStatisticsController}, \hyperpage{53}
-  \item {infectionsQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
-  \item {Infectious}
-    \subitem {simulatorComponents.dotTypes}, \hyperpage{30}
-  \item {infField}
-    \subitem {UI.SimEditorController}, \hyperpage{48}
-  \item {infSlider}
-    \subitem {UI.SimEditorController}, \hyperpage{48}
-  \item {infSliderChanged}
-    \subitem {UI.SimEditorController}, \hyperpage{45}
-  \item {init}
-    \subitem {simulator.Steppable}, \hyperpage{83}
-    \subitem {simulatorComponents.Dot}, \hyperpage{23}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{56}
-  \item {initialize}
-    \subitem {UI.SimEditorController}, \hyperpage{45}
-    \subitem {UI.SimStatisticsController}, \hyperpage{52}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{68}
-  \item {initVelocity}
-    \subitem {simulatorComponents.Dot}, \hyperpage{23}
-  \item {isCollidedWith}
-    \subitem {simulator.Steppable}, \hyperpage{84}
-    \subitem {simulatorComponents.Dot}, \hyperpage{23, 24}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{56}
-    \subitem {Tests.DotTest}, \hyperpage{29}
-  \item {isOutOfCanvas}
-    \subitem {simulatorComponents.Point}, \hyperpage{36}
-  \item {isOutOfCanvasBottom}
-    \subitem {simulatorComponents.Point}, \hyperpage{37}
-  \item {isOutOfCanvasLeft}
-    \subitem {simulatorComponents.Point}, \hyperpage{37}
-  \item {isOutOfCanvasRight}
-    \subitem {simulatorComponents.Point}, \hyperpage{38}
-  \item {isOutOfCanvasTop}
-    \subitem {simulatorComponents.Point}, \hyperpage{38}
-  \item {isOutOfWindow}
-    \subitem {simulator.Steppable}, \hyperpage{84}
+    \subitem {simulator.Steppable}, \hyperpage{85}
     \subitem {simulatorComponents.Dot}, \hyperpage{24}
     \subitem {simulatorComponents.SimulationMap}, \hyperpage{57}
 
   \indexspace
 
+  \item {img}
+    \subitem {UI.SimEditorController}, \hyperpage{50}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{71}
+  \item {infChance}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{83}
+    \subitem {simulatorComponents.Dot}, \hyperpage{29}
+  \item {infectedBy}
+    \subitem {simulatorComponents.Dot}, \hyperpage{25}
+  \item {infectedCnt}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
+  \item {infections}
+    \subitem {UI.SimStatisticsController}, \hyperpage{55}
+  \item {infectionsQueue}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{77}
+  \item {Infectious}
+    \subitem {simulatorComponents.dotTypes}, \hyperpage{32}
+  \item {infField}
+    \subitem {UI.SimEditorController}, \hyperpage{50}
+  \item {infSlider}
+    \subitem {UI.SimEditorController}, \hyperpage{50}
+  \item {infSliderChanged}
+    \subitem {UI.SimEditorController}, \hyperpage{47}
+  \item {init}
+    \subitem {simulator.Steppable}, \hyperpage{85}
+    \subitem {simulatorComponents.Dot}, \hyperpage{25}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{58}
+  \item {initialize}
+    \subitem {UI.SimEditorController}, \hyperpage{47}
+    \subitem {UI.SimStatisticsController}, \hyperpage{54}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
+  \item {initVelocity}
+    \subitem {simulatorComponents.Dot}, \hyperpage{25}
+  \item {isCollidedWith}
+    \subitem {simulator.Steppable}, \hyperpage{86}
+    \subitem {simulatorComponents.Dot}, \hyperpage{25, 26}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{58}
+    \subitem {Tests.DotTest}, \hyperpage{31}
+  \item {isOutOfCanvas}
+    \subitem {simulatorComponents.Point}, \hyperpage{38}
+  \item {isOutOfCanvasBottom}
+    \subitem {simulatorComponents.Point}, \hyperpage{39}
+  \item {isOutOfCanvasLeft}
+    \subitem {simulatorComponents.Point}, \hyperpage{39}
+  \item {isOutOfCanvasRight}
+    \subitem {simulatorComponents.Point}, \hyperpage{40}
+  \item {isOutOfCanvasTop}
+    \subitem {simulatorComponents.Point}, \hyperpage{40}
+  \item {isOutOfWindow}
+    \subitem {simulator.Steppable}, \hyperpage{86}
+    \subitem {simulatorComponents.Dot}, \hyperpage{26}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{59}
+
+  \indexspace
+
   \item {location}
-    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+    \subitem {simulatorComponents.Dot}, \hyperpage{29}
 
   \indexspace
 
   \item {main}
-    \subitem {UI.Main}, \hyperpage{31}
+    \subitem {UI.Main}, \hyperpage{33}
   \item {manyDotsComboBox}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
   \item {manyDotsField}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
   \item {mass}
-    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+    \subitem {simulatorComponents.Dot}, \hyperpage{29}
   \item {millisecondsElapsed}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
   \item {minPeriod}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
   \item {mortalitySliderChanged}
-    \subitem {UI.SimEditorController}, \hyperpage{46}
+    \subitem {UI.SimEditorController}, \hyperpage{48}
   \item {mortChance}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
-    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{83}
+    \subitem {simulatorComponents.Dot}, \hyperpage{29}
   \item {mortField}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
   \item {mortSlider}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
   \item {moveBack}
-    \subitem {simulator.Steppable}, \hyperpage{85}
-    \subitem {simulatorComponents.Dot}, \hyperpage{25}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{57}
+    \subitem {simulator.Steppable}, \hyperpage{87}
+    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{59}
   \item {moveDotsFromOutOfWindow}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{62}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
   \item {multiply}
-    \subitem {simulatorComponents.Point}, \hyperpage{38}
-    \subitem {Tests.PointTest}, \hyperpage{41}
+    \subitem {simulatorComponents.Point}, \hyperpage{40}
+    \subitem {Tests.PointTest}, \hyperpage{43}
 
   \indexspace
 
   \item {Neutral}
-    \subitem {simulatorComponents.dotTypes}, \hyperpage{30}
+    \subitem {simulatorComponents.dotTypes}, \hyperpage{32}
   \item {neutralCnt}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
   \item {None}
-    \subitem {simulatorComponents.dotTypes}, \hyperpage{30}
+    \subitem {simulatorComponents.dotTypes}, \hyperpage{32}
 
   \indexspace
 
   \item {oneTickInMs}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
   \item {openSerializedSimulationTemplate}
-    \subitem {UI.SimEditorController}, \hyperpage{46}
+    \subitem {UI.SimEditorController}, \hyperpage{48}
   \item {openSimulationTemplate}
-    \subitem {UI.SimEditorController}, \hyperpage{46}
+    \subitem {UI.SimEditorController}, \hyperpage{48}
 
   \indexspace
 
   \item {p0}
-    \subitem {Tests.PointTest}, \hyperpage{42}
+    \subitem {Tests.PointTest}, \hyperpage{44}
   \item {pane}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{69}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{71}
   \item {paused}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
   \item {playAndPausePressed}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{68}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
   \item {Point}
-    \subitem {simulatorComponents.Point}, \hyperpage{34}
+    \subitem {simulatorComponents.Point}, \hyperpage{36}
   \item {population}
-    \subitem {UI.SimStatisticsController}, \hyperpage{53}
+    \subitem {UI.SimStatisticsController}, \hyperpage{55}
   \item {populationQueue}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{75}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{77}
 
   \indexspace
 
   \item {radius}
-    \subitem {simulatorComponents.Dot}, \hyperpage{27}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
+    \subitem {simulatorComponents.Dot}, \hyperpage{29}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
   \item {redraw}
-    \subitem {UI.SimEditorController}, \hyperpage{46}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{68}
+    \subitem {UI.SimEditorController}, \hyperpage{48}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
   \item {reDrawCallCnt}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{69}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{71}
   \item {refresh}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{79}
-    \subitem {simulator.Steppable}, \hyperpage{85}
-    \subitem {simulatorComponents.Dot}, \hyperpage{25}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{57}
-  \item {remove}
-    \subitem {simulatorComponents.Dot}, \hyperpage{25}
-  \item {removeInTheEnd}
     \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
+    \subitem {simulator.Steppable}, \hyperpage{87}
+    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{59}
+  \item {remove}
+    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+  \item {removeInTheEnd}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
   \item {removeSteppable}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
   \item {run}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
 
   \indexspace
 
   \item {selectedType}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
   \item {sendData}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
   \item {sendDataPeriod}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
   \item {serializeSimulationTemplate}
-    \subitem {UI.SimEditorController}, \hyperpage{46}
-  \item {setHealChance}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{79}
-    \subitem {simulatorComponents.Dot}, \hyperpage{25}
-  \item {setInfChance}
-    \subitem {simulatorComponents.Dot}, \hyperpage{26}
-  \item {setInfection}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{80}
-  \item {setLocation}
-    \subitem {simulatorComponents.Dot}, \hyperpage{26}
-  \item {setMortality}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{80}
-  \item {setMortChance}
-    \subitem {simulatorComponents.Dot}, \hyperpage{26}
-  \item {setSpeed}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{80}
-  \item {setTypeOfDotOnMousePositionToDead}
-    \subitem {UI.SimEditorController}, \hyperpage{47}
-  \item {setTypeOfDotOnMousePositionToHealthy}
-    \subitem {UI.SimEditorController}, \hyperpage{47}
-  \item {setTypeOfDotOnMousePositionToInfectious}
-    \subitem {UI.SimEditorController}, \hyperpage{47}
-  \item {setTypeOfDotOnMousePositionToNeutral}
-    \subitem {UI.SimEditorController}, \hyperpage{47}
-  \item {setUp}
-    \subitem {Tests.PointTest}, \hyperpage{42}
-  \item {SimEditorController}
-    \subitem {UI.SimEditorController}, \hyperpage{44}
-  \item {SimStatisticsController}
-    \subitem {UI.SimStatisticsController}, \hyperpage{52}
-  \item {SimulationMap}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{55}
-  \item {SimulationPlayer}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{60}
-  \item {simulationPlayer}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{69}
-  \item {SimulationPlayerController}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{67}
-  \item {SimulationStatisticsStore}
-    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{71}
-  \item {SimulationTemplate}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{76, 77}
-  \item {simulationTemplate}
-    \subitem {UI.SimEditorController}, \hyperpage{49}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{69}
-  \item {simulator.SimulationPlayer}, \hyperpage{58}
-    \subitem {addDeadDot}, \hyperpage{60}
-    \subitem {addHealedDot}, \hyperpage{61}
-    \subitem {addInfectedDot}, \hyperpage{61}
-    \subitem {addInTheEnd}, \hyperpage{64}
-    \subitem {addSteppable}, \hyperpage{61}
-    \subitem {canvas}, \hyperpage{64}
-    \subitem {changePlayAndPause}, \hyperpage{61}
-    \subitem {currTick}, \hyperpage{64}
-    \subitem {currTickIncrease}, \hyperpage{61}
-    \subitem {deadCnt}, \hyperpage{64}
-    \subitem {exit}, \hyperpage{61}
-    \subitem {forwardOneStep}, \hyperpage{61}
-    \subitem {getIncubationPeriod}, \hyperpage{62}
-    \subitem {getRemove}, \hyperpage{62}
-    \subitem {getRemoveTime}, \hyperpage{62}
-    \subitem {healedCnt}, \hyperpage{64}
-    \subitem {infectedCnt}, \hyperpage{64}
-    \subitem {millisecondsElapsed}, \hyperpage{65}
-    \subitem {minPeriod}, \hyperpage{65}
-    \subitem {moveDotsFromOutOfWindow}, \hyperpage{62}
-    \subitem {neutralCnt}, \hyperpage{65}
-    \subitem {oneTickInMs}, \hyperpage{65}
-    \subitem {paused}, \hyperpage{65}
-    \subitem {refresh}, \hyperpage{63}
-    \subitem {removeInTheEnd}, \hyperpage{65}
-    \subitem {removeSteppable}, \hyperpage{63}
-    \subitem {run}, \hyperpage{63}
-    \subitem {sendData}, \hyperpage{63}
-    \subitem {sendDataPeriod}, \hyperpage{65}
-    \subitem {SimulationPlayer}, \hyperpage{60}
-    \subitem {speedDown}, \hyperpage{63}
-    \subitem {speedUp}, \hyperpage{64}
-    \subitem {sss}, \hyperpage{65}
-    \subitem {stepables}, \hyperpage{66}
-    \subitem {timer}, \hyperpage{66}
-  \item {simulator.SimulationStatisticsStore}, \hyperpage{70}
-    \subitem {addDeathsChange}, \hyperpage{71}
-    \subitem {addHealChange}, \hyperpage{72}
-    \subitem {addInfectionChange}, \hyperpage{72}
-    \subitem {addPopulationChange}, \hyperpage{72}
-    \subitem {clearAll}, \hyperpage{73}
-    \subitem {clearDeathsQueue}, \hyperpage{73}
-    \subitem {clearHealsQueue}, \hyperpage{73}
-    \subitem {clearInfectionsQueue}, \hyperpage{73}
-    \subitem {clearPopulationQueue}, \hyperpage{73}
-    \subitem {deathsQueue}, \hyperpage{74}
-    \subitem {getDeathsQueue}, \hyperpage{73}
-    \subitem {getHealsQueue}, \hyperpage{73}
-    \subitem {getInfectionsQueue}, \hyperpage{74}
-    \subitem {getPopulationQueue}, \hyperpage{74}
-    \subitem {healsQueue}, \hyperpage{74}
-    \subitem {infectionsQueue}, \hyperpage{75}
-    \subitem {populationQueue}, \hyperpage{75}
-    \subitem {SimulationStatisticsStore}, \hyperpage{71}
-  \item {simulator.SimulationTemplate}, \hyperpage{75}
-    \subitem {addDot}, \hyperpage{77}
-    \subitem {clone}, \hyperpage{77}
-    \subitem {createDot}, \hyperpage{78}
-    \subitem {dots}, \hyperpage{81}
-    \subitem {getDots}, \hyperpage{78}
-    \subitem {getHealChance}, \hyperpage{78}
-    \subitem {getInfChance}, \hyperpage{78}
-    \subitem {getMortChance}, \hyperpage{79}
-    \subitem {getSpeedOfDot}, \hyperpage{79}
-    \subitem {healChance}, \hyperpage{81}
-    \subitem {infChance}, \hyperpage{81}
-    \subitem {mortChance}, \hyperpage{81}
-    \subitem {refresh}, \hyperpage{79}
-    \subitem {setHealChance}, \hyperpage{79}
-    \subitem {setInfection}, \hyperpage{80}
-    \subitem {setMortality}, \hyperpage{80}
-    \subitem {setSpeed}, \hyperpage{80}
-    \subitem {SimulationTemplate}, \hyperpage{76, 77}
-    \subitem {speedOfDot}, \hyperpage{81}
-  \item {simulator.Steppable}, \hyperpage{82}
-    \subitem {draw}, \hyperpage{83}
-    \subitem {hitBy}, \hyperpage{83}
-    \subitem {init}, \hyperpage{83}
-    \subitem {isCollidedWith}, \hyperpage{84}
-    \subitem {isOutOfWindow}, \hyperpage{84}
-    \subitem {moveBack}, \hyperpage{85}
-    \subitem {refresh}, \hyperpage{85}
-    \subitem {step}, \hyperpage{85}
-  \item {simulatorComponents.Dot}, \hyperpage{17}
-    \subitem {bounceBack}, \hyperpage{20}
-    \subitem {clone}, \hyperpage{20}
-    \subitem {die}, \hyperpage{21}
-    \subitem {Dot}, \hyperpage{19}
-    \subitem {draw}, \hyperpage{21}
-    \subitem {drawCenters}, \hyperpage{21}
-    \subitem {getLocation}, \hyperpage{21}
-    \subitem {getRadius}, \hyperpage{22}
-    \subitem {getType}, \hyperpage{22}
-    \subitem {heal}, \hyperpage{22}
-    \subitem {healChance}, \hyperpage{27}
-    \subitem {hitBy}, \hyperpage{22}
-    \subitem {infChance}, \hyperpage{27}
-    \subitem {infectedBy}, \hyperpage{23}
-    \subitem {init}, \hyperpage{23}
-    \subitem {initVelocity}, \hyperpage{23}
-    \subitem {isCollidedWith}, \hyperpage{23, 24}
-    \subitem {isOutOfWindow}, \hyperpage{24}
-    \subitem {location}, \hyperpage{27}
-    \subitem {mass}, \hyperpage{27}
-    \subitem {mortChance}, \hyperpage{27}
-    \subitem {moveBack}, \hyperpage{25}
-    \subitem {radius}, \hyperpage{27}
-    \subitem {refresh}, \hyperpage{25}
-    \subitem {remove}, \hyperpage{25}
-    \subitem {setHealChance}, \hyperpage{25}
-    \subitem {setInfChance}, \hyperpage{26}
-    \subitem {setLocation}, \hyperpage{26}
-    \subitem {setMortChance}, \hyperpage{26}
-    \subitem {sinceDead}, \hyperpage{28}
-    \subitem {sinceInfection}, \hyperpage{28}
-    \subitem {step}, \hyperpage{26}
-    \subitem {type}, \hyperpage{28}
-    \subitem {velocity}, \hyperpage{28}
-  \item {simulatorComponents.dotTypes}, \hyperpage{29}
-    \subitem {Dead}, \hyperpage{30}
-    \subitem {Healthy}, \hyperpage{30}
-    \subitem {Infectious}, \hyperpage{30}
-    \subitem {Neutral}, \hyperpage{30}
-    \subitem {None}, \hyperpage{30}
-  \item {simulatorComponents.Point}, \hyperpage{32}
-    \subitem {add}, \hyperpage{34, 35}
-    \subitem {calcDisplacement}, \hyperpage{35}
-    \subitem {calcDistance}, \hyperpage{35}
-    \subitem {divide}, \hyperpage{35}
-    \subitem {dotProduct}, \hyperpage{36}
-    \subitem {getX}, \hyperpage{36}
-    \subitem {getY}, \hyperpage{36}
-    \subitem {isOutOfCanvas}, \hyperpage{36}
-    \subitem {isOutOfCanvasBottom}, \hyperpage{37}
-    \subitem {isOutOfCanvasLeft}, \hyperpage{37}
-    \subitem {isOutOfCanvasRight}, \hyperpage{38}
-    \subitem {isOutOfCanvasTop}, \hyperpage{38}
-    \subitem {multiply}, \hyperpage{38}
-    \subitem {Point}, \hyperpage{34}
-    \subitem {subtract}, \hyperpage{39}
-    \subitem {x}, \hyperpage{39}
-    \subitem {y}, \hyperpage{39}
-  \item {simulatorComponents.SimulationMap}, \hyperpage{54}
-    \subitem {draw}, \hyperpage{55}
-    \subitem {hitBy}, \hyperpage{55}
-    \subitem {init}, \hyperpage{56}
-    \subitem {isCollidedWith}, \hyperpage{56}
-    \subitem {isOutOfWindow}, \hyperpage{57}
-    \subitem {moveBack}, \hyperpage{57}
-    \subitem {refresh}, \hyperpage{57}
-    \subitem {SimulationMap}, \hyperpage{55}
-    \subitem {step}, \hyperpage{58}
-  \item {sinceDead}
-    \subitem {simulatorComponents.Dot}, \hyperpage{28}
-  \item {sinceInfection}
-    \subitem {simulatorComponents.Dot}, \hyperpage{28}
-  \item {speedDown}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{63}
-  \item {speedDownPressed}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{68}
-  \item {speedField}
-    \subitem {UI.SimEditorController}, \hyperpage{50}
-  \item {speedOfDot}
-    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
-  \item {speedSlider}
-    \subitem {UI.SimEditorController}, \hyperpage{50}
-  \item {speedSliderChanged}
-    \subitem {UI.SimEditorController}, \hyperpage{47}
-  \item {speedUp}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{64}
-  \item {speedUpPressed}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{68}
-  \item {sss}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
-    \subitem {UI.SimStatisticsController}, \hyperpage{53}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
-  \item {stage}
-    \subitem {UI.SimEditorController}, \hyperpage{50}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
-  \item {start}
-    \subitem {UI.Main}, \hyperpage{32}
-  \item {startSimulationPlayer}
-    \subitem {UI.SimEditorController}, \hyperpage{47}
-  \item {startSimulationPlayerFromFile}
     \subitem {UI.SimEditorController}, \hyperpage{48}
-  \item {statisticsPressed}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{68}
-  \item {step}
-    \subitem {simulator.Steppable}, \hyperpage{85}
-    \subitem {simulatorComponents.Dot}, \hyperpage{26}
-    \subitem {simulatorComponents.SimulationMap}, \hyperpage{58}
-  \item {stepables}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
-  \item {stepPressed}
-    \subitem {UI.SimulationPlayerController}, \hyperpage{69}
-  \item {subtract}
-    \subitem {simulatorComponents.Point}, \hyperpage{39}
-    \subitem {Tests.PointTest}, \hyperpage{42}
-
-  \indexspace
-
-  \item {Tests.DotTest}, \hyperpage{28}
-    \subitem {isCollidedWith}, \hyperpage{29}
-  \item {Tests.PointTest}, \hyperpage{40}
-    \subitem {add}, \hyperpage{41}
-    \subitem {calcDisplacement}, \hyperpage{41}
-    \subitem {calcDistance}, \hyperpage{41}
-    \subitem {divide}, \hyperpage{41}
-    \subitem {divideByZero}, \hyperpage{41}
-    \subitem {dotProduct}, \hyperpage{41}
-    \subitem {multiply}, \hyperpage{41}
-    \subitem {p0}, \hyperpage{42}
-    \subitem {setUp}, \hyperpage{42}
-    \subitem {subtract}, \hyperpage{42}
-  \item {Tests.SimulationTemplateTest}, \hyperpage{82}
-    \subitem {createDot}, \hyperpage{82}
-  \item {timer}
-    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
-  \item {type}
+  \item {setHealChance}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{81}
+    \subitem {simulatorComponents.Dot}, \hyperpage{27}
+  \item {setInfChance}
     \subitem {simulatorComponents.Dot}, \hyperpage{28}
+  \item {setInfection}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{82}
+  \item {setLocation}
+    \subitem {simulatorComponents.Dot}, \hyperpage{28}
+  \item {setMortality}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{82}
+  \item {setMortChance}
+    \subitem {simulatorComponents.Dot}, \hyperpage{28}
+  \item {setSpeed}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{82}
+  \item {setTypeOfDotOnMousePositionToDead}
+    \subitem {UI.SimEditorController}, \hyperpage{49}
+  \item {setTypeOfDotOnMousePositionToHealthy}
+    \subitem {UI.SimEditorController}, \hyperpage{49}
+  \item {setTypeOfDotOnMousePositionToInfectious}
+    \subitem {UI.SimEditorController}, \hyperpage{49}
+  \item {setTypeOfDotOnMousePositionToNeutral}
+    \subitem {UI.SimEditorController}, \hyperpage{49}
+  \item {setUp}
+    \subitem {Tests.PointTest}, \hyperpage{44}
+  \item {SimEditorController}
+    \subitem {UI.SimEditorController}, \hyperpage{46}
+  \item {SimStatisticsController}
+    \subitem {UI.SimStatisticsController}, \hyperpage{54}
+  \item {SimulationMap}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{57}
+  \item {SimulationPlayer}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{62}
+  \item {simulationPlayer}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{71}
+  \item {SimulationPlayerController}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{69}
+  \item {SimulationStatisticsStore}
+    \subitem {simulator.SimulationStatisticsStore}, \hyperpage{73}
+  \item {SimulationTemplate}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{78, 79}
+  \item {simulationTemplate}
+    \subitem {UI.SimEditorController}, \hyperpage{51}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{71}
+  \item {simulator.SimulationPlayer}, \hyperpage{60}
+    \subitem {addDeadDot}, \hyperpage{62}
+    \subitem {addHealedDot}, \hyperpage{63}
+    \subitem {addInfectedDot}, \hyperpage{63}
+    \subitem {addInTheEnd}, \hyperpage{66}
+    \subitem {addSteppable}, \hyperpage{63}
+    \subitem {canvas}, \hyperpage{66}
+    \subitem {changePlayAndPause}, \hyperpage{63}
+    \subitem {currTick}, \hyperpage{66}
+    \subitem {currTickIncrease}, \hyperpage{63}
+    \subitem {deadCnt}, \hyperpage{66}
+    \subitem {exit}, \hyperpage{63}
+    \subitem {forwardOneStep}, \hyperpage{63}
+    \subitem {getIncubationPeriod}, \hyperpage{64}
+    \subitem {getRemove}, \hyperpage{64}
+    \subitem {getRemoveTime}, \hyperpage{64}
+    \subitem {healedCnt}, \hyperpage{66}
+    \subitem {infectedCnt}, \hyperpage{66}
+    \subitem {millisecondsElapsed}, \hyperpage{67}
+    \subitem {minPeriod}, \hyperpage{67}
+    \subitem {moveDotsFromOutOfWindow}, \hyperpage{64}
+    \subitem {neutralCnt}, \hyperpage{67}
+    \subitem {oneTickInMs}, \hyperpage{67}
+    \subitem {paused}, \hyperpage{67}
+    \subitem {refresh}, \hyperpage{65}
+    \subitem {removeInTheEnd}, \hyperpage{67}
+    \subitem {removeSteppable}, \hyperpage{65}
+    \subitem {run}, \hyperpage{65}
+    \subitem {sendData}, \hyperpage{65}
+    \subitem {sendDataPeriod}, \hyperpage{67}
+    \subitem {SimulationPlayer}, \hyperpage{62}
+    \subitem {speedDown}, \hyperpage{65}
+    \subitem {speedUp}, \hyperpage{66}
+    \subitem {sss}, \hyperpage{67}
+    \subitem {stepables}, \hyperpage{68}
+    \subitem {timer}, \hyperpage{68}
+  \item {simulator.SimulationStatisticsStore}, \hyperpage{72}
+    \subitem {addDeathsChange}, \hyperpage{73}
+    \subitem {addHealChange}, \hyperpage{74}
+    \subitem {addInfectionChange}, \hyperpage{74}
+    \subitem {addPopulationChange}, \hyperpage{74}
+    \subitem {clearAll}, \hyperpage{75}
+    \subitem {clearDeathsQueue}, \hyperpage{75}
+    \subitem {clearHealsQueue}, \hyperpage{75}
+    \subitem {clearInfectionsQueue}, \hyperpage{75}
+    \subitem {clearPopulationQueue}, \hyperpage{75}
+    \subitem {deathsQueue}, \hyperpage{76}
+    \subitem {getDeathsQueue}, \hyperpage{75}
+    \subitem {getHealsQueue}, \hyperpage{75}
+    \subitem {getInfectionsQueue}, \hyperpage{76}
+    \subitem {getPopulationQueue}, \hyperpage{76}
+    \subitem {healsQueue}, \hyperpage{76}
+    \subitem {infectionsQueue}, \hyperpage{77}
+    \subitem {populationQueue}, \hyperpage{77}
+    \subitem {SimulationStatisticsStore}, \hyperpage{73}
+  \item {simulator.SimulationTemplate}, \hyperpage{77}
+    \subitem {addDot}, \hyperpage{79}
+    \subitem {clone}, \hyperpage{79}
+    \subitem {createDot}, \hyperpage{80}
+    \subitem {dots}, \hyperpage{83}
+    \subitem {getDots}, \hyperpage{80}
+    \subitem {getHealChance}, \hyperpage{80}
+    \subitem {getInfChance}, \hyperpage{80}
+    \subitem {getMortChance}, \hyperpage{81}
+    \subitem {getSpeedOfDot}, \hyperpage{81}
+    \subitem {healChance}, \hyperpage{83}
+    \subitem {infChance}, \hyperpage{83}
+    \subitem {mortChance}, \hyperpage{83}
+    \subitem {refresh}, \hyperpage{81}
+    \subitem {setHealChance}, \hyperpage{81}
+    \subitem {setInfection}, \hyperpage{82}
+    \subitem {setMortality}, \hyperpage{82}
+    \subitem {setSpeed}, \hyperpage{82}
+    \subitem {SimulationTemplate}, \hyperpage{78, 79}
+    \subitem {speedOfDot}, \hyperpage{83}
+  \item {simulator.Steppable}, \hyperpage{84}
+    \subitem {draw}, \hyperpage{85}
+    \subitem {hitBy}, \hyperpage{85}
+    \subitem {init}, \hyperpage{85}
+    \subitem {isCollidedWith}, \hyperpage{86}
+    \subitem {isOutOfWindow}, \hyperpage{86}
+    \subitem {moveBack}, \hyperpage{87}
+    \subitem {refresh}, \hyperpage{87}
+    \subitem {step}, \hyperpage{87}
+  \item {simulatorComponents.Dot}, \hyperpage{19}
+    \subitem {bounceBack}, \hyperpage{22}
+    \subitem {clone}, \hyperpage{22}
+    \subitem {die}, \hyperpage{23}
+    \subitem {Dot}, \hyperpage{21}
+    \subitem {draw}, \hyperpage{23}
+    \subitem {drawCenters}, \hyperpage{23}
+    \subitem {getLocation}, \hyperpage{23}
+    \subitem {getRadius}, \hyperpage{24}
+    \subitem {getType}, \hyperpage{24}
+    \subitem {heal}, \hyperpage{24}
+    \subitem {healChance}, \hyperpage{29}
+    \subitem {hitBy}, \hyperpage{24}
+    \subitem {infChance}, \hyperpage{29}
+    \subitem {infectedBy}, \hyperpage{25}
+    \subitem {init}, \hyperpage{25}
+    \subitem {initVelocity}, \hyperpage{25}
+    \subitem {isCollidedWith}, \hyperpage{25, 26}
+    \subitem {isOutOfWindow}, \hyperpage{26}
+    \subitem {location}, \hyperpage{29}
+    \subitem {mass}, \hyperpage{29}
+    \subitem {mortChance}, \hyperpage{29}
+    \subitem {moveBack}, \hyperpage{27}
+    \subitem {radius}, \hyperpage{29}
+    \subitem {refresh}, \hyperpage{27}
+    \subitem {remove}, \hyperpage{27}
+    \subitem {setHealChance}, \hyperpage{27}
+    \subitem {setInfChance}, \hyperpage{28}
+    \subitem {setLocation}, \hyperpage{28}
+    \subitem {setMortChance}, \hyperpage{28}
+    \subitem {sinceDead}, \hyperpage{30}
+    \subitem {sinceInfection}, \hyperpage{30}
+    \subitem {step}, \hyperpage{28}
+    \subitem {type}, \hyperpage{30}
+    \subitem {velocity}, \hyperpage{30}
+  \item {simulatorComponents.dotTypes}, \hyperpage{31}
+    \subitem {Dead}, \hyperpage{32}
+    \subitem {Healthy}, \hyperpage{32}
+    \subitem {Infectious}, \hyperpage{32}
+    \subitem {Neutral}, \hyperpage{32}
+    \subitem {None}, \hyperpage{32}
+  \item {simulatorComponents.Point}, \hyperpage{34}
+    \subitem {add}, \hyperpage{36, 37}
+    \subitem {calcDisplacement}, \hyperpage{37}
+    \subitem {calcDistance}, \hyperpage{37}
+    \subitem {divide}, \hyperpage{37}
+    \subitem {dotProduct}, \hyperpage{38}
+    \subitem {getX}, \hyperpage{38}
+    \subitem {getY}, \hyperpage{38}
+    \subitem {isOutOfCanvas}, \hyperpage{38}
+    \subitem {isOutOfCanvasBottom}, \hyperpage{39}
+    \subitem {isOutOfCanvasLeft}, \hyperpage{39}
+    \subitem {isOutOfCanvasRight}, \hyperpage{40}
+    \subitem {isOutOfCanvasTop}, \hyperpage{40}
+    \subitem {multiply}, \hyperpage{40}
+    \subitem {Point}, \hyperpage{36}
+    \subitem {subtract}, \hyperpage{41}
+    \subitem {x}, \hyperpage{41}
+    \subitem {y}, \hyperpage{41}
+  \item {simulatorComponents.SimulationMap}, \hyperpage{56}
+    \subitem {draw}, \hyperpage{57}
+    \subitem {hitBy}, \hyperpage{57}
+    \subitem {init}, \hyperpage{58}
+    \subitem {isCollidedWith}, \hyperpage{58}
+    \subitem {isOutOfWindow}, \hyperpage{59}
+    \subitem {moveBack}, \hyperpage{59}
+    \subitem {refresh}, \hyperpage{59}
+    \subitem {SimulationMap}, \hyperpage{57}
+    \subitem {step}, \hyperpage{60}
+  \item {sinceDead}
+    \subitem {simulatorComponents.Dot}, \hyperpage{30}
+  \item {sinceInfection}
+    \subitem {simulatorComponents.Dot}, \hyperpage{30}
+  \item {speedDown}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{65}
+  \item {speedDownPressed}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
+  \item {speedField}
+    \subitem {UI.SimEditorController}, \hyperpage{52}
+  \item {speedOfDot}
+    \subitem {simulator.SimulationTemplate}, \hyperpage{83}
+  \item {speedSlider}
+    \subitem {UI.SimEditorController}, \hyperpage{52}
+  \item {speedSliderChanged}
+    \subitem {UI.SimEditorController}, \hyperpage{49}
+  \item {speedUp}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{66}
+  \item {speedUpPressed}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
+  \item {sss}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{67}
+    \subitem {UI.SimStatisticsController}, \hyperpage{55}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{72}
+  \item {stage}
+    \subitem {UI.SimEditorController}, \hyperpage{52}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{72}
+  \item {start}
+    \subitem {UI.Main}, \hyperpage{34}
+  \item {startSimulationPlayer}
+    \subitem {UI.SimEditorController}, \hyperpage{49}
+  \item {startSimulationPlayerFromFile}
+    \subitem {UI.SimEditorController}, \hyperpage{50}
+  \item {statisticsPressed}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{70}
+  \item {step}
+    \subitem {simulator.Steppable}, \hyperpage{87}
+    \subitem {simulatorComponents.Dot}, \hyperpage{28}
+    \subitem {simulatorComponents.SimulationMap}, \hyperpage{60}
+  \item {stepables}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{68}
+  \item {stepPressed}
+    \subitem {UI.SimulationPlayerController}, \hyperpage{71}
+  \item {subtract}
+    \subitem {simulatorComponents.Point}, \hyperpage{41}
+    \subitem {Tests.PointTest}, \hyperpage{44}
 
   \indexspace
 
-  \item {UI.Main}, \hyperpage{31}
-    \subitem {main}, \hyperpage{31}
-    \subitem {start}, \hyperpage{32}
-  \item {UI.SimEditorController}, \hyperpage{43}
-    \subitem {addManyDotsPressed}, \hyperpage{45}
-    \subitem {clearCanvas}, \hyperpage{45}
-    \subitem {createDotOnMousePosition}, \hyperpage{45}
-    \subitem {healField}, \hyperpage{48}
-    \subitem {healSlider}, \hyperpage{48}
-    \subitem {healSliderChanged}, \hyperpage{45}
-    \subitem {img}, \hyperpage{48}
-    \subitem {infField}, \hyperpage{48}
-    \subitem {infSlider}, \hyperpage{48}
-    \subitem {infSliderChanged}, \hyperpage{45}
-    \subitem {initialize}, \hyperpage{45}
-    \subitem {manyDotsComboBox}, \hyperpage{49}
-    \subitem {manyDotsField}, \hyperpage{49}
-    \subitem {mortalitySliderChanged}, \hyperpage{46}
-    \subitem {mortField}, \hyperpage{49}
-    \subitem {mortSlider}, \hyperpage{49}
-    \subitem {openSerializedSimulationTemplate}, \hyperpage{46}
-    \subitem {openSimulationTemplate}, \hyperpage{46}
-    \subitem {pane}, \hyperpage{49}
-    \subitem {radius}, \hyperpage{49}
-    \subitem {redraw}, \hyperpage{46}
-    \subitem {selectedType}, \hyperpage{49}
-    \subitem {serializeSimulationTemplate}, \hyperpage{46}
-    \subitem {setTypeOfDotOnMousePositionToDead}, \hyperpage{47}
-    \subitem {setTypeOfDotOnMousePositionToHealthy}, \hyperpage{47}
-    \subitem {setTypeOfDotOnMousePositionToInfectious}, \hyperpage{47}
-    \subitem {setTypeOfDotOnMousePositionToNeutral}, \hyperpage{47}
-    \subitem {SimEditorController}, \hyperpage{44}
-    \subitem {simulationTemplate}, \hyperpage{49}
-    \subitem {speedField}, \hyperpage{50}
-    \subitem {speedSlider}, \hyperpage{50}
-    \subitem {speedSliderChanged}, \hyperpage{47}
-    \subitem {stage}, \hyperpage{50}
-    \subitem {startSimulationPlayer}, \hyperpage{47}
-    \subitem {startSimulationPlayerFromFile}, \hyperpage{48}
-  \item {UI.SimStatisticsController}, \hyperpage{50}
-    \subitem {chart}, \hyperpage{52}
-    \subitem {deaths}, \hyperpage{53}
-    \subitem {heals}, \hyperpage{53}
-    \subitem {infections}, \hyperpage{53}
-    \subitem {initialize}, \hyperpage{52}
-    \subitem {population}, \hyperpage{53}
-    \subitem {SimStatisticsController}, \hyperpage{52}
-    \subitem {sss}, \hyperpage{53}
-    \subitem {updateChart}, \hyperpage{52}
-  \item {UI.SimulationPlayerController}, \hyperpage{66}
-    \subitem {img}, \hyperpage{69}
-    \subitem {initialize}, \hyperpage{68}
-    \subitem {pane}, \hyperpage{69}
-    \subitem {playAndPausePressed}, \hyperpage{68}
-    \subitem {redraw}, \hyperpage{68}
-    \subitem {reDrawCallCnt}, \hyperpage{69}
-    \subitem {simulationPlayer}, \hyperpage{69}
-    \subitem {SimulationPlayerController}, \hyperpage{67}
-    \subitem {simulationTemplate}, \hyperpage{69}
-    \subitem {speedDownPressed}, \hyperpage{68}
-    \subitem {speedUpPressed}, \hyperpage{68}
-    \subitem {sss}, \hyperpage{70}
-    \subitem {stage}, \hyperpage{70}
-    \subitem {statisticsPressed}, \hyperpage{68}
-    \subitem {stepPressed}, \hyperpage{69}
+  \item {Tests.DotTest}, \hyperpage{30}
+    \subitem {isCollidedWith}, \hyperpage{31}
+  \item {Tests.PointTest}, \hyperpage{42}
+    \subitem {add}, \hyperpage{43}
+    \subitem {calcDisplacement}, \hyperpage{43}
+    \subitem {calcDistance}, \hyperpage{43}
+    \subitem {divide}, \hyperpage{43}
+    \subitem {divideByZero}, \hyperpage{43}
+    \subitem {dotProduct}, \hyperpage{43}
+    \subitem {multiply}, \hyperpage{43}
+    \subitem {p0}, \hyperpage{44}
+    \subitem {setUp}, \hyperpage{44}
+    \subitem {subtract}, \hyperpage{44}
+  \item {Tests.SimulationTemplateTest}, \hyperpage{84}
+    \subitem {createDot}, \hyperpage{84}
+  \item {timer}
+    \subitem {simulator.SimulationPlayer}, \hyperpage{68}
+  \item {type}
+    \subitem {simulatorComponents.Dot}, \hyperpage{30}
+
+  \indexspace
+
+  \item {UI.Main}, \hyperpage{33}
+    \subitem {main}, \hyperpage{33}
+    \subitem {start}, \hyperpage{34}
+  \item {UI.SimEditorController}, \hyperpage{45}
+    \subitem {addManyDotsPressed}, \hyperpage{47}
+    \subitem {clearCanvas}, \hyperpage{47}
+    \subitem {createDotOnMousePosition}, \hyperpage{47}
+    \subitem {healField}, \hyperpage{50}
+    \subitem {healSlider}, \hyperpage{50}
+    \subitem {healSliderChanged}, \hyperpage{47}
+    \subitem {img}, \hyperpage{50}
+    \subitem {infField}, \hyperpage{50}
+    \subitem {infSlider}, \hyperpage{50}
+    \subitem {infSliderChanged}, \hyperpage{47}
+    \subitem {initialize}, \hyperpage{47}
+    \subitem {manyDotsComboBox}, \hyperpage{51}
+    \subitem {manyDotsField}, \hyperpage{51}
+    \subitem {mortalitySliderChanged}, \hyperpage{48}
+    \subitem {mortField}, \hyperpage{51}
+    \subitem {mortSlider}, \hyperpage{51}
+    \subitem {openSerializedSimulationTemplate}, \hyperpage{48}
+    \subitem {openSimulationTemplate}, \hyperpage{48}
+    \subitem {pane}, \hyperpage{51}
+    \subitem {radius}, \hyperpage{51}
+    \subitem {redraw}, \hyperpage{48}
+    \subitem {selectedType}, \hyperpage{51}
+    \subitem {serializeSimulationTemplate}, \hyperpage{48}
+    \subitem {setTypeOfDotOnMousePositionToDead}, \hyperpage{49}
+    \subitem {setTypeOfDotOnMousePositionToHealthy}, \hyperpage{49}
+    \subitem {setTypeOfDotOnMousePositionToInfectious}, \hyperpage{49}
+    \subitem {setTypeOfDotOnMousePositionToNeutral}, \hyperpage{49}
+    \subitem {SimEditorController}, \hyperpage{46}
+    \subitem {simulationTemplate}, \hyperpage{51}
+    \subitem {speedField}, \hyperpage{52}
+    \subitem {speedSlider}, \hyperpage{52}
+    \subitem {speedSliderChanged}, \hyperpage{49}
+    \subitem {stage}, \hyperpage{52}
+    \subitem {startSimulationPlayer}, \hyperpage{49}
+    \subitem {startSimulationPlayerFromFile}, \hyperpage{50}
+  \item {UI.SimStatisticsController}, \hyperpage{52}
+    \subitem {chart}, \hyperpage{54}
+    \subitem {deaths}, \hyperpage{55}
+    \subitem {heals}, \hyperpage{55}
+    \subitem {infections}, \hyperpage{55}
+    \subitem {initialize}, \hyperpage{54}
+    \subitem {population}, \hyperpage{55}
+    \subitem {SimStatisticsController}, \hyperpage{54}
+    \subitem {sss}, \hyperpage{55}
+    \subitem {updateChart}, \hyperpage{54}
+  \item {UI.SimulationPlayerController}, \hyperpage{68}
+    \subitem {img}, \hyperpage{71}
+    \subitem {initialize}, \hyperpage{70}
+    \subitem {pane}, \hyperpage{71}
+    \subitem {playAndPausePressed}, \hyperpage{70}
+    \subitem {redraw}, \hyperpage{70}
+    \subitem {reDrawCallCnt}, \hyperpage{71}
+    \subitem {simulationPlayer}, \hyperpage{71}
+    \subitem {SimulationPlayerController}, \hyperpage{69}
+    \subitem {simulationTemplate}, \hyperpage{71}
+    \subitem {speedDownPressed}, \hyperpage{70}
+    \subitem {speedUpPressed}, \hyperpage{70}
+    \subitem {sss}, \hyperpage{72}
+    \subitem {stage}, \hyperpage{72}
+    \subitem {statisticsPressed}, \hyperpage{70}
+    \subitem {stepPressed}, \hyperpage{71}
   \item {updateChart}
-    \subitem {UI.SimStatisticsController}, \hyperpage{52}
+    \subitem {UI.SimStatisticsController}, \hyperpage{54}
 
   \indexspace
 
   \item {velocity}
-    \subitem {simulatorComponents.Dot}, \hyperpage{28}
+    \subitem {simulatorComponents.Dot}, \hyperpage{30}
 
   \indexspace
 
   \item {x}
-    \subitem {simulatorComponents.Point}, \hyperpage{39}
+    \subitem {simulatorComponents.Point}, \hyperpage{41}
 
   \indexspace
 
   \item {y}
-    \subitem {simulatorComponents.Point}, \hyperpage{39}
+    \subitem {simulatorComponents.Point}, \hyperpage{41}
 
 \end{theindex}

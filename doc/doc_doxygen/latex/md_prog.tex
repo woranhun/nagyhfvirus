@@ -1,1 +1,32 @@
-\hypertarget{md_prog_autotoc_md3}{}\doxysection{Fordítási tudnivalók}\label{md_prog_autotoc_md3}
+\hypertarget{md_prog_autotoc_md3}{}\doxysection{A programban található osztályok}\label{md_prog_autotoc_md3}
+Az osztályok részletesebb leírása a forráskódban található javadoc commentben, illetve a mellékelt pdf-\/ben található.
+
+
+\begin{DoxyImageNoCaption}
+  \mbox{\includegraphics[width=\textwidth,height=\textheight/2,keepaspectratio=true]{UML.png}}
+\end{DoxyImageNoCaption}
+\hypertarget{md_prog_autotoc_md4}{}\doxysubsection{simulator package}\label{md_prog_autotoc_md4}
+A szimulátor belső működéséhez szükséges osztályokat tartalmazza.\hypertarget{md_prog_autotoc_md5}{}\doxysubsubsection{Simulation Player}\label{md_prog_autotoc_md5}
+Egy szimuláció lejátszásához szükseges adatokat és függvényeket tárolja.\hypertarget{md_prog_autotoc_md6}{}\doxysubsubsection{Simulation Statistics Store}\label{md_prog_autotoc_md6}
+Puffer tároló a statisztikai adatok tárolására.\hypertarget{md_prog_autotoc_md7}{}\doxysubsubsection{Simulation Template}\label{md_prog_autotoc_md7}
+Egy szimuláció előkészítéséhez szükséges adatokat tárolja.\hypertarget{md_prog_autotoc_md8}{}\doxysubsection{simulator components}\label{md_prog_autotoc_md8}
+A szimulátorban felhasználható alkotóelemeket tartalmazza.\hypertarget{md_prog_autotoc_md9}{}\doxysubsubsection{Dot}\label{md_prog_autotoc_md9}
+Pötty, ami egy embert reprezentál a pályán.\hypertarget{md_prog_autotoc_md10}{}\doxysubsubsection{dot\+Types}\label{md_prog_autotoc_md10}
+Enum, ami a pöttyök típusait tárolja\hypertarget{md_prog_autotoc_md11}{}\doxysubsubsection{Point}\label{md_prog_autotoc_md11}
+A pályán lévő dolgok helyzetét, illetve bizonyos esetekben az origó és a pont közé rajzolható vectort valósítja meg. Az osztály tartalmaz a pontokon és vectorokon végezhető műveleteket is.\hypertarget{md_prog_autotoc_md12}{}\doxysubsubsection{Simulation\+Map}\label{md_prog_autotoc_md12}
+A pálya hátterét reprezentálja. Legfontosabb feladata a Canvas letörlése.\hypertarget{md_prog_autotoc_md13}{}\doxysubsection{Tests}\label{md_prog_autotoc_md13}
+A programhoz tartozó Junit teszteket tartalmazza a package.\hypertarget{md_prog_autotoc_md14}{}\doxysubsubsection{Dot Test}\label{md_prog_autotoc_md14}
+A Dotokra megírt teszteket tartalmazza.\hypertarget{md_prog_autotoc_md15}{}\doxysubsubsection{Point Test}\label{md_prog_autotoc_md15}
+A pontokra megírt tesztet tartalmazza.\hypertarget{md_prog_autotoc_md16}{}\doxysubsubsection{Simulation Template Test}\label{md_prog_autotoc_md16}
+A Simulation Template-\/re megírt tesztet tartalmazza.\hypertarget{md_prog_autotoc_md17}{}\doxysubsection{UI}\label{md_prog_autotoc_md17}
+A grafikus megjelenítéssel kapcsolatos osztályokat tartalmazza. Az itt található osztályok mind java\+FX-\/et használnak.\hypertarget{md_prog_autotoc_md18}{}\doxysubsubsection{Main}\label{md_prog_autotoc_md18}
+A program belépési pontja.\hypertarget{md_prog_autotoc_md19}{}\doxysubsubsection{Sim Editor Controller}\label{md_prog_autotoc_md19}
+Szimuláció sablonjának szerkesztéséhez szükséges függvényeket tartalmazza, amelyek a felhasználóval kommunikálnak.\hypertarget{md_prog_autotoc_md20}{}\doxysubsubsection{Sim Statistics Controller}\label{md_prog_autotoc_md20}
+A szimuláció megjelenítéséért felel. Közvetlen kapcsolatban áll a felhasználóval.\hypertarget{md_prog_autotoc_md21}{}\doxysubsubsection{Simulation Player Controller}\label{md_prog_autotoc_md21}
+A szimuláció lejátszásához szükséges függvényeket tárolja. Közvetlen kapcsolatban áll a felhasználóval.\hypertarget{md_prog_autotoc_md22}{}\doxysection{A programban található interfész}\label{md_prog_autotoc_md22}
+\hypertarget{md_prog_autotoc_md23}{}\doxysubsection{Steppable}\label{md_prog_autotoc_md23}
+Ez az interfész valósítja meg az összes léptethető dolgot a játékban.\hypertarget{md_prog_autotoc_md24}{}\doxysection{Fordítási tudnivalók}\label{md_prog_autotoc_md24}
+A program futtatásához szükség van a megfelelő javafx SDK-\/ra (javafx-\/sdk-\/11.\+0.\+2) \href{https://gluonhq.com/products/javafx/}{\texttt{ link}}. Illetve a teszteléshez Junit 4-\/re. A programhoz mellékeltem az eclipse projektfájlokat.\hypertarget{md_prog_autotoc_md25}{}\doxysection{Egyéb tudnivalók}\label{md_prog_autotoc_md25}
+A program forrásainak készítése közben javadoc kommentet alkalmaztam. Az ebből Doxygen segítségével készített pdf fájlt mellékeltem a projekthez.
+
+A programot az inteliJ IDEA IDE-\/vel készítettem. Az ablakok létrehozásához Scene\+Buildert használtam. 

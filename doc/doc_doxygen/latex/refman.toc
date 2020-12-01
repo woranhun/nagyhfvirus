@@ -1,308 +1,331 @@
 \select@language {magyar} \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
 \select@language {magyar} \contentsline {chapter}{\numberline {1}Prog3\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}: V\IeC {\'\i }rus szimul\IeC {\'a}ci\IeC {\'o} nagyh\IeC {\'a}zifeladat terv}{1}{chapter.1}
 \select@language {magyar} \contentsline {section}{\numberline {1.1}Az \IeC {\"o}tlet le\IeC {\'\i }r\IeC {\'a}sa}{1}{section.1.1}
-\select@language {magyar} \contentsline {chapter}{\numberline {2}Programoz\IeC {\'o}i dokument\IeC {\'a}ci\IeC {\'o}}{3}{chapter.2}
-\select@language {magyar} \contentsline {section}{\numberline {2.1}Ford\IeC {\'\i }t\IeC {\'a}si tudnival\IeC {\'o}k}{3}{section.2.1}
-\select@language {magyar} \contentsline {chapter}{\numberline {3}Prog3\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}: V\IeC {\'\i }rus szimul\IeC {\'a}ci\IeC {\'o} nagyh\IeC {\'a}zifeladat specifik\IeC {\'a}ci\IeC {\'o}}{5}{chapter.3}
-\select@language {magyar} \contentsline {section}{\numberline {3.1}Az \IeC {\"o}tlet le\IeC {\'\i }r\IeC {\'a}sa}{5}{section.3.1}
-\select@language {magyar} \contentsline {section}{\numberline {3.2}A program funkcionalit\IeC {\'a}sa a felhaszn\IeC {\'a}l\IeC {\'o} szemsz\IeC {\"o}g\IeC {\'e}b\IeC {\H o}l}{5}{section.3.2}
-\select@language {magyar} \contentsline {section}{\numberline {3.3}Megold\IeC {\'a}si \IeC {\"o}tlet (v\IeC {\'a}zlat)}{7}{section.3.3}
-\select@language {magyar} \contentsline {chapter}{\numberline {4}Felhaszn\IeC {\'a}l\IeC {\'o}i dokument\IeC {\'a}ci\IeC {\'o}}{9}{chapter.4}
-\select@language {magyar} \contentsline {section}{\numberline {4.1}A program \IeC {\'a}ltal\IeC {\'a}nos le\IeC {\'\i }r\IeC {\'a}sa}{9}{section.4.1}
-\select@language {magyar} \contentsline {section}{\numberline {4.2}A program funkcionalit\IeC {\'a}sa a felhaszn\IeC {\'a}l\IeC {\'o} szemsz\IeC {\"o}g\IeC {\'e}b\IeC {\H o}l}{9}{section.4.2}
-\select@language {magyar} \contentsline {chapter}{\numberline {5}Hierarchikus mutat\IeC {\'o}}{13}{chapter.5}
-\select@language {magyar} \contentsline {section}{\numberline {5.1}Oszt\IeC {\'a}lyhierarchia}{13}{section.5.1}
-\select@language {magyar} \contentsline {chapter}{\numberline {6}Oszt\IeC {\'a}lymutat\IeC {\'o}}{15}{chapter.6}
-\select@language {magyar} \contentsline {section}{\numberline {6.1}Oszt\IeC {\'a}lylista}{15}{section.6.1}
-\select@language {magyar} \contentsline {chapter}{\numberline {7}Oszt\IeC {\'a}lyok dokument\IeC {\'a}ci\IeC {\'o}ja}{17}{chapter.7}
-\select@language {magyar} \contentsline {section}{\numberline {7.1}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Dot oszt\IeC {\'a}lyreferencia}{17}{section.7.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.1.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{19}{subsection.7.1.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.1.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{19}{subsection.7.1.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.2.1}Dot()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/3]}}{19}{subsubsection.7.1.2.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.2.2}Dot()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/3]}}{19}{subsubsection.7.1.2.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.2.3}Dot()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [3/3]}}{19}{subsubsection.7.1.2.3}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.1.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{20}{subsection.7.1.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.1}bounceBack()}{20}{subsubsection.7.1.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.2}clone()}{20}{subsubsection.7.1.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.3}die()}{21}{subsubsection.7.1.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.4}draw()}{21}{subsubsection.7.1.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.5}drawCenters()}{21}{subsubsection.7.1.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.6}getLocation()}{21}{subsubsection.7.1.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.7}getRadius()}{22}{subsubsection.7.1.3.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.8}getType()}{22}{subsubsection.7.1.3.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.9}heal()}{22}{subsubsection.7.1.3.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.10}hitBy()}{22}{subsubsection.7.1.3.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.11}infectedBy()}{23}{subsubsection.7.1.3.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.12}init()}{23}{subsubsection.7.1.3.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.13}initVelocity()}{23}{subsubsection.7.1.3.13}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.14}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{24}{subsubsection.7.1.3.14}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.15}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{24}{subsubsection.7.1.3.15}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.16}isOutOfWindow()}{24}{subsubsection.7.1.3.16}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.17}moveBack()}{25}{subsubsection.7.1.3.17}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.18}refresh()}{25}{subsubsection.7.1.3.18}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.19}remove()}{25}{subsubsection.7.1.3.19}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.20}setHealChance()}{25}{subsubsection.7.1.3.20}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.21}setInfChance()}{26}{subsubsection.7.1.3.21}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.22}setLocation()}{26}{subsubsection.7.1.3.22}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.23}setMortChance()}{26}{subsubsection.7.1.3.23}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.24}step()}{27}{subsubsection.7.1.3.24}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.1.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{27}{subsection.7.1.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.1}healChance}{27}{subsubsection.7.1.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.2}infChance}{27}{subsubsection.7.1.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.3}location}{27}{subsubsection.7.1.4.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.4}mass}{27}{subsubsection.7.1.4.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.5}mortChance}{27}{subsubsection.7.1.4.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.6}radius}{28}{subsubsection.7.1.4.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.7}sinceDead}{28}{subsubsection.7.1.4.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.8}sinceInfection}{28}{subsubsection.7.1.4.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.9}type}{28}{subsubsection.7.1.4.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.10}velocity}{28}{subsubsection.7.1.4.10}
-\select@language {magyar} \contentsline {section}{\numberline {7.2}Tests.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Dot\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Test oszt\IeC {\'a}lyreferencia}{28}{section.7.2}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.2.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{28}{subsection.7.2.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.2.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{29}{subsection.7.2.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.2.2.1}isCollidedWith()}{29}{subsubsection.7.2.2.1}
-\select@language {magyar} \contentsline {section}{\numberline {7.3}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}dot\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Types felsorol\IeC {\'o} referencia}{29}{section.7.3}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.3.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{30}{subsection.7.3.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.3.2}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{30}{subsection.7.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.1}Dead}{30}{subsubsection.7.3.2.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.2}Healthy}{30}{subsubsection.7.3.2.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.3}Infectious}{30}{subsubsection.7.3.2.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.4}Neutral}{30}{subsubsection.7.3.2.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.5}None}{30}{subsubsection.7.3.2.5}
-\select@language {magyar} \contentsline {section}{\numberline {7.4}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Main oszt\IeC {\'a}lyreferencia}{31}{section.7.4}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.4.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{31}{subsection.7.4.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.4.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{31}{subsection.7.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.4.2.1}main()}{32}{subsubsection.7.4.2.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.4.2.2}start()}{32}{subsubsection.7.4.2.2}
-\select@language {magyar} \contentsline {section}{\numberline {7.5}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point oszt\IeC {\'a}lyreferencia}{32}{section.7.5}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.5.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{33}{subsection.7.5.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.5.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{34}{subsection.7.5.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.2.1}Point()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{34}{subsubsection.7.5.2.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.2.2}Point()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{34}{subsubsection.7.5.2.2}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.5.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{34}{subsection.7.5.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.1}add()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{34}{subsubsection.7.5.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.2}add()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{35}{subsubsection.7.5.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.3}calcDisplacement()}{35}{subsubsection.7.5.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.4}calcDistance()}{35}{subsubsection.7.5.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.5}divide()}{36}{subsubsection.7.5.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.6}dotProduct()}{36}{subsubsection.7.5.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.7}getX()}{36}{subsubsection.7.5.3.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.8}getY()}{36}{subsubsection.7.5.3.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.9}isOutOfCanvas()}{37}{subsubsection.7.5.3.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.10}isOutOfCanvasBottom()}{37}{subsubsection.7.5.3.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.11}isOutOfCanvasLeft()}{37}{subsubsection.7.5.3.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.12}isOutOfCanvasRight()}{38}{subsubsection.7.5.3.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.13}isOutOfCanvasTop()}{38}{subsubsection.7.5.3.13}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.14}multiply()}{38}{subsubsection.7.5.3.14}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.15}subtract()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{39}{subsubsection.7.5.3.15}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.16}subtract()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{39}{subsubsection.7.5.3.16}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.5.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{39}{subsection.7.5.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.4.1}x}{39}{subsubsection.7.5.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.4.2}y}{40}{subsubsection.7.5.4.2}
-\select@language {magyar} \contentsline {section}{\numberline {7.6}Tests.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Test oszt\IeC {\'a}lyreferencia}{40}{section.7.6}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.6.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{41}{subsection.7.6.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.6.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{41}{subsection.7.6.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.1}add()}{41}{subsubsection.7.6.2.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.2}calcDisplacement()}{41}{subsubsection.7.6.2.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.3}calcDistance()}{41}{subsubsection.7.6.2.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.4}divide()}{41}{subsubsection.7.6.2.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.5}divideByZero()}{41}{subsubsection.7.6.2.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.6}dotProduct()}{41}{subsubsection.7.6.2.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.7}multiply()}{42}{subsubsection.7.6.2.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.8}setUp()}{42}{subsubsection.7.6.2.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.9}subtract()}{42}{subsubsection.7.6.2.9}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.6.3}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{42}{subsection.7.6.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.3.1}p0}{42}{subsubsection.7.6.3.1}
-\select@language {magyar} \contentsline {section}{\numberline {7.7}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sim\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Editor\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Controller oszt\IeC {\'a}lyreferencia}{43}{section.7.7}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.7.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{44}{subsection.7.7.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.7.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{44}{subsection.7.7.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.2.1}SimEditorController()}{44}{subsubsection.7.7.2.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.7.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{45}{subsection.7.7.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.1}addManyDotsPressed()}{45}{subsubsection.7.7.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.2}clearCanvas()}{45}{subsubsection.7.7.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.3}createDotOnMousePosition()}{45}{subsubsection.7.7.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.4}healSliderChanged()}{45}{subsubsection.7.7.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.5}infSliderChanged()}{45}{subsubsection.7.7.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.6}initialize()}{46}{subsubsection.7.7.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.7}mortalitySliderChanged()}{46}{subsubsection.7.7.3.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.8}openSerializedSimulationTemplate()}{46}{subsubsection.7.7.3.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.9}openSimulationTemplate()}{46}{subsubsection.7.7.3.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.10}redraw()}{46}{subsubsection.7.7.3.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.11}serializeSimulationTemplate()}{47}{subsubsection.7.7.3.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.12}setTypeOfDotOnMousePositionToDead()}{47}{subsubsection.7.7.3.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.13}setTypeOfDotOnMousePositionToHealthy()}{47}{subsubsection.7.7.3.13}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.14}setTypeOfDotOnMousePositionToInfectious()}{47}{subsubsection.7.7.3.14}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.15}setTypeOfDotOnMousePositionToNeutral()}{47}{subsubsection.7.7.3.15}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.16}speedSliderChanged()}{47}{subsubsection.7.7.3.16}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.17}startSimulationPlayer()}{47}{subsubsection.7.7.3.17}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.18}startSimulationPlayerFromFile()}{48}{subsubsection.7.7.3.18}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.7.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{48}{subsection.7.7.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.1}healField}{48}{subsubsection.7.7.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.2}healSlider}{48}{subsubsection.7.7.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.3}img}{48}{subsubsection.7.7.4.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.4}infField}{48}{subsubsection.7.7.4.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.5}infSlider}{49}{subsubsection.7.7.4.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.6}manyDotsComboBox}{49}{subsubsection.7.7.4.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.7}manyDotsField}{49}{subsubsection.7.7.4.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.8}mortField}{49}{subsubsection.7.7.4.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.9}mortSlider}{49}{subsubsection.7.7.4.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.10}pane}{49}{subsubsection.7.7.4.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.11}radius}{49}{subsubsection.7.7.4.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.12}selectedType}{49}{subsubsection.7.7.4.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.13}simulationTemplate}{50}{subsubsection.7.7.4.13}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.14}speedField}{50}{subsubsection.7.7.4.14}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.15}speedSlider}{50}{subsubsection.7.7.4.15}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.16}stage}{50}{subsubsection.7.7.4.16}
-\select@language {magyar} \contentsline {section}{\numberline {7.8}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sim\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Statistics\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Controller oszt\IeC {\'a}lyreferencia}{50}{section.7.8}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.8.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{51}{subsection.7.8.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.8.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{52}{subsection.7.8.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.2.1}SimStatisticsController()}{52}{subsubsection.7.8.2.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.8.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{52}{subsection.7.8.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.3.1}initialize()}{52}{subsubsection.7.8.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.3.2}updateChart()}{52}{subsubsection.7.8.3.2}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.8.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{52}{subsection.7.8.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.1}chart}{53}{subsubsection.7.8.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.2}deaths}{53}{subsubsection.7.8.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.3}heals}{53}{subsubsection.7.8.4.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.4}infections}{53}{subsubsection.7.8.4.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.5}population}{53}{subsubsection.7.8.4.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.6}sss}{53}{subsubsection.7.8.4.6}
-\select@language {magyar} \contentsline {section}{\numberline {7.9}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Map oszt\IeC {\'a}lyreferencia}{54}{section.7.9}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.9.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{54}{subsection.7.9.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.9.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{55}{subsection.7.9.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.2.1}SimulationMap()}{55}{subsubsection.7.9.2.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.9.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{55}{subsection.7.9.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.1}draw()}{55}{subsubsection.7.9.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.2}hitBy()}{55}{subsubsection.7.9.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.3}init()}{56}{subsubsection.7.9.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.4}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{56}{subsubsection.7.9.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.5}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{56}{subsubsection.7.9.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.6}isOutOfWindow()}{57}{subsubsection.7.9.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.7}moveBack()}{57}{subsubsection.7.9.3.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.8}refresh()}{58}{subsubsection.7.9.3.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.9}step()}{58}{subsubsection.7.9.3.9}
-\select@language {magyar} \contentsline {section}{\numberline {7.10}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Player oszt\IeC {\'a}lyreferencia}{58}{section.7.10}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.10.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{60}{subsection.7.10.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.10.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{60}{subsection.7.10.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.2.1}SimulationPlayer()}{60}{subsubsection.7.10.2.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.10.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{60}{subsection.7.10.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.1}addDeadDot()}{60}{subsubsection.7.10.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.2}addHealedDot()}{61}{subsubsection.7.10.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.3}addInfectedDot()}{61}{subsubsection.7.10.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.4}addSteppable()}{61}{subsubsection.7.10.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.5}changePlayAndPause()}{61}{subsubsection.7.10.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.6}currTickIncrease()}{61}{subsubsection.7.10.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.7}exit()}{61}{subsubsection.7.10.3.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.8}forwardOneStep()}{62}{subsubsection.7.10.3.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.9}getIncubationPeriod()}{62}{subsubsection.7.10.3.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.10}getRemove()}{62}{subsubsection.7.10.3.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.11}getRemoveTime()}{62}{subsubsection.7.10.3.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.12}moveDotsFromOutOfWindow()}{62}{subsubsection.7.10.3.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.13}refresh()}{63}{subsubsection.7.10.3.13}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.14}removeSteppable()}{63}{subsubsection.7.10.3.14}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.15}run()}{63}{subsubsection.7.10.3.15}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.16}sendData()}{63}{subsubsection.7.10.3.16}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.17}speedDown()}{64}{subsubsection.7.10.3.17}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.18}speedUp()}{64}{subsubsection.7.10.3.18}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.10.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{64}{subsection.7.10.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.1}addInTheEnd}{64}{subsubsection.7.10.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.2}canvas}{64}{subsubsection.7.10.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.3}currTick}{64}{subsubsection.7.10.4.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.4}deadCnt}{64}{subsubsection.7.10.4.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.5}healedCnt}{64}{subsubsection.7.10.4.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.6}infectedCnt}{65}{subsubsection.7.10.4.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.7}millisecondsElapsed}{65}{subsubsection.7.10.4.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.8}minPeriod}{65}{subsubsection.7.10.4.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.9}neutralCnt}{65}{subsubsection.7.10.4.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.10}oneTickInMs}{65}{subsubsection.7.10.4.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.11}paused}{65}{subsubsection.7.10.4.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.12}removeInTheEnd}{65}{subsubsection.7.10.4.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.13}sendDataPeriod}{65}{subsubsection.7.10.4.13}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.14}sss}{66}{subsubsection.7.10.4.14}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.15}stepables}{66}{subsubsection.7.10.4.15}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.16}timer}{66}{subsubsection.7.10.4.16}
-\select@language {magyar} \contentsline {section}{\numberline {7.11}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Player\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Controller oszt\IeC {\'a}lyreferencia}{66}{section.7.11}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.11.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{67}{subsection.7.11.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.11.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{67}{subsection.7.11.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.2.1}SimulationPlayerController()}{67}{subsubsection.7.11.2.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.11.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{68}{subsection.7.11.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.1}initialize()}{68}{subsubsection.7.11.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.2}playAndPausePressed()}{68}{subsubsection.7.11.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.3}redraw()}{68}{subsubsection.7.11.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.4}speedDownPressed()}{68}{subsubsection.7.11.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.5}speedUpPressed()}{68}{subsubsection.7.11.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.6}statisticsPressed()}{69}{subsubsection.7.11.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.7}stepPressed()}{69}{subsubsection.7.11.3.7}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.11.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{69}{subsection.7.11.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.1}img}{69}{subsubsection.7.11.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.2}pane}{69}{subsubsection.7.11.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.3}reDrawCallCnt}{69}{subsubsection.7.11.4.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.4}simulationPlayer}{69}{subsubsection.7.11.4.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.5}simulationTemplate}{70}{subsubsection.7.11.4.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.6}sss}{70}{subsubsection.7.11.4.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.7}stage}{70}{subsubsection.7.11.4.7}
-\select@language {magyar} \contentsline {section}{\numberline {7.12}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Statistics\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Store oszt\IeC {\'a}lyreferencia}{70}{section.7.12}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.12.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{71}{subsection.7.12.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.12.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{71}{subsection.7.12.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.2.1}SimulationStatisticsStore()}{71}{subsubsection.7.12.2.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.12.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{71}{subsection.7.12.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.1}addDeathsChange()}{71}{subsubsection.7.12.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.2}addHealChange()}{72}{subsubsection.7.12.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.3}addInfectionChange()}{72}{subsubsection.7.12.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.4}addPopulationChange()}{72}{subsubsection.7.12.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.5}clearAll()}{73}{subsubsection.7.12.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.6}clearDeathsQueue()}{73}{subsubsection.7.12.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.7}clearHealsQueue()}{73}{subsubsection.7.12.3.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.8}clearInfectionsQueue()}{73}{subsubsection.7.12.3.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.9}clearPopulationQueue()}{73}{subsubsection.7.12.3.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.10}getDeathsQueue()}{73}{subsubsection.7.12.3.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.11}getHealsQueue()}{74}{subsubsection.7.12.3.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.12}getInfectionsQueue()}{74}{subsubsection.7.12.3.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.13}getPopulationQueue()}{74}{subsubsection.7.12.3.13}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.12.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{74}{subsection.7.12.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.1}deathsQueue}{74}{subsubsection.7.12.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.2}healsQueue}{75}{subsubsection.7.12.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.3}infectionsQueue}{75}{subsubsection.7.12.4.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.4}populationQueue}{75}{subsubsection.7.12.4.4}
-\select@language {magyar} \contentsline {section}{\numberline {7.13}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Template oszt\IeC {\'a}lyreferencia}{75}{section.7.13}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.13.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{76}{subsection.7.13.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.13.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{76}{subsection.7.13.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.2.1}SimulationTemplate()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{77}{subsubsection.7.13.2.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.2.2}SimulationTemplate()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{77}{subsubsection.7.13.2.2}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.13.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{77}{subsection.7.13.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.1}addDot()}{77}{subsubsection.7.13.3.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.2}clone()}{77}{subsubsection.7.13.3.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.3}createDot()}{78}{subsubsection.7.13.3.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.4}getDots()}{78}{subsubsection.7.13.3.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.5}getHealChance()}{78}{subsubsection.7.13.3.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.6}getInfChance()}{79}{subsubsection.7.13.3.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.7}getMortChance()}{79}{subsubsection.7.13.3.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.8}getSpeedOfDot()}{79}{subsubsection.7.13.3.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.9}refresh()}{79}{subsubsection.7.13.3.9}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.10}setHealChance()}{80}{subsubsection.7.13.3.10}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.11}setInfection()}{80}{subsubsection.7.13.3.11}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.12}setMortality()}{80}{subsubsection.7.13.3.12}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.13}setSpeed()}{80}{subsubsection.7.13.3.13}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.13.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{81}{subsection.7.13.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.1}dots}{81}{subsubsection.7.13.4.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.2}healChance}{81}{subsubsection.7.13.4.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.3}infChance}{81}{subsubsection.7.13.4.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.4}mortChance}{81}{subsubsection.7.13.4.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.5}speedOfDot}{81}{subsubsection.7.13.4.5}
-\select@language {magyar} \contentsline {section}{\numberline {7.14}Tests.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Template\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Test oszt\IeC {\'a}lyreferencia}{82}{section.7.14}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.14.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{82}{subsection.7.14.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.14.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{82}{subsection.7.14.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.14.2.1}createDot()}{82}{subsubsection.7.14.2.1}
-\select@language {magyar} \contentsline {section}{\numberline {7.15}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Steppable interf\IeC {\'e}szreferencia}{82}{section.7.15}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.15.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{83}{subsection.7.15.1}
-\select@language {magyar} \contentsline {subsection}{\numberline {7.15.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{83}{subsection.7.15.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.1}draw()}{83}{subsubsection.7.15.2.1}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.2}hitBy()}{83}{subsubsection.7.15.2.2}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.3}init()}{83}{subsubsection.7.15.2.3}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.4}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{84}{subsubsection.7.15.2.4}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.5}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{84}{subsubsection.7.15.2.5}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.6}isOutOfWindow()}{85}{subsubsection.7.15.2.6}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.7}moveBack()}{85}{subsubsection.7.15.2.7}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.8}refresh()}{85}{subsubsection.7.15.2.8}
-\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.9}step()}{86}{subsubsection.7.15.2.9}
-\select@language {magyar} \contentsline {chapter}{T\'argymutat\'o}{87}{section*.60}
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Programoz\IeC {\'o}i dokument\IeC {\'a}ci\IeC {\'o} kieg\IeC {\'e}sz\IeC {\'\i }t\IeC {\'e}s}{3}{chapter.2}
+\select@language {magyar} \contentsline {section}{\numberline {2.1}A programban tal\IeC {\'a}lhat\IeC {\'o} oszt\IeC {\'a}lyok}{3}{section.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {2.1.1}simulator package}{3}{subsection.2.1.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.1.1}Simulation Player}{4}{subsubsection.2.1.1.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.1.2}Simulation Statistics Store}{4}{subsubsection.2.1.1.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.1.3}Simulation Template}{4}{subsubsection.2.1.1.3}
+\select@language {magyar} \contentsline {subsection}{\numberline {2.1.2}simulator components}{4}{subsection.2.1.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.2.1}Dot}{4}{subsubsection.2.1.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.2.2}dot\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Types}{4}{subsubsection.2.1.2.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.2.3}Point}{4}{subsubsection.2.1.2.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.2.4}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Map}{4}{subsubsection.2.1.2.4}
+\select@language {magyar} \contentsline {subsection}{\numberline {2.1.3}Tests}{4}{subsection.2.1.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.3.1}Dot Test}{4}{subsubsection.2.1.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.3.2}Point Test}{5}{subsubsection.2.1.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.3.3}Simulation Template Test}{5}{subsubsection.2.1.3.3}
+\select@language {magyar} \contentsline {subsection}{\numberline {2.1.4}UI}{5}{subsection.2.1.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.4.1}Main}{5}{subsubsection.2.1.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.4.2}Sim Editor Controller}{5}{subsubsection.2.1.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.4.3}Sim Statistics Controller}{5}{subsubsection.2.1.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {2.1.4.4}Simulation Player Controller}{5}{subsubsection.2.1.4.4}
+\select@language {magyar} \contentsline {section}{\numberline {2.2}A programban tal\IeC {\'a}lhat\IeC {\'o} interf\IeC {\'e}sz}{5}{section.2.2}
+\select@language {magyar} \contentsline {subsection}{\numberline {2.2.1}Steppable}{5}{subsection.2.2.1}
+\select@language {magyar} \contentsline {section}{\numberline {2.3}Ford\IeC {\'\i }t\IeC {\'a}si tudnival\IeC {\'o}k}{5}{section.2.3}
+\select@language {magyar} \contentsline {section}{\numberline {2.4}Egy\IeC {\'e}b tudnival\IeC {\'o}k}{5}{section.2.4}
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Prog3\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}: V\IeC {\'\i }rus szimul\IeC {\'a}ci\IeC {\'o} nagyh\IeC {\'a}zifeladat specifik\IeC {\'a}ci\IeC {\'o}}{7}{chapter.3}
+\select@language {magyar} \contentsline {section}{\numberline {3.1}Az \IeC {\"o}tlet le\IeC {\'\i }r\IeC {\'a}sa}{7}{section.3.1}
+\select@language {magyar} \contentsline {section}{\numberline {3.2}A program funkcionalit\IeC {\'a}sa a felhaszn\IeC {\'a}l\IeC {\'o} szemsz\IeC {\"o}g\IeC {\'e}b\IeC {\H o}l}{7}{section.3.2}
+\select@language {magyar} \contentsline {section}{\numberline {3.3}Megold\IeC {\'a}si \IeC {\"o}tlet (v\IeC {\'a}zlat)}{9}{section.3.3}
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Felhaszn\IeC {\'a}l\IeC {\'o}i dokument\IeC {\'a}ci\IeC {\'o}}{11}{chapter.4}
+\select@language {magyar} \contentsline {section}{\numberline {4.1}A program \IeC {\'a}ltal\IeC {\'a}nos le\IeC {\'\i }r\IeC {\'a}sa}{11}{section.4.1}
+\select@language {magyar} \contentsline {section}{\numberline {4.2}A program funkcionalit\IeC {\'a}sa a felhaszn\IeC {\'a}l\IeC {\'o} szemsz\IeC {\"o}g\IeC {\'e}b\IeC {\H o}l}{11}{section.4.2}
+\select@language {magyar} \contentsline {section}{\numberline {4.3}A programban haszn\IeC {\'a}lt f\IeC {\'a}jlkezel\IeC {\'e}s}{14}{section.4.3}
+\select@language {magyar} \contentsline {chapter}{\numberline {5}Hierarchikus mutat\IeC {\'o}}{15}{chapter.5}
+\select@language {magyar} \contentsline {section}{\numberline {5.1}Oszt\IeC {\'a}lyhierarchia}{15}{section.5.1}
+\select@language {magyar} \contentsline {chapter}{\numberline {6}Oszt\IeC {\'a}lymutat\IeC {\'o}}{17}{chapter.6}
+\select@language {magyar} \contentsline {section}{\numberline {6.1}Oszt\IeC {\'a}lylista}{17}{section.6.1}
+\select@language {magyar} \contentsline {chapter}{\numberline {7}Oszt\IeC {\'a}lyok dokument\IeC {\'a}ci\IeC {\'o}ja}{19}{chapter.7}
+\select@language {magyar} \contentsline {section}{\numberline {7.1}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Dot oszt\IeC {\'a}lyreferencia}{19}{section.7.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.1.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{21}{subsection.7.1.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.1.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{21}{subsection.7.1.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.2.1}Dot()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/3]}}{21}{subsubsection.7.1.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.2.2}Dot()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/3]}}{21}{subsubsection.7.1.2.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.2.3}Dot()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [3/3]}}{21}{subsubsection.7.1.2.3}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.1.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{22}{subsection.7.1.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.1}bounceBack()}{22}{subsubsection.7.1.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.2}clone()}{22}{subsubsection.7.1.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.3}die()}{23}{subsubsection.7.1.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.4}draw()}{23}{subsubsection.7.1.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.5}drawCenters()}{23}{subsubsection.7.1.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.6}getLocation()}{23}{subsubsection.7.1.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.7}getRadius()}{24}{subsubsection.7.1.3.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.8}getType()}{24}{subsubsection.7.1.3.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.9}heal()}{24}{subsubsection.7.1.3.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.10}hitBy()}{24}{subsubsection.7.1.3.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.11}infectedBy()}{25}{subsubsection.7.1.3.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.12}init()}{25}{subsubsection.7.1.3.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.13}initVelocity()}{25}{subsubsection.7.1.3.13}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.14}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{26}{subsubsection.7.1.3.14}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.15}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{26}{subsubsection.7.1.3.15}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.16}isOutOfWindow()}{26}{subsubsection.7.1.3.16}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.17}moveBack()}{27}{subsubsection.7.1.3.17}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.18}refresh()}{27}{subsubsection.7.1.3.18}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.19}remove()}{27}{subsubsection.7.1.3.19}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.20}setHealChance()}{27}{subsubsection.7.1.3.20}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.21}setInfChance()}{28}{subsubsection.7.1.3.21}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.22}setLocation()}{28}{subsubsection.7.1.3.22}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.23}setMortChance()}{28}{subsubsection.7.1.3.23}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.3.24}step()}{29}{subsubsection.7.1.3.24}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.1.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{29}{subsection.7.1.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.1}healChance}{29}{subsubsection.7.1.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.2}infChance}{29}{subsubsection.7.1.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.3}location}{29}{subsubsection.7.1.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.4}mass}{29}{subsubsection.7.1.4.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.5}mortChance}{29}{subsubsection.7.1.4.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.6}radius}{30}{subsubsection.7.1.4.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.7}sinceDead}{30}{subsubsection.7.1.4.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.8}sinceInfection}{30}{subsubsection.7.1.4.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.9}type}{30}{subsubsection.7.1.4.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.1.4.10}velocity}{30}{subsubsection.7.1.4.10}
+\select@language {magyar} \contentsline {section}{\numberline {7.2}Tests.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Dot\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Test oszt\IeC {\'a}lyreferencia}{30}{section.7.2}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.2.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{30}{subsection.7.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.2.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{31}{subsection.7.2.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.2.2.1}isCollidedWith()}{31}{subsubsection.7.2.2.1}
+\select@language {magyar} \contentsline {section}{\numberline {7.3}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}dot\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Types felsorol\IeC {\'o} referencia}{31}{section.7.3}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.3.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{32}{subsection.7.3.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.3.2}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{32}{subsection.7.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.1}Dead}{32}{subsubsection.7.3.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.2}Healthy}{32}{subsubsection.7.3.2.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.3}Infectious}{32}{subsubsection.7.3.2.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.4}Neutral}{32}{subsubsection.7.3.2.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.3.2.5}None}{32}{subsubsection.7.3.2.5}
+\select@language {magyar} \contentsline {section}{\numberline {7.4}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Main oszt\IeC {\'a}lyreferencia}{33}{section.7.4}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.4.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{33}{subsection.7.4.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.4.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{33}{subsection.7.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.4.2.1}main()}{34}{subsubsection.7.4.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.4.2.2}start()}{34}{subsubsection.7.4.2.2}
+\select@language {magyar} \contentsline {section}{\numberline {7.5}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point oszt\IeC {\'a}lyreferencia}{34}{section.7.5}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.5.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{35}{subsection.7.5.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.5.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{36}{subsection.7.5.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.2.1}Point()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{36}{subsubsection.7.5.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.2.2}Point()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{36}{subsubsection.7.5.2.2}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.5.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{36}{subsection.7.5.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.1}add()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{36}{subsubsection.7.5.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.2}add()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{37}{subsubsection.7.5.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.3}calcDisplacement()}{37}{subsubsection.7.5.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.4}calcDistance()}{37}{subsubsection.7.5.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.5}divide()}{38}{subsubsection.7.5.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.6}dotProduct()}{38}{subsubsection.7.5.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.7}getX()}{38}{subsubsection.7.5.3.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.8}getY()}{38}{subsubsection.7.5.3.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.9}isOutOfCanvas()}{39}{subsubsection.7.5.3.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.10}isOutOfCanvasBottom()}{39}{subsubsection.7.5.3.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.11}isOutOfCanvasLeft()}{39}{subsubsection.7.5.3.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.12}isOutOfCanvasRight()}{40}{subsubsection.7.5.3.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.13}isOutOfCanvasTop()}{40}{subsubsection.7.5.3.13}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.14}multiply()}{40}{subsubsection.7.5.3.14}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.15}subtract()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{41}{subsubsection.7.5.3.15}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.3.16}subtract()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{41}{subsubsection.7.5.3.16}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.5.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{41}{subsection.7.5.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.4.1}x}{41}{subsubsection.7.5.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.5.4.2}y}{42}{subsubsection.7.5.4.2}
+\select@language {magyar} \contentsline {section}{\numberline {7.6}Tests.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Test oszt\IeC {\'a}lyreferencia}{42}{section.7.6}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.6.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{43}{subsection.7.6.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.6.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{43}{subsection.7.6.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.1}add()}{43}{subsubsection.7.6.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.2}calcDisplacement()}{43}{subsubsection.7.6.2.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.3}calcDistance()}{43}{subsubsection.7.6.2.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.4}divide()}{43}{subsubsection.7.6.2.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.5}divideByZero()}{43}{subsubsection.7.6.2.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.6}dotProduct()}{43}{subsubsection.7.6.2.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.7}multiply()}{44}{subsubsection.7.6.2.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.8}setUp()}{44}{subsubsection.7.6.2.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.2.9}subtract()}{44}{subsubsection.7.6.2.9}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.6.3}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{44}{subsection.7.6.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.6.3.1}p0}{44}{subsubsection.7.6.3.1}
+\select@language {magyar} \contentsline {section}{\numberline {7.7}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sim\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Editor\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Controller oszt\IeC {\'a}lyreferencia}{45}{section.7.7}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.7.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{46}{subsection.7.7.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.7.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{46}{subsection.7.7.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.2.1}SimEditorController()}{46}{subsubsection.7.7.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.7.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{47}{subsection.7.7.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.1}addManyDotsPressed()}{47}{subsubsection.7.7.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.2}clearCanvas()}{47}{subsubsection.7.7.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.3}createDotOnMousePosition()}{47}{subsubsection.7.7.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.4}healSliderChanged()}{47}{subsubsection.7.7.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.5}infSliderChanged()}{47}{subsubsection.7.7.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.6}initialize()}{48}{subsubsection.7.7.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.7}mortalitySliderChanged()}{48}{subsubsection.7.7.3.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.8}openSerializedSimulationTemplate()}{48}{subsubsection.7.7.3.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.9}openSimulationTemplate()}{48}{subsubsection.7.7.3.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.10}redraw()}{48}{subsubsection.7.7.3.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.11}serializeSimulationTemplate()}{49}{subsubsection.7.7.3.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.12}setTypeOfDotOnMousePositionToDead()}{49}{subsubsection.7.7.3.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.13}setTypeOfDotOnMousePositionToHealthy()}{49}{subsubsection.7.7.3.13}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.14}setTypeOfDotOnMousePositionToInfectious()}{49}{subsubsection.7.7.3.14}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.15}setTypeOfDotOnMousePositionToNeutral()}{49}{subsubsection.7.7.3.15}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.16}speedSliderChanged()}{49}{subsubsection.7.7.3.16}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.17}startSimulationPlayer()}{49}{subsubsection.7.7.3.17}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.3.18}startSimulationPlayerFromFile()}{50}{subsubsection.7.7.3.18}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.7.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{50}{subsection.7.7.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.1}healField}{50}{subsubsection.7.7.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.2}healSlider}{50}{subsubsection.7.7.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.3}img}{50}{subsubsection.7.7.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.4}infField}{50}{subsubsection.7.7.4.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.5}infSlider}{51}{subsubsection.7.7.4.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.6}manyDotsComboBox}{51}{subsubsection.7.7.4.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.7}manyDotsField}{51}{subsubsection.7.7.4.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.8}mortField}{51}{subsubsection.7.7.4.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.9}mortSlider}{51}{subsubsection.7.7.4.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.10}pane}{51}{subsubsection.7.7.4.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.11}radius}{51}{subsubsection.7.7.4.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.12}selectedType}{51}{subsubsection.7.7.4.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.13}simulationTemplate}{52}{subsubsection.7.7.4.13}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.14}speedField}{52}{subsubsection.7.7.4.14}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.15}speedSlider}{52}{subsubsection.7.7.4.15}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.7.4.16}stage}{52}{subsubsection.7.7.4.16}
+\select@language {magyar} \contentsline {section}{\numberline {7.8}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sim\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Statistics\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Controller oszt\IeC {\'a}lyreferencia}{52}{section.7.8}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.8.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{53}{subsection.7.8.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.8.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{54}{subsection.7.8.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.2.1}SimStatisticsController()}{54}{subsubsection.7.8.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.8.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{54}{subsection.7.8.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.3.1}initialize()}{54}{subsubsection.7.8.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.3.2}updateChart()}{54}{subsubsection.7.8.3.2}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.8.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{54}{subsection.7.8.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.1}chart}{55}{subsubsection.7.8.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.2}deaths}{55}{subsubsection.7.8.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.3}heals}{55}{subsubsection.7.8.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.4}infections}{55}{subsubsection.7.8.4.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.5}population}{55}{subsubsection.7.8.4.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.8.4.6}sss}{55}{subsubsection.7.8.4.6}
+\select@language {magyar} \contentsline {section}{\numberline {7.9}simulator\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Components.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Map oszt\IeC {\'a}lyreferencia}{56}{section.7.9}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.9.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{56}{subsection.7.9.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.9.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{57}{subsection.7.9.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.2.1}SimulationMap()}{57}{subsubsection.7.9.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.9.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{57}{subsection.7.9.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.1}draw()}{57}{subsubsection.7.9.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.2}hitBy()}{57}{subsubsection.7.9.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.3}init()}{58}{subsubsection.7.9.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.4}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{58}{subsubsection.7.9.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.5}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{58}{subsubsection.7.9.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.6}isOutOfWindow()}{59}{subsubsection.7.9.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.7}moveBack()}{59}{subsubsection.7.9.3.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.8}refresh()}{60}{subsubsection.7.9.3.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.9.3.9}step()}{60}{subsubsection.7.9.3.9}
+\select@language {magyar} \contentsline {section}{\numberline {7.10}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Player oszt\IeC {\'a}lyreferencia}{60}{section.7.10}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.10.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{62}{subsection.7.10.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.10.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{62}{subsection.7.10.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.2.1}SimulationPlayer()}{62}{subsubsection.7.10.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.10.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{62}{subsection.7.10.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.1}addDeadDot()}{62}{subsubsection.7.10.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.2}addHealedDot()}{63}{subsubsection.7.10.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.3}addInfectedDot()}{63}{subsubsection.7.10.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.4}addSteppable()}{63}{subsubsection.7.10.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.5}changePlayAndPause()}{63}{subsubsection.7.10.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.6}currTickIncrease()}{63}{subsubsection.7.10.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.7}exit()}{63}{subsubsection.7.10.3.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.8}forwardOneStep()}{64}{subsubsection.7.10.3.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.9}getIncubationPeriod()}{64}{subsubsection.7.10.3.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.10}getRemove()}{64}{subsubsection.7.10.3.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.11}getRemoveTime()}{64}{subsubsection.7.10.3.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.12}moveDotsFromOutOfWindow()}{64}{subsubsection.7.10.3.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.13}refresh()}{65}{subsubsection.7.10.3.13}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.14}removeSteppable()}{65}{subsubsection.7.10.3.14}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.15}run()}{65}{subsubsection.7.10.3.15}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.16}sendData()}{65}{subsubsection.7.10.3.16}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.17}speedDown()}{66}{subsubsection.7.10.3.17}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.3.18}speedUp()}{66}{subsubsection.7.10.3.18}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.10.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{66}{subsection.7.10.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.1}addInTheEnd}{66}{subsubsection.7.10.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.2}canvas}{66}{subsubsection.7.10.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.3}currTick}{66}{subsubsection.7.10.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.4}deadCnt}{66}{subsubsection.7.10.4.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.5}healedCnt}{66}{subsubsection.7.10.4.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.6}infectedCnt}{67}{subsubsection.7.10.4.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.7}millisecondsElapsed}{67}{subsubsection.7.10.4.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.8}minPeriod}{67}{subsubsection.7.10.4.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.9}neutralCnt}{67}{subsubsection.7.10.4.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.10}oneTickInMs}{67}{subsubsection.7.10.4.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.11}paused}{67}{subsubsection.7.10.4.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.12}removeInTheEnd}{67}{subsubsection.7.10.4.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.13}sendDataPeriod}{67}{subsubsection.7.10.4.13}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.14}sss}{68}{subsubsection.7.10.4.14}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.15}stepables}{68}{subsubsection.7.10.4.15}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.10.4.16}timer}{68}{subsubsection.7.10.4.16}
+\select@language {magyar} \contentsline {section}{\numberline {7.11}UI.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Player\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Controller oszt\IeC {\'a}lyreferencia}{68}{section.7.11}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.11.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{69}{subsection.7.11.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.11.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{69}{subsection.7.11.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.2.1}SimulationPlayerController()}{69}{subsubsection.7.11.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.11.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{70}{subsection.7.11.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.1}initialize()}{70}{subsubsection.7.11.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.2}playAndPausePressed()}{70}{subsubsection.7.11.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.3}redraw()}{70}{subsubsection.7.11.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.4}speedDownPressed()}{70}{subsubsection.7.11.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.5}speedUpPressed()}{70}{subsubsection.7.11.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.6}statisticsPressed()}{71}{subsubsection.7.11.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.3.7}stepPressed()}{71}{subsubsection.7.11.3.7}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.11.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{71}{subsection.7.11.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.1}img}{71}{subsubsection.7.11.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.2}pane}{71}{subsubsection.7.11.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.3}reDrawCallCnt}{71}{subsubsection.7.11.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.4}simulationPlayer}{71}{subsubsection.7.11.4.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.5}simulationTemplate}{72}{subsubsection.7.11.4.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.6}sss}{72}{subsubsection.7.11.4.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.11.4.7}stage}{72}{subsubsection.7.11.4.7}
+\select@language {magyar} \contentsline {section}{\numberline {7.12}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Statistics\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Store oszt\IeC {\'a}lyreferencia}{72}{section.7.12}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.12.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{73}{subsection.7.12.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.12.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{73}{subsection.7.12.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.2.1}SimulationStatisticsStore()}{73}{subsubsection.7.12.2.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.12.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{73}{subsection.7.12.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.1}addDeathsChange()}{73}{subsubsection.7.12.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.2}addHealChange()}{74}{subsubsection.7.12.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.3}addInfectionChange()}{74}{subsubsection.7.12.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.4}addPopulationChange()}{74}{subsubsection.7.12.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.5}clearAll()}{75}{subsubsection.7.12.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.6}clearDeathsQueue()}{75}{subsubsection.7.12.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.7}clearHealsQueue()}{75}{subsubsection.7.12.3.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.8}clearInfectionsQueue()}{75}{subsubsection.7.12.3.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.9}clearPopulationQueue()}{75}{subsubsection.7.12.3.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.10}getDeathsQueue()}{75}{subsubsection.7.12.3.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.11}getHealsQueue()}{76}{subsubsection.7.12.3.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.12}getInfectionsQueue()}{76}{subsubsection.7.12.3.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.3.13}getPopulationQueue()}{76}{subsubsection.7.12.3.13}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.12.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{76}{subsection.7.12.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.1}deathsQueue}{76}{subsubsection.7.12.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.2}healsQueue}{77}{subsubsection.7.12.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.3}infectionsQueue}{77}{subsubsection.7.12.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.12.4.4}populationQueue}{77}{subsubsection.7.12.4.4}
+\select@language {magyar} \contentsline {section}{\numberline {7.13}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Template oszt\IeC {\'a}lyreferencia}{77}{section.7.13}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.13.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{78}{subsection.7.13.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.13.2}Konstruktorok \IeC {\'e}s destruktorok dokument\IeC {\'a}ci\IeC {\'o}ja}{78}{subsection.7.13.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.2.1}SimulationTemplate()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{79}{subsubsection.7.13.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.2.2}SimulationTemplate()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{79}{subsubsection.7.13.2.2}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.13.3}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{79}{subsection.7.13.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.1}addDot()}{79}{subsubsection.7.13.3.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.2}clone()}{79}{subsubsection.7.13.3.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.3}createDot()}{80}{subsubsection.7.13.3.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.4}getDots()}{80}{subsubsection.7.13.3.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.5}getHealChance()}{80}{subsubsection.7.13.3.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.6}getInfChance()}{81}{subsubsection.7.13.3.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.7}getMortChance()}{81}{subsubsection.7.13.3.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.8}getSpeedOfDot()}{81}{subsubsection.7.13.3.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.9}refresh()}{81}{subsubsection.7.13.3.9}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.10}setHealChance()}{82}{subsubsection.7.13.3.10}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.11}setInfection()}{82}{subsubsection.7.13.3.11}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.12}setMortality()}{82}{subsubsection.7.13.3.12}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.3.13}setSpeed()}{82}{subsubsection.7.13.3.13}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.13.4}Adattagok dokument\IeC {\'a}ci\IeC {\'o}ja}{83}{subsection.7.13.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.1}dots}{83}{subsubsection.7.13.4.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.2}healChance}{83}{subsubsection.7.13.4.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.3}infChance}{83}{subsubsection.7.13.4.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.4}mortChance}{83}{subsubsection.7.13.4.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.13.4.5}speedOfDot}{83}{subsubsection.7.13.4.5}
+\select@language {magyar} \contentsline {section}{\numberline {7.14}Tests.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Simulation\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Template\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Test oszt\IeC {\'a}lyreferencia}{84}{section.7.14}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.14.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{84}{subsection.7.14.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.14.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{84}{subsection.7.14.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.14.2.1}createDot()}{84}{subsubsection.7.14.2.1}
+\select@language {magyar} \contentsline {section}{\numberline {7.15}simulator.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Steppable interf\IeC {\'e}szreferencia}{84}{section.7.15}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.15.1}R\IeC {\'e}szletes le\IeC {\'\i }r\IeC {\'a}s}{85}{subsection.7.15.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {7.15.2}Tagf\IeC {\"u}ggv\IeC {\'e}nyek dokument\IeC {\'a}ci\IeC {\'o}ja}{85}{subsection.7.15.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.1}draw()}{85}{subsubsection.7.15.2.1}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.2}hitBy()}{85}{subsubsection.7.15.2.2}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.3}init()}{85}{subsubsection.7.15.2.3}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.4}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{86}{subsubsection.7.15.2.4}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.5}isCollidedWith()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{86}{subsubsection.7.15.2.5}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.6}isOutOfWindow()}{87}{subsubsection.7.15.2.6}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.7}moveBack()}{87}{subsubsection.7.15.2.7}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.8}refresh()}{87}{subsubsection.7.15.2.8}
+\select@language {magyar} \contentsline {subsubsection}{\numberline {7.15.2.9}step()}{88}{subsubsection.7.15.2.9}
+\select@language {magyar} \contentsline {chapter}{T\'argymutat\'o}{89}{section*.60}

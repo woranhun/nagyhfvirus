@@ -67,22 +67,23 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Tartalomjegyzék</h3>
-<ul><li class="level1"><a href="#autotoc_md9">A program általános leírása</a></li>
-<li class="level1"><a href="#autotoc_md10">A program funkcionalitása a felhasználó szemszögéből</a></li>
+<ul><li class="level1"><a href="#autotoc_md31">A program általános leírása</a></li>
+<li class="level1"><a href="#autotoc_md32">A program funkcionalitása a felhasználó szemszögéből</a></li>
+<li class="level1"><a href="#autotoc_md33">A programban használt fájlkezelés</a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md9"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md31"></a>
 A program általános leírása</h1>
 <p>A program célja egy vírus terjedésének és lefolyásának szimulálása a lakosságon. A programban Pöttyök (Dot) jelképezi az egyes embereket. 4 féle Dot található a programban:</p>
 <ul>
-<li>Neutral(Semleges): A még meg nem fertőződött személyeket jelképezik</li>
-<li>Infectious(Fertőző): A már megfertőzött személyeket jelképezik</li>
-<li>Healthy(Egészséges): A már fertőző pöttyök képesek a gyógyulásra előre beállított eséllyel</li>
-<li>Dead(Halott): A már fertőző pöttyök képesek a meghalásra előre beállított eséllyel</li>
+<li>Neutral (Semleges): A még meg nem fertőződött személyeket jelképezik</li>
+<li>Infectious (Fertőző): A megfertőződött személyeket jelképezik</li>
+<li>Healthy (Egészséges): A fertőzött pöttyök képesek a gyógyulásra előre beállított eséllyel</li>
+<li>Dead (Halott): A fertőzött pöttyök képesek meghalni előre beállított eséllyel</li>
 </ul>
-<p>A szimulációhoz egy téglalap tartozik. Ide lehet lehelyezni a pöttyöket. Ha két pötty ütközik egymással, akkor rugalmas ütközés megy végbe. Az ütközés jelképezi a kontaktálást. Ha egy semleges pötty fertőzöttel ütközik, akkor az előre beállított esély alapján van esély a megfertőződésre.</p>
+<p>A szimulációhoz egy téglalap tartozik. Ide lehet lehelyezni a pöttyöket. Ha két pötty ütközik egymással, akkor rugalmas ütközés történik. Az ütközés jelképezi a kontaktálást. Ha egy semleges pötty fertőzöttel ütközik, akkor az előre beállított esély alapján van esély a megfertőződésre.</p>
 <p>Egy fertőzött pötty másokat tovább tud fertőzni, illetve a lappangási idő letelte után (500 tick), lehetősége lesz gyógyulni, illetve meghalni a beállított valószínűség alapján.</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md32"></a>
 A program funkcionalitása a felhasználó szemszögéből</h1>
 <p>A program indítása után megnyílik a Simulation Editor (2. ábra) és betöltődik egy új üres szimuláció. Itt lehetőségünk van egy szimuláció előkészítésére. A programrész funciói:</p>
 <ul>
@@ -95,20 +96,20 @@ A program funkcionalitása a felhasználó szemszögéből</h1>
 <li>Fertőzési esély (Infection Chance slider)</li>
 <li>Halálozási esély (Mortality Chance slider)</li>
 <li>Gyógyulási esély (Heal Chance slider)</li>
-<li>Pötty sebessége(Speed slidWer)</li>
+<li>Pötty sebessége (Speed slider)</li>
 <li>n db pötty felhelyezése véletlenszerűen a pályára (Add button)</li>
-<li>pöttyök egyessével történő felhelyezése a pályára, egér kattintás alapján (4db button)</li>
+<li>pöttyök egyesével történő felhelyezése a pályára, egér kattintás alapján (4db button)</li>
 <li>A pálya kezdeti értékeinek törlése (Clear &gt; Clear)</li>
 </ul>
 </li>
 <li>Szimuláció elindítása<ul>
-<li>Kezdeti értékek alapján(Start &gt; Start )</li>
+<li>Kezdeti értékek alapján (Start &gt; Start )</li>
 </ul>
 </li>
 </ul>
 <p></p>
 <p>2.ábra - Szimuláció előkészítése.</p>
-<p>A szimuláció előkészítéseként be kell állítanunk a csúszkák segítségével az esélyeket, majd pöttyöket kell hozzáadnunk a szimuláció sablonhoz. Pöttyöket kétféleképpen adhatunk hozzá. A legerdülő menüben kiválasztjuk a pötty típusát a mezőbe beírjuk a lerakandó pöttyök számát(Egész szám 0 és n között), majd rányomunk az Add gombra. A másik lehetőség, hogy először a 4 típust reprezentáló gombok egyikére kattintunk, majd a kívánt helyre mozgatva az egeret a bal egérgombbal kattintunk.</p>
+<p>A szimuláció előkészítéseként be kell állítanunk a csúszkák segítségével az esélyeket, majd pöttyöket kell hozzáadnunk a szimuláció sablonhoz. Pöttyöket kétféleképpen adhatunk hozzá. A legerdülő menüben kiválasztjuk a pötty típusát, a mezőbe beírjuk a lerakandó pöttyök számát (egész szám 0 és n között), majd rányomunk az Add gombra. A másik lehetőség, hogy először a 4 típust reprezentáló gombok egyikére kattintunk, majd a kívánt helyre mozgatva az egeret a bal egérgombbal kattintunk.</p>
 <p>Ha elégedettek vagyunk a szimulálandó vírus sablonjával, akkor a sablont elmenthetjük a File&gt;Save simulation segítségével.</p>
 <p>A Start menüpont megnyitásával megnyillik egy új ablak, amiben a vírus szimulációja történik. (3.ábra)</p>
 <p></p>
@@ -125,19 +126,22 @@ A program funkcionalitása a felhasználó szemszögéből</h1>
 </li>
 <li>Szimuláció megjelenítése és lejátszása</li>
 </ul>
-<p>A vírus terjedése körökre van osztva (Tick) a szimuláció sebessége nem befolyásolja ezt. Csupán a felhasználó számára telik két kör között gyorsabban az idő.</p>
+<p>A vírus terjedése körökre van osztva (Tick) a szimuláció sebessége nem befolyásolja ezt. Csupán a felhasználó számára telik két kör között gyorsabban vagy lassabban az idő.</p>
 <p>A Statistics gomb megnyomása utána megjelenik egy új ablakban a szimulációhoz tartozó statisztika. (4.ábra)</p>
 <p></p>
-<p>Ha a szimuláció már el lett indítva 10 Tickenként a pillanatnyi állás elküldésre kerül a grafikonhoz. A grafikon 100 ms -ként frissül. Ha a statisztika bezárásra kerül, akkor az addig kapott adatok törlődnek.</p>
-<p>Ha a grafikont nem nyitjuk, meg csak a program futása után, az adatok akkor is megjelennek.</p>
+<p>Ha a szimuláció már el lett indítva 10 Tickenként a pillanatnyi állás elküldésre kerül a grafikonhoz. A grafikon 100 ms-enként frissül. Ha a statisztika bezárásra kerül, akkor az addig kapott adatok törlődnek.</p>
+<p>Ha a grafikont nem nyitjuk meg, csak a szimuláció futása után, az adatok akkor is megjelennek.</p>
 <p>3.ábra - Statisztika megjelenítése</p>
 <p>A programrész funkciói:</p>
 <ul>
 <li>Szimuláció statisztikája<ul>
-<li>Olyan diagram(tick szerint), ahol ábrázolva vannak a populáció, a fertőzöttek, a gyógyultak és a halottak </li>
+<li>Olyan diagram (tick szerint), ahol ábrázolva van a populáció, a fertőzöttek, a gyógyultak és a halottak</li>
 </ul>
 </li>
 </ul>
+<h1><a class="anchor" id="autotoc_md33"></a>
+A programban használt fájlkezelés</h1>
+<p>A szimuláció sablonjának fájba történő mentésére és onnan való betöltésére van lehetőség. Ha rossz fájlt nyitunk meg, akkor a standard outputon hibaüzenetet kapunk. A szimuláció sablonjának betöltésére alkalmas fájlokra a felhasználónak kell emlékeznie. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

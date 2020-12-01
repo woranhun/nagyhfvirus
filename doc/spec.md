@@ -4,12 +4,12 @@
 
 ## Az ötlet leírása
 
-A program vírus terjedését szimulálja. A pálya egy téglalap lenne, ahhol színes pöttyök tudnának ütközni(kontakt). 4 féle pötty található a pályán:
+A program vírus terjedését szimulálja. A pálya egy téglalap lenne, ahhol színes pöttyök tudnának ütközni (kontakt). 4 féle pötty található a pályán:
 
-- Fekete: halott(nem mozog, idővel eltűnik)
+- Fekete: halott (nem mozog, idővel eltűnik)
 -  Piros: fertőző.
 -  Zöld: gyógyult.
--  Fehér(szürke) semleges. 
+-  Fehér (szürke) semleges. 
 
 A különböző faktorokat csúszkákkal lehetne állítani: pl: pötty sebessége, milyen eséllyel fertőz, halálozási esély, gyógyulási idő stb. Ha a pötty falnak ütközik, vagy másik pöttyel, akkor visszapattan. A programhoz tartozik egy diagram is, ami a pöttyökről mutat statisztikát.
 
@@ -25,12 +25,12 @@ A program indítása után megnyílik a Simulation Editor (1. ábra)-hoz hasonl�
   - Fertőzési esély (Infection Chance slider)
   - Halálozási esély (Mortality Chance slider)
   - Gyógyulási esély (Heal Chance slider)
-  - Pötty sebessége(Speed slidWer)
+  - Pötty sebessége(Speed slider)
   - n db pötty felhelyezése véletlenszerűen a pályára (Add button)
-  - pöttyök egyessével történő felhelyezése a pályára, egér kattintás alapján (4db button)
+  - pöttyök egyesével történő felhelyezése a pályára, egér kattintás alapján (4 db button)
   - A pálya kezdeti értékeinek törlése (Clear)
 - Szimuláció elindítása
-  - Kezdeti értékek alapján(Start >Start )
+  - Kezdeti értékek alapján(Start >Start)
 
 @image latex simulationEditor.png
 1. ábra - Szimuláció előkészítése.
@@ -44,11 +44,11 @@ A Start menüpont megnyitásával megnyillik egy új ablak, amiben a vírus szim
 A Statistics gomb megnyomása utána megjelenik egy új ablakban a szimulációhoz tartozó statisztika. Ez szintén hasonlóan fog kinézni, mint az Editor.
 
 - Szimuláció statisztikája
-  - Olyan diagram(idő szerint), ahol ábrázolva vannak a fontos adatok. (Ferőzöttek, halottak, gyógyultak, stb)
+  - Olyan diagram (idő szerint), ahol ábrázolva vannak a fontos adatok. (Fertőzöttek, halottak, gyógyultak, stb)
 
 ## Megoldási ötlet (vázlat)
 
-A megoldáshoz JavaFX alapú GUI-t fogok használni. A mintaképen látható módon fogom ezt elkészíteni. A kezdeti értékek mentése és betöltése szerializálás segítségével fog történni. A program ( legalább matematikai szempontból) lényeges részeihez JUnit tesztet fogok készíteni.
+A megoldáshoz JavaFX alapú GUI-t fogok használni. A mintaképen látható módon fogom ezt elkészíteni. A kezdeti értékek mentése és betöltése szerializálás segítségével fog történni. A program (legalább matematikai szempontból) lényeges részeihez JUnit tesztet fogok készíteni.
 
 A csúszkákat $x=0..1$ -ig lehet állítani (kivéve sebesség csúszka), valós számra. A csúszkákhoz tartozó esemény bekövetkezésénél (pl.: ütközés) generálok egy véletlen számot $ 0..1 =r$  között(valós). Ha $ r<x$ , akkor bekövetkezik az esemény (pl.: a kontakt megfertőződik).
 
