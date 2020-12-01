@@ -50,9 +50,9 @@ A Statistics gomb megnyomása utána megjelenik egy új ablakban a szimulációh
 
 A megoldáshoz JavaFX alapú GUI-t fogok használni. A mintaképen látható módon fogom ezt elkészíteni. A kezdeti értékek mentése és betöltése szerializálás segítségével fog történni. A program (legalább matematikai szempontból) lényeges részeihez JUnit tesztet fogok készíteni.
 
-A csúszkákat $x=0..1$ -ig lehet állítani (kivéve sebesség csúszka), valós számra. A csúszkákhoz tartozó esemény bekövetkezésénél (pl.: ütközés) generálok egy véletlen számot $ 0..1 =r$  között(valós). Ha $ r<x$ , akkor bekövetkezik az esemény (pl.: a kontakt megfertőződik).
+A csúszkákat \f$x=0..1\f$ -ig lehet állítani (kivéve sebesség csúszka), valós számra. A csúszkákhoz tartozó esemény bekövetkezésénél (pl.: ütközés) generálok egy véletlen számot \f$ 0..1 =r\f$  között(valós). Ha \f$ r<x\f$ , akkor bekövetkezik az esemény (pl.: a kontakt megfertőződik).
 
-A sebesség csúszkát -8 és +8 között lehet állítani. A keletkező sebesség szorzót( $v$ ) az alábbi képtlet fogja számolni: $ v = 2^{\left \lfloor{x}\right \rfloor } $, ahol $ x$ a csúszka által kapott valós szám.
+A sebesség csúszkát -8 és +8 között lehet állítani. A keletkező sebesség szorzót( $v$ ) az alábbi képtlet fogja számolni: \f$ v = 2^{\left \lfloor{x}\right \rfloor } \f$, ahol \f$ x\f$ a csúszka által kapott valós szám.
 
 Pötty mozgásának irányát egy 0 és 7 közt generált véletlen egész szám fogja meghatározni
 Kontaktálás esetén a pötty1 és pötty2 közepe között kevesebb mint 2r távolság van.

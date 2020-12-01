@@ -1,0 +1,5 @@
+\_form#0=44x9:$x=0..1$
+\_form#1=43x9:$ 0..1 =r$
+\_form#2=31x9:$ r<x$
+\_form#3=44x13:$ v = 2^{\left \lfloor{x}\right \rfloor } $
+\_form#4=8x6:$ x$

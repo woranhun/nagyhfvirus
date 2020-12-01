@@ -128,8 +128,8 @@ A program funkcionalitása a felhasználó szemszögéből</h1>
 <h1><a class="anchor" id="autotoc_md29"></a>
 Megoldási ötlet (vázlat)</h1>
 <p>A megoldáshoz JavaFX alapú GUI-t fogok használni. A mintaképen látható módon fogom ezt elkészíteni. A kezdeti értékek mentése és betöltése szerializálás segítségével fog történni. A program (legalább matematikai szempontból) lényeges részeihez JUnit tesztet fogok készíteni.</p>
-<p>A csúszkákat $x=0..1$ -ig lehet állítani (kivéve sebesség csúszka), valós számra. A csúszkákhoz tartozó esemény bekövetkezésénél (pl.: ütközés) generálok egy véletlen számot $ 0..1 =r$ között(valós). Ha $ r&lt;x$ , akkor bekövetkezik az esemény (pl.: a kontakt megfertőződik).</p>
-<p>A sebesség csúszkát -8 és +8 között lehet állítani. A keletkező sebesség szorzót( $v$ ) az alábbi képtlet fogja számolni: $ v = 2^{\left \lfloor{x}\right \rfloor } $, ahol $ x$ a csúszka által kapott valós szám.</p>
+<p>A csúszkákat <img class="formulaInl" alt="$x=0..1$" src="form_0.png" width="44" height="9"/> -ig lehet állítani (kivéve sebesség csúszka), valós számra. A csúszkákhoz tartozó esemény bekövetkezésénél (pl.: ütközés) generálok egy véletlen számot <img class="formulaInl" alt="$ 0..1 =r$" src="form_1.png" width="43" height="9"/> között(valós). Ha <img class="formulaInl" alt="$ r&lt;x$" src="form_2.png" width="31" height="9"/> , akkor bekövetkezik az esemény (pl.: a kontakt megfertőződik).</p>
+<p>A sebesség csúszkát -8 és +8 között lehet állítani. A keletkező sebesség szorzót( $v$ ) az alábbi képtlet fogja számolni: <img class="formulaInl" alt="$ v = 2^{\left \lfloor{x}\right \rfloor } $" src="form_3.png" width="44" height="13"/>, ahol <img class="formulaInl" alt="$ x$" src="form_4.png" width="8" height="6"/> a csúszka által kapott valós szám.</p>
 <p>Pötty mozgásának irányát egy 0 és 7 közt generált véletlen egész szám fogja meghatározni Kontaktálás esetén a pötty1 és pötty2 közepe között kevesebb mint 2r távolság van. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

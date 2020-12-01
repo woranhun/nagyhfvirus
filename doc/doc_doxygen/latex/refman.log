@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.29)  1 DEC 2020 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.29)  1 DEC 2020 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1580,19 +1580,19 @@ Package pdftex.def Info: simulationEditor.png  used on input line 41.
 ]
 4. fejezet.
 (./md_userman.tex <./progSimEd.png>
-<progSimEd.png, id=1781, 964.60374pt x 443.6575pt>
+<progSimEd.png, id=1783, 964.60374pt x 443.6575pt>
 File: progSimEd.png Graphic file (type png)
 <use progSimEd.png>
 Package pdftex.def Info: progSimEd.png  used on input line 42.
 (pdftex.def)             Requested size: 455.2331pt x 209.37878pt.
  [11] <./progSim.png>
-<progSim.png, id=1790, 927.465pt x 583.17876pt>
+<progSim.png, id=1792, 927.465pt x 583.17876pt>
 File: progSim.png Graphic file (type png)
 <use progSim.png>
 Package pdftex.def Info: progSim.png  used on input line 58.
 (pdftex.def)             Requested size: 455.25433pt x 286.2584pt.
  [12] <./progStat.png>
-<progStat.png, id=1796, 926.46124pt x 584.1825pt>
+<progStat.png, id=1798, 926.46124pt x 584.1825pt>
 File: progStat.png Graphic file (type png)
 <use progStat.png>
 Package pdftex.def Info: progStat.png  used on input line 85.
@@ -1616,7 +1616,7 @@ rit__graph.pdf
 pdfTeX warning: pdflatex (file ./classsimulatorComponents_1_1Dot__inherit__grap
 h.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<classsimulatorComponents_1_1Dot__inherit__graph.pdf, id=1887, 348.30125pt x 15
+<classsimulatorComponents_1_1Dot__inherit__graph.pdf, id=1889, 348.30125pt x 15
 6.585pt>
 File: classsimulatorComponents_1_1Dot__inherit__graph.pdf Graphic file (type pd
 f)
@@ -1629,7 +1629,7 @@ sed on input line 9.
 pdfTeX warning: pdflatex (file ./classsimulatorComponents_1_1Dot__coll__graph.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<classsimulatorComponents_1_1Dot__coll__graph.pdf, id=1895, 545.03625pt x 231.8
+<classsimulatorComponents_1_1Dot__coll__graph.pdf, id=1897, 545.03625pt x 231.8
 6626pt>
 File: classsimulatorComponents_1_1Dot__coll__graph.pdf Graphic file (type pdf)
 <use classsimulatorComponents_1_1Dot__coll__graph.pdf>
@@ -1691,7 +1691,7 @@ pdfTeX warning: pdflatex (file ./enumsimulatorComponents_1_1dotTypes__inherit__
 graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >
-<enumsimulatorComponents_1_1dotTypes__inherit__graph.pdf, id=2111, 235.88126pt 
+<enumsimulatorComponents_1_1dotTypes__inherit__graph.pdf, id=2113, 235.88126pt 
 x 156.585pt>
 File: enumsimulatorComponents_1_1dotTypes__inherit__graph.pdf Graphic file (typ
 e pdf)
@@ -1705,7 +1705,7 @@ pdfTeX warning: pdflatex (file ./enumsimulatorComponents_1_1dotTypes__coll__gra
 ph.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
 >
-<enumsimulatorComponents_1_1dotTypes__coll__graph.pdf, id=2123, 235.88126pt x 1
+<enumsimulatorComponents_1_1dotTypes__coll__graph.pdf, id=2125, 235.88126pt x 1
 56.585pt>
 File: enumsimulatorComponents_1_1dotTypes__coll__graph.pdf Graphic file (type p
 df)
@@ -1714,7 +1714,7 @@ Package pdftex.def Info: enumsimulatorComponents_1_1dotTypes__coll__graph.pdf
 used on input line 18.
 (pdftex.def)             Requested size: 235.0pt x 156.00162pt.
  [31]) (./classUI_1_1Main.tex <./classUI_1_1Main__inherit__graph.pdf>
-<classUI_1_1Main__inherit__graph.pdf, id=2141, 145.54375pt x 156.585pt>
+<classUI_1_1Main__inherit__graph.pdf, id=2143, 145.54375pt x 156.585pt>
 File: classUI_1_1Main__inherit__graph.pdf Graphic file (type pdf)
 <use classUI_1_1Main__inherit__graph.pdf>
 Package pdftex.def Info: classUI_1_1Main__inherit__graph.pdf  used on input lin
@@ -1725,7 +1725,7 @@ e 9.
 pdfTeX warning: pdflatex (file ./classUI_1_1Main__coll__graph.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >
-<classUI_1_1Main__coll__graph.pdf, id=2157, 145.54375pt x 156.585pt>
+<classUI_1_1Main__coll__graph.pdf, id=2159, 145.54375pt x 156.585pt>
 File: classUI_1_1Main__coll__graph.pdf Graphic file (type pdf)
 <use classUI_1_1Main__coll__graph.pdf>
 Package pdftex.def Info: classUI_1_1Main__coll__graph.pdf  used on input line 1
@@ -1733,7 +1733,7 @@ Package pdftex.def Info: classUI_1_1Main__coll__graph.pdf  used on input line 1
 (pdftex.def)             Requested size: 145.0pt x 156.01117pt.
  [33]) (./classsimulatorComponents_1_1Point.tex <./classsimulatorComponents_1_1
 Point__inherit__graph.pdf>
-<classsimulatorComponents_1_1Point__inherit__graph.pdf, id=2178, 217.81375pt x 
+<classsimulatorComponents_1_1Point__inherit__graph.pdf, id=2180, 217.81375pt x 
 156.585pt>
 File: classsimulatorComponents_1_1Point__inherit__graph.pdf Graphic file (type 
 pdf)
@@ -1746,7 +1746,7 @@ Package pdftex.def Info: classsimulatorComponents_1_1Point__inherit__graph.pdf
 pdfTeX warning: pdflatex (file ./classsimulatorComponents_1_1Point__coll__graph
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<classsimulatorComponents_1_1Point__coll__graph.pdf, id=2184, 217.81375pt x 156
+<classsimulatorComponents_1_1Point__coll__graph.pdf, id=2186, 217.81375pt x 156
 .585pt>
 File: classsimulatorComponents_1_1Point__coll__graph.pdf Graphic file (type pdf
 )
@@ -1814,7 +1814,7 @@ ph.pdf
 pdfTeX warning: pdflatex (file ./classTests_1_1PointTest__coll__graph.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >
-<classTests_1_1PointTest__coll__graph.pdf, id=2327, 217.81375pt x 224.84pt>
+<classTests_1_1PointTest__coll__graph.pdf, id=2329, 217.81375pt x 224.84pt>
 File: classTests_1_1PointTest__coll__graph.pdf Graphic file (type pdf)
 <use classTests_1_1PointTest__coll__graph.pdf>
 Package pdftex.def Info: classTests_1_1PointTest__coll__graph.pdf  used on inpu
@@ -1826,7 +1826,7 @@ ller__inherit__graph.pdf
 pdfTeX warning: pdflatex (file ./classUI_1_1SimEditorController__inherit__graph
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<classUI_1_1SimEditorController__inherit__graph.pdf, id=2367, 195.73125pt x 156
+<classUI_1_1SimEditorController__inherit__graph.pdf, id=2369, 195.73125pt x 156
 .585pt>
 File: classUI_1_1SimEditorController__inherit__graph.pdf Graphic file (type pdf
 )
@@ -1839,7 +1839,7 @@ ed on input line 9.
 pdfTeX warning: pdflatex (file ./classUI_1_1SimEditorController__coll__graph.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<classUI_1_1SimEditorController__coll__graph.pdf, id=2373, 737.75626pt x 479.79
+<classUI_1_1SimEditorController__coll__graph.pdf, id=2375, 737.75626pt x 479.79
 25pt>
 File: classUI_1_1SimEditorController__coll__graph.pdf Graphic file (type pdf)
 <use classUI_1_1SimEditorController__coll__graph.pdf>
@@ -1863,7 +1863,7 @@ pdfTeX warning: pdflatex (file ./classUI_1_1SimStatisticsController__inherit__g
 raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >
-<classUI_1_1SimStatisticsController__inherit__graph.pdf, id=2509, 211.79124pt x
+<classUI_1_1SimStatisticsController__inherit__graph.pdf, id=2510, 211.79124pt x
  156.585pt>
 File: classUI_1_1SimStatisticsController__inherit__graph.pdf Graphic file (type
  pdf)
@@ -1876,7 +1876,7 @@ Package pdftex.def Info: classUI_1_1SimStatisticsController__inherit__graph.pdf
 pdfTeX warning: pdflatex (file ./classUI_1_1SimStatisticsController__coll__grap
 h.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<classUI_1_1SimStatisticsController__coll__graph.pdf, id=2515, 328.22626pt x 29
+<classUI_1_1SimStatisticsController__coll__graph.pdf, id=2516, 328.22626pt x 29
 0.08376pt>
 File: classUI_1_1SimStatisticsController__coll__graph.pdf Graphic file (type pd
 f)
@@ -1912,7 +1912,7 @@ pdfTeX warning: pdflatex (file ./classsimulatorComponents_1_1SimulationMap__inh
 erit__graph.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >
-<classsimulatorComponents_1_1SimulationMap__inherit__graph.pdf, id=2567, 259.97
+<classsimulatorComponents_1_1SimulationMap__inherit__graph.pdf, id=2568, 259.97
 125pt x 156.585pt>
 File: classsimulatorComponents_1_1SimulationMap__inherit__graph.pdf Graphic fil
 e (type pdf)
@@ -1926,7 +1926,7 @@ pdfTeX warning: pdflatex (file ./classsimulatorComponents_1_1SimulationMap__col
 l__graph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 >
-<classsimulatorComponents_1_1SimulationMap__coll__graph.pdf, id=2577, 259.97125
+<classsimulatorComponents_1_1SimulationMap__coll__graph.pdf, id=2578, 259.97125
 pt x 156.585pt>
 File: classsimulatorComponents_1_1SimulationMap__coll__graph.pdf Graphic file (
 type pdf)
@@ -1956,7 +1956,7 @@ pdfTeX warning: pdflatex (file ./classsimulator_1_1SimulationPlayer__inherit__g
 raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >
-<classsimulator_1_1SimulationPlayer__inherit__graph.pdf, id=2660, 213.79875pt x
+<classsimulator_1_1SimulationPlayer__inherit__graph.pdf, id=2661, 213.79875pt x
  156.585pt>
 File: classsimulator_1_1SimulationPlayer__inherit__graph.pdf Graphic file (type
  pdf)
@@ -1969,7 +1969,7 @@ Package pdftex.def Info: classsimulator_1_1SimulationPlayer__inherit__graph.pdf
 pdfTeX warning: pdflatex (file ./classsimulator_1_1SimulationPlayer__coll__grap
 h.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<classsimulator_1_1SimulationPlayer__coll__graph.pdf, id=2666, 740.7675pt x 271
+<classsimulator_1_1SimulationPlayer__coll__graph.pdf, id=2667, 740.7675pt x 271
 .0125pt>
 File: classsimulator_1_1SimulationPlayer__coll__graph.pdf Graphic file (type pd
 f)
@@ -1999,7 +1999,7 @@ pdfTeX warning: pdflatex (file ./classUI_1_1SimulationPlayerController__inherit
 __graph.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
 >
-<classUI_1_1SimulationPlayerController__inherit__graph.pdf, id=2826, 226.8475pt
+<classUI_1_1SimulationPlayerController__inherit__graph.pdf, id=2827, 226.8475pt
  x 156.585pt>
 File: classUI_1_1SimulationPlayerController__inherit__graph.pdf Graphic file (t
 ype pdf)
@@ -2013,7 +2013,7 @@ pdfTeX warning: pdflatex (file ./classUI_1_1SimulationPlayerController__coll__g
 raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >
-<classUI_1_1SimulationPlayerController__coll__graph.pdf, id=2832, 1027.84pt x 5
+<classUI_1_1SimulationPlayerController__coll__graph.pdf, id=2833, 1027.84pt x 5
 14.92375pt>
 File: classUI_1_1SimulationPlayerController__coll__graph.pdf Graphic file (type
  pdf)
@@ -2028,7 +2028,7 @@ pdfTeX warning: pdflatex (file ./classsimulator_1_1SimulationStatisticsStore__c
 oll__graph.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >
-<classsimulator_1_1SimulationStatisticsStore__coll__graph.pdf, id=2906, 226.847
+<classsimulator_1_1SimulationStatisticsStore__coll__graph.pdf, id=2907, 226.847
 5pt x 222.8325pt>
 File: classsimulator_1_1SimulationStatisticsStore__coll__graph.pdf Graphic file
  (type pdf)
@@ -2123,7 +2123,7 @@ pdfTeX warning: pdflatex (file ./classsimulator_1_1SimulationTemplate__inherit_
 _graph.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
 >
-<classsimulator_1_1SimulationTemplate__inherit__graph.pdf, id=2979, 262.9825pt 
+<classsimulator_1_1SimulationTemplate__inherit__graph.pdf, id=2980, 262.9825pt 
 x 156.585pt>
 File: classsimulator_1_1SimulationTemplate__inherit__graph.pdf Graphic file (ty
 pe pdf)
@@ -2137,7 +2137,7 @@ pdfTeX warning: pdflatex (file ./classsimulator_1_1SimulationTemplate__coll__gr
 aph.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
 >
-<classsimulator_1_1SimulationTemplate__coll__graph.pdf, id=2985, 445.665pt x 17
+<classsimulator_1_1SimulationTemplate__coll__graph.pdf, id=2986, 445.665pt x 17
 8.6675pt>
 File: classsimulator_1_1SimulationTemplate__coll__graph.pdf Graphic file (type 
 pdf)
@@ -2182,7 +2182,7 @@ rit__graph.pdf
 pdfTeX warning: pdflatex (file ./interfacesimulator_1_1Steppable__inherit__grap
 h.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >
-<interfacesimulator_1_1Steppable__inherit__graph.pdf, id=3096, 409.53pt x 156.5
+<interfacesimulator_1_1Steppable__inherit__graph.pdf, id=3097, 409.53pt x 156.5
 85pt>
 File: interfacesimulator_1_1Steppable__inherit__graph.pdf Graphic file (type pd
 f)
@@ -2235,17 +2235,18 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
-r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (104 pages, 1054678 bytes).
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
+er/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (104 pages, 1064346 bytes).
 PDF statistics:
- 3879 PDF objects out of 4296 (max. 8388607)
- 3625 compressed objects within 37 object streams
+ 3883 PDF objects out of 4296 (max. 8388607)
+ 3628 compressed objects within 37 object streams
  849 named destinations out of 1000 (max. 500000)
  2781 words of extra memory for PDF output out of 10000 (max. 10000000)
 
