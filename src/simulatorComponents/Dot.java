@@ -495,10 +495,22 @@ public class Dot implements Serializable, Steppable, Cloneable {
         Platform.runLater(() -> {
             //Draw Dot itself
             switch (type) {
-                case Neutral -> c.getGraphicsContext2D().setFill(Color.GRAY);
-                case Healthy -> c.getGraphicsContext2D().setFill(Color.GREEN);
-                case Infectious -> c.getGraphicsContext2D().setFill(Color.RED);
-                case Dead -> c.getGraphicsContext2D().setFill(Color.BLACK);
+                case Neutral:{
+                    c.getGraphicsContext2D().setFill(Color.GRAY);
+                    break;
+                }
+                case Healthy:{
+                    c.getGraphicsContext2D().setFill(Color.GREEN);
+                    break;
+                }
+                case Infectious :{
+                    c.getGraphicsContext2D().setFill(Color.RED);
+                    break;
+                }
+                case Dead :{
+                    c.getGraphicsContext2D().setFill(Color.BLACK);
+                    break;
+                }
             }
             c.getGraphicsContext2D().fillOval(location.x - radius, location.y - radius, radius * 2, radius * 2);
 
