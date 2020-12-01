@@ -1,0 +1,16 @@
+<map id="UI.SimEditorController" name="UI.SimEditorController">
+<area shape="rect" id="node1" title=" " alt="" coords="725,272,879,299"/>
+<area shape="rect" id="node2" title=" " alt="" coords="381,5,467,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="300,57,548,98"/>
+<area shape="rect" id="node4" title=" " alt="" coords="396,123,452,149"/>
+<area shape="rect" id="node5" title=" " alt="" coords="398,173,450,200"/>
+<area shape="rect" id="node6" title=" " alt="" coords="386,272,462,299"/>
+<area shape="rect" id="node7" href="$classsimulator_1_1SimulationTemplate.html" title=" " alt="" coords="327,323,521,349"/>
+<area shape="rect" id="node8" title=" " alt="" coords="45,272,183,299"/>
+<area shape="rect" id="node9" title=" " alt="" coords="74,323,154,349"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,374,223,415"/>
+<area shape="rect" id="node11" title=" " alt="" coords="397,405,451,432"/>
+<area shape="rect" id="node12" href="$enumsimulatorComponents_1_1dotTypes.html" title=" " alt="" coords="321,456,527,483"/>
+<area shape="rect" id="node13" title=" " alt="" coords="69,456,159,483"/>
+<area shape="rect" id="node14" title=" " alt="" coords="391,507,457,533"/>
+</map>

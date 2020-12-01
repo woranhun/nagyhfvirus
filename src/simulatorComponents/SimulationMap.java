@@ -5,13 +5,13 @@ import javafx.scene.canvas.Canvas;
 import simulator.Steppable;
 
 /**
- * SimulationMap osztály
- * A pályát, jelképezi.
- * Feladata, hogy kör elején letörli magát
+ * SimulationMap osztaly
+ * A palyat, jelkepezi.
+ * Feladata, hogy kor elejen letorli magat
  */
 public class SimulationMap implements Steppable {
     /**
-     * SimulationMap konstruktorja, meghívja a SimulationMap init függvényét
+     * SimulationMap konstruktorja, meghivja a SimulationMap init fuggvenyet
      * @param c A kapott canvas
      */
     public SimulationMap(Canvas c) {
@@ -19,7 +19,7 @@ public class SimulationMap implements Steppable {
     }
 
     /**
-     * Lépés során meghívja saját maga refresh függvényét.
+     * Lepes soran meghivja sajat maga refresh fuggvenyet.
      * @param c A kapott Canvas
      */
     @Override
@@ -28,7 +28,7 @@ public class SimulationMap implements Steppable {
     }
 
     /**
-     * Inicializálja a SimulationMap-et ( Tehát letörli magát)
+     * Inicializalja a SimulationMap-et ( Tehat letorli magat)
      * @param c A kapott Canvas
      */
     @Override
@@ -37,9 +37,9 @@ public class SimulationMap implements Steppable {
     }
 
     /**
-     * Megvizsgálja, hogy tudott-e ütközni egy másik Steppable-el.
-     * Mindig hamisat ad vissza, mert a pálya nem ütközik, hanem a háttér szerepét tölti be.
-     * @param st A kapott Másik Steppable
+     * Megvizsgalja, hogy tudott-e utkozni egy masik Steppable-el.
+     * Mindig hamisat ad vissza, mert a palya nem utkozik, hanem a hatter szerepet tolti be.
+     * @param st A kapott Masik Steppable
      * @return Mindig Hamis
      */
     @Override
@@ -47,8 +47,8 @@ public class SimulationMap implements Steppable {
         return false;
     }
     /**
-     * Megvizsgálja, hogy tudott-e ütközni egy Dot-al.
-     * Mindig hamisat ad vissza, mert a pálya nem ütközik, hanem a háttér szerepét tölti be.
+     * Megvizsgalja, hogy tudott-e utkozni egy Dot-al.
+     * Mindig hamisat ad vissza, mert a palya nem utkozik, hanem a hatter szerepet tolti be.
      * @param dot A kapott Dot
      * @return Mindig Hamis
      */
@@ -58,8 +58,8 @@ public class SimulationMap implements Steppable {
     }
 
     /**
-     * Kezeli, hogy mi történik, ha egy Dot eltalálja.
-     * Semmi, mert nem tud egy Dot Pályával ütközni, de a léptethetőség miatt szükséges.
+     * Kezeli, hogy mi tortenik, ha egy Dot eltalalja.
+     * Semmi, mert nem tud egy Dot Palyaval utkozni, de a leptethetoseg miatt szukseges.
      * @param dot A kapott Dot
      */
     @Override
@@ -68,8 +68,8 @@ public class SimulationMap implements Steppable {
     }
 
     /**
-     * Megvizsgálja, hogy aza ablakon kívül esik-e. A háttér nem tud az ablakon kívül esni.
-     * A léptethetőség miatt szükséges.
+     * Megvizsgalja, hogy aza ablakon kivul esik-e. A hatter nem tud az ablakon kivul esni.
+     * A leptethetoseg miatt szukseges.
      * @param c A kapott Canvas
      * @return Mindig Hamis
      */
@@ -79,8 +79,8 @@ public class SimulationMap implements Steppable {
     }
 
     /**
-     * Visszahúzza az objektumat a Canvas-ra,
-     * A léptethetőség miatt szükséges.
+     * Visszahuzza az objektumat a Canvas-ra,
+     * A leptethetoseg miatt szukseges.
      * @param c A kapott Canvas
      */
     @Override
@@ -89,8 +89,8 @@ public class SimulationMap implements Steppable {
     }
 
     /**
-     * Frissíti a Canvas-t.
-     * Meghívja a draw(Canvas)-t
+     * Frissiti a Canvas-t.
+     * Meghivja a draw(Canvas)-t
      * @param c A kapott Canvas
      */
     @Override
@@ -98,7 +98,7 @@ public class SimulationMap implements Steppable {
         draw(c);
     }
     /**
-     * Letörli a Canvas-t
+     * Letorli a Canvas-t
      * @param c A kapott Canvas
      */
     @Override

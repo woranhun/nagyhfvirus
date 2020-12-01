@@ -1,0 +1,6 @@
+<map id="simulatorComponents.Dot" name="simulatorComponents.Dot">
+<area shape="rect" id="node1" title=" " alt="" coords="100,80,275,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node3" href="$interfacesimulator_1_1Steppable.html" title=" " alt="" coords="119,5,256,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="281,5,361,32"/>
+</map>

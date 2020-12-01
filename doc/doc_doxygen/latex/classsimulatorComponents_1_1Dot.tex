@@ -1,0 +1,581 @@
+\hypertarget{classsimulatorComponents_1_1Dot}{}\doxysection{simulator\+Components.\+Dot osztályreferencia}
+\label{classsimulatorComponents_1_1Dot}\index{simulatorComponents.Dot@{simulatorComponents.Dot}}
+
+
+A simulator\+Components.\+Dot osztály származási diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classsimulatorComponents_1_1Dot__inherit__graph}
+\end{center}
+\end{figure}
+
+
+A simulator\+Components.\+Dot osztály együttműködési diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimulatorComponents_1_1Dot__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Publikus tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsimulatorComponents_1_1Dot_aebbba1ed36ac6c8db14345f84ad903b0}{Dot}} (double x, double y, double r)
+\item 
+\mbox{\hyperlink{classsimulatorComponents_1_1Dot_acdff20d21d3bc6af88f5bf58e968b3fe}{Dot}} (double x, double y, double r, double speed)
+\item 
+\mbox{\hyperlink{classsimulatorComponents_1_1Dot_a35240ed894ee02c074d29e51cd0051ab}{Dot}} (double x, double y, double r, double speed, \mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}} \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a257e89cdfa43f50991237e2a22470954}{type}}, double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_af85267979e5cea1e4bcce849b0984034}{inf\+Chance}}, double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a8e6c68ab1686e0572ab13d7132ef990a}{mort\+Chance}}, double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a39c09bddce9e51d5dcdaf1ace8814bc8}{heal\+Chance}})
+\item 
+Object \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aea99fc1a155af882637756b32a2e629a}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a279a9c88f1d34a6db56c04a57e7f3ea3}{init\+Velocity}} (double speed)
+\item 
+\mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}} \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a9ecb01ca87ff84228e5e750750e2c86e}{get\+Location}} ()
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aeee25d382baed00c8b46fc93c348d1db}{set\+Location}} (\mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}} \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aa48289956d3f0c4ab572d48f075424c8}{location}})
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_ab3a8d77e989529e9eacf71f319135f82}{set\+Heal\+Chance}} (double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a092d9ea2a3be5d745874fa6b36e73074}{heal}})
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a84ab72add7b90552531be2c649afff10}{set\+Inf\+Chance}} (double inf)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_ac4be6cce1afdfc00688549675a7a78cb}{set\+Mort\+Chance}} (double mort)
+\item 
+\mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}} \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a886034f6f687e56ec93a9b710cad2cd6}{get\+Type}} ()
+\item 
+double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a729960805817925e46c5e4a32de3e8fb}{get\+Radius}} ()
+\item 
+boolean \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a612d2a9b8e7bd127a59b04d7c3358fbc}{is\+Collided\+With}} (\mbox{\hyperlink{interfacesimulator_1_1Steppable}{Steppable}} st)
+\item 
+boolean \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a777d3c710a8f896467e05eb76a9107e6}{is\+Collided\+With}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} dot)
+\item 
+boolean \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aad51fa1e22d8f305353415bf2c8f72ec}{is\+Out\+Of\+Window}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a0e8455094b483fb3de8be7b79d27218e}{hit\+By}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} d)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a16afff9497d4ccc37996cbf8b7b5ef3b}{step}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_ae48ab7bae4bde6a42d968ab3401c865e}{move\+Back}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_abad81a9b629cf2306206d18f281b5a8c}{init}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aa8162db09ba1ed99f6af47cafb7008c6}{refresh}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aa71a9c769fa3e904b38e574e164c8ceb}{draw}} (Canvas c)
+\end{DoxyCompactItemize}
+\doxysubsection*{Védett tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a4d2c73b3e8f6b4cfab1e104e6a72c422}{remove}} ()
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a384c061679fb75380615b2e32393bf47}{bounce\+Back}} (Canvas c)
+\end{DoxyCompactItemize}
+\doxysubsection*{Privát tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_ab40d12b74ab7434863ef650fa168cdfe}{infected\+By}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} d)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a092d9ea2a3be5d745874fa6b36e73074}{heal}} ()
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a3023aed951cbec167cc0ad3d34e0bba4}{die}} ()
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1Dot_abb71d764157f040d3197a5c2a730856f}{draw\+Centers}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} dot, Canvas c)
+\end{DoxyCompactItemize}
+\doxysubsection*{Privát attribútumok}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}} \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aa48289956d3f0c4ab572d48f075424c8}{location}} = null
+\item 
+double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a717ef28ee4bfad9b1e3a3e05d9c0bd6f}{radius}}
+\item 
+\mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}} \mbox{\hyperlink{classsimulatorComponents_1_1Dot_ae519bf4c83236d27e0da313aeac4e9da}{velocity}}
+\item 
+\mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}} \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a257e89cdfa43f50991237e2a22470954}{type}}
+\item 
+double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_af85267979e5cea1e4bcce849b0984034}{inf\+Chance}}
+\item 
+double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a8e6c68ab1686e0572ab13d7132ef990a}{mort\+Chance}}
+\item 
+double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a39c09bddce9e51d5dcdaf1ace8814bc8}{heal\+Chance}}
+\item 
+double \mbox{\hyperlink{classsimulatorComponents_1_1Dot_ac195e17e48243660fff25964098eedb3}{mass}}
+\item 
+int \mbox{\hyperlink{classsimulatorComponents_1_1Dot_acc093b4c104bc7512d1b6bb9db737153}{since\+Infection}} = 0
+\item 
+int \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a3e2aa53134efd0c3bf02080badf2714c}{since\+Dead}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Részletes leírás}
+Dotokat reprezentáló osztály. Megvalósítja a Drawable, Serializable, Steppable és Clonable interfészeket. 
+
+\doxysubsection{Konstruktorok és destruktorok dokumentációja}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_aebbba1ed36ac6c8db14345f84ad903b0}\label{classsimulatorComponents_1_1Dot_aebbba1ed36ac6c8db14345f84ad903b0}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!Dot@{Dot}}
+\index{Dot@{Dot}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{Dot()}{Dot()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily simulator\+Components.\+Dot.\+Dot (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{r }\end{DoxyParamCaption})}
+
+A pötty konstruktora
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em x} & A pötty x kordinátája \\
+\hline
+{\em y} & A pötty y kordinátája \\
+\hline
+{\em r} & A pötty sugara \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_acdff20d21d3bc6af88f5bf58e968b3fe}\label{classsimulatorComponents_1_1Dot_acdff20d21d3bc6af88f5bf58e968b3fe}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!Dot@{Dot}}
+\index{Dot@{Dot}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{Dot()}{Dot()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily simulator\+Components.\+Dot.\+Dot (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{r,  }\item[{double}]{speed }\end{DoxyParamCaption})}
+
+A pötty konstruktora
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em x} & A pötty x kordinátája \\
+\hline
+{\em y} & A pötty y kordinátája \\
+\hline
+{\em r} & A pötty sugara \\
+\hline
+{\em speed} & A pötty sebessége \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a35240ed894ee02c074d29e51cd0051ab}\label{classsimulatorComponents_1_1Dot_a35240ed894ee02c074d29e51cd0051ab}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!Dot@{Dot}}
+\index{Dot@{Dot}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{Dot()}{Dot()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily simulator\+Components.\+Dot.\+Dot (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{r,  }\item[{double}]{speed,  }\item[{\mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}}}]{type,  }\item[{double}]{inf\+Chance,  }\item[{double}]{mort\+Chance,  }\item[{double}]{heal\+Chance }\end{DoxyParamCaption})}
+
+A pötty konstruktora
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em x} & A pötty x kordinátája \\
+\hline
+{\em y} & A pötty y kordinátája \\
+\hline
+{\em r} & A pötty sugara \\
+\hline
+{\em speed} & A pötty sebessége \\
+\hline
+{\em type} & A pötty típusa \\
+\hline
+{\em inf\+Chance} & Másik pöttyöt ilyen esélyel fertőz, ha a \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} fertőző \\
+\hline
+{\em mort\+Chance} & A pötty halálozási esélye, ha már megfertőzödött és a vírus lappangási ideje lejárt \\
+\hline
+{\em heal\+Chance} & A pötty gyógyulási esélye, ha már megfertőzödött és a vírus lappangási ideje lejárt \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Tagfüggvények dokumentációja}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a384c061679fb75380615b2e32393bf47}\label{classsimulatorComponents_1_1Dot_a384c061679fb75380615b2e32393bf47}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!bounceBack@{bounceBack}}
+\index{bounceBack@{bounceBack}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{bounceBack()}{bounceBack()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+bounce\+Back (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+A pötty a Canvas szélén visszapattan
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_aea99fc1a155af882637756b32a2e629a}\label{classsimulatorComponents_1_1Dot_aea99fc1a155af882637756b32a2e629a}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!clone@{clone}}
+\index{clone@{clone}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object simulator\+Components.\+Dot.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+A pötty által felüldefiniált clone metódus.
+
+\begin{DoxyReturn}{Visszatérési érték}
+A pötty Object 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Kivételek}
+{\em Clone\+Not\+Supported\+Exception} & kivételt dobhat(De nem fog, mert a \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} szerializálható) \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a3023aed951cbec167cc0ad3d34e0bba4}\label{classsimulatorComponents_1_1Dot_a3023aed951cbec167cc0ad3d34e0bba4}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!die@{die}}
+\index{die@{die}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{die()}{die()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+die (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty meghal Feladatai\+: A pötty típusának megváltoztatása, Simulation\+Player felé jelzi, hogy egy pötty meghalt \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_aa71a9c769fa3e904b38e574e164c8ceb}\label{classsimulatorComponents_1_1Dot_aa71a9c769fa3e904b38e574e164c8ceb}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!draw@{draw}}
+\index{draw@{draw}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+draw (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+A pöttyöt kirajzoló függvény. Kirajzolja a pöttyöt, majd rárajzolja a sebesség vektorát
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_af07856466863af9d7734fca57961d7a1}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_abb71d764157f040d3197a5c2a730856f}\label{classsimulatorComponents_1_1Dot_abb71d764157f040d3197a5c2a730856f}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!drawCenters@{drawCenters}}
+\index{drawCenters@{drawCenters}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{drawCenters()}{drawCenters()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+draw\+Centers (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{dot,  }\item[{Canvas}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Két pötty közepe fölött megrajzolja a vectort. Debug célokra használtam, de nem töröltem.
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em dot} & A másik \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} \\
+\hline
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a9ecb01ca87ff84228e5e750750e2c86e}\label{classsimulatorComponents_1_1Dot_a9ecb01ca87ff84228e5e750750e2c86e}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!getLocation@{getLocation}}
+\index{getLocation@{getLocation}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{getLocation()}{getLocation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}} simulator\+Components.\+Dot.\+get\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Location getterje
+
+\begin{DoxyReturn}{Visszatérési érték}
+A hely 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a729960805817925e46c5e4a32de3e8fb}\label{classsimulatorComponents_1_1Dot_a729960805817925e46c5e4a32de3e8fb}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!getRadius@{getRadius}}
+\index{getRadius@{getRadius}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{getRadius()}{getRadius()}}
+{\footnotesize\ttfamily double simulator\+Components.\+Dot.\+get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A pötty sugarának gettere
+
+\begin{DoxyReturn}{Visszatérési érték}
+A pötty sugara 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a886034f6f687e56ec93a9b710cad2cd6}\label{classsimulatorComponents_1_1Dot_a886034f6f687e56ec93a9b710cad2cd6}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!getType@{getType}}
+\index{getType@{getType}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}} simulator\+Components.\+Dot.\+get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A pötty típusának gettere
+
+\begin{DoxyReturn}{Visszatérési érték}
+A pötty típusa 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a092d9ea2a3be5d745874fa6b36e73074}\label{classsimulatorComponents_1_1Dot_a092d9ea2a3be5d745874fa6b36e73074}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!heal@{heal}}
+\index{heal@{heal}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{heal()}{heal()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+heal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty meggyógyul Feladatai\+: A pötty típusának megváltoztatása, Simulation\+Player felé jelzi, hogy egy pötty meggyógyult \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a0e8455094b483fb3de8be7b79d27218e}\label{classsimulatorComponents_1_1Dot_a0e8455094b483fb3de8be7b79d27218e}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!hitBy@{hitBy}}
+\index{hitBy@{hitBy}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{hitBy()}{hitBy()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+hit\+By (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{d }\end{DoxyParamCaption})}
+
+A pötty másik pöttyel való ütközése során hívódik. Ez kezeli a statikus (pl.\+: két pötty fedné egymást) és dinamikus ütközést (rugalmas ütközés)
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em d} & A másik pötty \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_ab4410f36c4da498c4f80b610301ac7f4}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_ab40d12b74ab7434863ef650fa168cdfe}\label{classsimulatorComponents_1_1Dot_ab40d12b74ab7434863ef650fa168cdfe}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!infectedBy@{infectedBy}}
+\index{infectedBy@{infectedBy}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{infectedBy()}{infectedBy()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+infected\+By (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Fertőzés bekövetkezése Feladata, hogy ennek a pöttynek a megfelelő adatait beállítsa, a Simulation\+Player felé jelzi, hogy új fertőzés történt
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em d} & A fertőzést okozó pötty \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_abad81a9b629cf2306206d18f281b5a8c}\label{classsimulatorComponents_1_1Dot_abad81a9b629cf2306206d18f281b5a8c}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!init@{init}}
+\index{init@{init}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+init (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+A pöttyöt inicializálja\+: Ha a Canvason kívül van visszahúzza őt, majd kirajzolja
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a421e4e4d30515632ef52a8b20bd977da}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a279a9c88f1d34a6db56c04a57e7f3ea3}\label{classsimulatorComponents_1_1Dot_a279a9c88f1d34a6db56c04a57e7f3ea3}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!initVelocity@{initVelocity}}
+\index{initVelocity@{initVelocity}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{initVelocity()}{initVelocity()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+init\+Velocity (\begin{DoxyParamCaption}\item[{double}]{speed }\end{DoxyParamCaption})}
+
+Sebesség vektor inicializálása a kapott sebesség alapján. A függvény a lehetséges irányt véletlenszerűen generálja.
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em speed} & A kapott sebesség \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a777d3c710a8f896467e05eb76a9107e6}\label{classsimulatorComponents_1_1Dot_a777d3c710a8f896467e05eb76a9107e6}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!isCollidedWith@{isCollidedWith}}
+\index{isCollidedWith@{isCollidedWith}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{isCollidedWith()}{isCollidedWith()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean simulator\+Components.\+Dot.\+is\+Collided\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{dot }\end{DoxyParamCaption})}
+
+A pötty ütközött-\/e a kapott steppable-\/el?
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em dot} & A kapott pötty \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Igen vagy Nem, a két pötty közepei között lévő távolság és a sugarak összege alapján. 
+\end{DoxyReturn}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_ae0deed1b69a3cb2d0c4ab7eb1d7c4cd6}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a612d2a9b8e7bd127a59b04d7c3358fbc}\label{classsimulatorComponents_1_1Dot_a612d2a9b8e7bd127a59b04d7c3358fbc}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!isCollidedWith@{isCollidedWith}}
+\index{isCollidedWith@{isCollidedWith}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{isCollidedWith()}{isCollidedWith()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean simulator\+Components.\+Dot.\+is\+Collided\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacesimulator_1_1Steppable}{Steppable}}}]{st }\end{DoxyParamCaption})}
+
+A pötty ütközött-\/e a kapott steppable-\/el?
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em st} & A kapott steppable \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Igen vagy Nem 
+\end{DoxyReturn}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a5eb992c343070e5eb705a26eea5c463a}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_aad51fa1e22d8f305353415bf2c8f72ec}\label{classsimulatorComponents_1_1Dot_aad51fa1e22d8f305353415bf2c8f72ec}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!isOutOfWindow@{isOutOfWindow}}
+\index{isOutOfWindow@{isOutOfWindow}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{isOutOfWindow()}{isOutOfWindow()}}
+{\footnotesize\ttfamily boolean simulator\+Components.\+Dot.\+is\+Out\+Of\+Window (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Megvizsgálja, hogy a pötty a canvason kívül van-\/e
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Igen vagy Nem 
+\end{DoxyReturn}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_ada2390a42fab68f493c61f6a36bb91d5}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_ae48ab7bae4bde6a42d968ab3401c865e}\label{classsimulatorComponents_1_1Dot_ae48ab7bae4bde6a42d968ab3401c865e}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!moveBack@{moveBack}}
+\index{moveBack@{moveBack}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{moveBack()}{moveBack()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+move\+Back (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Visszahúzza a pöttyöt a Canvas területére, ha kiment belőle
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a520cfded2c29889279ab1a254cb1e6a8}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_aa8162db09ba1ed99f6af47cafb7008c6}\label{classsimulatorComponents_1_1Dot_aa8162db09ba1ed99f6af47cafb7008c6}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!refresh@{refresh}}
+\index{refresh@{refresh}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{refresh()}{refresh()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+refresh (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+A pötty újrarajzolása
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a101fdd51d62506c45faacb8d87f15afc}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a4d2c73b3e8f6b4cfab1e104e6a72c422}\label{classsimulatorComponents_1_1Dot_a4d2c73b3e8f6b4cfab1e104e6a72c422}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!remove@{remove}}
+\index{remove@{remove}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+remove (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+A pötty hozzáadása a kör végén eltávolítandók listájához \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_ab3a8d77e989529e9eacf71f319135f82}\label{classsimulatorComponents_1_1Dot_ab3a8d77e989529e9eacf71f319135f82}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!setHealChance@{setHealChance}}
+\index{setHealChance@{setHealChance}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{setHealChance()}{setHealChance()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+set\+Heal\+Chance (\begin{DoxyParamCaption}\item[{double}]{heal }\end{DoxyParamCaption})}
+
+Gyógyulási esély settere
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em heal} & A kapott gyógyulási esély \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a84ab72add7b90552531be2c649afff10}\label{classsimulatorComponents_1_1Dot_a84ab72add7b90552531be2c649afff10}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!setInfChance@{setInfChance}}
+\index{setInfChance@{setInfChance}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{setInfChance()}{setInfChance()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+set\+Inf\+Chance (\begin{DoxyParamCaption}\item[{double}]{inf }\end{DoxyParamCaption})}
+
+Átfertőzései esély settere
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em inf} & A kapott átfertőzési esély \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_aeee25d382baed00c8b46fc93c348d1db}\label{classsimulatorComponents_1_1Dot_aeee25d382baed00c8b46fc93c348d1db}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!setLocation@{setLocation}}
+\index{setLocation@{setLocation}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{setLocation()}{setLocation()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+set\+Location (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}}}]{location }\end{DoxyParamCaption})}
+
+Location setterje
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em location} & A kapott hely \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_ac4be6cce1afdfc00688549675a7a78cb}\label{classsimulatorComponents_1_1Dot_ac4be6cce1afdfc00688549675a7a78cb}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!setMortChance@{setMortChance}}
+\index{setMortChance@{setMortChance}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{setMortChance()}{setMortChance()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+set\+Mort\+Chance (\begin{DoxyParamCaption}\item[{double}]{mort }\end{DoxyParamCaption})}
+
+Halálozási esély settere
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em mort} & A halálozási gyógyulási esély \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a16afff9497d4ccc37996cbf8b7b5ef3b}\label{classsimulatorComponents_1_1Dot_a16afff9497d4ccc37996cbf8b7b5ef3b}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!step@{step}}
+\index{step@{step}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{step()}{step()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Dot.\+step (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Lépés függvény Feladatai\+: Lappangási idő vizsgálata, Halálozás után eltelt idő vizsgálata, Pálya szélével történő ütközés, pötty léptetése
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_aa6803739b7469a9e229a049cc77ec470}{simulator.\+Steppable}}.
+
+
+
+\doxysubsection{Adattagok dokumentációja}
+\mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a39c09bddce9e51d5dcdaf1ace8814bc8}\label{classsimulatorComponents_1_1Dot_a39c09bddce9e51d5dcdaf1ace8814bc8}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!healChance@{healChance}}
+\index{healChance@{healChance}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{healChance}{healChance}}
+{\footnotesize\ttfamily double simulator\+Components.\+Dot.\+heal\+Chance\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty gyógyulási esélye \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_af85267979e5cea1e4bcce849b0984034}\label{classsimulatorComponents_1_1Dot_af85267979e5cea1e4bcce849b0984034}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!infChance@{infChance}}
+\index{infChance@{infChance}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{infChance}{infChance}}
+{\footnotesize\ttfamily double simulator\+Components.\+Dot.\+inf\+Chance\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty átfertőzésének esélye \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_aa48289956d3f0c4ab572d48f075424c8}\label{classsimulatorComponents_1_1Dot_aa48289956d3f0c4ab572d48f075424c8}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!location@{location}}
+\index{location@{location}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{location}{location}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}} simulator\+Components.\+Dot.\+location = null\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty közepének poziciója \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_ac195e17e48243660fff25964098eedb3}\label{classsimulatorComponents_1_1Dot_ac195e17e48243660fff25964098eedb3}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!mass@{mass}}
+\index{mass@{mass}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{mass}{mass}}
+{\footnotesize\ttfamily double simulator\+Components.\+Dot.\+mass\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty tömege \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a8e6c68ab1686e0572ab13d7132ef990a}\label{classsimulatorComponents_1_1Dot_a8e6c68ab1686e0572ab13d7132ef990a}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!mortChance@{mortChance}}
+\index{mortChance@{mortChance}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{mortChance}{mortChance}}
+{\footnotesize\ttfamily double simulator\+Components.\+Dot.\+mort\+Chance\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty halálozási esélye \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a717ef28ee4bfad9b1e3a3e05d9c0bd6f}\label{classsimulatorComponents_1_1Dot_a717ef28ee4bfad9b1e3a3e05d9c0bd6f}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!radius@{radius}}
+\index{radius@{radius}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{radius}{radius}}
+{\footnotesize\ttfamily double simulator\+Components.\+Dot.\+radius\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty sugara \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a3e2aa53134efd0c3bf02080badf2714c}\label{classsimulatorComponents_1_1Dot_a3e2aa53134efd0c3bf02080badf2714c}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!sinceDead@{sinceDead}}
+\index{sinceDead@{sinceDead}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{sinceDead}{sinceDead}}
+{\footnotesize\ttfamily int simulator\+Components.\+Dot.\+since\+Dead = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+A halál pillanatátül eltelt tickek száma \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_acc093b4c104bc7512d1b6bb9db737153}\label{classsimulatorComponents_1_1Dot_acc093b4c104bc7512d1b6bb9db737153}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!sinceInfection@{sinceInfection}}
+\index{sinceInfection@{sinceInfection}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{sinceInfection}{sinceInfection}}
+{\footnotesize\ttfamily int simulator\+Components.\+Dot.\+since\+Infection = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+Fertőzés óta eltelt tickek száma \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_a257e89cdfa43f50991237e2a22470954}\label{classsimulatorComponents_1_1Dot_a257e89cdfa43f50991237e2a22470954}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!type@{type}}
+\index{type@{type}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}} simulator\+Components.\+Dot.\+type\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty típusa \mbox{\Hypertarget{classsimulatorComponents_1_1Dot_ae519bf4c83236d27e0da313aeac4e9da}\label{classsimulatorComponents_1_1Dot_ae519bf4c83236d27e0da313aeac4e9da}} 
+\index{simulatorComponents.Dot@{simulatorComponents.Dot}!velocity@{velocity}}
+\index{velocity@{velocity}!simulatorComponents.Dot@{simulatorComponents.Dot}}
+\doxysubsubsection{\texorpdfstring{velocity}{velocity}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classsimulatorComponents_1_1Point}{Point}} simulator\+Components.\+Dot.\+velocity\hspace{0.3cm}{\ttfamily [private]}}
+
+A pötty sebesség vektorának végpontja (Mintha a Vector az (0,0)-\/ból mutatna velocity-\/ba) 
+
+Ez a dokumentáció az osztályról a következő fájl alapján készült\+:\begin{DoxyCompactItemize}
+\item 
+Dot.\+java\end{DoxyCompactItemize}

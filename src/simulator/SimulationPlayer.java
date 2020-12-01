@@ -10,57 +10,57 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * SimulationPlayer osztály.
- * Egy szimuláció lejátszásához szükséges adatokat és függvényeket tárolja.
+ * SimulationPlayer osztaly.
+ * Egy szimulacio lejatszasahoz szukseges adatokat es fuggvenyeket tarolja.
  */
 public class SimulationPlayer extends TimerTask {
     /**
-     * Léptethető dolgok tárolója
+     * Leptetheto dolgok taroloja
      */
     static ArrayList<Steppable> stepables;
     /**
-     * Olyan léptethető dolgok tárolója, amit el kell távolítani a steppables közül a Tick végén
+     * Olyan leptetheto dolgok taroloja, amit el kell tavolitani a steppables kozul a Tick vegen
      */
     static ArrayList<Steppable> removeInTheEnd;
     /**
-     * Olyan léptethető dolgok tárolója, amit hozzá kell adni a léptethető dolgok közé a Tick végén
+     * Olyan leptetheto dolgok taroloja, amit hozza kell adni a leptetheto dolgok koze a Tick vegen
      */
     static ArrayList<Steppable> addInTheEnd;
     /**
-     * Éppen fertőző Dotok száma
+     * eppen fertozo Dotok szama
      */
     static int infectedCnt;
     /**
-     * Éppen halott Dotok száma
+     * eppen halott Dotok szama
      */
     static int deadCnt;
     /**
-     * Éppen egészségese Dotok száma
+     * eppen egeszsegese Dotok szama
      */
     static int healedCnt;
     /**
-     * Éppen semleges Dotok száma
+     * eppen semleges Dotok szama
      */
     static int neutralCnt;
     /**
-     * Egy Tick Ms-ban mérve
+     * Egy Tick Ms-ban merve
      */
     static int oneTickInMs;
     /**
-     * Szimuláció Statisztikát tároló osztály
-     * Pufferként funkcionál
+     * Szimulacio Statisztikat tarolo osztaly
+     * Pufferkent funkcional
      */
     SimulationStatisticsStore sss;
     /**
-     * Két kör között eltelt minimális periódusidő
+     * Ket kor kozott eltelt minimalis periodusido
      */
     int minPeriod;
     /**
-     * Időzítő, a körönként történő lépésért felel
+     * Idozito, a koronkent torteno lepesert felel
      */
     Timer timer;
     /**
-     * Le van-e szüneteltetve a szimuláció
+     * Le van-e szuneteltetve a szimulacio
      */
     boolean paused;
     /**
@@ -68,15 +68,15 @@ public class SimulationPlayer extends TimerTask {
      */
     Canvas canvas;
     /**
-     * Éppen aktuális kör sorszáma
+     * eppen aktualis kor sorszama
      */
     int currTick;
     /**
-     * Szimuláció kezdete óta eltelt idő
+     * Szimulacio kezdete ota eltelt ido
      */
     int millisecondsElapsed;
     /**
-     * Adatküldés gyakorisága
+     * Adatkuldes gyakorisaga
      */
     int sendDataPeriod = 10;
 
@@ -85,7 +85,7 @@ public class SimulationPlayer extends TimerTask {
      *
      * @param sim    A kapott SimulationTemplate
      * @param canvas A kapott Canvas
-     * @param sss    A kapott statisztika tároló, ami pufferként funkcionál
+     * @param sss    A kapott statisztika tarolo, ami pufferkent funkcional
      */
     public SimulationPlayer(SimulationTemplate sim, Canvas canvas, SimulationStatisticsStore sss) {
         deadCnt = 0;
@@ -123,52 +123,52 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Lappangási időt visszadó függvény
+     * Lappangasi idot visszado fuggveny
      *
-     * @return Lappangási idő Tickekben mérve
+     * @return Lappangasi ido Tickekben merve
      */
     public static int getIncubationPeriod() {
         return 500;
     }
 
     /**
-     * Halott Dot eltűnési idejét határozza meg
+     * Halott Dot eltunesi idejet hatarozza meg
      *
-     * @return Eltűnési idő Tickekben mérve
+     * @return Eltunesi ido Tickekben merve
      */
     public static int getRemoveTime() {
         return 150;
     }
 
     /**
-     * Hozzáadja a Steppable dolgot az eltávolítandók listájához
+     * Hozzaadja a Steppable dolgot az eltavolitandok listajahoz
      *
-     * @param st Az eltávolítandó Steppable
+     * @param st Az eltavolitando Steppable
      */
     static public void removeSteppable(Steppable st) {
         removeInTheEnd.add(st);
     }
 
     /**
-     * Hozzáadja a Steppable dolgot a hozzáadandóak listájához
+     * Hozzaadja a Steppable dolgot a hozzaadandoak listajahoz
      *
-     * @param st A hozzáadandó Steppable
+     * @param st A hozzaadando Steppable
      */
     static public void addSteppable(Steppable st) {
         addInTheEnd.add(st);
     }
 
     /**
-     * Viszzadja az eltávolítandóak listáját
+     * Viszzadja az eltavolitandoak listajat
      *
-     * @return Az eltávolítandóak listája
+     * @return Az eltavolitandoak listaja
      */
     public static ArrayList<Steppable> getRemove() {
         return removeInTheEnd;
     }
 
     /**
-     * Új fertőzött esetén növeli a fertőzötteket és csökkenti a semleges Dotok számát
+     * uj fertozott eseten noveli a fertozotteket es csokkenti a semleges Dotok szamat
      */
     public static void addInfectedDot() {
         infectedCnt++;
@@ -176,7 +176,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Új gyógyult esetén növeli a gyógyultakat és csökkenti a fertőző Dotok számát
+     * uj gyogyult eseten noveli a gyogyultakat es csokkenti a fertozo Dotok szamat
      */
     public static void addHealedDot() {
         healedCnt++;
@@ -184,7 +184,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Új fertőzött esetén növeli a halottak és csökkenti a fertőző Dotok számát
+     * uj fertozott eseten noveli a halottak es csokkenti a fertozo Dotok szamat
      */
     public static void addDeadDot() {
         deadCnt++;
@@ -192,7 +192,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * A Canvasról kilógó dotokat visszarakja a Canvas-ra
+     * A Canvasrol kilogo dotokat visszarakja a Canvas-ra
      *
      * @param img A kapott Canvas
      */
@@ -204,8 +204,8 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Frissíti a teljes szimuláció tartalmát
-     * Az első Steppable mindig a pálya maga
+     * Frissiti a teljes szimulacio tartalmat
+     * Az elso Steppable mindig a palya maga
      *
      * @param c A kapott Canvas
      */
@@ -216,8 +216,8 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Timer hívja minPeriod időközönként.
-     * Ha nincs szüneteltetve, akkor oneTickInMs ms-ként megtesz egy lépést
+     * Timer hivja minPeriod idokozonkent.
+     * Ha nincs szuneteltetve, akkor oneTickInMs ms-kent megtesz egy lepest
      */
     @Override
     public void run() {
@@ -232,16 +232,16 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * negálja a paused változó értékét
+     * negalja a paused valtozo erteket
      */
     public void changePlayAndPause() {
         paused = !paused;
     }
 
     /**
-     * Egy lépést szimulál le.
-     * Először mindenki lép. Utána az ütközések jönnek, majd eltávolítjuk és hozzáadjuk a szükséges Steppable-öket,
-     * majd Frissítjük a Canvast. Végül a jelentlegi Tick növelését végezzük.
+     * Egy lepest szimulal le.
+     * Eloszor mindenki lep. Utana az utkozesek jonnek, majd eltavolitjuk es hozzaadjuk a szukseges Steppable-oket,
+     * majd Frissitjuk a Canvast. Vegul a jelentlegi Tick noveleset vegezzuk.
      */
     public void forwardOneStep() {
         for (Steppable s : stepables) {
@@ -277,7 +277,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Elküldti az adatokat a SimulationStatisticsStore-nak, majd lépteti a kört
+     * Elkuldti az adatokat a SimulationStatisticsStore-nak, majd lepteti a kort
      */
     private void currTickIncrease() {
         sendData();
@@ -285,7 +285,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Kilépéskor lezárja és üríti a szükséges dolgokat
+     * Kilepeskor lezarja es uriti a szukseges dolgokat
      */
     public void exit() {
         timer.cancel();
@@ -296,7 +296,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Gyorsítja a felhasználó által érzett idő telését
+     * Gyorsitja a felhasznalo altal erzett ido teleset
      */
     public void speedUp() {
         if (oneTickInMs > 1) {
@@ -305,7 +305,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Lassítja a felhasználó által érzett idő telését
+     * Lassitja a felhasznalo altal erzett ido teleset
      */
     public void speedDown() {
         if (oneTickInMs < 32) {
@@ -314,7 +314,7 @@ public class SimulationPlayer extends TimerTask {
     }
 
     /**
-     * Minden sendDataPeriod-ban elküldi a SimulationStatisticsStore-nak az éppen aktuális adatokat
+     * Minden sendDataPeriod-ban elkuldi a SimulationStatisticsStore-nak az eppen aktualis adatokat
      */
     private void sendData() {
         if (currTick % sendDataPeriod == 0) {

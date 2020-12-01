@@ -1,6 +1,6 @@
-# Prog3: Vírus szimuláció nagyházifeladat
+# Prog3: Vírus szimuláció nagyházifeladat specifikáció
 
-[toc]
+[TOC]
 
 ## Az ötlet leírása
 
@@ -25,18 +25,15 @@ A program indítása után megnyílik a Simulation Editor (1. ábra)-hoz hasonl�
   - Fertőzési esély (Infection Chance slider)
   - Halálozási esély (Mortality Chance slider)
   - Gyógyulási esély (Heal Chance slider)
-  - Pötty sebessége(Speed slider)
+  - Pötty sebessége(Speed slidWer)
   - n db pötty felhelyezése véletlenszerűen a pályára (Add button)
   - pöttyök egyessével történő felhelyezése a pályára, egér kattintás alapján (4db button)
   - A pálya kezdeti értékeinek törlése (Clear)
 - Szimuláció elindítása
   - Kezdeti értékek alapján(Start >Start )
-<figure>
-  <img src="./pics/simulationEditor.png" alt="simulationEditor" style="width:100%">
-  <figcaption>1. ábra - Szimuláció előkészítése.</figcaption>
-</figure>
 
-
+@image latex simulationEditor.png
+1. ábra - Szimuláció előkészítése.
 
 A Start menüpont megnyitásával megnyillik egy új ablak, amiben a vírus szimulációja történik. Ez hasonlóan fog kinézni, mint az Editor. A programrész funkciói: 
 

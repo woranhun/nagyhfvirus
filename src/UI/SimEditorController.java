@@ -24,14 +24,14 @@ import java.util.ResourceBundle;
 
 
 /**
- * Simulation Editor ablak kontroller osztája.
- * Feladata, hogy kezelje az ablakkal történő User interakciókat
+ * Simulation Editor ablak kontroller osztaja.
+ * Feladata, hogy kezelje az ablakkal torteno User interakciokat
  */
 public class SimEditorController implements Initializable {
     /**
-     * Stage eltárolása.
-     * Konstruktorban kapjuk az ablak létrehozása során.
-     * Ez alapján pozícionáljuk a többi ablakot.
+     * Stage eltarolasa.
+     * Konstruktorban kapjuk az ablak letrehozasa soran.
+     * Ez alapjan pozicionaljuk a tobbi ablakot.
      */
     private final Stage stage;
     /**
@@ -40,81 +40,81 @@ public class SimEditorController implements Initializable {
     @FXML
     private Canvas img;
     /**
-     * Slider, az átfertőzés esélyének beállítására.
+     * Slider, az atfertozes eselyenek beallitasara.
      */
     @FXML
     private Slider infSlider;
     /**
-     * TextField, itt jelezzük vissza az Usernek a beállított infection értékét.
+     * TextField, itt jelezzuk vissza az Usernek a beallitott infection erteket.
      */
     @FXML
     private TextField infField;
     /**
-     * Slider, a halálozási esély beállítására.
+     * Slider, a halalozasi esely beallitasara.
      */
     @FXML
     private Slider mortSlider;
     /**
-     * TextField, itt jelezzük vissza az Usernek a beállított halálozás értékét.
+     * TextField, itt jelezzuk vissza az Usernek a beallitott halalozas erteket.
      */
     @FXML
     private TextField mortField;
     /**
-     * Slider, a gyúgyulási esély beállítására.
+     * Slider, a gyugyulasi esely beallitasara.
      */
     @FXML
     private Slider healSlider;
     /**
-     * TextField, itt jelezzük vissza az Usernek a beállított gyógyulás értékét.
+     * TextField, itt jelezzuk vissza az Usernek a beallitott gyogyulas erteket.
      */
     @FXML
     private TextField healField;
     /**
-     * Slider, a Dot sebességénék beállítására.
+     * Slider, a Dot sebessegenek beallitasara.
      */
     @FXML
     private Slider speedSlider;
     /**
-     * TextField, itt jelezzük vissza az Usernek a beállított sebesség értékét.
+     * TextField, itt jelezzuk vissza az Usernek a beallitott sebesseg erteket.
      */
     @FXML
     private TextField speedField;
     /**
-     * Pane, ebben található a canvas, amire rajzolunk.
+     * Pane, ebben talalhato a canvas, amire rajzolunk.
      */
     @FXML
     private Pane pane;
     /**
-     * TextField, a User itt adja meg a lerakni kívánt Dotok, számát.
-     * Csak Integer lehet, különben hibaüzenet keletkezik
+     * TextField, a User itt adja meg a lerakni kivant Dotok, szamat.
+     * Csak Integer lehet, kulonben hibauzenet keletkezik
      */
     @FXML
     private TextField manyDotsField;
     /**
-     * ComboBox, a User itt választja ki a Dot típusát
+     * ComboBox, a User itt valasztja ki a Dot tipusat
      */
     @FXML
     private ComboBox<dotTypes> manyDotsComboBox;
     /**
-     * SimulationTemplate-et tárolunk, az Editor ezt módosítja.
-     * Ez tárolja a szimulációhoz elindításához szükséges adatokat.
+     * SimulationTemplate-et tarolunk, az Editor ezt modositja.
+     * Ez tarolja a szimulaciohoz elinditasahoz szukseges adatokat.
      */
     private SimulationTemplate simulationTemplate;
     /**
-     * Gomb által kiválasztott Dot típusának tárolója.
+     * Gomb altal kivalasztott Dot tipusanak taroloja.
      */
     private simulatorComponents.dotTypes selectedType = simulatorComponents.dotTypes.None;
 
     /**
-     * Pötty alapértelmezett sugara.
+     * Potty alapertelmezett sugara.
      */
     private final double radius = 5.0;
 
     /**
      * A kontroller konstruktora.
-     * Létrehozza a kontrollert, beállítja a stage-et és a simulationTemplate-et
+     * Letrehozza a kontrollert, beallitja a stage-et es a simulationTemplate-et
      *
-     * @param st Stage, amit a Main-ben hozunk létre.
+     * @param st Stage, amit a Main-ben hozunk letre.
      */
     public SimEditorController(Stage st) {
         stage = st;
@@ -122,11 +122,11 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Az ablak inicializálója.
-     * Feladata az ablakon található elemek értékeinek beállítása.
+     * Az ablak inicializaloja.
+     * Feladata az ablakon talalhato elemek ertekeinek beallitasa.
      *
-     * @param url            JavaFX használja relatív útvonal meghatározása a root objectnek
-     * @param resourceBundle Azok a források, amik a root object helyének meghatározásához szükségesek
+     * @param url            JavaFX hasznalja relativ utvonal meghatarozasa a root objectnek
+     * @param resourceBundle Azok a forrasok, amik a root object helyenek meghatarozasahoz szuksegesek
      */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -169,7 +169,7 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Feladata az ablak újrarajzolása.
+     * Feladata az ablak ujrarajzolasa.
      */
     //ToDO tesztelni
     private void redraw() {
@@ -178,9 +178,9 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Több pötty véletlenszerű elhelyezését kezelő gomb megnyomása esetén hívódik.
-     * Feladata a TextField Integerré alakítása, ha ez nem megoldható hibaüzenetet küld.
-     * Ha a kapott szám Integerré alakítható, a megadott típus alapján meghívja n db alkalommal a Dot létrehozó függvényt.
+     * Tobb potty veletlenszeru elhelyezeset kezelo gomb megnyomasa eseten hivodik.
+     * Feladata a TextField Integerre alakitasa, ha ez nem megoldhato hibauzenetet kuld.
+     * Ha a kapott szam Integerre alakithato, a megadott tipus alapjan meghivja n db alkalommal a Dot letrehozo fuggvenyt.
      */
 
     @FXML
@@ -206,8 +206,8 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Fertőzési esély beállító csúszka változásakor hívódik.
-     * Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe.
+     * Fertozesi esely beallito csuszka valtozasakor hivodik.
+     * Feladata, hogy ezt az erteket tovabbitsa a simulationTemplate-nek, es kiirja ezt a megfelelo TextFieldbe.
      */
 
     @FXML
@@ -218,8 +218,8 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Halálozási esély beállító csúszka változásakor hívódik.
-     * Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe.
+     * Halalozasi esely beallito csuszka valtozasakor hivodik.
+     * Feladata, hogy ezt az erteket tovabbitsa a simulationTemplate-nek, es kiirja ezt a megfelelo TextFieldbe.
      */
 
     @FXML
@@ -230,8 +230,8 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Gyógyulási esély beállító csúszka változásakor hívódik.
-     * Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe.
+     * Gyogyulasi esely beallito csuszka valtozasakor hivodik.
+     * Feladata, hogy ezt az erteket tovabbitsa a simulationTemplate-nek, es kiirja ezt a megfelelo TextFieldbe.
      */
     @FXML
     private void healSliderChanged() {
@@ -240,12 +240,12 @@ public class SimEditorController implements Initializable {
         healField.setText(String.valueOf(val));
     }
 
-    //ToDo specifikációtol való eltérés
+    //ToDo specifikaciotol valo elteres
     //ToDo make val=0 ?
 
     /**
-     * Sebesség beállító csúszka változásakor hívódik.
-     * Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe.
+     * Sebesseg beallito csuszka valtozasakor hivodik.
+     * Feladata, hogy ezt az erteket tovabbitsa a simulationTemplate-nek, es kiirja ezt a megfelelo TextFieldbe.
      */
     @FXML
     private void speedSliderChanged() {
@@ -259,8 +259,8 @@ public class SimEditorController implements Initializable {
     //ToDo tesztelni
 
     /**
-     * Canvas letörlését végzi.
-     * Új SimulationTemplate-et hoz létre.
+     * Canvas letorleset vegzi.
+     * uj SimulationTemplate-et hoz letre.
      */
     @FXML
     private void clearCanvas() {
@@ -277,7 +277,7 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Egér kattintáskor meghívja a Dot létehoz függvényt, és frissíti a Canvast.
+     * Eger kattintaskor meghivja a Dot letehoz fuggvenyt, es frissiti a Canvast.
      *
      * @param event A kapott MouseEvent
      */
@@ -288,7 +288,7 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Beállítja az egér által lehelyezendő Dot típusát halottra.
+     * Beallitja az eger altal lehelyezendo Dot tipusat halottra.
      */
 
     @FXML
@@ -297,7 +297,7 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Beállítja az egér által lehelyezendő Dot típusát fertőzőre.
+     * Beallitja az eger altal lehelyezendo Dot tipusat fertozore.
      */
 
     @FXML
@@ -306,7 +306,7 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Beállítja az egér által lehelyezendő Dot típusát egészségesre.
+     * Beallitja az eger altal lehelyezendo Dot tipusat egeszsegesre.
      */
 
     @FXML
@@ -315,7 +315,7 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Beállítja az egér által lehelyezendő Dot típusát közömbösre.
+     * Beallitja az eger altal lehelyezendo Dot tipusat kozombosre.
      */
 
     @FXML
@@ -324,9 +324,9 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Elmenti a simulationTemplate-et szerializálás segítségével fájlba.
-     * Értesíti a User-t, ha sikeres.
-     * Értesíti a felhasználót, ha a fájl null vagy nem létezik.
+     * Elmenti a simulationTemplate-et szerializalas segitsegevel fajlba.
+     * ertesiti a User-t, ha sikeres.
+     * ertesiti a felhasznalot, ha a fajl null vagy nem letezik.
      */
 
     @FXML
@@ -351,10 +351,10 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Meghívja a simulationTemplate-et deszerializáló függvényt.
-     * SimulationTemplate-et beállítja a kapott értékre.
-     * A csúszkákat és a hozzájuk tartozó TextField-et beállítja a megfelelő értékre.
-     * Ha null a kapott template a függvény visszatér. A hibajelzés már az openSimulationTemplate()-ben megtörtént.
+     * Meghivja a simulationTemplate-et deszerializalo fuggvenyt.
+     * SimulationTemplate-et beallitja a kapott ertekre.
+     * A csuszkakat es a hozzajuk tartozo TextField-et beallitja a megfelelo ertekre.
+     * Ha null a kapott template a fuggveny visszater. A hibajelzes mar az openSimulationTemplate()-ben megtortent.
      */
 
 
@@ -380,9 +380,9 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Deszerializálja a megadott simulationTemplate-et.
+     * Deszerializalja a megadott simulationTemplate-et.
      *
-     * @return SimulationTemplate visszadja egy deszerializált Template-et, vagy nullt-t ha nem sikerült a folyamat.
+     * @return SimulationTemplate visszadja egy deszerializalt Template-et, vagy nullt-t ha nem sikerult a folyamat.
      */
 
     private SimulationTemplate openSimulationTemplate() {
@@ -405,9 +405,9 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Létrehozza és elindítja a SimulationPlayer ablakot.
+     * Letrehozza es elinditja a SimulationPlayer ablakot.
      *
-     * @throws IOException Kivételt dob, ha az fxml nem létezik.
+     * @throws IOException Kivetelt dob, ha az fxml nem letezik.
      */
 
     @FXML
@@ -435,9 +435,9 @@ public class SimEditorController implements Initializable {
     }
 
     /**
-     * Elindítja a SimulationPlayer-t közvetlenül fájlból.
+     * Elinditja a SimulationPlayer-t kozvetlenul fajlbol.
      *
-     * @throws IOException Kivételt dob, ha az fxml nem létezik.
+     * @throws IOException Kivetelt dob, ha az fxml nem letezik.
      */
 
     @FXML

@@ -1,0 +1,205 @@
+\hypertarget{interfacesimulator_1_1Steppable}{}\doxysection{simulator.\+Steppable interfészreferencia}
+\label{interfacesimulator_1_1Steppable}\index{simulator.Steppable@{simulator.Steppable}}
+
+
+A simulator.\+Steppable osztály származási diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interfacesimulator_1_1Steppable__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Publikus tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfacesimulator_1_1Steppable_aa6803739b7469a9e229a049cc77ec470}{step}} (Canvas c)
+\item 
+void \mbox{\hyperlink{interfacesimulator_1_1Steppable_a421e4e4d30515632ef52a8b20bd977da}{init}} (Canvas c)
+\item 
+boolean \mbox{\hyperlink{interfacesimulator_1_1Steppable_a5eb992c343070e5eb705a26eea5c463a}{is\+Collided\+With}} (\mbox{\hyperlink{interfacesimulator_1_1Steppable}{Steppable}} st)
+\item 
+boolean \mbox{\hyperlink{interfacesimulator_1_1Steppable_ae0deed1b69a3cb2d0c4ab7eb1d7c4cd6}{is\+Collided\+With}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} dot)
+\item 
+void \mbox{\hyperlink{interfacesimulator_1_1Steppable_ab4410f36c4da498c4f80b610301ac7f4}{hit\+By}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} dot)
+\item 
+boolean \mbox{\hyperlink{interfacesimulator_1_1Steppable_ada2390a42fab68f493c61f6a36bb91d5}{is\+Out\+Of\+Window}} (Canvas c)
+\item 
+void \mbox{\hyperlink{interfacesimulator_1_1Steppable_a101fdd51d62506c45faacb8d87f15afc}{refresh}} (Canvas c)
+\item 
+void \mbox{\hyperlink{interfacesimulator_1_1Steppable_af07856466863af9d7734fca57961d7a1}{draw}} (Canvas c)
+\item 
+void \mbox{\hyperlink{interfacesimulator_1_1Steppable_a520cfded2c29889279ab1a254cb1e6a8}{move\+Back}} (Canvas c)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Részletes leírás}
+Interfész, amely a léptethető dolgokat valósítja meg 
+
+\doxysubsection{Tagfüggvények dokumentációja}
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_af07856466863af9d7734fca57961d7a1}\label{interfacesimulator_1_1Steppable_af07856466863af9d7734fca57961d7a1}} 
+\index{simulator.Steppable@{simulator.Steppable}!draw@{draw}}
+\index{draw@{draw}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void simulator.\+Steppable.\+draw (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Kirajzolja a léptethető dolgot a Canvason
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a398ca7cb99aa5590614fb54d0733db60}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aa71a9c769fa3e904b38e574e164c8ceb}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_ab4410f36c4da498c4f80b610301ac7f4}\label{interfacesimulator_1_1Steppable_ab4410f36c4da498c4f80b610301ac7f4}} 
+\index{simulator.Steppable@{simulator.Steppable}!hitBy@{hitBy}}
+\index{hitBy@{hitBy}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{hitBy()}{hitBy()}}
+{\footnotesize\ttfamily void simulator.\+Steppable.\+hit\+By (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{dot }\end{DoxyParamCaption})}
+
+Dottal való ütközést lekezelő függvény
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em dot} & A kapott Dot \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_aab8e18f8c41f45badf6bca11506283c7}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a0e8455094b483fb3de8be7b79d27218e}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_a421e4e4d30515632ef52a8b20bd977da}\label{interfacesimulator_1_1Steppable_a421e4e4d30515632ef52a8b20bd977da}} 
+\index{simulator.Steppable@{simulator.Steppable}!init@{init}}
+\index{init@{init}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void simulator.\+Steppable.\+init (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Szimuláció elején végzendő lépések
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_ab7333c5ca336de7231164afd8b634b5c}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_abad81a9b629cf2306206d18f281b5a8c}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_ae0deed1b69a3cb2d0c4ab7eb1d7c4cd6}\label{interfacesimulator_1_1Steppable_ae0deed1b69a3cb2d0c4ab7eb1d7c4cd6}} 
+\index{simulator.Steppable@{simulator.Steppable}!isCollidedWith@{isCollidedWith}}
+\index{isCollidedWith@{isCollidedWith}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{isCollidedWith()}{isCollidedWith()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean simulator.\+Steppable.\+is\+Collided\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{dot }\end{DoxyParamCaption})}
+
+Ütközött-\/e a kapott Dot-\/al?
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em dot} & A kapott Másik Dot \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Igen vagy Nem 
+\end{DoxyReturn}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a458f820bfd8a08187d3ed8942f0e7d4a}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a777d3c710a8f896467e05eb76a9107e6}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_a5eb992c343070e5eb705a26eea5c463a}\label{interfacesimulator_1_1Steppable_a5eb992c343070e5eb705a26eea5c463a}} 
+\index{simulator.Steppable@{simulator.Steppable}!isCollidedWith@{isCollidedWith}}
+\index{isCollidedWith@{isCollidedWith}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{isCollidedWith()}{isCollidedWith()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean simulator.\+Steppable.\+is\+Collided\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacesimulator_1_1Steppable}{Steppable}}}]{st }\end{DoxyParamCaption})}
+
+Ütközött-\/e a kapott Steppable-\/el?
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em st} & A kapott Másik \mbox{\hyperlink{interfacesimulator_1_1Steppable}{Steppable}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Igen vagy Nem 
+\end{DoxyReturn}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_ae09ee823be6f65f81d7c017108c227d5}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a612d2a9b8e7bd127a59b04d7c3358fbc}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_ada2390a42fab68f493c61f6a36bb91d5}\label{interfacesimulator_1_1Steppable_ada2390a42fab68f493c61f6a36bb91d5}} 
+\index{simulator.Steppable@{simulator.Steppable}!isOutOfWindow@{isOutOfWindow}}
+\index{isOutOfWindow@{isOutOfWindow}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{isOutOfWindow()}{isOutOfWindow()}}
+{\footnotesize\ttfamily boolean simulator.\+Steppable.\+is\+Out\+Of\+Window (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+A léptethető dolog a Canvason kívül tartózkodik-\/e?
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Igen vagy Nem 
+\end{DoxyReturn}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a331d30cfda3cd5f90c9c04799e1627d7}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aad51fa1e22d8f305353415bf2c8f72ec}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_a520cfded2c29889279ab1a254cb1e6a8}\label{interfacesimulator_1_1Steppable_a520cfded2c29889279ab1a254cb1e6a8}} 
+\index{simulator.Steppable@{simulator.Steppable}!moveBack@{moveBack}}
+\index{moveBack@{moveBack}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{moveBack()}{moveBack()}}
+{\footnotesize\ttfamily void simulator.\+Steppable.\+move\+Back (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Visszahúzza a léptethető dolgot a Canvasra
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a107912bda54266a940fe5ec790c29847}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_ae48ab7bae4bde6a42d968ab3401c865e}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_a101fdd51d62506c45faacb8d87f15afc}\label{interfacesimulator_1_1Steppable_a101fdd51d62506c45faacb8d87f15afc}} 
+\index{simulator.Steppable@{simulator.Steppable}!refresh@{refresh}}
+\index{refresh@{refresh}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{refresh()}{refresh()}}
+{\footnotesize\ttfamily void simulator.\+Steppable.\+refresh (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Frissíti a léptethető dolgot a Canvason
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a00e7d18d22e9854e187fb15acaf562bd}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_aa8162db09ba1ed99f6af47cafb7008c6}{simulator\+Components.\+Dot}}.
+
+\mbox{\Hypertarget{interfacesimulator_1_1Steppable_aa6803739b7469a9e229a049cc77ec470}\label{interfacesimulator_1_1Steppable_aa6803739b7469a9e229a049cc77ec470}} 
+\index{simulator.Steppable@{simulator.Steppable}!step@{step}}
+\index{step@{step}!simulator.Steppable@{simulator.Steppable}}
+\doxysubsubsection{\texorpdfstring{step()}{step()}}
+{\footnotesize\ttfamily void simulator.\+Steppable.\+step (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Egy körben végzendő lépések
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítják a következők\+: \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_ac5b2fef060907b044a1f510c0602dfce}{simulator\+Components.\+Simulation\+Map}} és \mbox{\hyperlink{classsimulatorComponents_1_1Dot_a16afff9497d4ccc37996cbf8b7b5ef3b}{simulator\+Components.\+Dot}}.
+
+
+
+Ez a dokumentáció az interfészről a következő fájl alapján készült\+:\begin{DoxyCompactItemize}
+\item 
+Steppable.\+java\end{DoxyCompactItemize}

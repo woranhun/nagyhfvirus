@@ -3,24 +3,24 @@ package simulatorComponents;
 import java.io.Serializable;
 
 /**
- * Enum, ami a pöttyök típusát tárolja.
- * Megvalósítja a Serializable interfészt
+ * Enum, ami a pottyok tipusat tarolja.
+ * Megvalositja a Serializable interfeszt
  */
 public enum dotTypes implements Serializable {
     /**
-     * Nincs: hiba kezelés miatt
+     * Nincs: hiba kezeles miatt
      */
     None,
     /**
-     * Egészséges
+     * Egeszseges
      */
     Healthy,
     /**
-     * Fertőző: Lappangási idő után meghalhat vagy meggyúgyulhat
+     * Fertozo: Lappangasi ido utan meghalhat vagy meggyugyulhat
      */
     Infectious,
     /**
-     * Semleges: Sima személy
+     * Semleges: Sima szemely
      */
     Neutral,
     /**

@@ -6,25 +6,25 @@ import java.io.Serializable;
 
 
 /**
- * Point osztály
- * Feladata: az összetartozó x és y értékek tárolása és ezeken műveletek végzése
- * Abban az esetben, ha vectort fejez ki, akkor a Pont az Origóba tolt vector végpontját jelenti.
+ * Point osztaly
+ * Feladata: az osszetartozo x es y ertekek tarolasa es ezeken muveletek vegzese
+ * Abban az esetben, ha vectort fejez ki, akkor a Pont az Origoba tolt vector vegpontjat jelenti.
  */
 public class Point implements Serializable {
     /**
-     * x kordináta a bal felső sarokban van a (0,0)
+     * x kordinata a bal felso sarokban van a (0,0)
      */
     double x;
     /**
-     * y kordináta a bal felső sarokban van a (0,0)
+     * y kordinata a bal felso sarokban van a (0,0)
      */
     double y;
 
     /**
      * Point konstruktura
      *
-     * @param x A kapott x kordináta
-     * @param y A kapott y kordináta
+     * @param x A kapott x kordinata
+     * @param y A kapott y kordinata
      */
     public Point(double x, double y) {
         this.x = x;
@@ -32,7 +32,7 @@ public class Point implements Serializable {
     }
 
     /**
-     * Point osztály konstruktora
+     * Point osztaly konstruktora
      *
      * @param p A kapott Pont
      */
@@ -43,41 +43,41 @@ public class Point implements Serializable {
 
     /**
      * X getter
-     * @return x értéke
+     * @return x erteke
      */
     public double getX() {
         return x;
     }
     /**
      * y getter
-     * @return y értéke
+     * @return y erteke
      */
     public double getY(){
         return y;
     }
 
     /**
-     * Két pont között számol távolságot, távolság = ((x1-x2)^2+(y1-y2)^2)^(1/2) képlet segítségével
+     * Ket pont kozott szamol tavolsagot, tavolsag = ((x1-x2)^2+(y1-y2)^2)^(1/2) keplet segitsegevel
      *
      * @param p A kapott Pont
-     * @return A távolság, csak pozitív vagy 0 lehet
+     * @return A tavolsag, csak pozitiv vagy 0 lehet
      */
     public double calcDistance(Point p) {
         return Math.sqrt(Math.pow(this.x - p.x, 2) + Math.pow(this.y - p.y, 2));
     }
 
     /**
-     * Két pont közötti elmozdulás számolása
+     * Ket pont kozotti elmozdulas szamolasa
      *
      * @param p A kapott Pont
-     * @return Az elmozdulás vector
+     * @return Az elmozdulas vector
      */
     public double calcDisplacement(Point p) {
         return this.x - p.x + this.y - p.y;
     }
 
     /**
-     * Két pontot összead x és y kordináták alapján, az eredmény az első operandusban tárolódik
+     * Ket pontot osszead x es y kordinatak alapjan, az eredmeny az elso operandusban tarolodik
      *
      * @param p A kapott Pont
      */
@@ -87,10 +87,10 @@ public class Point implements Serializable {
     }
 
     /**
-     * Egy ponthoz hozzáad egy X és  Y értéket
+     * Egy ponthoz hozzaad egy X es  Y erteket
      *
-     * @param x A kapott x érték
-     * @param y A kapott y érték
+     * @param x A kapott x ertek
+     * @param y A kapott y ertek
      */
     void add(double x, double y) {
         this.x += x;
@@ -98,7 +98,7 @@ public class Point implements Serializable {
     }
 
     /**
-     * Két pontot kivon x és y kordináták alapján, az eredmény az első operandusban tárolódik
+     * Ket pontot kivon x es y kordinatak alapjan, az eredmeny az elso operandusban tarolodik
      *
      * @param p A kapott Pont
      */
@@ -108,10 +108,10 @@ public class Point implements Serializable {
     }
 
     /**
-     * Egy pontból kivon egy X és  Y értéket
+     * Egy pontbol kivon egy X es  Y erteket
      *
-     * @param x A kapott x érték
-     * @param y A kapott y érték
+     * @param x A kapott x ertek
+     * @param y A kapott y ertek
      */
     void subtract(double x, double y) {
         this.x -= x;
@@ -119,9 +119,9 @@ public class Point implements Serializable {
     }
 
     /**
-     * Egy pont X és Y kordinátáját megszorozza a kapott értékkel
+     * Egy pont X es Y kordinatajat megszorozza a kapott ertekkel
      *
-     * @param val A kapott érték
+     * @param val A kapott ertek
      */
     public void multiply(double val) {
         this.x *= val;
@@ -129,9 +129,9 @@ public class Point implements Serializable {
     }
 
     /**
-     * Egy pont X és Y kordinátáját elosztja az értékkel
+     * Egy pont X es Y kordinatajat elosztja az ertekkel
      *
-     * @param val Az érték, amivel leosztunk
+     * @param val Az ertek, amivel leosztunk
      */
     public void divide(double val) {
         if (val == 0)
@@ -141,20 +141,20 @@ public class Point implements Serializable {
     }
 
     /**
-     * Skaláris szorzat számolását végzi két vector között
+     * Skalaris szorzat szamolasat vegzi ket vector kozott
      *
      * @param v A kapott vector
-     * @return A kiszámolt skaláris szorzatot visszaadja.
+     * @return A kiszamolt skalaris szorzatot visszaadja.
      */
     public double dotProduct(Point v) {
         return this.x * v.x + this.y * v.y;
     }
 
     /**
-     * Megvizsgálja, hogy a pont felül kilóg-e a Canvas-ról
+     * Megvizsgalja, hogy a pont felul kilog-e a Canvas-rol
      *
      * @param c A kapott Canvas
-     * @param r A kapott korrekciós érték (általában a Dot sugara)
+     * @param r A kapott korrekcios ertek (altalaban a Dot sugara)
      * @return Igen vagy Nem
      */
     boolean isOutOfCanvasTop(Canvas c, double r) {
@@ -162,10 +162,10 @@ public class Point implements Serializable {
     }
 
     /**
-     * Megvizsgálja, hogy a pont alul kilóg-e a Canvas-ról
+     * Megvizsgalja, hogy a pont alul kilog-e a Canvas-rol
      *
      * @param c A kapott Canvas
-     * @param r A kapott korrekciós érték (általában a Dot sugara)
+     * @param r A kapott korrekcios ertek (altalaban a Dot sugara)
      * @return Igen vagy Nem
      */
     boolean isOutOfCanvasBottom(Canvas c, double r) {
@@ -173,10 +173,10 @@ public class Point implements Serializable {
     }
 
     /**
-     * Megvizsgálja, hogy a pont bal oldalt kilóg-e a Canvas-ról
+     * Megvizsgalja, hogy a pont bal oldalt kilog-e a Canvas-rol
      *
      * @param c A kapott Canvas
-     * @param r A kapott korrekciós érték (általában a Dot sugara)
+     * @param r A kapott korrekcios ertek (altalaban a Dot sugara)
      * @return Igen vagy Nem
      */
     boolean isOutOfCanvasLeft(Canvas c, double r) {
@@ -184,10 +184,10 @@ public class Point implements Serializable {
     }
 
     /**
-     * Megvizsgálja, hogy a pont jobb oldalt kilóg-e a Canvas-ról
+     * Megvizsgalja, hogy a pont jobb oldalt kilog-e a Canvas-rol
      *
      * @param c A kapott Canvas
-     * @param r A kapott korrekciós érték (általában a Dot sugara)
+     * @param r A kapott korrekcios ertek (altalaban a Dot sugara)
      * @return Igen vagy Nem
      */
     boolean isOutOfCanvasRight(Canvas c, double r) {
@@ -195,10 +195,10 @@ public class Point implements Serializable {
     }
 
     /**
-     * Megvizsgálja, hogy a pont kilóg-e a Canvas-ról legalább egy oldalon
+     * Megvizsgalja, hogy a pont kilog-e a Canvas-rol legalabb egy oldalon
      *
      * @param c A kapott Canvas
-     * @param r A kapott korrekciós érték (általában a Dot sugara)
+     * @param r A kapott korrekcios ertek (altalaban a Dot sugara)
      * @return Igen vagy Nem
      */
     public boolean isOutOfCanvas(Canvas c, double r) {

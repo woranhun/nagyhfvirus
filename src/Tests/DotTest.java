@@ -7,11 +7,11 @@ import simulatorComponents.Dot;
 import static org.junit.Assert.*;
 
 /**
- * Dot tesztelése
+ * Dot tesztelese
  */
 public class DotTest {
 /**
- * Ütközés tesztelése
+ * utkozes tesztelese
  */
     @Test
     public void isCollidedWith() {

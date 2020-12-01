@@ -17,26 +17,26 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 /**
- * SimulationPlayer ablak kontroller osztája.
- * Feladata, hogy kezelje az ablakkal történő User interakciókat
+ * SimulationPlayer ablak kontroller osztaja.
+ * Feladata, hogy kezelje az ablakkal torteno User interakciokat
  */
 public class SimulationPlayerController implements Initializable {
     /**
-     * Stage eltárolása.
-     * Konstruktorban kapjuk az ablak létrehozása során.
-     * Ez alapján pozícionáljuk a többi ablakot.
+     * Stage eltarolasa.
+     * Konstruktorban kapjuk az ablak letrehozasa soran.
+     * Ez alapjan pozicionaljuk a tobbi ablakot.
      */
     Stage stage;
     /**
-     * simulationPlayer-t tárol
+     * simulationPlayer-t tarol
      */
     SimulationPlayer simulationPlayer;
     /**
-     * Futatandó szimuláció adatait tárolja
+     * Futatando szimulacio adatait tarolja
      */
     SimulationTemplate simulationTemplate;
     /**
-     * Statisztika puffer tára
+     * Statisztika puffer tara
      */
     SimulationStatisticsStore sss;
     /**
@@ -45,13 +45,13 @@ public class SimulationPlayerController implements Initializable {
     @FXML
     private Canvas img;
     /**
-     * Pane, ebben található a canvas, amire rajzolunk.
+     * Pane, ebben talalhato a canvas, amire rajzolunk.
      */
     @FXML
     private Pane pane;
     /**
-     * Hányszor hívtuk meg a redraw függvényt.
-     * reDraw működéséhez szükséges
+     * Hanyszor hivtuk meg a redraw fuggvenyt.
+     * reDraw mukodesehez szukseges
      */
     private int reDrawCallCnt = 0;
 
@@ -72,11 +72,11 @@ public class SimulationPlayerController implements Initializable {
     }
 
     /**
-     * Az ablak inicializálója.
-     * Feladata az ablakon található elemek értékeinek beállítása.
+     * Az ablak inicializaloja.
+     * Feladata az ablakon talalhato elemek ertekeinek beallitasa.
      *
-     * @param url            JavaFX használja relatív útvonal meghatározása a root objectnek
-     * @param resourceBundle Azok a források, amik a root object helyének meghatározásához szükségesek
+     * @param url            JavaFX hasznalja relativ utvonal meghatarozasa a root objectnek
+     * @param resourceBundle Azok a forrasok, amik a root object helyenek meghatarozasahoz szuksegesek
      */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -89,7 +89,7 @@ public class SimulationPlayerController implements Initializable {
     }
 
     /**
-     * Az ablak újrarajzolása
+     * Az ablak ujrarajzolasa
      */
     private void redraw() {
         // We need this because of the 2 addListeners
@@ -101,7 +101,7 @@ public class SimulationPlayerController implements Initializable {
     }
 
     /**
-     * playAndPause gomb megnyomásának kezelése
+     * playAndPause gomb megnyomasanak kezelese
      */
     @FXML
     public void playAndPausePressed() {
@@ -109,7 +109,7 @@ public class SimulationPlayerController implements Initializable {
     }
 
     /**
-     * Step gomb megnyomásának kezelése
+     * Step gomb megnyomasanak kezelese
      */
     @FXML
     public void stepPressed() {
@@ -117,9 +117,9 @@ public class SimulationPlayerController implements Initializable {
     }
 
     /**
-     * Statistics gomb megnyomásának kezelése
+     * Statistics gomb megnyomasanak kezelese
      *
-     * @throws IOException kivételt dobhat, de ha az fxml fájl jó helyen van nem fog
+     * @throws IOException kivetelt dobhat, de ha az fxml fajl jo helyen van nem fog
      */
     @FXML
     public void statisticsPressed() throws IOException {
@@ -138,7 +138,7 @@ public class SimulationPlayerController implements Initializable {
     }
 
     /**
-     * speedUp gomb megnyomásnak kezelése
+     * speedUp gomb megnyomasnak kezelese
      */
     @FXML
     public void speedUpPressed() {
@@ -146,7 +146,7 @@ public class SimulationPlayerController implements Initializable {
     }
 
     /**
-     * speedDown gomb megnyomásnak kezelése
+     * speedDown gomb megnyomasnak kezelese
      */
     @FXML
     public void speedDownPressed() {

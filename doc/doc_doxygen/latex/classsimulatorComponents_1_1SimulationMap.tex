@@ -1,0 +1,212 @@
+\hypertarget{classsimulatorComponents_1_1SimulationMap}{}\doxysection{simulator\+Components.\+Simulation\+Map osztályreferencia}
+\label{classsimulatorComponents_1_1SimulationMap}\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+
+
+A simulator\+Components.\+Simulation\+Map osztály származási diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classsimulatorComponents_1_1SimulationMap__inherit__graph}
+\end{center}
+\end{figure}
+
+
+A simulator\+Components.\+Simulation\+Map osztály együttműködési diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classsimulatorComponents_1_1SimulationMap__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Publikus tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_aa950d0f778b5508b898095e6f03f84f1}{Simulation\+Map}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_ac5b2fef060907b044a1f510c0602dfce}{step}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_ab7333c5ca336de7231164afd8b634b5c}{init}} (Canvas c)
+\item 
+boolean \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_ae09ee823be6f65f81d7c017108c227d5}{is\+Collided\+With}} (\mbox{\hyperlink{interfacesimulator_1_1Steppable}{Steppable}} st)
+\item 
+boolean \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a458f820bfd8a08187d3ed8942f0e7d4a}{is\+Collided\+With}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} dot)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_aab8e18f8c41f45badf6bca11506283c7}{hit\+By}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} dot)
+\item 
+boolean \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a331d30cfda3cd5f90c9c04799e1627d7}{is\+Out\+Of\+Window}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a107912bda54266a940fe5ec790c29847}{move\+Back}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a00e7d18d22e9854e187fb15acaf562bd}{refresh}} (Canvas c)
+\item 
+void \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a398ca7cb99aa5590614fb54d0733db60}{draw}} (Canvas c)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Részletes leírás}
+\mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap}{Simulation\+Map}} osztály A pályát, jelképezi. Feladata, hogy kör elején letörli magát 
+
+\doxysubsection{Konstruktorok és destruktorok dokumentációja}
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_aa950d0f778b5508b898095e6f03f84f1}\label{classsimulatorComponents_1_1SimulationMap_aa950d0f778b5508b898095e6f03f84f1}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!SimulationMap@{SimulationMap}}
+\index{SimulationMap@{SimulationMap}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{SimulationMap()}{SimulationMap()}}
+{\footnotesize\ttfamily simulator\+Components.\+Simulation\+Map.\+Simulation\+Map (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap}{Simulation\+Map}} konstruktorja, meghívja a \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap}{Simulation\+Map}} init függvényét 
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott canvas \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Tagfüggvények dokumentációja}
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_a398ca7cb99aa5590614fb54d0733db60}\label{classsimulatorComponents_1_1SimulationMap_a398ca7cb99aa5590614fb54d0733db60}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!draw@{draw}}
+\index{draw@{draw}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Simulation\+Map.\+draw (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Letörli a Canvas-\/t 
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_af07856466863af9d7734fca57961d7a1}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_aab8e18f8c41f45badf6bca11506283c7}\label{classsimulatorComponents_1_1SimulationMap_aab8e18f8c41f45badf6bca11506283c7}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!hitBy@{hitBy}}
+\index{hitBy@{hitBy}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{hitBy()}{hitBy()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Simulation\+Map.\+hit\+By (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{dot }\end{DoxyParamCaption})}
+
+Kezeli, hogy mi történik, ha egy \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} eltalálja. Semmi, mert nem tud egy \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} Pályával ütközni, de a léptethetőség miatt szükséges. 
+\begin{DoxyParams}{Paraméterek}
+{\em dot} & A kapott \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_ab4410f36c4da498c4f80b610301ac7f4}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_ab7333c5ca336de7231164afd8b634b5c}\label{classsimulatorComponents_1_1SimulationMap_ab7333c5ca336de7231164afd8b634b5c}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!init@{init}}
+\index{init@{init}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Simulation\+Map.\+init (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Inicializálja a Simulation\+Map-\/et ( Tehát letörli magát) 
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a421e4e4d30515632ef52a8b20bd977da}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_a458f820bfd8a08187d3ed8942f0e7d4a}\label{classsimulatorComponents_1_1SimulationMap_a458f820bfd8a08187d3ed8942f0e7d4a}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!isCollidedWith@{isCollidedWith}}
+\index{isCollidedWith@{isCollidedWith}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{isCollidedWith()}{isCollidedWith()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean simulator\+Components.\+Simulation\+Map.\+is\+Collided\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{dot }\end{DoxyParamCaption})}
+
+Megvizsgálja, hogy tudott-\/e ütközni egy Dot-\/al. Mindig hamisat ad vissza, mert a pálya nem ütközik, hanem a háttér szerepét tölti be. 
+\begin{DoxyParams}{Paraméterek}
+{\em dot} & A kapott \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Mindig Hamis 
+\end{DoxyReturn}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_ae0deed1b69a3cb2d0c4ab7eb1d7c4cd6}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_ae09ee823be6f65f81d7c017108c227d5}\label{classsimulatorComponents_1_1SimulationMap_ae09ee823be6f65f81d7c017108c227d5}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!isCollidedWith@{isCollidedWith}}
+\index{isCollidedWith@{isCollidedWith}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{isCollidedWith()}{isCollidedWith()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean simulator\+Components.\+Simulation\+Map.\+is\+Collided\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacesimulator_1_1Steppable}{Steppable}}}]{st }\end{DoxyParamCaption})}
+
+Megvizsgálja, hogy tudott-\/e ütközni egy másik Steppable-\/el. Mindig hamisat ad vissza, mert a pálya nem ütközik, hanem a háttér szerepét tölti be. 
+\begin{DoxyParams}{Paraméterek}
+{\em st} & A kapott Másik Steppable \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Mindig Hamis 
+\end{DoxyReturn}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a5eb992c343070e5eb705a26eea5c463a}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_a331d30cfda3cd5f90c9c04799e1627d7}\label{classsimulatorComponents_1_1SimulationMap_a331d30cfda3cd5f90c9c04799e1627d7}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!isOutOfWindow@{isOutOfWindow}}
+\index{isOutOfWindow@{isOutOfWindow}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{isOutOfWindow()}{isOutOfWindow()}}
+{\footnotesize\ttfamily boolean simulator\+Components.\+Simulation\+Map.\+is\+Out\+Of\+Window (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Megvizsgálja, hogy aza ablakon kívül esik-\/e. A háttér nem tud az ablakon kívül esni. A léptethetőség miatt szükséges. 
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Visszatérési érték}
+Mindig Hamis 
+\end{DoxyReturn}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_ada2390a42fab68f493c61f6a36bb91d5}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_a107912bda54266a940fe5ec790c29847}\label{classsimulatorComponents_1_1SimulationMap_a107912bda54266a940fe5ec790c29847}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!moveBack@{moveBack}}
+\index{moveBack@{moveBack}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{moveBack()}{moveBack()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Simulation\+Map.\+move\+Back (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Visszahúzza az objektumat a Canvas-\/ra, A léptethetőség miatt szükséges. 
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a520cfded2c29889279ab1a254cb1e6a8}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_a00e7d18d22e9854e187fb15acaf562bd}\label{classsimulatorComponents_1_1SimulationMap_a00e7d18d22e9854e187fb15acaf562bd}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!refresh@{refresh}}
+\index{refresh@{refresh}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{refresh()}{refresh()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Simulation\+Map.\+refresh (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Frissíti a Canvas-\/t. Meghívja a \mbox{\hyperlink{classsimulatorComponents_1_1SimulationMap_a398ca7cb99aa5590614fb54d0733db60}{draw(\+Canvas)}}-\/t 
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_a101fdd51d62506c45faacb8d87f15afc}{simulator.\+Steppable}}.
+
+\mbox{\Hypertarget{classsimulatorComponents_1_1SimulationMap_ac5b2fef060907b044a1f510c0602dfce}\label{classsimulatorComponents_1_1SimulationMap_ac5b2fef060907b044a1f510c0602dfce}} 
+\index{simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}!step@{step}}
+\index{step@{step}!simulatorComponents.SimulationMap@{simulatorComponents.SimulationMap}}
+\doxysubsubsection{\texorpdfstring{step()}{step()}}
+{\footnotesize\ttfamily void simulator\+Components.\+Simulation\+Map.\+step (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Lépés során meghívja saját maga refresh függvényét. 
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott Canvas \\
+\hline
+\end{DoxyParams}
+
+
+Megvalósítja a következőket\+: \mbox{\hyperlink{interfacesimulator_1_1Steppable_aa6803739b7469a9e229a049cc77ec470}{simulator.\+Steppable}}.
+
+
+
+Ez a dokumentáció az osztályról a következő fájl alapján készült\+:\begin{DoxyCompactItemize}
+\item 
+Simulation\+Map.\+java\end{DoxyCompactItemize}

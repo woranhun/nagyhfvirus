@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vírus szimuláció: UI.SimulationPlayerController osztályreferencia</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Vírus szimuláció
+   </div>
+   <div id="projectbrief">Orosz Bence XO9YAT 2020</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Készítette Doxygen 1.9.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Keresés','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Keresés');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>UI</b></li><li class="navelem"><a class="el" href="classUI_1_1SimulationPlayerController.html">SimulationPlayerController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Publikus tagfüggvények</a> &#124;
+<a href="#pac-methods">Csomag függvények</a> &#124;
+<a href="#pac-attribs">Csomag attribútumok</a> &#124;
+<a href="#pri-methods">Privát tagfüggvények</a> &#124;
+<a href="#pri-attribs">Privát attribútumok</a> &#124;
+<a href="classUI_1_1SimulationPlayerController-members.html">A tagok teljes listája</a>  </div>
+  <div class="headertitle">
+<div class="title">UI.SimulationPlayerController osztályreferencia</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Az UI.SimulationPlayerController osztály származási diagramja:</div>
+<div class="dyncontent">
+<div class="center"><img src="classUI_1_1SimulationPlayerController__inherit__graph.png" border="0" usemap="#aUI_8SimulationPlayerController_inherit__map" alt="Inheritance graph"/></div>
+<map name="aUI_8SimulationPlayerController_inherit__map" id="aUI_8SimulationPlayerController_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,80,200,107"/>
+<area shape="rect" title=" " alt="" coords="59,5,146,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">Jelmagyarázat</a>]</span></center></div>
+<div class="dynheader">
+Az UI.SimulationPlayerController osztály együttműködési diagramja:</div>
+<div class="dyncontent">
+<div class="center"><img src="classUI_1_1SimulationPlayerController__coll__graph.png" border="0" usemap="#aUI_8SimulationPlayerController_coll__map" alt="Collaboration graph"/></div>
+<map name="aUI_8SimulationPlayerController_coll__map" id="aUI_8SimulationPlayerController_coll__map">
+<area shape="rect" title=" " alt="" coords="1069,335,1264,361"/>
+<area shape="rect" title=" " alt="" coords="763,5,850,32"/>
+<area shape="rect" href="classsimulator_1_1SimulationPlayer.html" title=" " alt="" coords="718,235,895,261"/>
+<area shape="rect" title=" " alt="" coords="411,263,495,289"/>
+<area shape="rect" href="classsimulator_1_1SimulationStatisticsStore.html" title=" " alt="" coords="355,67,550,109"/>
+<area shape="rect" title=" " alt="" coords="5,67,199,109"/>
+<area shape="rect" title=" " alt="" coords="346,161,559,188"/>
+<area shape="rect" title=" " alt="" coords="425,212,480,239"/>
+<area shape="rect" title=" " alt="" coords="419,324,486,351"/>
+<area shape="rect" title=" " alt="" coords="779,396,835,423"/>
+<area shape="rect" title=" " alt="" coords="781,447,833,473"/>
+<area shape="rect" href="classsimulator_1_1SimulationTemplate.html" title=" " alt="" coords="709,497,904,524"/>
+<area shape="rect" title=" " alt="" coords="383,556,522,583"/>
+<area shape="rect" title=" " alt="" coords="413,439,493,465"/>
+<area shape="rect" title=" " alt="" coords="344,490,561,531"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">Jelmagyarázat</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Publikus tagfüggvények</h2></td></tr>
+<tr class="memitem:a1910eac4203d6e6ecf859fc652bcd526"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#a1910eac4203d6e6ecf859fc652bcd526">initialize</a> (URL url, ResourceBundle resourceBundle)</td></tr>
+<tr class="separator:a1910eac4203d6e6ecf859fc652bcd526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed3fc3bf69d48281804584a8bbb30b22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#aed3fc3bf69d48281804584a8bbb30b22">playAndPausePressed</a> ()</td></tr>
+<tr class="separator:aed3fc3bf69d48281804584a8bbb30b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78311e43fd33130c1575883b1f2f0bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#ad78311e43fd33130c1575883b1f2f0bf">stepPressed</a> ()</td></tr>
+<tr class="separator:ad78311e43fd33130c1575883b1f2f0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc7b6dd2bfbd2814173a19818049e7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#a3fc7b6dd2bfbd2814173a19818049e7c">statisticsPressed</a> ()  throws IOException </td></tr>
+<tr class="separator:a3fc7b6dd2bfbd2814173a19818049e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5cef7bae1b8d71c8081979ce069d59d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#af5cef7bae1b8d71c8081979ce069d59d">speedUpPressed</a> ()</td></tr>
+<tr class="separator:af5cef7bae1b8d71c8081979ce069d59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd397f44f599f31847315b70fbe1f5cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#abd397f44f599f31847315b70fbe1f5cf">speedDownPressed</a> ()</td></tr>
+<tr class="separator:abd397f44f599f31847315b70fbe1f5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-methods"></a>
+Csomag függvények</h2></td></tr>
+<tr class="memitem:a58ca603c2c12653e3df27db5e321efd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#a58ca603c2c12653e3df27db5e321efd1">SimulationPlayerController</a> (Stage st, <a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a> sim)</td></tr>
+<tr class="separator:a58ca603c2c12653e3df27db5e321efd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
+Csomag attribútumok</h2></td></tr>
+<tr class="memitem:af4720d880b22170921b77ee59f61acb6"><td class="memItemLeft" align="right" valign="top">Stage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#af4720d880b22170921b77ee59f61acb6">stage</a></td></tr>
+<tr class="separator:af4720d880b22170921b77ee59f61acb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b8f470bc5a3d75d4f79747c400dfde6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimulator_1_1SimulationPlayer.html">SimulationPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#a4b8f470bc5a3d75d4f79747c400dfde6">simulationPlayer</a></td></tr>
+<tr class="separator:a4b8f470bc5a3d75d4f79747c400dfde6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b49f81ab64a33923134f044498a81a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#af8b49f81ab64a33923134f044498a81a">simulationTemplate</a></td></tr>
+<tr class="separator:af8b49f81ab64a33923134f044498a81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7043905c03608bc20f53469dc1f52cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimulator_1_1SimulationStatisticsStore.html">SimulationStatisticsStore</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#ab7043905c03608bc20f53469dc1f52cb">sss</a></td></tr>
+<tr class="separator:ab7043905c03608bc20f53469dc1f52cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Privát tagfüggvények</h2></td></tr>
+<tr class="memitem:af93e203f8fa127598a1aebbd2b16269a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#af93e203f8fa127598a1aebbd2b16269a">redraw</a> ()</td></tr>
+<tr class="separator:af93e203f8fa127598a1aebbd2b16269a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Privát attribútumok</h2></td></tr>
+<tr class="memitem:acbc8dc21393bbb78dcb288a37ed2c45d"><td class="memItemLeft" align="right" valign="top">Canvas&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#acbc8dc21393bbb78dcb288a37ed2c45d">img</a></td></tr>
+<tr class="separator:acbc8dc21393bbb78dcb288a37ed2c45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2f78b04807658592fd430d2efbc8b1"><td class="memItemLeft" align="right" valign="top">Pane&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#aec2f78b04807658592fd430d2efbc8b1">pane</a></td></tr>
+<tr class="separator:aec2f78b04807658592fd430d2efbc8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a7639d7ca5e88700db648ec0b58f43b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimulationPlayerController.html#a3a7639d7ca5e88700db648ec0b58f43b">reDrawCallCnt</a> = 0</td></tr>
+<tr class="separator:a3a7639d7ca5e88700db648ec0b58f43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Részletes leírás</h2>
+<div class="textblock"><p>SimulationPlayer ablak kontroller osztája. Feladata, hogy kezelje az ablakkal történő User interakciókat </p>
+</div><h2 class="groupheader">Konstruktorok és destruktorok dokumentációja</h2>
+<a id="a58ca603c2c12653e3df27db5e321efd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ca603c2c12653e3df27db5e321efd1">&#9670;&nbsp;</a></span>SimulationPlayerController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UI.SimulationPlayerController.SimulationPlayerController </td>
+          <td>(</td>
+          <td class="paramtype">Stage&#160;</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a>&#160;</td>
+          <td class="paramname"><em>sim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a class="el" href="classUI_1_1SimulationPlayerController.html">SimulationPlayerController</a> konstruktora</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">st</td><td>A kapott Stage </td></tr>
+    <tr><td class="paramname">sim</td><td>A kapott SimulationTemplate </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Tagfüggvények dokumentációja</h2>
+<a id="a1910eac4203d6e6ecf859fc652bcd526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1910eac4203d6e6ecf859fc652bcd526">&#9670;&nbsp;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimulationPlayerController.initialize </td>
+          <td>(</td>
+          <td class="paramtype">URL&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ResourceBundle&#160;</td>
+          <td class="paramname"><em>resourceBundle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Az ablak inicializálója. Feladata az ablakon található elemek értékeinek beállítása.</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>JavaFX használja relatív útvonal meghatározása a root objectnek </td></tr>
+    <tr><td class="paramname">resourceBundle</td><td>Azok a források, amik a root object helyének meghatározásához szükségesek </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aed3fc3bf69d48281804584a8bbb30b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed3fc3bf69d48281804584a8bbb30b22">&#9670;&nbsp;</a></span>playAndPausePressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimulationPlayerController.playAndPausePressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>playAndPause gomb megnyomásának kezelése </p>
+
+</div>
+</div>
+<a id="af93e203f8fa127598a1aebbd2b16269a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af93e203f8fa127598a1aebbd2b16269a">&#9670;&nbsp;</a></span>redraw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimulationPlayerController.redraw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Az ablak újrarajzolása </p>
+
+</div>
+</div>
+<a id="abd397f44f599f31847315b70fbe1f5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd397f44f599f31847315b70fbe1f5cf">&#9670;&nbsp;</a></span>speedDownPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimulationPlayerController.speedDownPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>speedDown gomb megnyomásnak kezelése </p>
+
+</div>
+</div>
+<a id="af5cef7bae1b8d71c8081979ce069d59d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5cef7bae1b8d71c8081979ce069d59d">&#9670;&nbsp;</a></span>speedUpPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimulationPlayerController.speedUpPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>speedUp gomb megnyomásnak kezelése </p>
+
+</div>
+</div>
+<a id="a3fc7b6dd2bfbd2814173a19818049e7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc7b6dd2bfbd2814173a19818049e7c">&#9670;&nbsp;</a></span>statisticsPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimulationPlayerController.statisticsPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Statistics gomb megnyomásának kezelése</p>
+<dl class="exception"><dt>Kivételek</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>kivételt dobhat, de ha az fxml fájl jó helyen van nem fog </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad78311e43fd33130c1575883b1f2f0bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad78311e43fd33130c1575883b1f2f0bf">&#9670;&nbsp;</a></span>stepPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimulationPlayerController.stepPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Step gomb megnyomásának kezelése </p>
+
+</div>
+</div>
+<h2 class="groupheader">Adattagok dokumentációja</h2>
+<a id="acbc8dc21393bbb78dcb288a37ed2c45d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbc8dc21393bbb78dcb288a37ed2c45d">&#9670;&nbsp;</a></span>img</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Canvas UI.SimulationPlayerController.img</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Canvas amire rajzolunk </p>
+
+</div>
+</div>
+<a id="aec2f78b04807658592fd430d2efbc8b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec2f78b04807658592fd430d2efbc8b1">&#9670;&nbsp;</a></span>pane</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pane UI.SimulationPlayerController.pane</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pane, ebben található a canvas, amire rajzolunk. </p>
+
+</div>
+</div>
+<a id="a3a7639d7ca5e88700db648ec0b58f43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a7639d7ca5e88700db648ec0b58f43b">&#9670;&nbsp;</a></span>reDrawCallCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UI.SimulationPlayerController.reDrawCallCnt = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Hányszor hívtuk meg a redraw függvényt. reDraw működéséhez szükséges </p>
+
+</div>
+</div>
+<a id="a4b8f470bc5a3d75d4f79747c400dfde6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b8f470bc5a3d75d4f79747c400dfde6">&#9670;&nbsp;</a></span>simulationPlayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimulator_1_1SimulationPlayer.html">SimulationPlayer</a> UI.SimulationPlayerController.simulationPlayer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>simulationPlayer-t tárol </p>
+
+</div>
+</div>
+<a id="af8b49f81ab64a33923134f044498a81a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8b49f81ab64a33923134f044498a81a">&#9670;&nbsp;</a></span>simulationTemplate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a> UI.SimulationPlayerController.simulationTemplate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Futatandó szimuláció adatait tárolja </p>
+
+</div>
+</div>
+<a id="ab7043905c03608bc20f53469dc1f52cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7043905c03608bc20f53469dc1f52cb">&#9670;&nbsp;</a></span>sss</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimulator_1_1SimulationStatisticsStore.html">SimulationStatisticsStore</a> UI.SimulationPlayerController.sss</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Statisztika puffer tára </p>
+
+</div>
+</div>
+<a id="af4720d880b22170921b77ee59f61acb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4720d880b22170921b77ee59f61acb6">&#9670;&nbsp;</a></span>stage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Stage UI.SimulationPlayerController.stage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Stage eltárolása. Konstruktorban kapjuk az ablak létrehozása során. Ez alapján pozícionáljuk a többi ablakot. </p>
+
+</div>
+</div>
+<hr/>Ez a dokumentáció az osztályról a következő fájl alapján készült:<ul>
+<li>SimulationPlayerController.java</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Készítette&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.0
+</small></address>
+</body>
+</html>

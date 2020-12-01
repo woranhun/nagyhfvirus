@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['getdeathsqueue_46',['getDeathsQueue',['../classsimulator_1_1SimulationStatisticsStore.html#ab0b2c7496c6f984b9901bdc3eba15bd6',1,'simulator::SimulationStatisticsStore']]],
+  ['getdots_47',['getDots',['../classsimulator_1_1SimulationTemplate.html#ad18fcad316e15f7bd2037bd24b882fd8',1,'simulator::SimulationTemplate']]],
+  ['gethealchance_48',['getHealChance',['../classsimulator_1_1SimulationTemplate.html#aeee769c87732ed4f7a6b2e2fca8f72ee',1,'simulator::SimulationTemplate']]],
+  ['gethealsqueue_49',['getHealsQueue',['../classsimulator_1_1SimulationStatisticsStore.html#a7f5bf35d63a0d067bc5a38708ad01511',1,'simulator::SimulationStatisticsStore']]],
+  ['getincubationperiod_50',['getIncubationPeriod',['../classsimulator_1_1SimulationPlayer.html#a15ee5f5695279fbd6fcda606c568a605',1,'simulator::SimulationPlayer']]],
+  ['getinfchance_51',['getInfChance',['../classsimulator_1_1SimulationTemplate.html#a6b9b5ffe04aa6b3907dd8730ccb891db',1,'simulator::SimulationTemplate']]],
+  ['getinfectionsqueue_52',['getInfectionsQueue',['../classsimulator_1_1SimulationStatisticsStore.html#aadfcc18e9033c59e89602594563958d5',1,'simulator::SimulationStatisticsStore']]],
+  ['getlocation_53',['getLocation',['../classsimulatorComponents_1_1Dot.html#a9ecb01ca87ff84228e5e750750e2c86e',1,'simulatorComponents::Dot']]],
+  ['getmortchance_54',['getMortChance',['../classsimulator_1_1SimulationTemplate.html#af8a07fd1fe72e2f9dc8fc8ef00eacb57',1,'simulator::SimulationTemplate']]],
+  ['getpopulationqueue_55',['getPopulationQueue',['../classsimulator_1_1SimulationStatisticsStore.html#a64f5dc33e9b45d041e0903d1c5096774',1,'simulator::SimulationStatisticsStore']]],
+  ['getradius_56',['getRadius',['../classsimulatorComponents_1_1Dot.html#a729960805817925e46c5e4a32de3e8fb',1,'simulatorComponents::Dot']]],
+  ['getremove_57',['getRemove',['../classsimulator_1_1SimulationPlayer.html#aa513665320384340753d470b80ed60b3',1,'simulator::SimulationPlayer']]],
+  ['getremovetime_58',['getRemoveTime',['../classsimulator_1_1SimulationPlayer.html#abc27d6af4df8ccd2ca85b9777c0825dc',1,'simulator::SimulationPlayer']]],
+  ['getspeedofdot_59',['getSpeedOfDot',['../classsimulator_1_1SimulationTemplate.html#a29bb39cf23a299fcaad7f2f47cb32a7f',1,'simulator::SimulationTemplate']]],
+  ['gettype_60',['getType',['../classsimulatorComponents_1_1Dot.html#a886034f6f687e56ec93a9b710cad2cd6',1,'simulatorComponents::Dot']]],
+  ['getx_61',['getX',['../classsimulatorComponents_1_1Point.html#ae5dfe6fec6e539a2a4868c0ccda5e177',1,'simulatorComponents::Point']]],
+  ['gety_62',['getY',['../classsimulatorComponents_1_1Point.html#a170c5936e6eb6d974adafcac3a0c30ea',1,'simulatorComponents::Point']]]
+];

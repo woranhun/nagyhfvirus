@@ -6,11 +6,11 @@ import org.junit.Test;
 import simulatorComponents.Point;
 
 /**
- * Point tesztelésére szolgál
+ * Point tesztelesere szolgal
  */
 public class PointTest {
     /**
-     * Origó
+     * Origo
      */
     Point p0;
 

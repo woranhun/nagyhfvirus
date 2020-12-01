@@ -8,35 +8,35 @@ import java.util.ArrayList;
 
 
 /**
- * SimulationTemplate osztály.
- * Szimuláció elindításához kapcsolatos adatokat tárol.
- * Megvalósítja a java.io.Serializable és Cloneable interfészeket
+ * SimulationTemplate osztaly.
+ * Szimulacio elinditasahoz kapcsolatos adatokat tarol.
+ * Megvalositja a java.io.Serializable es Cloneable interfeszeket
  */
 public class SimulationTemplate implements java.io.Serializable, Cloneable {
     /**
-     * Dot-okat tároló ArrayList.
+     * Dot-okat tarolo ArrayList.
      */
     private ArrayList<Dot> dots;
     /**
-     * Átfertőzési esély
+     * atfertozesi esely
      */
     private double infChance;
     /**
-     * Halálozási esély
+     * Halalozasi esely
      */
     private double mortChance;
     /**
-     * Gyógyulási esély
+     * Gyogyulasi esely
      */
     private double healChance;
     /**
-     * Dot sebessége
+     * Dot sebessege
      */
     private double speedOfDot;
 
     /**
      * SimulationTemplate konstruktura
-     * Beállítja az alapértelmezett értékeket és létrehozza az objektumot.
+     * Beallitja az alapertelmezett ertekeket es letrehozza az objektumot.
      */
 
     public SimulationTemplate() {
@@ -50,7 +50,7 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     /**
      * Simulation template copy konstruktora
      *
-     * @param st a másolandó SimulationTemplate
+     * @param st a masolando SimulationTemplate
      */
     public SimulationTemplate(SimulationTemplate st) {
         this.dots = new ArrayList<>();
@@ -68,11 +68,11 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * clone függvény felüldefiniálása.
-     * Célja, hogy a SimulationTemplate másolását megvalósítsa.
+     * clone fuggveny feluldefinialasa.
+     * Celja, hogy a SimulationTemplate masolasat megvalositsa.
      *
-     * @return Visszadja az objektum másolatát(deep copy)
-     * @throws CloneNotSupportedException kivételt dobhat (de nem fog, mert a dot és a SimulationTemplate is klónozható)
+     * @return Visszadja az objektum masolatat(deep copy)
+     * @throws CloneNotSupportedException kivetelt dobhat (de nem fog, mert a dot es a SimulationTemplate is klonozhato)
      */
 
     @Override
@@ -86,9 +86,9 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Fertőzési esély getter függvénye
+     * Fertozesi esely getter fuggvenye
      *
-     * @return A fertőzési esély
+     * @return A fertozesi esely
      */
 
     public double getInfChance() {
@@ -97,19 +97,19 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
 
 
     /**
-     * Fertőzési esély setter függvénye
-     * Beállítja a kapott fertőzési esélyt a jövőben létrejövő Dot-okra.
+     * Fertozesi esely setter fuggvenye
+     * Beallitja a kapott fertozesi eselyt a jovoben letrejovo Dot-okra.
      *
-     * @param inf A kapott fertőzési esély
+     * @param inf A kapott fertozesi esely
      */
     public void setInfection(double inf) {
         infChance = inf;
     }
 
     /**
-     * Halálozási esély getter függvénye
+     * Halalozasi esely getter fuggvenye
      *
-     * @return A kapott halálozási esély
+     * @return A kapott halalozasi esely
      */
 
     public double getMortChance() {
@@ -117,10 +117,10 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Halálozási esély setter függvénye
-     * Beállítja a kapott halálozási esélyt a jövőben létrejövő Dot-okra.
+     * Halalozasi esely setter fuggvenye
+     * Beallitja a kapott halalozasi eselyt a jovoben letrejovo Dot-okra.
      *
-     * @param mort A kapott halálozási esély
+     * @param mort A kapott halalozasi esely
      */
 
     public void setMortality(double mort) {
@@ -128,9 +128,9 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Gyógyulási esély getter függvénye
+     * Gyogyulasi esely getter fuggvenye
      *
-     * @return A gyógyulási esély
+     * @return A gyogyulasi esely
      */
 
     public double getHealChance() {
@@ -138,10 +138,10 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Gyógyulási esély setter függvénye
-     * Beállítja a kapott gyógyulási esélyt a jövőben létrejövő Dot-okra.
+     * Gyogyulasi esely setter fuggvenye
+     * Beallitja a kapott gyogyulasi eselyt a jovoben letrejovo Dot-okra.
      *
-     * @param heal A kapott gyógyulási esély
+     * @param heal A kapott gyogyulasi esely
      */
 
     public void setHealChance(double heal) {
@@ -150,9 +150,9 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
 
 
     /**
-     * A sebesség getter függvénye
+     * A sebesseg getter fuggvenye
      *
-     * @return A sebessége a Dot-nak
+     * @return A sebessege a Dot-nak
      */
 
     public double getSpeedOfDot() {
@@ -160,10 +160,10 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Sebesség esély setter függvénye
-     * Beállítja a kapott sebességet a jövőben létrejövő Dot-okra.
+     * Sebesseg esely setter fuggvenye
+     * Beallitja a kapott sebesseget a jovoben letrejovo Dot-okra.
      *
-     * @param speed A kapott sebesség
+     * @param speed A kapott sebesseg
      */
 
     public void setSpeed(double speed) {
@@ -171,9 +171,9 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Dot lista getter függvénye
+     * Dot lista getter fuggvenye
      *
-     * @return a dotokat tartalmazó Array list
+     * @return a dotokat tartalmazo Array list
      */
 
     public ArrayList<Dot> getDots() {
@@ -181,7 +181,7 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Hozzáad egy Dot-ot a Dotokat tartalmazó listához
+     * Hozzaad egy Dot-ot a Dotokat tartalmazo listahoz
      *
      * @param d A kapott Dot
      */
@@ -191,12 +191,12 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Létrehoz a megadott paraméterek alapján egy Dot-ot és hozzáadja a Dot listához
+     * Letrehoz a megadott parameterek alapjan egy Dot-ot es hozzaadja a Dot listahoz
      *
-     * @param type A létrehozandó Dot típusa
-     * @param x    A létrehozandó Dot x kordinátája
-     * @param y    A létrehozandó Dot y kordinátája
-     * @param r    A létrehozandó Dot sugara
+     * @param type A letrehozando Dot tipusa
+     * @param x    A letrehozando Dot x kordinataja
+     * @param y    A letrehozando Dot y kordinataja
+     * @param r    A letrehozando Dot sugara
      */
 
     public void createDot(dotTypes type, double x, double y, double r) {
@@ -204,7 +204,7 @@ public class SimulationTemplate implements java.io.Serializable, Cloneable {
     }
 
     /**
-     * Frissíti a Canvas tartalmát
+     * Frissiti a Canvas tartalmat
      *
      * @param c A kapott canvas
      */

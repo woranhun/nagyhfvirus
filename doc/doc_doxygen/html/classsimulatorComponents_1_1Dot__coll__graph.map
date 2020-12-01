@@ -1,0 +1,8 @@
+<map id="simulatorComponents.Dot" name="simulatorComponents.Dot">
+<area shape="rect" id="node1" title=" " alt="" coords="448,85,623,111"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,27,95,54"/>
+<area shape="rect" id="node5" href="$enumsimulatorComponents_1_1dotTypes.html" title=" " alt="" coords="144,27,351,54"/>
+<area shape="rect" id="node6" href="$classsimulatorComponents_1_1Point.html" title=" " alt="" coords="156,78,339,105"/>
+<area shape="rect" id="node3" href="$interfacesimulator_1_1Steppable.html" title=" " alt="" coords="179,129,316,155"/>
+<area shape="rect" id="node4" title=" " alt="" coords="207,179,287,206"/>
+</map>

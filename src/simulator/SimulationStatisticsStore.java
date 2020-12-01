@@ -7,25 +7,25 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 //TODO log to file
 
 /**
- * Puffer tároló a stasztikai adatok tárolására
+ * Puffer tarolo a stasztikai adatok tarolasara
  */
 public class SimulationStatisticsStore {
     /**
      * population adatok puffere.
-     * Azért erre esett a választásom, mert így a Concurrent Modification Exception-t el tudom kerülni,
-     * mert történthet olyan, hogy éppen olvasom a Puffert, mikör a végére már kerül az új adat
+     * Azert erre esett a valasztasom, mert igy a Concurrent Modification Exception-t el tudom kerulni,
+     * mert tortenthet olyan, hogy eppen olvasom a Puffert, mikor a vegere mar kerul az uj adat
      */
     ConcurrentLinkedQueue<Pair<Number, Number>> populationQueue = new ConcurrentLinkedQueue<>();
     /**
-     * halálozási adatok puffere
+     * halalozasi adatok puffere
      */
     ConcurrentLinkedQueue<Pair<Number, Number>> deathsQueue = new ConcurrentLinkedQueue<>();
     /**
-     * fertőzési adatok puffere
+     * fertozesi adatok puffere
      */
     ConcurrentLinkedQueue<Pair<Number, Number>> infectionsQueue = new ConcurrentLinkedQueue<>();
     /**
-     * gyógyulási adatok puffere
+     * gyogyulasi adatok puffere
      */
     ConcurrentLinkedQueue<Pair<Number, Number>> healsQueue = new ConcurrentLinkedQueue<>();
 
@@ -37,40 +37,40 @@ public class SimulationStatisticsStore {
     }
 
     /**
-     * Hozzáad egy új értéket a populationQueue-hoz
+     * Hozzaad egy uj erteket a populationQueue-hoz
      *
-     * @param time Időbélyeg (Tick-ben)
-     * @param val  Az aktuális érték
+     * @param time Idobelyeg (Tick-ben)
+     * @param val  Az aktualis ertek
      */
     public void addPopulationChange(Number time, Number val) {
         populationQueue.add(new Pair<>(time, val));
     }
 
     /**
-     * Hozzáad egy új értéket a deathsQueue-hoz
+     * Hozzaad egy uj erteket a deathsQueue-hoz
      *
-     * @param time Időbélyeg (Tick-ben)
-     * @param val  Az aktuális érték
+     * @param time Idobelyeg (Tick-ben)
+     * @param val  Az aktualis ertek
      */
     public void addDeathsChange(Number time, Number val) {
         deathsQueue.add(new Pair<>(time, val));
     }
 
     /**
-     * Hozzáad egy új értéket a infectionsQueue-hoz
+     * Hozzaad egy uj erteket a infectionsQueue-hoz
      *
-     * @param time Időbélyeg (Tick-ben)
-     * @param val  Az aktuális érték
+     * @param time Idobelyeg (Tick-ben)
+     * @param val  Az aktualis ertek
      */
     public void addInfectionChange(Number time, Number val) {
         infectionsQueue.add(new Pair<>(time, val));
     }
 
     /**
-     * Hozzáad egy új értéket a healsQueue-hoz
+     * Hozzaad egy uj erteket a healsQueue-hoz
      *
-     * @param time Időbélyeg (Tick-ben)
-     * @param val  Az aktuális érték
+     * @param time Idobelyeg (Tick-ben)
+     * @param val  Az aktualis ertek
      */
     public void addHealChange(Number time, Number val) {
         healsQueue.add(new Pair<>(time, val));
@@ -113,35 +113,35 @@ public class SimulationStatisticsStore {
     }
 
     /**
-     * Üríti az infectionsQueue-t
+     * uriti az infectionsQueue-t
      */
     public void clearInfectionsQueue() {
         infectionsQueue.clear();
     }
 
     /**
-     * Üríti a populationQueue-t
+     * uriti a populationQueue-t
      */
     public void clearPopulationQueue() {
         populationQueue.clear();
     }
 
     /**
-     * Üríti a deathsQueue-t
+     * uriti a deathsQueue-t
      */
     public void clearDeathsQueue() {
         deathsQueue.clear();
     }
 
     /**
-     * Üríti a healsQueue-t
+     * uriti a healsQueue-t
      */
     public void clearHealsQueue() {
         healsQueue.clear();
     }
 
     /**
-     * Üríti az összes Queue-t
+     * uriti az osszes Queue-t
      */
     public void clearAll() {
         infectionsQueue.clear();

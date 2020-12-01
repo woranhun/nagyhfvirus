@@ -1,0 +1,1093 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vírus szimuláció: UI.SimEditorController osztályreferencia</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Vírus szimuláció
+   </div>
+   <div id="projectbrief">Orosz Bence XO9YAT 2020</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Készítette Doxygen 1.9.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Keresés','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Keresés');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>UI</b></li><li class="navelem"><a class="el" href="classUI_1_1SimEditorController.html">SimEditorController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Publikus tagfüggvények</a> &#124;
+<a href="#pri-methods">Privát tagfüggvények</a> &#124;
+<a href="#pri-attribs">Privát attribútumok</a> &#124;
+<a href="classUI_1_1SimEditorController-members.html">A tagok teljes listája</a>  </div>
+  <div class="headertitle">
+<div class="title">UI.SimEditorController osztályreferencia</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Az UI.SimEditorController osztály származási diagramja:</div>
+<div class="dyncontent">
+<div class="center"><img src="classUI_1_1SimEditorController__inherit__graph.png" border="0" usemap="#aUI_8SimEditorController_inherit__map" alt="Inheritance graph"/></div>
+<map name="aUI_8SimEditorController_inherit__map" id="aUI_8SimEditorController_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,80,159,107"/>
+<area shape="rect" title=" " alt="" coords="39,5,125,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">Jelmagyarázat</a>]</span></center></div>
+<div class="dynheader">
+Az UI.SimEditorController osztály együttműködési diagramja:</div>
+<div class="dyncontent">
+<div class="center"><img src="classUI_1_1SimEditorController__coll__graph.png" border="0" usemap="#aUI_8SimEditorController_coll__map" alt="Collaboration graph"/></div>
+<map name="aUI_8SimEditorController_coll__map" id="aUI_8SimEditorController_coll__map">
+<area shape="rect" title=" " alt="" coords="725,272,879,299"/>
+<area shape="rect" title=" " alt="" coords="381,5,467,32"/>
+<area shape="rect" title=" " alt="" coords="300,57,548,98"/>
+<area shape="rect" title=" " alt="" coords="396,123,452,149"/>
+<area shape="rect" title=" " alt="" coords="398,173,450,200"/>
+<area shape="rect" title=" " alt="" coords="386,272,462,299"/>
+<area shape="rect" href="classsimulator_1_1SimulationTemplate.html" title=" " alt="" coords="327,323,521,349"/>
+<area shape="rect" title=" " alt="" coords="45,272,183,299"/>
+<area shape="rect" title=" " alt="" coords="74,323,154,349"/>
+<area shape="rect" title=" " alt="" coords="5,374,223,415"/>
+<area shape="rect" title=" " alt="" coords="397,405,451,432"/>
+<area shape="rect" href="enumsimulatorComponents_1_1dotTypes.html" title=" " alt="" coords="321,456,527,483"/>
+<area shape="rect" title=" " alt="" coords="69,456,159,483"/>
+<area shape="rect" title=" " alt="" coords="391,507,457,533"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">Jelmagyarázat</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Publikus tagfüggvények</h2></td></tr>
+<tr class="memitem:a5772680326d0daaa7f96d146cbb29f8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a5772680326d0daaa7f96d146cbb29f8b">SimEditorController</a> (Stage st)</td></tr>
+<tr class="separator:a5772680326d0daaa7f96d146cbb29f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a346accec0010372eb18a837a4638584c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a346accec0010372eb18a837a4638584c">initialize</a> (URL url, ResourceBundle resourceBundle)</td></tr>
+<tr class="separator:a346accec0010372eb18a837a4638584c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Privát tagfüggvények</h2></td></tr>
+<tr class="memitem:a6d0e8103f482e2c128c02910406255e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a6d0e8103f482e2c128c02910406255e6">redraw</a> ()</td></tr>
+<tr class="separator:a6d0e8103f482e2c128c02910406255e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb238dc0cf5751b35a4c4d9953839eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#aebb238dc0cf5751b35a4c4d9953839eb">addManyDotsPressed</a> ()</td></tr>
+<tr class="separator:aebb238dc0cf5751b35a4c4d9953839eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb09c3390d118b3eff6edbe0d6fc03d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#aeb09c3390d118b3eff6edbe0d6fc03d0">infSliderChanged</a> ()</td></tr>
+<tr class="separator:aeb09c3390d118b3eff6edbe0d6fc03d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af026467d388dc30a3a94db145ab74f9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#af026467d388dc30a3a94db145ab74f9f">mortalitySliderChanged</a> ()</td></tr>
+<tr class="separator:af026467d388dc30a3a94db145ab74f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf1c1a12de83a10d2ebe697516843d89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#aaf1c1a12de83a10d2ebe697516843d89">healSliderChanged</a> ()</td></tr>
+<tr class="separator:aaf1c1a12de83a10d2ebe697516843d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af05a56196bba83368f7034b53b0a03b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#af05a56196bba83368f7034b53b0a03b4">speedSliderChanged</a> ()</td></tr>
+<tr class="separator:af05a56196bba83368f7034b53b0a03b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178d1cc8ab6094164d8506007d2a5540"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a178d1cc8ab6094164d8506007d2a5540">clearCanvas</a> ()</td></tr>
+<tr class="separator:a178d1cc8ab6094164d8506007d2a5540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e5e09e8034260323156f356e159a51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a90e5e09e8034260323156f356e159a51">createDotOnMousePosition</a> (MouseEvent event)</td></tr>
+<tr class="separator:a90e5e09e8034260323156f356e159a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1de7f7250b7ab58fd825d1ab8620c3d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a1de7f7250b7ab58fd825d1ab8620c3d0">setTypeOfDotOnMousePositionToDead</a> ()</td></tr>
+<tr class="separator:a1de7f7250b7ab58fd825d1ab8620c3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071f361b4eeb055a6d577377ddd276f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a071f361b4eeb055a6d577377ddd276f5">setTypeOfDotOnMousePositionToInfectious</a> ()</td></tr>
+<tr class="separator:a071f361b4eeb055a6d577377ddd276f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd234f0c253d39c4f1c96ddb1dc17224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#abd234f0c253d39c4f1c96ddb1dc17224">setTypeOfDotOnMousePositionToHealthy</a> ()</td></tr>
+<tr class="separator:abd234f0c253d39c4f1c96ddb1dc17224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00736ea2c480ed225c42097caa280a3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a00736ea2c480ed225c42097caa280a3f">setTypeOfDotOnMousePositionToNeutral</a> ()</td></tr>
+<tr class="separator:a00736ea2c480ed225c42097caa280a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8e0e6556d8c611ab1a043945b6a87a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a5a8e0e6556d8c611ab1a043945b6a87a">serializeSimulationTemplate</a> ()</td></tr>
+<tr class="separator:a5a8e0e6556d8c611ab1a043945b6a87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a875fbc8f143a67eb53007d24c0afa7d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a875fbc8f143a67eb53007d24c0afa7d7">openSerializedSimulationTemplate</a> ()</td></tr>
+<tr class="separator:a875fbc8f143a67eb53007d24c0afa7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f018c38e7db090a2b9a01ee0b531387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a3f018c38e7db090a2b9a01ee0b531387">openSimulationTemplate</a> ()</td></tr>
+<tr class="separator:a3f018c38e7db090a2b9a01ee0b531387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f47e92f06ab362b5f6ccf4f3abfeeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#ac7f47e92f06ab362b5f6ccf4f3abfeeb">startSimulationPlayer</a> ()  throws IOException </td></tr>
+<tr class="separator:ac7f47e92f06ab362b5f6ccf4f3abfeeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75c2ccdfb5c245e248116957f2a06f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#ac75c2ccdfb5c245e248116957f2a06f0">startSimulationPlayerFromFile</a> ()  throws IOException </td></tr>
+<tr class="separator:ac75c2ccdfb5c245e248116957f2a06f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Privát attribútumok</h2></td></tr>
+<tr class="memitem:a04c98a3ec696b95537c8a5e0610a8ac3"><td class="memItemLeft" align="right" valign="top">final Stage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a04c98a3ec696b95537c8a5e0610a8ac3">stage</a></td></tr>
+<tr class="separator:a04c98a3ec696b95537c8a5e0610a8ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3074f4b14031bfe00bf5b6694e3240d"><td class="memItemLeft" align="right" valign="top">Canvas&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#ad3074f4b14031bfe00bf5b6694e3240d">img</a></td></tr>
+<tr class="separator:ad3074f4b14031bfe00bf5b6694e3240d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b2a9c7a34dbe85d53e857ce6e8a307a"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a1b2a9c7a34dbe85d53e857ce6e8a307a">infSlider</a></td></tr>
+<tr class="separator:a1b2a9c7a34dbe85d53e857ce6e8a307a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e199f19a94a8c219d4574c4bb29c1ba"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a8e199f19a94a8c219d4574c4bb29c1ba">infField</a></td></tr>
+<tr class="separator:a8e199f19a94a8c219d4574c4bb29c1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa641c4db49214aedf50d1b77d3104823"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#aa641c4db49214aedf50d1b77d3104823">mortSlider</a></td></tr>
+<tr class="separator:aa641c4db49214aedf50d1b77d3104823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e7ce8f57355841a13d81a23cfde823"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a90e7ce8f57355841a13d81a23cfde823">mortField</a></td></tr>
+<tr class="separator:a90e7ce8f57355841a13d81a23cfde823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2c988831b5c30fbcd09eab44a5ead16"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#ab2c988831b5c30fbcd09eab44a5ead16">healSlider</a></td></tr>
+<tr class="separator:ab2c988831b5c30fbcd09eab44a5ead16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a3c646544c5dae26f775b944918c7f"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#af1a3c646544c5dae26f775b944918c7f">healField</a></td></tr>
+<tr class="separator:af1a3c646544c5dae26f775b944918c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40817de912757f42fda70b9d2df6ac1"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#aa40817de912757f42fda70b9d2df6ac1">speedSlider</a></td></tr>
+<tr class="separator:aa40817de912757f42fda70b9d2df6ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ac5088a613f6dc75ef215774972816"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a13ac5088a613f6dc75ef215774972816">speedField</a></td></tr>
+<tr class="separator:a13ac5088a613f6dc75ef215774972816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05d6c49333124353e36bbd11404ec95a"><td class="memItemLeft" align="right" valign="top">Pane&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a05d6c49333124353e36bbd11404ec95a">pane</a></td></tr>
+<tr class="separator:a05d6c49333124353e36bbd11404ec95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf5fe96122a06826edec90af570d37e3"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#abf5fe96122a06826edec90af570d37e3">manyDotsField</a></td></tr>
+<tr class="separator:abf5fe96122a06826edec90af570d37e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cb896edd951bdcf1a9dc12171834d17"><td class="memItemLeft" align="right" valign="top">ComboBox&lt; <a class="el" href="enumsimulatorComponents_1_1dotTypes.html">dotTypes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a9cb896edd951bdcf1a9dc12171834d17">manyDotsComboBox</a></td></tr>
+<tr class="separator:a9cb896edd951bdcf1a9dc12171834d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c1e2dda054c136da6020fd8d2ac5ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#ad0c1e2dda054c136da6020fd8d2ac5ad">simulationTemplate</a></td></tr>
+<tr class="separator:ad0c1e2dda054c136da6020fd8d2ac5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40fd2a6d018b7fdd11671c46d9110c96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumsimulatorComponents_1_1dotTypes.html">simulatorComponents.dotTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a40fd2a6d018b7fdd11671c46d9110c96">selectedType</a> = <a class="el" href="enumsimulatorComponents_1_1dotTypes.html#a35b0a0984d3586abbd89ab8bf9151272">simulatorComponents.dotTypes.None</a></td></tr>
+<tr class="separator:a40fd2a6d018b7fdd11671c46d9110c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4417f17940793905d83a8ed6eee2f5d4"><td class="memItemLeft" align="right" valign="top">final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUI_1_1SimEditorController.html#a4417f17940793905d83a8ed6eee2f5d4">radius</a> = 5.0</td></tr>
+<tr class="separator:a4417f17940793905d83a8ed6eee2f5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Részletes leírás</h2>
+<div class="textblock"><p>Simulation Editor ablak kontroller osztája. Feladata, hogy kezelje az ablakkal történő User interakciókat </p>
+</div><h2 class="groupheader">Konstruktorok és destruktorok dokumentációja</h2>
+<a id="a5772680326d0daaa7f96d146cbb29f8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5772680326d0daaa7f96d146cbb29f8b">&#9670;&nbsp;</a></span>SimEditorController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UI.SimEditorController.SimEditorController </td>
+          <td>(</td>
+          <td class="paramtype">Stage&#160;</td>
+          <td class="paramname"><em>st</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A kontroller konstruktora. Létrehozza a kontrollert, beállítja a stage-et és a simulationTemplate-et</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">st</td><td>Stage, amit a Main-ben hozunk létre. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Tagfüggvények dokumentációja</h2>
+<a id="aebb238dc0cf5751b35a4c4d9953839eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebb238dc0cf5751b35a4c4d9953839eb">&#9670;&nbsp;</a></span>addManyDotsPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.addManyDotsPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Több pötty véletlenszerű elhelyezését kezelő gomb megnyomása esetén hívódik. Feladata a TextField Integerré alakítása, ha ez nem megoldható hibaüzenetet küld. Ha a kapott szám Integerré alakítható, a megadott típus alapján meghívja n db alkalommal a Dot létrehozó függvényt. </p>
+
+</div>
+</div>
+<a id="a178d1cc8ab6094164d8506007d2a5540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178d1cc8ab6094164d8506007d2a5540">&#9670;&nbsp;</a></span>clearCanvas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.clearCanvas </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Canvas letörlését végzi. Új SimulationTemplate-et hoz létre. </p>
+
+</div>
+</div>
+<a id="a90e5e09e8034260323156f356e159a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e5e09e8034260323156f356e159a51">&#9670;&nbsp;</a></span>createDotOnMousePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.createDotOnMousePosition </td>
+          <td>(</td>
+          <td class="paramtype">MouseEvent&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Egér kattintáskor meghívja a Dot létehoz függvényt, és frissíti a Canvast.</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>A kapott MouseEvent </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aaf1c1a12de83a10d2ebe697516843d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf1c1a12de83a10d2ebe697516843d89">&#9670;&nbsp;</a></span>healSliderChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.healSliderChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gyógyulási esély beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe. </p>
+
+</div>
+</div>
+<a id="aeb09c3390d118b3eff6edbe0d6fc03d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb09c3390d118b3eff6edbe0d6fc03d0">&#9670;&nbsp;</a></span>infSliderChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.infSliderChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Fertőzési esély beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe. </p>
+
+</div>
+</div>
+<a id="a346accec0010372eb18a837a4638584c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a346accec0010372eb18a837a4638584c">&#9670;&nbsp;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.initialize </td>
+          <td>(</td>
+          <td class="paramtype">URL&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ResourceBundle&#160;</td>
+          <td class="paramname"><em>resourceBundle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Az ablak inicializálója. Feladata az ablakon található elemek értékeinek beállítása.</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>JavaFX használja relatív útvonal meghatározása a root objectnek </td></tr>
+    <tr><td class="paramname">resourceBundle</td><td>Azok a források, amik a root object helyének meghatározásához szükségesek </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af026467d388dc30a3a94db145ab74f9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af026467d388dc30a3a94db145ab74f9f">&#9670;&nbsp;</a></span>mortalitySliderChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.mortalitySliderChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Halálozási esély beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe. </p>
+
+</div>
+</div>
+<a id="a875fbc8f143a67eb53007d24c0afa7d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a875fbc8f143a67eb53007d24c0afa7d7">&#9670;&nbsp;</a></span>openSerializedSimulationTemplate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.openSerializedSimulationTemplate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Meghívja a simulationTemplate-et deszerializáló függvényt. SimulationTemplate-et beállítja a kapott értékre. A csúszkákat és a hozzájuk tartozó TextField-et beállítja a megfelelő értékre. Ha null a kapott template a függvény visszatér. A hibajelzés már az <a class="el" href="classUI_1_1SimEditorController.html#a3f018c38e7db090a2b9a01ee0b531387">openSimulationTemplate()</a>-ben megtörtént. </p>
+
+</div>
+</div>
+<a id="a3f018c38e7db090a2b9a01ee0b531387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f018c38e7db090a2b9a01ee0b531387">&#9670;&nbsp;</a></span>openSimulationTemplate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a> UI.SimEditorController.openSimulationTemplate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Deszerializálja a megadott simulationTemplate-et.</p>
+<dl class="section return"><dt>Visszatérési érték</dt><dd>SimulationTemplate visszadja egy deszerializált Template-et, vagy nullt-t ha nem sikerült a folyamat. </dd></dl>
+
+</div>
+</div>
+<a id="a6d0e8103f482e2c128c02910406255e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d0e8103f482e2c128c02910406255e6">&#9670;&nbsp;</a></span>redraw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.redraw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Feladata az ablak újrarajzolása. </p>
+
+</div>
+</div>
+<a id="a5a8e0e6556d8c611ab1a043945b6a87a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8e0e6556d8c611ab1a043945b6a87a">&#9670;&nbsp;</a></span>serializeSimulationTemplate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.serializeSimulationTemplate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Elmenti a simulationTemplate-et szerializálás segítségével fájlba. Értesíti a User-t, ha sikeres. Értesíti a felhasználót, ha a fájl null vagy nem létezik. </p>
+
+</div>
+</div>
+<a id="a1de7f7250b7ab58fd825d1ab8620c3d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1de7f7250b7ab58fd825d1ab8620c3d0">&#9670;&nbsp;</a></span>setTypeOfDotOnMousePositionToDead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.setTypeOfDotOnMousePositionToDead </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Beállítja az egér által lehelyezendő Dot típusát halottra. </p>
+
+</div>
+</div>
+<a id="abd234f0c253d39c4f1c96ddb1dc17224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd234f0c253d39c4f1c96ddb1dc17224">&#9670;&nbsp;</a></span>setTypeOfDotOnMousePositionToHealthy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.setTypeOfDotOnMousePositionToHealthy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Beállítja az egér által lehelyezendő Dot típusát egészségesre. </p>
+
+</div>
+</div>
+<a id="a071f361b4eeb055a6d577377ddd276f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071f361b4eeb055a6d577377ddd276f5">&#9670;&nbsp;</a></span>setTypeOfDotOnMousePositionToInfectious()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.setTypeOfDotOnMousePositionToInfectious </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Beállítja az egér által lehelyezendő Dot típusát fertőzőre. </p>
+
+</div>
+</div>
+<a id="a00736ea2c480ed225c42097caa280a3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00736ea2c480ed225c42097caa280a3f">&#9670;&nbsp;</a></span>setTypeOfDotOnMousePositionToNeutral()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.setTypeOfDotOnMousePositionToNeutral </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Beállítja az egér által lehelyezendő Dot típusát közömbösre. </p>
+
+</div>
+</div>
+<a id="af05a56196bba83368f7034b53b0a03b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af05a56196bba83368f7034b53b0a03b4">&#9670;&nbsp;</a></span>speedSliderChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.speedSliderChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sebesség beállító csúszka változásakor hívódik. Feladata, hogy ezt az értéket továbbítsa a simulationTemplate-nek, és kiírja ezt a megfelelő TextFieldbe. </p>
+
+</div>
+</div>
+<a id="ac7f47e92f06ab362b5f6ccf4f3abfeeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f47e92f06ab362b5f6ccf4f3abfeeb">&#9670;&nbsp;</a></span>startSimulationPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.startSimulationPlayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Létrehozza és elindítja a SimulationPlayer ablakot.</p>
+<dl class="exception"><dt>Kivételek</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>Kivételt dob, ha az fxml nem létezik. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac75c2ccdfb5c245e248116957f2a06f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75c2ccdfb5c245e248116957f2a06f0">&#9670;&nbsp;</a></span>startSimulationPlayerFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UI.SimEditorController.startSimulationPlayerFromFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Elindítja a SimulationPlayer-t közvetlenül fájlból.</p>
+<dl class="exception"><dt>Kivételek</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>Kivételt dob, ha az fxml nem létezik. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Adattagok dokumentációja</h2>
+<a id="af1a3c646544c5dae26f775b944918c7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a3c646544c5dae26f775b944918c7f">&#9670;&nbsp;</a></span>healField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField UI.SimEditorController.healField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TextField, itt jelezzük vissza az Usernek a beállított gyógyulás értékét. </p>
+
+</div>
+</div>
+<a id="ab2c988831b5c30fbcd09eab44a5ead16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2c988831b5c30fbcd09eab44a5ead16">&#9670;&nbsp;</a></span>healSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider UI.SimEditorController.healSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Slider, a gyúgyulási esély beállítására. </p>
+
+</div>
+</div>
+<a id="ad3074f4b14031bfe00bf5b6694e3240d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3074f4b14031bfe00bf5b6694e3240d">&#9670;&nbsp;</a></span>img</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Canvas UI.SimEditorController.img</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Canvas, a Dot-ok jelennek meg. </p>
+
+</div>
+</div>
+<a id="a8e199f19a94a8c219d4574c4bb29c1ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e199f19a94a8c219d4574c4bb29c1ba">&#9670;&nbsp;</a></span>infField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField UI.SimEditorController.infField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TextField, itt jelezzük vissza az Usernek a beállított infection értékét. </p>
+
+</div>
+</div>
+<a id="a1b2a9c7a34dbe85d53e857ce6e8a307a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b2a9c7a34dbe85d53e857ce6e8a307a">&#9670;&nbsp;</a></span>infSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider UI.SimEditorController.infSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Slider, az átfertőzés esélyének beállítására. </p>
+
+</div>
+</div>
+<a id="a9cb896edd951bdcf1a9dc12171834d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cb896edd951bdcf1a9dc12171834d17">&#9670;&nbsp;</a></span>manyDotsComboBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ComboBox&lt;<a class="el" href="enumsimulatorComponents_1_1dotTypes.html">dotTypes</a>&gt; UI.SimEditorController.manyDotsComboBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>ComboBox, a User itt választja ki a Dot típusát </p>
+
+</div>
+</div>
+<a id="abf5fe96122a06826edec90af570d37e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf5fe96122a06826edec90af570d37e3">&#9670;&nbsp;</a></span>manyDotsField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField UI.SimEditorController.manyDotsField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TextField, a User itt adja meg a lerakni kívánt Dotok, számát. Csak Integer lehet, különben hibaüzenet keletkezik </p>
+
+</div>
+</div>
+<a id="a90e7ce8f57355841a13d81a23cfde823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e7ce8f57355841a13d81a23cfde823">&#9670;&nbsp;</a></span>mortField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField UI.SimEditorController.mortField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TextField, itt jelezzük vissza az Usernek a beállított halálozás értékét. </p>
+
+</div>
+</div>
+<a id="aa641c4db49214aedf50d1b77d3104823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa641c4db49214aedf50d1b77d3104823">&#9670;&nbsp;</a></span>mortSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider UI.SimEditorController.mortSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Slider, a halálozási esély beállítására. </p>
+
+</div>
+</div>
+<a id="a05d6c49333124353e36bbd11404ec95a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d6c49333124353e36bbd11404ec95a">&#9670;&nbsp;</a></span>pane</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Pane UI.SimEditorController.pane</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pane, ebben található a canvas, amire rajzolunk. </p>
+
+</div>
+</div>
+<a id="a4417f17940793905d83a8ed6eee2f5d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4417f17940793905d83a8ed6eee2f5d4">&#9670;&nbsp;</a></span>radius</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double UI.SimEditorController.radius = 5.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pötty alapértelmezett sugara. </p>
+
+</div>
+</div>
+<a id="a40fd2a6d018b7fdd11671c46d9110c96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40fd2a6d018b7fdd11671c46d9110c96">&#9670;&nbsp;</a></span>selectedType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumsimulatorComponents_1_1dotTypes.html">simulatorComponents.dotTypes</a> UI.SimEditorController.selectedType = <a class="el" href="enumsimulatorComponents_1_1dotTypes.html#a35b0a0984d3586abbd89ab8bf9151272">simulatorComponents.dotTypes.None</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gomb által kiválasztott Dot típusának tárolója. </p>
+
+</div>
+</div>
+<a id="ad0c1e2dda054c136da6020fd8d2ac5ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0c1e2dda054c136da6020fd8d2ac5ad">&#9670;&nbsp;</a></span>simulationTemplate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a> UI.SimEditorController.simulationTemplate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>SimulationTemplate-et tárolunk, az Editor ezt módosítja. Ez tárolja a szimulációhoz elindításához szükséges adatokat. </p>
+
+</div>
+</div>
+<a id="a13ac5088a613f6dc75ef215774972816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ac5088a613f6dc75ef215774972816">&#9670;&nbsp;</a></span>speedField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField UI.SimEditorController.speedField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TextField, itt jelezzük vissza az Usernek a beállított sebesség értékét. </p>
+
+</div>
+</div>
+<a id="aa40817de912757f42fda70b9d2df6ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40817de912757f42fda70b9d2df6ac1">&#9670;&nbsp;</a></span>speedSlider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Slider UI.SimEditorController.speedSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Slider, a Dot sebességénék beállítására. </p>
+
+</div>
+</div>
+<a id="a04c98a3ec696b95537c8a5e0610a8ac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04c98a3ec696b95537c8a5e0610a8ac3">&#9670;&nbsp;</a></span>stage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Stage UI.SimEditorController.stage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Stage eltárolása. Konstruktorban kapjuk az ablak létrehozása során. Ez alapján pozícionáljuk a többi ablakot. </p>
+
+</div>
+</div>
+<hr/>Ez a dokumentáció az osztályról a következő fájl alapján készült:<ul>
+<li>SimEditorController.java</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Készítette&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.0
+</small></address>
+</body>
+</html>

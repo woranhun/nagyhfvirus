@@ -5,48 +5,48 @@ import javafx.scene.canvas.Canvas;
 import simulatorComponents.Dot;
 
 /**
- * Interfész, amely  a léptethető dolgokat valósítja meg
+ * Interfesz, amely  a leptetheto dolgokat valositja meg
  */
 public interface Steppable {
     /**
-     * Egy körben végzendő lépések
+     * Egy korben vegzendo lepesek
      *
      * @param c A kapott Canvas
      */
     void step(Canvas c);
 
     /**
-     * Szimuláció elején végzendő lépések
+     * Szimulacio elejen vegzendo lepesek
      *
      * @param c A kapott Canvas
      */
     void init(Canvas c);
 
     /**
-     * Ütközött-e a kapott Steppable-el?
+     * utkozott-e a kapott Steppable-el?
      *
-     * @param st A kapott Másik Steppable
+     * @param st A kapott Masik Steppable
      * @return Igen vagy Nem
      */
     boolean isCollidedWith(Steppable st);
 
     /**
-     * Ütközött-e a kapott Dot-al?
+     * utkozott-e a kapott Dot-al?
      *
-     * @param dot A kapott Másik Dot
+     * @param dot A kapott Masik Dot
      * @return Igen vagy Nem
      */
     boolean isCollidedWith(Dot dot);
 
     /**
-     * Dottal való ütközést lekezelő függvény
+     * Dottal valo utkozest lekezelo fuggveny
      *
      * @param dot A kapott Dot
      */
     void hitBy(Dot dot);
 
     /**
-     * A léptethető dolog a Canvason kívül tartózkodik-e?
+     * A leptetheto dolog a Canvason kivul tartozkodik-e?
      *
      * @param c A kapott Canvas
      * @return Igen vagy Nem
@@ -54,21 +54,21 @@ public interface Steppable {
     boolean isOutOfWindow(Canvas c);
 
     /**
-     * Frissíti a léptethető dolgot a Canvason
+     * Frissiti a leptetheto dolgot a Canvason
      *
      * @param c A kapott Canvas
      */
     void refresh(Canvas c);
 
     /**
-     * Kirajzolja a léptethető dolgot a Canvason
+     * Kirajzolja a leptetheto dolgot a Canvason
      *
      * @param c A kapott Canvas
      */
     void draw(Canvas c);
 
     /**
-     * Visszahúzza a léptethető dolgot a Canvasra
+     * Visszahuzza a leptetheto dolgot a Canvasra
      *
      * @param c A kapott Canvas
      */

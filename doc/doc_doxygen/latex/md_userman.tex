@@ -1,0 +1,101 @@
+\hypertarget{md_userman_autotoc_md9}{}\doxysection{A program általános leírása}\label{md_userman_autotoc_md9}
+A program célja egy vírus terjedésének és lefolyásának szimulálása a lakosságon. A programban Pöttyök (Dot) jelképezi az egyes embereket. 4 féle Dot található a programban\+:
+
+
+\begin{DoxyItemize}
+\item Neutral(\+Semleges)\+: A még meg nem fertőződött személyeket jelképezik
+\item Infectious(Fertőző)\+: A már megfertőzött személyeket jelképezik
+\item Healthy(Egészséges)\+: A már fertőző pöttyök képesek a gyógyulásra előre beállított eséllyel
+\item Dead(\+Halott)\+: A már fertőző pöttyök képesek a meghalásra előre beállított eséllyel
+\end{DoxyItemize}
+
+A szimulációhoz egy téglalap tartozik. Ide lehet lehelyezni a pöttyöket. Ha két pötty ütközik egymással, akkor rugalmas ütközés megy végbe. Az ütközés jelképezi a kontaktálást. Ha egy semleges pötty fertőzöttel ütközik, akkor az előre beállított esély alapján van esély a megfertőződésre.
+
+Egy fertőzött pötty másokat tovább tud fertőzni, illetve a lappangási idő letelte után (500 tick), lehetősége lesz gyógyulni, illetve meghalni a beállított valószínűség alapján.\hypertarget{md_userman_autotoc_md10}{}\doxysection{A program funkcionalitása a felhasználó szemszögéből}\label{md_userman_autotoc_md10}
+A program indítása után megnyílik a Simulation Editor (2. ábra) és betöltődik egy új üres szimuláció. Itt lehetőségünk van egy szimuláció előkészítésére. A programrész funciói\+:
+
+
+\begin{DoxyItemize}
+\item Szimuláció előkészítése
+\begin{DoxyItemize}
+\item Szimuláció betöltése fájlból (kezdeti értékek) (File$>$Open simulation...)
+\item Szimuláció mentése fájlba (kezdeti értékek) (File$>$Save simulation)
+\end{DoxyItemize}
+\item Kezdeti értékek beállítása
+\begin{DoxyItemize}
+\item Fertőzési esély (Infection Chance slider)
+\item Halálozási esély (Mortality Chance slider)
+\item Gyógyulási esély (Heal Chance slider)
+\item Pötty sebessége(\+Speed slid\+Wer)
+\item n db pötty felhelyezése véletlenszerűen a pályára (Add button)
+\item pöttyök egyessével történő felhelyezése a pályára, egér kattintás alapján (4db button)
+\item A pálya kezdeti értékeinek törlése (Clear $>$ Clear)
+\end{DoxyItemize}
+\item Szimuláció elindítása
+\begin{DoxyItemize}
+\item Kezdeti értékek alapján(\+Start $>$ Start )
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+
+\begin{DoxyImageNoCaption}
+  \mbox{\includegraphics[width=\textwidth,height=\textheight/2,keepaspectratio=true]{progSimEd.png}}
+\end{DoxyImageNoCaption}
+
+
+2.ábra -\/ Szimuláció előkészítése.
+
+A szimuláció előkészítéseként be kell állítanunk a csúszkák segítségével az esélyeket, majd pöttyöket kell hozzáadnunk a szimuláció sablonhoz. Pöttyöket kétféleképpen adhatunk hozzá. A legerdülő menüben kiválasztjuk a pötty típusát a mezőbe beírjuk a lerakandó pöttyök számát(Egész szám 0 és n között), majd rányomunk az Add gombra. A másik lehetőség, hogy először a 4 típust reprezentáló gombok egyikére kattintunk, majd a kívánt helyre mozgatva az egeret a bal egérgombbal kattintunk.
+
+Ha elégedettek vagyunk a szimulálandó vírus sablonjával, akkor a sablont elmenthetjük a File$>$Save simulation segítségével.
+
+A Start menüpont megnyitásával megnyillik egy új ablak, amiben a vírus szimulációja történik. (3.ábra)
+
+
+\begin{DoxyImageNoCaption}
+  \mbox{\includegraphics[width=\textwidth,height=\textheight/2,keepaspectratio=true]{progSim.png}}
+\end{DoxyImageNoCaption}
+
+
+3.ábra -\/ Vírus szimulálása
+
+A programrész funkciói\+:
+
+
+\begin{DoxyItemize}
+\item Szimuláció kezelése
+\begin{DoxyItemize}
+\item Idő elindítása megállítása (Play/\+Pause)
+\item léptetés egyesével (Step)
+\item Idő gyorsítása (Speed\+Up)
+\item Idő lassítása (Speed\+Down)
+\item statisztika megnyitása (Statistics)
+\end{DoxyItemize}
+\item Szimuláció megjelenítése és lejátszása
+\end{DoxyItemize}
+
+A vírus terjedése körökre van osztva (Tick) a szimuláció sebessége nem befolyásolja ezt. Csupán a felhasználó számára telik két kör között gyorsabban az idő.
+
+A Statistics gomb megnyomása utána megjelenik egy új ablakban a szimulációhoz tartozó statisztika. (4.ábra)
+
+
+\begin{DoxyImageNoCaption}
+  \mbox{\includegraphics[width=\textwidth,height=\textheight/2,keepaspectratio=true]{progStat.png}}
+\end{DoxyImageNoCaption}
+
+
+Ha a szimuláció már el lett indítva 10 Tickenként a pillanatnyi állás elküldésre kerül a grafikonhoz. A grafikon 100 ms -\/ként frissül. Ha a statisztika bezárásra kerül, akkor az addig kapott adatok törlődnek.
+
+Ha a grafikont nem nyitjuk, meg csak a program futása után, az adatok akkor is megjelennek.
+
+3.ábra -\/ Statisztika megjelenítése
+
+A programrész funkciói\+:
+
+
+\begin{DoxyItemize}
+\item Szimuláció statisztikája
+\begin{DoxyItemize}
+\item Olyan diagram(tick szerint), ahol ábrázolva vannak a populáció, a fertőzöttek, a gyógyultak és a halottak 
+\end{DoxyItemize}
+\end{DoxyItemize}

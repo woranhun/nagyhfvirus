@@ -1,6 +1,6 @@
-# Prog3: Vírus szimuláció nagyházifeladat
+# Prog3: Vírus szimuláció nagyházifeladat terv
 
-[toc]
+[TOC]
 
 ## Az ötlet leírása
 

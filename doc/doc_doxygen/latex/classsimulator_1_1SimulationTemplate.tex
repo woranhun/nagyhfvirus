@@ -1,0 +1,300 @@
+\hypertarget{classsimulator_1_1SimulationTemplate}{}\doxysection{simulator.\+Simulation\+Template osztályreferencia}
+\label{classsimulator_1_1SimulationTemplate}\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+
+
+A simulator.\+Simulation\+Template osztály származási diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classsimulator_1_1SimulationTemplate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+A simulator.\+Simulation\+Template osztály együttműködési diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimulator_1_1SimulationTemplate__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Publikus tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsimulator_1_1SimulationTemplate_ae14e9260701332f58286a148af7da533}{Simulation\+Template}} ()
+\item 
+\mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a0b0705ade7744b0d195e15b251e36a60}{Simulation\+Template}} (\mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} st)
+\item 
+Object \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a8fb9d50a7aaa83b0181a1b771528895b}{clone}} ()  throws Clone\+Not\+Supported\+Exception 
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a6b9b5ffe04aa6b3907dd8730ccb891db}{get\+Inf\+Chance}} ()
+\item 
+void \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_aef5557963c16d8d5993d36f3004084a3}{set\+Infection}} (double inf)
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_af8a07fd1fe72e2f9dc8fc8ef00eacb57}{get\+Mort\+Chance}} ()
+\item 
+void \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a67e651f781bad606d51881ee52fe37d4}{set\+Mortality}} (double mort)
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_aeee769c87732ed4f7a6b2e2fca8f72ee}{get\+Heal\+Chance}} ()
+\item 
+void \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_aba5a7967c242f0c4ebe177ccaa5720ca}{set\+Heal\+Chance}} (double heal)
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a29bb39cf23a299fcaad7f2f47cb32a7f}{get\+Speed\+Of\+Dot}} ()
+\item 
+void \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_ab0f48eb7d0f3847747eba15ef91588f7}{set\+Speed}} (double speed)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} $>$ \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_ad18fcad316e15f7bd2037bd24b882fd8}{get\+Dots}} ()
+\item 
+void \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a8643d98622a8710b8bbb81d384892719}{add\+Dot}} (\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} d)
+\item 
+void \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_ae48d67c513aeeec5b5f24d262feeee72}{create\+Dot}} (\mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}} type, double x, double y, double r)
+\item 
+void \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a36014083c67188058645f0a6283567f9}{refresh}} (Canvas c)
+\end{DoxyCompactItemize}
+\doxysubsection*{Privát attribútumok}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}} $>$ \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a3958303f571ad2e558aa9292414dabb2}{dots}}
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a77b8379c75eb9cffef91d3a4dba8395a}{inf\+Chance}}
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_af8217a7dc9d2cee82b7ca76bcb9c745e}{mort\+Chance}}
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a4b363ac4d17eabea6b74c7e8be299b76}{heal\+Chance}}
+\item 
+double \mbox{\hyperlink{classsimulator_1_1SimulationTemplate_a8dcb6cb7cc37e1625b7eeb2429adb4ed}{speed\+Of\+Dot}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Részletes leírás}
+\mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} osztály. Szimuláció elindításához kapcsolatos adatokat tárol. Megvalósítja a java.\+io.\+Serializable és Cloneable interfészeket 
+
+\doxysubsection{Konstruktorok és destruktorok dokumentációja}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_ae14e9260701332f58286a148af7da533}\label{classsimulator_1_1SimulationTemplate_ae14e9260701332f58286a148af7da533}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!SimulationTemplate@{SimulationTemplate}}
+\index{SimulationTemplate@{SimulationTemplate}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{SimulationTemplate()}{SimulationTemplate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily simulator.\+Simulation\+Template.\+Simulation\+Template (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} konstruktura Beállítja az alapértelmezett értékeket és létrehozza az objektumot. \mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a0b0705ade7744b0d195e15b251e36a60}\label{classsimulator_1_1SimulationTemplate_a0b0705ade7744b0d195e15b251e36a60}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!SimulationTemplate@{SimulationTemplate}}
+\index{SimulationTemplate@{SimulationTemplate}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{SimulationTemplate()}{SimulationTemplate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily simulator.\+Simulation\+Template.\+Simulation\+Template (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}}}]{st }\end{DoxyParamCaption})}
+
+Simulation template copy konstruktora
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em st} & a másolandó \mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Tagfüggvények dokumentációja}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a8643d98622a8710b8bbb81d384892719}\label{classsimulator_1_1SimulationTemplate_a8643d98622a8710b8bbb81d384892719}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!addDot@{addDot}}
+\index{addDot@{addDot}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{addDot()}{addDot()}}
+{\footnotesize\ttfamily void simulator.\+Simulation\+Template.\+add\+Dot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}}]{d }\end{DoxyParamCaption})}
+
+Hozzáad egy Dot-\/ot a Dotokat tartalmazó listához
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em d} & A kapott Dot \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a8fb9d50a7aaa83b0181a1b771528895b}\label{classsimulator_1_1SimulationTemplate_a8fb9d50a7aaa83b0181a1b771528895b}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!clone@{clone}}
+\index{clone@{clone}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily Object simulator.\+Simulation\+Template.\+clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Clone\+Not\+Supported\+Exception}
+
+clone függvény felüldefiniálása. Célja, hogy a \mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} másolását megvalósítsa.
+
+\begin{DoxyReturn}{Visszatérési érték}
+Visszadja az objektum másolatát(deep copy) 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Kivételek}
+{\em Clone\+Not\+Supported\+Exception} & kivételt dobhat (de nem fog, mert a dot és a \mbox{\hyperlink{classsimulator_1_1SimulationTemplate}{Simulation\+Template}} is klónozható) \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_ae48d67c513aeeec5b5f24d262feeee72}\label{classsimulator_1_1SimulationTemplate_ae48d67c513aeeec5b5f24d262feeee72}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!createDot@{createDot}}
+\index{createDot@{createDot}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{createDot()}{createDot()}}
+{\footnotesize\ttfamily void simulator.\+Simulation\+Template.\+create\+Dot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumsimulatorComponents_1_1dotTypes}{dot\+Types}}}]{type,  }\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{r }\end{DoxyParamCaption})}
+
+Létrehoz a megadott paraméterek alapján egy Dot-\/ot és hozzáadja a Dot listához
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em type} & A létrehozandó Dot típusa \\
+\hline
+{\em x} & A létrehozandó Dot x kordinátája \\
+\hline
+{\em y} & A létrehozandó Dot y kordinátája \\
+\hline
+{\em r} & A létrehozandó Dot sugara \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_ad18fcad316e15f7bd2037bd24b882fd8}\label{classsimulator_1_1SimulationTemplate_ad18fcad316e15f7bd2037bd24b882fd8}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!getDots@{getDots}}
+\index{getDots@{getDots}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{getDots()}{getDots()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}$>$ simulator.\+Simulation\+Template.\+get\+Dots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Dot lista getter függvénye
+
+\begin{DoxyReturn}{Visszatérési érték}
+a dotokat tartalmazó Array list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_aeee769c87732ed4f7a6b2e2fca8f72ee}\label{classsimulator_1_1SimulationTemplate_aeee769c87732ed4f7a6b2e2fca8f72ee}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!getHealChance@{getHealChance}}
+\index{getHealChance@{getHealChance}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{getHealChance()}{getHealChance()}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+get\+Heal\+Chance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gyógyulási esély getter függvénye
+
+\begin{DoxyReturn}{Visszatérési érték}
+A gyógyulási esély 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a6b9b5ffe04aa6b3907dd8730ccb891db}\label{classsimulator_1_1SimulationTemplate_a6b9b5ffe04aa6b3907dd8730ccb891db}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!getInfChance@{getInfChance}}
+\index{getInfChance@{getInfChance}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{getInfChance()}{getInfChance()}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+get\+Inf\+Chance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Fertőzési esély getter függvénye
+
+\begin{DoxyReturn}{Visszatérési érték}
+A fertőzési esély 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_af8a07fd1fe72e2f9dc8fc8ef00eacb57}\label{classsimulator_1_1SimulationTemplate_af8a07fd1fe72e2f9dc8fc8ef00eacb57}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!getMortChance@{getMortChance}}
+\index{getMortChance@{getMortChance}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{getMortChance()}{getMortChance()}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+get\+Mort\+Chance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Halálozási esély getter függvénye
+
+\begin{DoxyReturn}{Visszatérési érték}
+A kapott halálozási esély 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a29bb39cf23a299fcaad7f2f47cb32a7f}\label{classsimulator_1_1SimulationTemplate_a29bb39cf23a299fcaad7f2f47cb32a7f}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!getSpeedOfDot@{getSpeedOfDot}}
+\index{getSpeedOfDot@{getSpeedOfDot}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{getSpeedOfDot()}{getSpeedOfDot()}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+get\+Speed\+Of\+Dot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A sebesség getter függvénye
+
+\begin{DoxyReturn}{Visszatérési érték}
+A sebessége a Dot-\/nak 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a36014083c67188058645f0a6283567f9}\label{classsimulator_1_1SimulationTemplate_a36014083c67188058645f0a6283567f9}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!refresh@{refresh}}
+\index{refresh@{refresh}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{refresh()}{refresh()}}
+{\footnotesize\ttfamily void simulator.\+Simulation\+Template.\+refresh (\begin{DoxyParamCaption}\item[{Canvas}]{c }\end{DoxyParamCaption})}
+
+Frissíti a Canvas tartalmát
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em c} & A kapott canvas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_aba5a7967c242f0c4ebe177ccaa5720ca}\label{classsimulator_1_1SimulationTemplate_aba5a7967c242f0c4ebe177ccaa5720ca}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!setHealChance@{setHealChance}}
+\index{setHealChance@{setHealChance}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{setHealChance()}{setHealChance()}}
+{\footnotesize\ttfamily void simulator.\+Simulation\+Template.\+set\+Heal\+Chance (\begin{DoxyParamCaption}\item[{double}]{heal }\end{DoxyParamCaption})}
+
+Gyógyulási esély setter függvénye Beállítja a kapott gyógyulási esélyt a jövőben létrejövő Dot-\/okra.
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em heal} & A kapott gyógyulási esély \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_aef5557963c16d8d5993d36f3004084a3}\label{classsimulator_1_1SimulationTemplate_aef5557963c16d8d5993d36f3004084a3}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!setInfection@{setInfection}}
+\index{setInfection@{setInfection}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{setInfection()}{setInfection()}}
+{\footnotesize\ttfamily void simulator.\+Simulation\+Template.\+set\+Infection (\begin{DoxyParamCaption}\item[{double}]{inf }\end{DoxyParamCaption})}
+
+Fertőzési esély setter függvénye Beállítja a kapott fertőzési esélyt a jövőben létrejövő Dot-\/okra.
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em inf} & A kapott fertőzési esély \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a67e651f781bad606d51881ee52fe37d4}\label{classsimulator_1_1SimulationTemplate_a67e651f781bad606d51881ee52fe37d4}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!setMortality@{setMortality}}
+\index{setMortality@{setMortality}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{setMortality()}{setMortality()}}
+{\footnotesize\ttfamily void simulator.\+Simulation\+Template.\+set\+Mortality (\begin{DoxyParamCaption}\item[{double}]{mort }\end{DoxyParamCaption})}
+
+Halálozási esély setter függvénye Beállítja a kapott halálozási esélyt a jövőben létrejövő Dot-\/okra.
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em mort} & A kapott halálozási esély \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_ab0f48eb7d0f3847747eba15ef91588f7}\label{classsimulator_1_1SimulationTemplate_ab0f48eb7d0f3847747eba15ef91588f7}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!setSpeed@{setSpeed}}
+\index{setSpeed@{setSpeed}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{setSpeed()}{setSpeed()}}
+{\footnotesize\ttfamily void simulator.\+Simulation\+Template.\+set\+Speed (\begin{DoxyParamCaption}\item[{double}]{speed }\end{DoxyParamCaption})}
+
+Sebesség esély setter függvénye Beállítja a kapott sebességet a jövőben létrejövő Dot-\/okra.
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em speed} & A kapott sebesség \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Adattagok dokumentációja}
+\mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a3958303f571ad2e558aa9292414dabb2}\label{classsimulator_1_1SimulationTemplate_a3958303f571ad2e558aa9292414dabb2}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!dots@{dots}}
+\index{dots@{dots}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{dots}{dots}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classsimulatorComponents_1_1Dot}{Dot}}$>$ simulator.\+Simulation\+Template.\+dots\hspace{0.3cm}{\ttfamily [private]}}
+
+Dot-\/okat tároló Array\+List. \mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a4b363ac4d17eabea6b74c7e8be299b76}\label{classsimulator_1_1SimulationTemplate_a4b363ac4d17eabea6b74c7e8be299b76}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!healChance@{healChance}}
+\index{healChance@{healChance}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{healChance}{healChance}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+heal\+Chance\hspace{0.3cm}{\ttfamily [private]}}
+
+Gyógyulási esély \mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a77b8379c75eb9cffef91d3a4dba8395a}\label{classsimulator_1_1SimulationTemplate_a77b8379c75eb9cffef91d3a4dba8395a}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!infChance@{infChance}}
+\index{infChance@{infChance}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{infChance}{infChance}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+inf\+Chance\hspace{0.3cm}{\ttfamily [private]}}
+
+Átfertőzési esély \mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_af8217a7dc9d2cee82b7ca76bcb9c745e}\label{classsimulator_1_1SimulationTemplate_af8217a7dc9d2cee82b7ca76bcb9c745e}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!mortChance@{mortChance}}
+\index{mortChance@{mortChance}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{mortChance}{mortChance}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+mort\+Chance\hspace{0.3cm}{\ttfamily [private]}}
+
+Halálozási esély \mbox{\Hypertarget{classsimulator_1_1SimulationTemplate_a8dcb6cb7cc37e1625b7eeb2429adb4ed}\label{classsimulator_1_1SimulationTemplate_a8dcb6cb7cc37e1625b7eeb2429adb4ed}} 
+\index{simulator.SimulationTemplate@{simulator.SimulationTemplate}!speedOfDot@{speedOfDot}}
+\index{speedOfDot@{speedOfDot}!simulator.SimulationTemplate@{simulator.SimulationTemplate}}
+\doxysubsubsection{\texorpdfstring{speedOfDot}{speedOfDot}}
+{\footnotesize\ttfamily double simulator.\+Simulation\+Template.\+speed\+Of\+Dot\hspace{0.3cm}{\ttfamily [private]}}
+
+Dot sebessége 
+
+Ez a dokumentáció az osztályról a következő fájl alapján készült\+:\begin{DoxyCompactItemize}
+\item 
+Simulation\+Template.\+java\end{DoxyCompactItemize}

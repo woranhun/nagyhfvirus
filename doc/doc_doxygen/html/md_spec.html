@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vírus szimuláció: Prog3: Vírus szimuláció nagyházifeladat specifikáció</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Vírus szimuláció
+   </div>
+   <div id="projectbrief">Orosz Bence XO9YAT 2020</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Készítette Doxygen 1.9.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Keresés','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Keresés');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="PageDoc"><div class="header">
+  <div class="headertitle">
+<div class="title">Prog3: Vírus szimuláció nagyházifeladat specifikáció </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="toc"><h3>Tartalomjegyzék</h3>
+<ul><li class="level1"><a href="#autotoc_md5">Az ötlet leírása</a></li>
+<li class="level1"><a href="#autotoc_md6">A program funkcionalitása a felhasználó szemszögéből</a></li>
+<li class="level1"><a href="#autotoc_md7">Megoldási ötlet (vázlat)</a></li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md5"></a>
+Az ötlet leírása</h1>
+<p>A program vírus terjedését szimulálja. A pálya egy téglalap lenne, ahhol színes pöttyök tudnának ütközni(kontakt). 4 féle pötty található a pályán:</p>
+<ul>
+<li>Fekete: halott(nem mozog, idővel eltűnik)</li>
+<li>Piros: fertőző.</li>
+<li>Zöld: gyógyult.</li>
+<li>Fehér(szürke) semleges.</li>
+</ul>
+<p>A különböző faktorokat csúszkákkal lehetne állítani: pl: pötty sebessége, milyen eséllyel fertőz, halálozási esély, gyógyulási idő stb. Ha a pötty falnak ütközik, vagy másik pöttyel, akkor visszapattan. A programhoz tartozik egy diagram is, ami a pöttyökről mutat statisztikát.</p>
+<h1><a class="anchor" id="autotoc_md6"></a>
+A program funkcionalitása a felhasználó szemszögéből</h1>
+<p>A program indítása után megnyílik a Simulation Editor (1. ábra)-hoz hasonló ablak. Itt lehetőségünk van egy szimuláció előkészítésére. A programrész funciói:</p>
+<ul>
+<li>Szimuláció előkészítése<ul>
+<li>Új (üres) szimuláció létrehozása(File&gt;New)</li>
+<li>Szimuláció betöltése fájlból (kezdeti értékek) (File&gt;Open simulation)</li>
+<li>Szimuláció mentése fájlba (kezdeti értékek) (File&gt;Save simulation)</li>
+</ul>
+</li>
+<li>Kezdeti értékek beállítása<ul>
+<li>Fertőzési esély (Infection Chance slider)</li>
+<li>Halálozási esély (Mortality Chance slider)</li>
+<li>Gyógyulási esély (Heal Chance slider)</li>
+<li>Pötty sebessége(Speed slidWer)</li>
+<li>n db pötty felhelyezése véletlenszerűen a pályára (Add button)</li>
+<li>pöttyök egyessével történő felhelyezése a pályára, egér kattintás alapján (4db button)</li>
+<li>A pálya kezdeti értékeinek törlése (Clear)</li>
+</ul>
+</li>
+<li>Szimuláció elindítása<ul>
+<li>Kezdeti értékek alapján(Start &gt;Start )</li>
+</ul>
+</li>
+</ul>
+<ol type="1">
+<li>ábra - Szimuláció előkészítése.</li>
+</ol>
+<p>A Start menüpont megnyitásával megnyillik egy új ablak, amiben a vírus szimulációja történik. Ez hasonlóan fog kinézni, mint az Editor. A programrész funkciói:</p>
+<ul>
+<li>Szimuláció kezelése<ul>
+<li>Idő elindítása, megállítása, gyorsítása, lassítása, léptetés egyesével</li>
+<li>statisztika megnyitása</li>
+</ul>
+</li>
+</ul>
+<p>A Statistics gomb megnyomása utána megjelenik egy új ablakban a szimulációhoz tartozó statisztika. Ez szintén hasonlóan fog kinézni, mint az Editor.</p>
+<ul>
+<li>Szimuláció statisztikája<ul>
+<li>Olyan diagram(idő szerint), ahol ábrázolva vannak a fontos adatok. (Ferőzöttek, halottak, gyógyultak, stb)</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md7"></a>
+Megoldási ötlet (vázlat)</h1>
+<p>A megoldáshoz JavaFX alapú GUI-t fogok használni. A mintaképen látható módon fogom ezt elkészíteni. A kezdeti értékek mentése és betöltése szerializálás segítségével fog történni. A program ( legalább matematikai szempontból) lényeges részeihez JUnit tesztet fogok készíteni.</p>
+<p>A csúszkákat $x=0..1$ -ig lehet állítani (kivéve sebesség csúszka), valós számra. A csúszkákhoz tartozó esemény bekövetkezésénél (pl.: ütközés) generálok egy véletlen számot $ 0..1 =r$ között(valós). Ha $ r&lt;x$ , akkor bekövetkezik az esemény (pl.: a kontakt megfertőződik).</p>
+<p>A sebesség csúszkát -8 és +8 között lehet állítani. A keletkező sebesség szorzót( $v$ ) az alábbi képtlet fogja számolni: $ v = 2^{\left \lfloor{x}\right \rfloor } $, ahol $ x$ a csúszka által kapott valós szám.</p>
+<p>Pötty mozgásának irányát egy 0 és 7 közt generált véletlen egész szám fogja meghatározni Kontaktálás esetén a pötty1 és pötty2 közepe között kevesebb mint 2r távolság van. </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Készítette&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.0
+</small></address>
+</body>
+</html>

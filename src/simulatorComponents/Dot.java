@@ -10,57 +10,57 @@ import java.io.Serializable;
 import java.util.Random;
 
 /**
- * Dotokat reprezentáló osztály.
- * Megvalósítja a Drawable, Serializable, Steppable és Clonable interfészeket.
+ * Dotokat reprezentalo osztaly.
+ * Megvalositja a Drawable, Serializable, Steppable es Clonable interfeszeket.
  */
 public class Dot implements Serializable, Steppable, Cloneable {
     /**
-     * A pötty közepének poziciója
+     * A potty kozepenek pozicioja
      */
     private Point location = null;
     /**
-     * A pötty sugara
+     * A potty sugara
      */
     private double radius;
     /**
-     * A pötty sebesség vektorának végpontja (Mintha a Vector az (0,0)-ból mutatna velocity-ba)
+     * A potty sebesseg vektoranak vegpontja (Mintha a Vector az (0,0)-bol mutatna velocity-ba)
      */
     private Point velocity;
     /**
-     * A pötty típusa
+     * A potty tipusa
      */
     private dotTypes type;
     /**
-     * A pötty átfertőzésének esélye
+     * A potty atfertozesenek eselye
      */
     private double infChance;
     /**
-     * A pötty halálozási esélye
+     * A potty halalozasi eselye
      */
     private double mortChance;
     /**
-     * A pötty gyógyulási esélye
+     * A potty gyogyulasi eselye
      */
     private double healChance;
     /**
-     * A pötty tömege
+     * A potty tomege
      */
     private double mass;
     /**
-     * Fertőzés óta eltelt tickek száma
+     * Fertozes ota eltelt tickek szama
      */
     private int sinceInfection = 0;
     /**
-     * A halál pillanatátül eltelt tickek száma
+     * A halal pillanatatul eltelt tickek szama
      */
     private int sinceDead = 0;
 
     /**
-     * A pötty konstruktora
+     * A potty konstruktora
      *
-     * @param x A pötty x kordinátája
-     * @param y A pötty y kordinátája
-     * @param r A pötty sugara
+     * @param x A potty x kordinataja
+     * @param y A potty y kordinataja
+     * @param r A potty sugara
      */
     public Dot(double x, double y, double r) {
         location = new Point(x, y);
@@ -75,12 +75,12 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty konstruktora
+     * A potty konstruktora
      *
-     * @param x     A pötty x kordinátája
-     * @param y     A pötty y kordinátája
-     * @param r     A pötty sugara
-     * @param speed A pötty sebessége
+     * @param x     A potty x kordinataja
+     * @param y     A potty y kordinataja
+     * @param r     A potty sugara
+     * @param speed A potty sebessege
      */
     public Dot(double x, double y, double r, double speed) {
         location = new Point(x, y);
@@ -94,16 +94,16 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty konstruktora
+     * A potty konstruktora
      *
-     * @param x          A pötty x kordinátája
-     * @param y          A pötty y kordinátája
-     * @param r          A pötty sugara
-     * @param speed      A pötty sebessége
-     * @param type       A pötty típusa
-     * @param infChance  Másik pöttyöt ilyen esélyel fertőz, ha a Dot fertőző
-     * @param mortChance A pötty halálozási esélye, ha már megfertőzödött és a vírus lappangási ideje lejárt
-     * @param healChance A pötty gyógyulási esélye, ha már megfertőzödött és a vírus lappangási ideje lejárt
+     * @param x          A potty x kordinataja
+     * @param y          A potty y kordinataja
+     * @param r          A potty sugara
+     * @param speed      A potty sebessege
+     * @param type       A potty tipusa
+     * @param infChance  Masik pottyot ilyen eselyel fertoz, ha a Dot fertozo
+     * @param mortChance A potty halalozasi eselye, ha mar megfertozodott es a virus lappangasi ideje lejart
+     * @param healChance A potty gyogyulasi eselye, ha mar megfertozodott es a virus lappangasi ideje lejart
      */
 
     public Dot(double x, double y, double r, double speed, dotTypes type, double infChance, double mortChance, double healChance) {
@@ -118,10 +118,10 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty által felüldefiniált clone metódus.
+     * A potty altal feluldefinialt clone metodus.
      *
-     * @return A pötty Object
-     * @throws CloneNotSupportedException kivételt dobhat(De nem fog, mert a Dot szerializálható)
+     * @return A potty Object
+     * @throws CloneNotSupportedException kivetelt dobhat(De nem fog, mert a Dot szerializalhato)
      */
     @Override
     public Object clone() throws CloneNotSupportedException {
@@ -141,16 +141,16 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * Sebesség vektor inicializálása a kapott sebesség alapján.
-     * A függvény a lehetséges irányt véletlenszerűen generálja.
+     * Sebesseg vektor inicializalasa a kapott sebesseg alapjan.
+     * A fuggveny a lehetseges iranyt veletlenszeruen generalja.
      *
-     * @param speed A kapott sebesség
+     * @param speed A kapott sebesseg
      */
     public void initVelocity(double speed) {
         Random r = new Random();
         Point dir = new Point(r.nextInt(3) - 1, ((double) r.nextInt(3) - 1));
 
-        //1D mozgás esetén használd ezt:
+        //1D mozgas eseten hasznald ezt:
         //Point dir = new Point(r.nextInt(2) == 0 ? -1 : 1, 0);
 
         velocity = new Point(dir.x * speed, dir.y * speed);
@@ -175,45 +175,45 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * Gyógyulási esély settere
+     * Gyogyulasi esely settere
      *
-     * @param heal A kapott gyógyulási esély
+     * @param heal A kapott gyogyulasi esely
      */
     public void setHealChance(double heal) {
         this.healChance = heal;
     }
 
     /**
-     * Átfertőzései esély settere
+     * atfertozesei esely settere
      *
-     * @param inf A kapott átfertőzési esély
+     * @param inf A kapott atfertozesi esely
      */
     public void setInfChance(double inf) {
         this.infChance = inf;
     }
 
     /**
-     * Halálozási esély settere
+     * Halalozasi esely settere
      *
-     * @param mort A halálozási gyógyulási esély
+     * @param mort A halalozasi gyogyulasi esely
      */
     public void setMortChance(double mort) {
         this.mortChance = mort;
     }
 
     /**
-     * A pötty típusának gettere
+     * A potty tipusanak gettere
      *
-     * @return A pötty típusa
+     * @return A potty tipusa
      */
     public dotTypes getType() {
         return this.type;
     }
 
     /**
-     * A pötty sugarának gettere
+     * A potty sugaranak gettere
      *
-     * @return A pötty sugara
+     * @return A potty sugara
      */
     public double getRadius() {
         return radius;
@@ -221,7 +221,7 @@ public class Dot implements Serializable, Steppable, Cloneable {
 
 
     /**
-     * A pötty ütközött-e a kapott steppable-el?
+     * A potty utkozott-e a kapott steppable-el?
      *
      * @param st A kapott steppable
      * @return Igen vagy Nem
@@ -234,10 +234,10 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty ütközött-e a kapott steppable-el?
+     * A potty utkozott-e a kapott steppable-el?
      *
-     * @param dot A kapott pötty
-     * @return Igen vagy Nem, a két pötty közepei között lévő távolság és a sugarak összege alapján.
+     * @param dot A kapott potty
+     * @return Igen vagy Nem, a ket potty kozepei kozott levo tavolsag es a sugarak osszege alapjan.
      */
     @Override
     public boolean isCollidedWith(Dot dot) {
@@ -246,7 +246,7 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * Megvizsgálja, hogy a pötty a canvason kívül van-e
+     * Megvizsgalja, hogy a potty a canvason kivul van-e
      *
      * @param c A kapott Canvas
      * @return Igen vagy Nem
@@ -257,10 +257,10 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty másik pöttyel való ütközése során hívódik.
-     * Ez kezeli a statikus (pl.: két pötty fedné egymást) és dinamikus ütközést (rugalmas ütközés)
+     * A potty masik pottyel valo utkozese soran hivodik.
+     * Ez kezeli a statikus (pl.: ket potty fedne egymast) es dinamikus utkozest (rugalmas utkozes)
      *
-     * @param d A másik pötty
+     * @param d A masik potty
      */
 
     @Override
@@ -342,11 +342,11 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * Fertőzés bekövetkezése
-     * Feladata, hogy ennek a pöttynek a megfelelő adatait beállítsa,
-     * a SimulationPlayer felé jelzi, hogy új fertőzés történt
+     * Fertozes bekovetkezese
+     * Feladata, hogy ennek a pottynek a megfelelo adatait beallitsa,
+     * a SimulationPlayer fele jelzi, hogy uj fertozes tortent
      *
-     * @param d A fertőzést okozó pötty
+     * @param d A fertozest okozo potty
      */
     private void infectedBy(Dot d) {
         this.type = dotTypes.Infectious;
@@ -357,11 +357,11 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * Lépés függvény
-     * Feladatai: Lappangási idő vizsgálata,
-     * Halálozás után eltelt idő vizsgálata,
-     * Pálya szélével történő ütközés,
-     * pötty léptetése
+     * Lepes fuggveny
+     * Feladatai: Lappangasi ido vizsgalata,
+     * Halalozas utan eltelt ido vizsgalata,
+     * Palya szelevel torteno utkozes,
+     * potty leptetese
      *
      * @param c A kapott Canvas
      */
@@ -396,8 +396,8 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty meggyógyul
-     * Feladatai: A pötty típusának megváltoztatása, SimulationPlayer felé jelzi, hogy egy pötty meggyógyult
+     * A potty meggyogyul
+     * Feladatai: A potty tipusanak megvaltoztatasa, SimulationPlayer fele jelzi, hogy egy potty meggyogyult
      */
     private void heal() {
         this.type = dotTypes.Healthy;
@@ -405,8 +405,8 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty meghal
-     * Feladatai: A pötty típusának megváltoztatása, SimulationPlayer felé jelzi, hogy egy pötty meghalt
+     * A potty meghal
+     * Feladatai: A potty tipusanak megvaltoztatasa, SimulationPlayer fele jelzi, hogy egy potty meghalt
      */
     private void die() {
         this.type = dotTypes.Dead;
@@ -415,7 +415,7 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty hozzáadása a kör végén eltávolítandók listájához
+     * A potty hozzaadasa a kor vegen eltavolitandok listajahoz
      */
     protected void remove() {
         SimulationPlayer.removeSteppable(this);
@@ -423,7 +423,7 @@ public class Dot implements Serializable, Steppable, Cloneable {
 
 
     /**
-     * Visszahúzza a pöttyöt a Canvas területére, ha kiment belőle
+     * Visszahuzza a pottyot a Canvas teruletere, ha kiment belole
      *
      * @param c A kapott Canvas
      */
@@ -448,7 +448,7 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty a Canvas szélén visszapattan
+     * A potty a Canvas szelen visszapattan
      *
      * @param c A kapott Canvas
      */
@@ -463,7 +463,7 @@ public class Dot implements Serializable, Steppable, Cloneable {
 
 
     /**
-     * A pöttyöt inicializálja: Ha a Canvason kívül van visszahúzza őt, majd kirajzolja
+     * A pottyot inicializalja: Ha a Canvason kivul van visszahuzza ot, majd kirajzolja
      *
      * @param c A kapott Canvas
      */
@@ -474,7 +474,7 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * A pötty újrarajzolása
+     * A potty ujrarajzolasa
      *
      * @param c A kapott Canvas
      */
@@ -485,8 +485,8 @@ public class Dot implements Serializable, Steppable, Cloneable {
 
 
     /**
-     * A pöttyöt kirajzoló függvény.
-     * Kirajzolja a pöttyöt, majd rárajzolja a sebesség vektorát
+     * A pottyot kirajzolo fuggveny.
+     * Kirajzolja a pottyot, majd rarajzolja a sebesseg vektorat
      *
      * @param c A kapott Canvas
      */
@@ -527,9 +527,9 @@ public class Dot implements Serializable, Steppable, Cloneable {
     }
 
     /**
-     * Két pötty közepe fölött megrajzolja a vectort. Debug célokra használtam, de nem töröltem.
+     * Ket potty kozepe folott megrajzolja a vectort. Debug celokra hasznaltam, de nem toroltem.
      *
-     * @param dot A másik Dot
+     * @param dot A masik Dot
      * @param c   A kapott Canvas
      */
     private void drawCenters(Dot dot, Canvas c) {

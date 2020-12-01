@@ -15,35 +15,35 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 /**
- * Simulation Statistics Kontroller osztája
- * Feladata, hogy kezelje az ablakkal történő User interakciókat
+ * Simulation Statistics Kontroller osztaja
+ * Feladata, hogy kezelje az ablakkal torteno User interakciokat
  */
 public class SimStatisticsController implements Initializable {
 
     /**
-     * A kirajzolandó grafikus
+     * A kirajzolando grafikus
      */
     @FXML
     private StackedAreaChart<Number,Number> chart;
     /**
-     * Közös store a simulationPlayerrel
+     * Kozos store a simulationPlayerrel
      */
     SimulationStatisticsStore sss;
 
     /**
-     * lakossági adatokat tároló XYChart Series
+     * lakossagi adatokat tarolo XYChart Series
      */
     private final XYChart.Series<Number,Number> population = new XYChart.Series<>();
     /**
-     * halálozási adatokat tároló XYChart Series
+     * halalozasi adatokat tarolo XYChart Series
      */
     private final XYChart.Series<Number,Number> deaths = new XYChart.Series<>();
     /**
-     * fertőzési adatokat tároló XYChart Series
+     * fertozesi adatokat tarolo XYChart Series
      */
     private final XYChart.Series<Number,Number> infections = new XYChart.Series<>();
     /**
-     * gyógyulási adatokat tároló XYChart Series
+     * gyogyulasi adatokat tarolo XYChart Series
      */
     private final XYChart.Series<Number,Number> heals = new XYChart.Series<>();
 
@@ -63,11 +63,11 @@ public class SimStatisticsController implements Initializable {
         });
     }
     /**
-     * Az ablak inicializálója.
-     * Feladata az ablakon található elemek értékeinek beállítása.
+     * Az ablak inicializaloja.
+     * Feladata az ablakon talalhato elemek ertekeinek beallitasa.
      *
-     * @param url            JavaFX használja relatív útvonal meghatározása a root objectnek
-     * @param resourceBundle Azok a források, amik a root object helyének meghatározásához szükségesek
+     * @param url            JavaFX hasznalja relativ utvonal meghatarozasa a root objectnek
+     * @param resourceBundle Azok a forrasok, amik a root object helyenek meghatarozasahoz szuksegesek
      */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -98,7 +98,7 @@ public class SimStatisticsController implements Initializable {
     }
 
     /**
-     * Frissíti a grafikonon megjelenő adatokat
+     * Frissiti a grafikonon megjeleno adatokat
      */
     public void updateChart(){
         for(Pair<Number,Number> p : sss.getPopulationQueue()){

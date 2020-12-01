@@ -1,0 +1,134 @@
+\hypertarget{classUI_1_1SimStatisticsController}{}\doxysection{UI.\+Sim\+Statistics\+Controller osztályreferencia}
+\label{classUI_1_1SimStatisticsController}\index{UI.SimStatisticsController@{UI.SimStatisticsController}}
+
+
+Az UI.\+Sim\+Statistics\+Controller osztály származási diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{classUI_1_1SimStatisticsController__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Az UI.\+Sim\+Statistics\+Controller osztály együttműködési diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classUI_1_1SimStatisticsController__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Publikus tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUI_1_1SimStatisticsController_a252ae81f2a6b71d36f4a58a0da0e2473}{Sim\+Statistics\+Controller}} (Stage st, \mbox{\hyperlink{classsimulator_1_1SimulationStatisticsStore}{Simulation\+Statistics\+Store}} \mbox{\hyperlink{classUI_1_1SimStatisticsController_a8d8aa54ac2740cf6d6a745e31e96d329}{sss}})
+\item 
+void \mbox{\hyperlink{classUI_1_1SimStatisticsController_ab119d63de838b25a980b99b7c7c2b0b1}{initialize}} (URL url, Resource\+Bundle resource\+Bundle)
+\item 
+void \mbox{\hyperlink{classUI_1_1SimStatisticsController_a369363b493febe33a173647f7b9a9cee}{update\+Chart}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Csomag attribútumok}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsimulator_1_1SimulationStatisticsStore}{Simulation\+Statistics\+Store}} \mbox{\hyperlink{classUI_1_1SimStatisticsController_a8d8aa54ac2740cf6d6a745e31e96d329}{sss}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Privát attribútumok}
+\begin{DoxyCompactItemize}
+\item 
+Stacked\+Area\+Chart$<$ Number, Number $>$ \mbox{\hyperlink{classUI_1_1SimStatisticsController_a4a4b565b42bf4f84b99880a3bb755840}{chart}}
+\item 
+final XYChart.\+Series$<$ Number, Number $>$ \mbox{\hyperlink{classUI_1_1SimStatisticsController_ab313c2086f5a39589452e86beedf1fcd}{population}} = new XYChart.\+Series$<$$>$()
+\item 
+final XYChart.\+Series$<$ Number, Number $>$ \mbox{\hyperlink{classUI_1_1SimStatisticsController_ab40a1ac8401e6b8d6084df3b0427cfeb}{deaths}} = new XYChart.\+Series$<$$>$()
+\item 
+final XYChart.\+Series$<$ Number, Number $>$ \mbox{\hyperlink{classUI_1_1SimStatisticsController_a31f66ee762d8b7149d276dcf3cb8a650}{infections}} = new XYChart.\+Series$<$$>$()
+\item 
+final XYChart.\+Series$<$ Number, Number $>$ \mbox{\hyperlink{classUI_1_1SimStatisticsController_a7f1a66d4a54022d7dfd8e1360bd1a6b6}{heals}} = new XYChart.\+Series$<$$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Részletes leírás}
+Simulation Statistics Kontroller osztája Feladata, hogy kezelje az ablakkal történő User interakciókat 
+
+\doxysubsection{Konstruktorok és destruktorok dokumentációja}
+\mbox{\Hypertarget{classUI_1_1SimStatisticsController_a252ae81f2a6b71d36f4a58a0da0e2473}\label{classUI_1_1SimStatisticsController_a252ae81f2a6b71d36f4a58a0da0e2473}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!SimStatisticsController@{SimStatisticsController}}
+\index{SimStatisticsController@{SimStatisticsController}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{SimStatisticsController()}{SimStatisticsController()}}
+{\footnotesize\ttfamily UI.\+Sim\+Statistics\+Controller.\+Sim\+Statistics\+Controller (\begin{DoxyParamCaption}\item[{Stage}]{st,  }\item[{\mbox{\hyperlink{classsimulator_1_1SimulationStatisticsStore}{Simulation\+Statistics\+Store}}}]{sss }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classUI_1_1SimStatisticsController}{Sim\+Statistics\+Controller}} konstrukturja 
+\begin{DoxyParams}{Paraméterek}
+{\em st} & A kapott Stage \\
+\hline
+{\em sss} & A kapott Simulation\+Statistics\+Store \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Tagfüggvények dokumentációja}
+\mbox{\Hypertarget{classUI_1_1SimStatisticsController_ab119d63de838b25a980b99b7c7c2b0b1}\label{classUI_1_1SimStatisticsController_ab119d63de838b25a980b99b7c7c2b0b1}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!initialize@{initialize}}
+\index{initialize@{initialize}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void UI.\+Sim\+Statistics\+Controller.\+initialize (\begin{DoxyParamCaption}\item[{URL}]{url,  }\item[{Resource\+Bundle}]{resource\+Bundle }\end{DoxyParamCaption})}
+
+Az ablak inicializálója. Feladata az ablakon található elemek értékeinek beállítása.
+
+
+\begin{DoxyParams}{Paraméterek}
+{\em url} & Java\+FX használja relatív útvonal meghatározása a root objectnek \\
+\hline
+{\em resource\+Bundle} & Azok a források, amik a root object helyének meghatározásához szükségesek \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classUI_1_1SimStatisticsController_a369363b493febe33a173647f7b9a9cee}\label{classUI_1_1SimStatisticsController_a369363b493febe33a173647f7b9a9cee}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!updateChart@{updateChart}}
+\index{updateChart@{updateChart}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{updateChart()}{updateChart()}}
+{\footnotesize\ttfamily void UI.\+Sim\+Statistics\+Controller.\+update\+Chart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Frissíti a grafikonon megjelenő adatokat 
+
+\doxysubsection{Adattagok dokumentációja}
+\mbox{\Hypertarget{classUI_1_1SimStatisticsController_a4a4b565b42bf4f84b99880a3bb755840}\label{classUI_1_1SimStatisticsController_a4a4b565b42bf4f84b99880a3bb755840}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!chart@{chart}}
+\index{chart@{chart}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{chart}{chart}}
+{\footnotesize\ttfamily Stacked\+Area\+Chart$<$Number,Number$>$ UI.\+Sim\+Statistics\+Controller.\+chart\hspace{0.3cm}{\ttfamily [private]}}
+
+A kirajzolandó grafikus \mbox{\Hypertarget{classUI_1_1SimStatisticsController_ab40a1ac8401e6b8d6084df3b0427cfeb}\label{classUI_1_1SimStatisticsController_ab40a1ac8401e6b8d6084df3b0427cfeb}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!deaths@{deaths}}
+\index{deaths@{deaths}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{deaths}{deaths}}
+{\footnotesize\ttfamily final XYChart.\+Series$<$Number,Number$>$ UI.\+Sim\+Statistics\+Controller.\+deaths = new XYChart.\+Series$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+halálozási adatokat tároló XYChart Series \mbox{\Hypertarget{classUI_1_1SimStatisticsController_a7f1a66d4a54022d7dfd8e1360bd1a6b6}\label{classUI_1_1SimStatisticsController_a7f1a66d4a54022d7dfd8e1360bd1a6b6}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!heals@{heals}}
+\index{heals@{heals}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{heals}{heals}}
+{\footnotesize\ttfamily final XYChart.\+Series$<$Number,Number$>$ UI.\+Sim\+Statistics\+Controller.\+heals = new XYChart.\+Series$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+gyógyulási adatokat tároló XYChart Series \mbox{\Hypertarget{classUI_1_1SimStatisticsController_a31f66ee762d8b7149d276dcf3cb8a650}\label{classUI_1_1SimStatisticsController_a31f66ee762d8b7149d276dcf3cb8a650}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!infections@{infections}}
+\index{infections@{infections}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{infections}{infections}}
+{\footnotesize\ttfamily final XYChart.\+Series$<$Number,Number$>$ UI.\+Sim\+Statistics\+Controller.\+infections = new XYChart.\+Series$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+fertőzési adatokat tároló XYChart Series \mbox{\Hypertarget{classUI_1_1SimStatisticsController_ab313c2086f5a39589452e86beedf1fcd}\label{classUI_1_1SimStatisticsController_ab313c2086f5a39589452e86beedf1fcd}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!population@{population}}
+\index{population@{population}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{population}{population}}
+{\footnotesize\ttfamily final XYChart.\+Series$<$Number,Number$>$ UI.\+Sim\+Statistics\+Controller.\+population = new XYChart.\+Series$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+lakossági adatokat tároló XYChart Series \mbox{\Hypertarget{classUI_1_1SimStatisticsController_a8d8aa54ac2740cf6d6a745e31e96d329}\label{classUI_1_1SimStatisticsController_a8d8aa54ac2740cf6d6a745e31e96d329}} 
+\index{UI.SimStatisticsController@{UI.SimStatisticsController}!sss@{sss}}
+\index{sss@{sss}!UI.SimStatisticsController@{UI.SimStatisticsController}}
+\doxysubsubsection{\texorpdfstring{sss}{sss}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classsimulator_1_1SimulationStatisticsStore}{Simulation\+Statistics\+Store}} UI.\+Sim\+Statistics\+Controller.\+sss\hspace{0.3cm}{\ttfamily [package]}}
+
+Közös store a simulation\+Playerrel 
+
+Ez a dokumentáció az osztályról a következő fájl alapján készült\+:\begin{DoxyCompactItemize}
+\item 
+Sim\+Statistics\+Controller.\+java\end{DoxyCompactItemize}

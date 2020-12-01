@@ -1,0 +1,1049 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vírus szimuláció: simulator.SimulationPlayer osztályreferencia</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Vírus szimuláció
+   </div>
+   <div id="projectbrief">Orosz Bence XO9YAT 2020</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Készítette Doxygen 1.9.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Keresés','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Keresés');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>simulator</b></li><li class="navelem"><a class="el" href="classsimulator_1_1SimulationPlayer.html">SimulationPlayer</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Publikus tagfüggvények</a> &#124;
+<a href="#pub-static-methods">Statikus publikus tagfüggvények</a> &#124;
+<a href="#pac-attribs">Csomag attribútumok</a> &#124;
+<a href="#pac-static-attribs">Statikus csomag attribútumok</a> &#124;
+<a href="#pri-methods">Privát tagfüggvények</a> &#124;
+<a href="classsimulator_1_1SimulationPlayer-members.html">A tagok teljes listája</a>  </div>
+  <div class="headertitle">
+<div class="title">simulator.SimulationPlayer osztályreferencia</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+A simulator.SimulationPlayer osztály származási diagramja:</div>
+<div class="dyncontent">
+<div class="center"><img src="classsimulator_1_1SimulationPlayer__inherit__graph.png" border="0" usemap="#asimulator_8SimulationPlayer_inherit__map" alt="Inheritance graph"/></div>
+<map name="asimulator_8SimulationPlayer_inherit__map" id="asimulator_8SimulationPlayer_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,80,183,107"/>
+<area shape="rect" title=" " alt="" coords="52,5,136,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">Jelmagyarázat</a>]</span></center></div>
+<div class="dynheader">
+A simulator.SimulationPlayer osztály együttműködési diagramja:</div>
+<div class="dyncontent">
+<div class="center"><img src="classsimulator_1_1SimulationPlayer__coll__graph.png" border="0" usemap="#asimulator_8SimulationPlayer_coll__map" alt="Collaboration graph"/></div>
+<map name="asimulator_8SimulationPlayer_coll__map" id="asimulator_8SimulationPlayer_coll__map">
+<area shape="rect" title=" " alt="" coords="705,133,883,160"/>
+<area shape="rect" title=" " alt="" coords="409,5,493,32"/>
+<area shape="rect" href="classsimulator_1_1SimulationStatisticsStore.html" title=" " alt="" coords="353,57,548,98"/>
+<area shape="rect" title=" " alt="" coords="5,57,199,98"/>
+<area shape="rect" title=" " alt="" coords="344,131,557,157"/>
+<area shape="rect" title=" " alt="" coords="423,181,478,208"/>
+<area shape="rect" title=" " alt="" coords="417,232,484,259"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">Jelmagyarázat</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Publikus tagfüggvények</h2></td></tr>
+<tr class="memitem:a9b29ba49ee11319c0ff67f24763b0eb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a9b29ba49ee11319c0ff67f24763b0eb4">SimulationPlayer</a> (<a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a> sim, Canvas <a class="el" href="classsimulator_1_1SimulationPlayer.html#a27552fd9cd901871ad786c20a30a0ad1">canvas</a>, <a class="el" href="classsimulator_1_1SimulationStatisticsStore.html">SimulationStatisticsStore</a> <a class="el" href="classsimulator_1_1SimulationPlayer.html#ad605378154c09cb58d5e31950110f812">sss</a>)</td></tr>
+<tr class="separator:a9b29ba49ee11319c0ff67f24763b0eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afffa0e32ad72b24bcd2f990ea689b8d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#afffa0e32ad72b24bcd2f990ea689b8d7">moveDotsFromOutOfWindow</a> (Canvas img)</td></tr>
+<tr class="separator:afffa0e32ad72b24bcd2f990ea689b8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e4ac3fc7c1622da6d33e4631b777a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#ac9e4ac3fc7c1622da6d33e4631b777a8">refresh</a> (Canvas c)</td></tr>
+<tr class="separator:ac9e4ac3fc7c1622da6d33e4631b777a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94e34d351fab32f789f5cc2be34b992"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#af94e34d351fab32f789f5cc2be34b992">run</a> ()</td></tr>
+<tr class="separator:af94e34d351fab32f789f5cc2be34b992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c905b916a2efd7e27a6fc630f8d501"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a42c905b916a2efd7e27a6fc630f8d501">changePlayAndPause</a> ()</td></tr>
+<tr class="separator:a42c905b916a2efd7e27a6fc630f8d501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd381320d3fd98660b16d31e61b771c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a3cd381320d3fd98660b16d31e61b771c">forwardOneStep</a> ()</td></tr>
+<tr class="separator:a3cd381320d3fd98660b16d31e61b771c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3d0d47e399b6b4abd4b69cd75e84026"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#aa3d0d47e399b6b4abd4b69cd75e84026">exit</a> ()</td></tr>
+<tr class="separator:aa3d0d47e399b6b4abd4b69cd75e84026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6e2dfc735da5342c6cfd4f477fed82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#afa6e2dfc735da5342c6cfd4f477fed82">speedUp</a> ()</td></tr>
+<tr class="separator:afa6e2dfc735da5342c6cfd4f477fed82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b0a57590efe8e63e7e89170addf6d91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a6b0a57590efe8e63e7e89170addf6d91">speedDown</a> ()</td></tr>
+<tr class="separator:a6b0a57590efe8e63e7e89170addf6d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Statikus publikus tagfüggvények</h2></td></tr>
+<tr class="memitem:a15ee5f5695279fbd6fcda606c568a605"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a15ee5f5695279fbd6fcda606c568a605">getIncubationPeriod</a> ()</td></tr>
+<tr class="separator:a15ee5f5695279fbd6fcda606c568a605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc27d6af4df8ccd2ca85b9777c0825dc"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#abc27d6af4df8ccd2ca85b9777c0825dc">getRemoveTime</a> ()</td></tr>
+<tr class="separator:abc27d6af4df8ccd2ca85b9777c0825dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a1a8cad8b0320219d5d72d3c6b0a38"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#ab1a1a8cad8b0320219d5d72d3c6b0a38">removeSteppable</a> (<a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> st)</td></tr>
+<tr class="separator:ab1a1a8cad8b0320219d5d72d3c6b0a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e46bc275f2cef5250dd593ff58903b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a31e46bc275f2cef5250dd593ff58903b">addSteppable</a> (<a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> st)</td></tr>
+<tr class="separator:a31e46bc275f2cef5250dd593ff58903b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa513665320384340753d470b80ed60b3"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#aa513665320384340753d470b80ed60b3">getRemove</a> ()</td></tr>
+<tr class="separator:aa513665320384340753d470b80ed60b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06a2e39d2bd7fa39692e79300687287"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#ae06a2e39d2bd7fa39692e79300687287">addInfectedDot</a> ()</td></tr>
+<tr class="separator:ae06a2e39d2bd7fa39692e79300687287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0bbd663421fb847365701b676603119"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#ad0bbd663421fb847365701b676603119">addHealedDot</a> ()</td></tr>
+<tr class="separator:ad0bbd663421fb847365701b676603119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c2bdfaa012b124fca2453e35cac9f5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a24c2bdfaa012b124fca2453e35cac9f5">addDeadDot</a> ()</td></tr>
+<tr class="separator:a24c2bdfaa012b124fca2453e35cac9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
+Csomag attribútumok</h2></td></tr>
+<tr class="memitem:ad605378154c09cb58d5e31950110f812"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimulator_1_1SimulationStatisticsStore.html">SimulationStatisticsStore</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#ad605378154c09cb58d5e31950110f812">sss</a></td></tr>
+<tr class="separator:ad605378154c09cb58d5e31950110f812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25f51eeb732150045853f1cf5aea7a7f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a25f51eeb732150045853f1cf5aea7a7f">minPeriod</a></td></tr>
+<tr class="separator:a25f51eeb732150045853f1cf5aea7a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e38c3815931373ccee3eb25fe29061"><td class="memItemLeft" align="right" valign="top">Timer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a31e38c3815931373ccee3eb25fe29061">timer</a></td></tr>
+<tr class="separator:a31e38c3815931373ccee3eb25fe29061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444a58b5aa7ed5827cc3e254dbb295ba"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a444a58b5aa7ed5827cc3e254dbb295ba">paused</a></td></tr>
+<tr class="separator:a444a58b5aa7ed5827cc3e254dbb295ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27552fd9cd901871ad786c20a30a0ad1"><td class="memItemLeft" align="right" valign="top">Canvas&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a27552fd9cd901871ad786c20a30a0ad1">canvas</a></td></tr>
+<tr class="separator:a27552fd9cd901871ad786c20a30a0ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f489a609f755801c64812c5ec13a337"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a4f489a609f755801c64812c5ec13a337">currTick</a></td></tr>
+<tr class="separator:a4f489a609f755801c64812c5ec13a337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09221d10998e9016261001929ac5f3b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a09221d10998e9016261001929ac5f3b8">millisecondsElapsed</a></td></tr>
+<tr class="separator:a09221d10998e9016261001929ac5f3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892934b3427922c14dc9e9e4e2472297"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a892934b3427922c14dc9e9e4e2472297">sendDataPeriod</a> = 10</td></tr>
+<tr class="separator:a892934b3427922c14dc9e9e4e2472297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-static-attribs"></a>
+Statikus csomag attribútumok</h2></td></tr>
+<tr class="memitem:a43858cf7d2fcb60c14a2a3b8cdbc0fa2"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a43858cf7d2fcb60c14a2a3b8cdbc0fa2">stepables</a></td></tr>
+<tr class="separator:a43858cf7d2fcb60c14a2a3b8cdbc0fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49a73aa69bd65af973562efb108e8841"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a49a73aa69bd65af973562efb108e8841">removeInTheEnd</a></td></tr>
+<tr class="separator:a49a73aa69bd65af973562efb108e8841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416969ae46383ce62dd89e4b53ab152c"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a416969ae46383ce62dd89e4b53ab152c">addInTheEnd</a></td></tr>
+<tr class="separator:a416969ae46383ce62dd89e4b53ab152c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972f792554a33163b50164628b7d2d4d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a972f792554a33163b50164628b7d2d4d">infectedCnt</a></td></tr>
+<tr class="separator:a972f792554a33163b50164628b7d2d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a019a63b6eae4e37c5e6613284d5a814f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a019a63b6eae4e37c5e6613284d5a814f">deadCnt</a></td></tr>
+<tr class="separator:a019a63b6eae4e37c5e6613284d5a814f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae4387299e0209f67834661325b177b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a9ae4387299e0209f67834661325b177b">healedCnt</a></td></tr>
+<tr class="separator:a9ae4387299e0209f67834661325b177b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535d5864eb27d8b7065f71549f40a964"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a535d5864eb27d8b7065f71549f40a964">neutralCnt</a></td></tr>
+<tr class="separator:a535d5864eb27d8b7065f71549f40a964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05035771bdc3fa4a77f421b2193bcefa"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a05035771bdc3fa4a77f421b2193bcefa">oneTickInMs</a></td></tr>
+<tr class="separator:a05035771bdc3fa4a77f421b2193bcefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Privát tagfüggvények</h2></td></tr>
+<tr class="memitem:a89ed4e9ffbec88044eb856b46de6bc67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a89ed4e9ffbec88044eb856b46de6bc67">currTickIncrease</a> ()</td></tr>
+<tr class="separator:a89ed4e9ffbec88044eb856b46de6bc67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687fb1113b8e5804538d2efd86e77dae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimulator_1_1SimulationPlayer.html#a687fb1113b8e5804538d2efd86e77dae">sendData</a> ()</td></tr>
+<tr class="separator:a687fb1113b8e5804538d2efd86e77dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Részletes leírás</h2>
+<div class="textblock"><p><a class="el" href="classsimulator_1_1SimulationPlayer.html">SimulationPlayer</a> osztály. Egy szimuláció lejátszásához szükséges adatokat és függvényeket tárolja. </p>
+</div><h2 class="groupheader">Konstruktorok és destruktorok dokumentációja</h2>
+<a id="a9b29ba49ee11319c0ff67f24763b0eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b29ba49ee11319c0ff67f24763b0eb4">&#9670;&nbsp;</a></span>SimulationPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">simulator.SimulationPlayer.SimulationPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a>&#160;</td>
+          <td class="paramname"><em>sim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Canvas&#160;</td>
+          <td class="paramname"><em>canvas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classsimulator_1_1SimulationStatisticsStore.html">SimulationStatisticsStore</a>&#160;</td>
+          <td class="paramname"><em>sss</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="classsimulator_1_1SimulationPlayer.html">SimulationPlayer</a> konstruktora</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sim</td><td>A kapott <a class="el" href="classsimulator_1_1SimulationTemplate.html">SimulationTemplate</a> </td></tr>
+    <tr><td class="paramname">canvas</td><td>A kapott Canvas </td></tr>
+    <tr><td class="paramname">sss</td><td>A kapott statisztika tároló, ami pufferként funkcionál </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Tagfüggvények dokumentációja</h2>
+<a id="a24c2bdfaa012b124fca2453e35cac9f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c2bdfaa012b124fca2453e35cac9f5">&#9670;&nbsp;</a></span>addDeadDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void simulator.SimulationPlayer.addDeadDot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Új fertőzött esetén növeli a halottak és csökkenti a fertőző Dotok számát </p>
+
+</div>
+</div>
+<a id="ad0bbd663421fb847365701b676603119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0bbd663421fb847365701b676603119">&#9670;&nbsp;</a></span>addHealedDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void simulator.SimulationPlayer.addHealedDot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Új gyógyult esetén növeli a gyógyultakat és csökkenti a fertőző Dotok számát </p>
+
+</div>
+</div>
+<a id="ae06a2e39d2bd7fa39692e79300687287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae06a2e39d2bd7fa39692e79300687287">&#9670;&nbsp;</a></span>addInfectedDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void simulator.SimulationPlayer.addInfectedDot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Új fertőzött esetén növeli a fertőzötteket és csökkenti a semleges Dotok számát </p>
+
+</div>
+</div>
+<a id="a31e46bc275f2cef5250dd593ff58903b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e46bc275f2cef5250dd593ff58903b">&#9670;&nbsp;</a></span>addSteppable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void simulator.SimulationPlayer.addSteppable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a>&#160;</td>
+          <td class="paramname"><em>st</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Hozzáadja a <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> dolgot a hozzáadandóak listájához</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">st</td><td>A hozzáadandó <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a42c905b916a2efd7e27a6fc630f8d501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42c905b916a2efd7e27a6fc630f8d501">&#9670;&nbsp;</a></span>changePlayAndPause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.changePlayAndPause </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>negálja a paused változó értékét </p>
+
+</div>
+</div>
+<a id="a89ed4e9ffbec88044eb856b46de6bc67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89ed4e9ffbec88044eb856b46de6bc67">&#9670;&nbsp;</a></span>currTickIncrease()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.currTickIncrease </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Elküldti az adatokat a SimulationStatisticsStore-nak, majd lépteti a kört </p>
+
+</div>
+</div>
+<a id="aa3d0d47e399b6b4abd4b69cd75e84026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3d0d47e399b6b4abd4b69cd75e84026">&#9670;&nbsp;</a></span>exit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.exit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Kilépéskor lezárja és üríti a szükséges dolgokat </p>
+
+</div>
+</div>
+<a id="a3cd381320d3fd98660b16d31e61b771c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd381320d3fd98660b16d31e61b771c">&#9670;&nbsp;</a></span>forwardOneStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.forwardOneStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Egy lépést szimulál le. Először mindenki lép. Utána az ütközések jönnek, majd eltávolítjuk és hozzáadjuk a szükséges Steppable-öket, majd Frissítjük a Canvast. Végül a jelentlegi Tick növelését végezzük. </p>
+
+</div>
+</div>
+<a id="a15ee5f5695279fbd6fcda606c568a605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ee5f5695279fbd6fcda606c568a605">&#9670;&nbsp;</a></span>getIncubationPeriod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int simulator.SimulationPlayer.getIncubationPeriod </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Lappangási időt visszadó függvény</p>
+<dl class="section return"><dt>Visszatérési érték</dt><dd>Lappangási idő Tickekben mérve </dd></dl>
+
+</div>
+</div>
+<a id="aa513665320384340753d470b80ed60b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa513665320384340753d470b80ed60b3">&#9670;&nbsp;</a></span>getRemove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ArrayList&lt;<a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a>&gt; simulator.SimulationPlayer.getRemove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Viszzadja az eltávolítandóak listáját</p>
+<dl class="section return"><dt>Visszatérési érték</dt><dd>Az eltávolítandóak listája </dd></dl>
+
+</div>
+</div>
+<a id="abc27d6af4df8ccd2ca85b9777c0825dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc27d6af4df8ccd2ca85b9777c0825dc">&#9670;&nbsp;</a></span>getRemoveTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int simulator.SimulationPlayer.getRemoveTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Halott Dot eltűnési idejét határozza meg</p>
+<dl class="section return"><dt>Visszatérési érték</dt><dd>Eltűnési idő Tickekben mérve </dd></dl>
+
+</div>
+</div>
+<a id="afffa0e32ad72b24bcd2f990ea689b8d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afffa0e32ad72b24bcd2f990ea689b8d7">&#9670;&nbsp;</a></span>moveDotsFromOutOfWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.moveDotsFromOutOfWindow </td>
+          <td>(</td>
+          <td class="paramtype">Canvas&#160;</td>
+          <td class="paramname"><em>img</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A Canvasról kilógó dotokat visszarakja a Canvas-ra</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">img</td><td>A kapott Canvas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac9e4ac3fc7c1622da6d33e4631b777a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e4ac3fc7c1622da6d33e4631b777a8">&#9670;&nbsp;</a></span>refresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.refresh </td>
+          <td>(</td>
+          <td class="paramtype">Canvas&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Frissíti a teljes szimuláció tartalmát Az első <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> mindig a pálya maga</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>A kapott Canvas </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab1a1a8cad8b0320219d5d72d3c6b0a38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a1a8cad8b0320219d5d72d3c6b0a38">&#9670;&nbsp;</a></span>removeSteppable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void simulator.SimulationPlayer.removeSteppable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a>&#160;</td>
+          <td class="paramname"><em>st</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Hozzáadja a <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> dolgot az eltávolítandók listájához</p>
+<dl class="params"><dt>Paraméterek</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">st</td><td>Az eltávolítandó <a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af94e34d351fab32f789f5cc2be34b992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af94e34d351fab32f789f5cc2be34b992">&#9670;&nbsp;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Timer hívja minPeriod időközönként. Ha nincs szüneteltetve, akkor oneTickInMs ms-ként megtesz egy lépést </p>
+
+</div>
+</div>
+<a id="a687fb1113b8e5804538d2efd86e77dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a687fb1113b8e5804538d2efd86e77dae">&#9670;&nbsp;</a></span>sendData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.sendData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Minden sendDataPeriod-ban elküldi a SimulationStatisticsStore-nak az éppen aktuális adatokat </p>
+
+</div>
+</div>
+<a id="a6b0a57590efe8e63e7e89170addf6d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b0a57590efe8e63e7e89170addf6d91">&#9670;&nbsp;</a></span>speedDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.speedDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Lassítja a felhasználó által érzett idő telését </p>
+
+</div>
+</div>
+<a id="afa6e2dfc735da5342c6cfd4f477fed82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6e2dfc735da5342c6cfd4f477fed82">&#9670;&nbsp;</a></span>speedUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void simulator.SimulationPlayer.speedUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gyorsítja a felhasználó által érzett idő telését </p>
+
+</div>
+</div>
+<h2 class="groupheader">Adattagok dokumentációja</h2>
+<a id="a416969ae46383ce62dd89e4b53ab152c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416969ae46383ce62dd89e4b53ab152c">&#9670;&nbsp;</a></span>addInTheEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;<a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a>&gt; simulator.SimulationPlayer.addInTheEnd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Olyan léptethető dolgok tárolója, amit hozzá kell adni a léptethető dolgok közé a Tick végén </p>
+
+</div>
+</div>
+<a id="a27552fd9cd901871ad786c20a30a0ad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27552fd9cd901871ad786c20a30a0ad1">&#9670;&nbsp;</a></span>canvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Canvas simulator.SimulationPlayer.canvas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>A canvas, amire rajzolunk </p>
+
+</div>
+</div>
+<a id="a4f489a609f755801c64812c5ec13a337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f489a609f755801c64812c5ec13a337">&#9670;&nbsp;</a></span>currTick</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.currTick</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Éppen aktuális kör sorszáma </p>
+
+</div>
+</div>
+<a id="a019a63b6eae4e37c5e6613284d5a814f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a019a63b6eae4e37c5e6613284d5a814f">&#9670;&nbsp;</a></span>deadCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.deadCnt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Éppen halott Dotok száma </p>
+
+</div>
+</div>
+<a id="a9ae4387299e0209f67834661325b177b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae4387299e0209f67834661325b177b">&#9670;&nbsp;</a></span>healedCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.healedCnt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Éppen egészségese Dotok száma </p>
+
+</div>
+</div>
+<a id="a972f792554a33163b50164628b7d2d4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a972f792554a33163b50164628b7d2d4d">&#9670;&nbsp;</a></span>infectedCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.infectedCnt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Éppen fertőző Dotok száma </p>
+
+</div>
+</div>
+<a id="a09221d10998e9016261001929ac5f3b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09221d10998e9016261001929ac5f3b8">&#9670;&nbsp;</a></span>millisecondsElapsed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.millisecondsElapsed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Szimuláció kezdete óta eltelt idő </p>
+
+</div>
+</div>
+<a id="a25f51eeb732150045853f1cf5aea7a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25f51eeb732150045853f1cf5aea7a7f">&#9670;&nbsp;</a></span>minPeriod</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.minPeriod</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Két kör között eltelt minimális periódusidő </p>
+
+</div>
+</div>
+<a id="a535d5864eb27d8b7065f71549f40a964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a535d5864eb27d8b7065f71549f40a964">&#9670;&nbsp;</a></span>neutralCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.neutralCnt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Éppen semleges Dotok száma </p>
+
+</div>
+</div>
+<a id="a05035771bdc3fa4a77f421b2193bcefa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05035771bdc3fa4a77f421b2193bcefa">&#9670;&nbsp;</a></span>oneTickInMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.oneTickInMs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Egy Tick Ms-ban mérve </p>
+
+</div>
+</div>
+<a id="a444a58b5aa7ed5827cc3e254dbb295ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444a58b5aa7ed5827cc3e254dbb295ba">&#9670;&nbsp;</a></span>paused</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean simulator.SimulationPlayer.paused</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Le van-e szüneteltetve a szimuláció </p>
+
+</div>
+</div>
+<a id="a49a73aa69bd65af973562efb108e8841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49a73aa69bd65af973562efb108e8841">&#9670;&nbsp;</a></span>removeInTheEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;<a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a>&gt; simulator.SimulationPlayer.removeInTheEnd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Olyan léptethető dolgok tárolója, amit el kell távolítani a steppables közül a Tick végén </p>
+
+</div>
+</div>
+<a id="a892934b3427922c14dc9e9e4e2472297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892934b3427922c14dc9e9e4e2472297">&#9670;&nbsp;</a></span>sendDataPeriod</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int simulator.SimulationPlayer.sendDataPeriod = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Adatküldés gyakorisága </p>
+
+</div>
+</div>
+<a id="ad605378154c09cb58d5e31950110f812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad605378154c09cb58d5e31950110f812">&#9670;&nbsp;</a></span>sss</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimulator_1_1SimulationStatisticsStore.html">SimulationStatisticsStore</a> simulator.SimulationPlayer.sss</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Szimuláció Statisztikát tároló osztály Pufferként funkcionál </p>
+
+</div>
+</div>
+<a id="a43858cf7d2fcb60c14a2a3b8cdbc0fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43858cf7d2fcb60c14a2a3b8cdbc0fa2">&#9670;&nbsp;</a></span>stepables</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;<a class="el" href="interfacesimulator_1_1Steppable.html">Steppable</a>&gt; simulator.SimulationPlayer.stepables</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Léptethető dolgok tárolója </p>
+
+</div>
+</div>
+<a id="a31e38c3815931373ccee3eb25fe29061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e38c3815931373ccee3eb25fe29061">&#9670;&nbsp;</a></span>timer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer simulator.SimulationPlayer.timer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Időzítő, a körönként történő lépésért felel </p>
+
+</div>
+</div>
+<hr/>Ez a dokumentáció az osztályról a következő fájl alapján készült:<ul>
+<li>SimulationPlayer.java</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Készítette&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.0
+</small></address>
+</body>
+</html>

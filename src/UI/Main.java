@@ -9,23 +9,23 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * Main class. Ez a program belépési pontja.
+ * Main class. Ez a program belepesi pontja.
  */
 public class Main extends Application {
     /**
-     * Ez a program belépési pontja.
+     * Ez a program belepesi pontja.
      *
-     * @param args parancssori argumentumok listája. Nem használom.
+     * @param args parancssori argumentumok listaja. Nem hasznalom.
      */
     public static void main(String[] args) {
         launch(args);
     }
 
     /**
-     * Az ablakot elindító függvény.
+     * Az ablakot elindito fuggveny.
      *
-     * @param primaryStage JavaFX rendszertől kapott primary stage.
-     * @throws IOException Akkor dobja, ha a simulationEditor.fxml nem található.
+     * @param primaryStage JavaFX rendszertol kapott primary stage.
+     * @throws IOException Akkor dobja, ha a simulationEditor.fxml nem talalhato.
      */
     @Override
     public void start(Stage primaryStage) throws IOException {

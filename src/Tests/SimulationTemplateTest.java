@@ -8,7 +8,7 @@ import simulatorComponents.Dot;
 import static org.junit.Assert.*;
 
 /**
- * Simulation Template osztály tesztje
+ * Simulation Template osztaly tesztje
  */
 public class SimulationTemplateTest {
 
