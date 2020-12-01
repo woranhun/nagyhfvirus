@@ -28,8 +28,8 @@
                     <menus>
                       <Menu mnemonicParsing="false" text="File">
                         <items>
-                          <MenuItem mnemonicParsing="false" onAction="#openFile" text="Open Simulation..." />
-                          <MenuItem mnemonicParsing="false" onAction="#saveFile" text="Save Simulation" />
+                          <MenuItem mnemonicParsing="false" onAction="#openSerializedSimulationTemplate" text="Open Simulation..." />
+                          <MenuItem mnemonicParsing="false" onAction="#serializeSimulationTemplate" text="Save Simulation" />
                         </items>
                       </Menu>
                       <Menu mnemonicParsing="false" text="Start">
@@ -136,10 +136,10 @@
                             <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Button mnemonicParsing="false" onAction="#setDead" prefHeight="26.0" prefWidth="80.0" text="Dead" />
-                              <Button mnemonicParsing="false" onAction="#setInfecious" prefHeight="26.0" prefWidth="80.0" text="Infecious" GridPane.columnIndex="1" />
-                              <Button mnemonicParsing="false" onAction="#setHealty" prefHeight="26.0" prefWidth="80.0" text="Healty" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" onAction="#setNeutral" prefHeight="26.0" prefWidth="80.0" text="Neutral" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" onAction="#setTypeOfDotOnMousePositionToDead" prefHeight="26.0" prefWidth="80.0" text="Dead" />
+                              <Button mnemonicParsing="false" onAction="#setTypeOfDotOnMousePositionToInfectious" prefHeight="26.0" prefWidth="80.0" text="Infecious" GridPane.columnIndex="1" />
+                              <Button mnemonicParsing="false" onAction="#setTypeOfDotOnMousePositionToHealthy" prefHeight="26.0" prefWidth="80.0" text="Healty" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" onAction="#setTypeOfDotOnMousePositionToNeutral" prefHeight="26.0" prefWidth="80.0" text="Neutral" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                            </children>
                            <VBox.margin>
                               <Insets left="20.0" />
@@ -152,7 +152,7 @@
                   </VBox>
                   <Pane fx:id="pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="351.0" prefWidth="603.0" HBox.hgrow="ALWAYS">
                      <children>
-                        <Canvas fx:id="img" height="351.0" onMouseClicked="#drawCanvas" width="614.0" />
+                        <Canvas fx:id="img" height="351.0" onMouseClicked="#createDotOnMousePosition" width="614.0" />
                      </children>
                   </Pane>
                </children>

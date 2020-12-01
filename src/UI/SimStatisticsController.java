@@ -14,24 +14,44 @@ import simulator.SimulationStatisticsStore;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * Simulation Statistics Kontroller osztája
+ * Feladata, hogy kezelje az ablakkal történő User interakciókat
+ */
 public class SimStatisticsController implements Initializable {
 
-    @FXML
-    private NumberAxis timeAxis;
-    @FXML
-    private NumberAxis populationAxis;
+    /**
+     * A kirajzolandó grafikus
+     */
     @FXML
     private StackedAreaChart<Number,Number> chart;
-
+    /**
+     * Közös store a simulationPlayerrel
+     */
     SimulationStatisticsStore sss;
 
-
+    /**
+     * lakossági adatokat tároló XYChart Series
+     */
     private final XYChart.Series<Number,Number> population = new XYChart.Series<>();
+    /**
+     * halálozási adatokat tároló XYChart Series
+     */
     private final XYChart.Series<Number,Number> deaths = new XYChart.Series<>();
+    /**
+     * fertőzési adatokat tároló XYChart Series
+     */
     private final XYChart.Series<Number,Number> infections = new XYChart.Series<>();
+    /**
+     * gyógyulási adatokat tároló XYChart Series
+     */
     private final XYChart.Series<Number,Number> heals = new XYChart.Series<>();
 
-
+    /**
+     * SimStatisticsController konstrukturja
+     * @param st A kapott Stage
+     * @param sss A kapott SimulationStatisticsStore
+     */
     public SimStatisticsController(Stage st,SimulationStatisticsStore sss){
         this.sss=sss;
         st.setOnCloseRequest(windowEvent -> {
@@ -42,13 +62,18 @@ public class SimStatisticsController implements Initializable {
             chart.getData().clear();
         });
     }
-
+    /**
+     * Az ablak inicializálója.
+     * Feladata az ablakon található elemek értékeinek beállítása.
+     *
+     * @param url            JavaFX használja relatív útvonal meghatározása a root objectnek
+     * @param resourceBundle Azok a források, amik a root object helyének meghatározásához szükségesek
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         Timeline timeline = new Timeline();
         timeline.getKeyFrames().add(new KeyFrame(Duration.millis(100), actionEvent -> updateChart()));
-        // Repeat indefinitely until stop() method is called.
         timeline.setCycleCount(Animation.INDEFINITE);
         timeline.setAutoReverse(true);
         timeline.play();
@@ -71,6 +96,10 @@ public class SimStatisticsController implements Initializable {
         chart.getData().add(this.deaths);
 
     }
+
+    /**
+     * Frissíti a grafikonon megjelenő adatokat
+     */
     public void updateChart(){
         for(Pair<Number,Number> p : sss.getPopulationQueue()){
             this.population.getData().add(new XYChart.Data<>(p.getKey(),p.getValue()));
